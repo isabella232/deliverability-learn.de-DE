@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 5a15354aa88e34479f2a1ba37cf4dde239c17bd2
+source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Eine Anleitung zur Minimierung von Problemen, die sowohl im physischen Speicher 
 
 >[!NOTE]
 >
->Abonnenten verwenden häufig Wegwerf-Adressen, abgelaufene Adressen oder Adressen, die nicht ihre sind, um das zu erhalten, was sie von einer Website wollen, aber auch, um zu vermeiden, dass sie zu Marketing-Listen hinzugefügt werden. In diesem Fall führen die Listen von Marketingexperten zu einer hohen Anzahl von Hardbounces, hohen Spam-Beschwerderaten und Abonnenten, die nicht auf E-Mails klicken, sie öffnen oder sich positiv mit ihnen beschäftigen. Dies kann als rote Fahne für Postfachanbieter und ISPs betrachtet werden.
+>Abonnenten verwenden häufig Wegwerf-Adressen, abgelaufene Adressen oder Adressen, die nicht ihre sind, um das zu erhalten, was sie von einer Website wollen, aber auch, um zu vermeiden, dass sie zu Marketing-Listen hinzugefügt werden. In diesem Fall führen die Listen von Marketingexperten zu einer hohen Anzahl von Hardbounces, hohen Spam-Beschwerderaten und Abonnenten, die nicht auf E-Mails klicken, sie öffnen oder sich positiv mit ihnen beschäftigen. Es kann als rote Fahne für Postfachanbieter und ISPs betrachtet werden.
 
 ## Anmeldeformulare
 
-Neben den Datenfeldern möchten Sie auch Daten zu Ihren neuen Abonnenten erfassen, die zu relevanteren Verbindungen mit Ihren Kunden anregen können. Es gibt noch ein paar andere Dinge, die Sie mit Ihrem Anmeldeformular auf der Website tun sollten.
+Neben den Feldern für die Daten, die Sie über Ihre neuen Abonnenten erfassen möchten, gibt es noch ein paar andere Dinge, die Sie mit Ihrem Anmeldeformular auf der Website tun sollten.
 
 * Setzen Sie mit dem Abonnenten klare Erwartungen, dass er dem Empfang von E-Mails zustimmt, was er erhält und wie oft er sie erhält.
 * hinzufügen Optionen, die es dem Abonnenten ermöglichen, die Häufigkeit oder Art der von ihm empfangenen Kommunikation auszuwählen. Diese Optionen ermöglichen es Ihnen, die Voreinstellungen des Abonnenten vom Beginn zu kennen, damit Sie für Ihren Neukunden das bestmögliche Erlebnis bereitstellen können.
@@ -51,20 +51,19 @@ Neben den Datenfeldern möchten Sie auch Daten zu Ihren neuen Abonnenten erfasse
 
 ## Datenqualität und -hygiene
 
-Das Sammeln von Daten ist nur ein Teil der Herausforderung. Sie müssen sicherstellen, dass die Daten korrekt und brauchbar sind. Sie sollten über Filter im Standardformat verfügen. Eine E-Mail-Adresse ist nicht gültig, wenn sie kein &quot;@&quot;oder &quot;&quot; enthält. Beispiel. Achten Sie darauf, keine allgemeinen Aliasadressen zuzulassen, die auch als Rollenkonten bezeichnet werden (z. B. &quot;Info&quot;, &quot;Admin&quot;, &quot;Vertrieb&quot;, &quot;Support&quot;usw.). Rollenkonten können Risiken darstellen, da der Empfänger naturgemäß eine Personengruppe und nicht nur einen Abonnenten umfasst. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was zu Beschwerden, unterschiedlichem Engagement, Abmeldeabbrüchen und allgemeiner Verwirrung führt.
+Das Sammeln von Daten ist nur ein Teil der Herausforderung. Sie müssen außerdem sicherstellen, dass die Daten korrekt und nutzbar sind. Sie sollten über Filter im Standardformat verfügen. Eine E-Mail-Adresse ist nicht gültig, wenn sie kein &quot;@&quot;oder &quot;&quot; enthält. Beispiel. Achten Sie darauf, keine allgemeinen Aliasadressen zuzulassen, die auch als Rollenkonten bezeichnet werden (wie &quot;info&quot;, &quot;admin&quot;, &quot;sales&quot;, &quot;support&quot;, ). Rollenkonten können Risiken darstellen, da der Empfänger naturgemäß eine Personengruppe und nicht nur einen Abonnenten umfasst. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was zu Beschwerden, unterschiedlichem Engagement, Abmeldeabbrüchen und allgemeiner Verwirrung führt.
 
 Im Folgenden finden Sie einige Lösungen für häufig auftretende Probleme, auf die Sie mit Ihren E-Mail-Adressdaten stoßen können:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] wird von den meisten E-Mail-Experten als beste Bereitstellungspraxis angesehen. Wenn Sie Probleme mit Spam-Fallen oder Beschwerden in Ihren Begrüßungs-E-Mails haben, stellt DOI eine gute Möglichkeit sicher, dass der Abonnent, der Ihre E-Mails empfängt, derjenige ist, der sich tatsächlich für Ihr E-Mail-Programm angemeldet hat und Ihre E-Mails empfangen möchte.
+[!DNL Double opt-in (DOI)] wird von den meisten E-Mail-Experten als beste Bereitstellungspraxis angesehen. Wenn Sie Probleme mit Spam-Fallen oder Beschwerden in Ihren Begrüßungs-E-Mails haben, ist DOI eine gute Möglichkeit sicherzustellen, dass der Abonnent, der Ihre E-Mails empfängt, sich für Ihr E-Mail-Programm angemeldet hat und Ihre E-Mails empfangen möchte.
 
-DOI besteht darin, eine Bestätigungs-E-Mail an die E-Mail-Adresse des Abonnenten zu senden, der sich gerade bei Ihrem E-Mail-Programm angemeldet hat und auf den ein Link zur Bestätigung der Zustimmung geklickt werden muss. Bei dieser Akquise-Methode sendet der Absender keine weiteren E-Mails, wenn der Abonnent dies nicht bestätigt. Teilen Sie neuen Abonnenten mit, dass Sie dies auf der Website tun, und ermutigen Sie sie, die Anmeldung abzuschließen, bevor Sie fortfahren. Bei dieser Methode sinkt die Anzahl der Anmeldungen, aber diejenigen, die sich anmelden, neigen dazu, sehr engagiert zu sein und langfristig zu bleiben, was in der Regel zu einem viel höheren ROI für den Absender führt.
+DOI besteht darin, eine Bestätigungs-E-Mail an die E-Mail-Adresse des Abonnenten zu senden, der sich bei Ihrem E-Mail-Programm angemeldet hat und auf den ein Link zur Bestätigung der Zustimmung geklickt werden muss. Bei dieser Akquise-Methode sendet der Absender keine weiteren E-Mails, wenn der Abonnent dies nicht bestätigt. Teilen Sie neuen Abonnenten mit, dass Sie dies auf der Website tun, und ermutigen Sie sie, die Anmeldung abzuschließen, bevor Sie fortfahren. Diese Methode verringert die Anzahl der Anmeldungen, aber die Personen, die sich anmelden, sind tendenziell sehr engagiert und bleiben langfristig. Normalerweise führt dies zu einem wesentlich höheren ROI für den Absender.
 
 **Verborgenes**
 FeldDas Anwenden eines versteckten Feldes auf Ihrem Anmeldeformular ist eine großartige Möglichkeit, automatisierte Bot-Anmeldungen von echten menschlichen Abonnenten zu unterscheiden. Da das Datenfeld nicht sichtbar und im HTML-Code ausgeblendet ist, gibt ein Bot Daten ein, bei denen ein Mensch dies nicht tun würde. Mit dieser Methode können Sie Regeln erstellen, um jegliche Anmeldung zu unterdrücken, die Daten enthält, die in diesem ausgeblendeten Feld ausgefüllt wurden.
 
-**[!DNL re-CAPTCHA]**
-[!DNL re-CAPTCHA] ist eine Überprüfungsmethode, mit der Sie die Wahrscheinlichkeit verringern können, dass der Abonnent ein Bot und keine echte Person ist. Es gibt verschiedene Versionen, von denen einige Suchbegriffidentifizierung oder Bilder enthalten. Einige Versionen sind effektiver als andere, und was Sie bei der Sicherheit und der Vermeidung von Problemen mit der Lieferbarkeit gewinnen, ist viel höher als jede negative Auswirkung auf Konversionen.
+**[!DNL re-CAPTCHA] ist eine Überprüfungsmethode, mit der Sie die Wahrscheinlichkeit verringern können, dass der Abonnent ein Bot und keine echte Person ist. Es gibt verschiedene Versionen, von denen einige Suchbegriffidentifizierung oder Bilder enthalten. Einige Versionen sind effektiver als andere, und was Sie bei der Sicherheit und der Vermeidung von Problemen mit der Lieferbarkeit gewinnen, ist viel höher als jede negative Auswirkung auf Konversionen.
 
 ## Rechtliche Leitlinien
 
@@ -76,18 +75,18 @@ Wenden Sie sich an Ihre Anwälte, um lokale und nationale Gesetze bezüglich E-M
 
 ## Andere nicht empfohlene Erfassungsmethoden für Listen
 
-Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit eigenen Möglichkeiten, Herausforderungen und Nachteilen. Wir empfehlen diese nicht generell, da die Nutzung häufig über die vom Anbieter akzeptable Nutzungsrichtlinie eingeschränkt wird. Wir werden uns einige häufige Beispiele ansehen, anhand derer Sie die Gefahren kennen lernen können, die Ihnen helfen, Risiken zu begrenzen oder zu vermeiden:
+Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit eigenen Möglichkeiten, Herausforderungen und Nachteilen. Adobe empfiehlt diese nicht generell, da die Verwendung häufig über die vom Anbieter akzeptable Nutzungsrichtlinie eingeschränkt wird. Wir werden uns einige häufige Beispiele ansehen, anhand derer Sie die Gefahren kennen lernen können, die Ihnen helfen, Risiken zu begrenzen oder zu vermeiden:
 
 **Kaufen oder mieten Sie eine**
 Liste. Es gibt viele Arten von E-Mail-Adressen. Primär E-Mail, Arbeits-E-Mails, E-Mails an Schulen, sekundäre E-Mails und inaktive E-Mails, um einige zu nennen. Bei den Adresstypen, die über erworbene oder gemietete Listen gesammelt und weitergegeben werden, handelt es sich selten um primäre E-Mail-Konten, bei denen fast die gesamte Aktivität von Interaktion und Einkauf stattfindet.
 
-Wenn Sie Glück haben, erhalten Sie sekundäre Konten, wo Leute nach Deals und Angebote suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Einsatzstufen — falls vorhanden. Wenn Sie kein Glück haben, wird die Liste voller inaktiver E-Mails sein, das könnten nun Spam-Fallen sein. Oft erhalten Sie eine Mischung aus sekundären und inaktiven E-Mails. Die Qualität dieser Listen schadet einem E-Mail-Programm mehr als nur. Diese Vorgehensweise ist durch die [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
+Wenn Sie Glück haben, erhalten Sie sekundäre Konten, wo Leute nach Deals und Angebote suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Einsatzstufen — falls vorhanden. Wenn Sie kein Glück haben, ist die Liste voller inaktiver E-Mails, das könnten nun Spam-Fallen sein. Oft erhalten Sie eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listen einem E-Mail-Programm mehr als nur. Diese Vorgehensweise ist durch die [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
 
 **Listen**
-appendDas sind Kunden, die sich entschieden haben, mit Ihrer Marke, was großartig ist. Aber sie entschieden sich dafür, sich mit einer anderen Methode als E-Mail zu beschäftigen (im Geschäft, soziale Medien usw.). Sie konnten nicht empfänglich sein, eine unangeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie diese nicht angegeben haben. Diese Methode birgt die Gefahr, dass ein Kunde oder potenzieller Kunde, der mit Ihrer Marke beschäftigt ist, zu einem Kritiker wird, der Ihrer Marke nicht mehr vertraut und stattdessen in Ihren Wettbewerb eintritt. Diese Vorgehensweise ist durch die [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/legal/terms/aup.html) verboten.
+appendDas sind Kunden, die sich entschieden haben, mit Ihrer Marke, was großartig ist. Aber sie entschieden sich dafür, sich mit einer anderen Methode als E-Mail zu beschäftigen (im Geschäft, soziale Medien usw.). Sie konnten nicht empfänglich sein, eine unangeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie diese nicht angegeben haben. Diese Methode birgt die Gefahr, dass ein Kunde oder potenzieller Kunde, der mit Ihrer Marke beschäftigt ist, zu einem Kritiker wird, der nicht mehr Ihrer Marke vertraut und stattdessen in Ihren Wettbewerb wechselt. Diese Vorgehensweise ist durch die [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/legal/terms/aup.html) verboten.
 
 **Messen oder andere Ereignisse**
-sammelnSammeladressen an einem Stand oder durch eine andere offizielle, klar markierte Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen sammeln und über den Ereignis-Projektträger oder -Host verteilen. Das bedeutet, dass die Benutzer dieser E-Mail-Adressen nie aufgefordert werden, E-Mails von Ihrer Marke zu erhalten. Diese Abonnenten werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und sie haben möglicherweise keine genauen Kontaktinformationen bereitgestellt.
+sammelnSammeladressen an einem Stand oder durch eine andere offizielle, klar markierte Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen sammeln und über den Ereignis-Projektträger oder -Host verteilen. Das bedeutet, dass die Inhaber dieser E-Mail-Adressen nie aufgefordert werden, E-Mails von Ihrer Marke zu erhalten. Diese Abonnenten werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und sie haben möglicherweise keine genauen Kontaktinformationen bereitgestellt.
 
 ****
-PreisausschreibenPreisausschreiben bietet eine große Anzahl von E-Mail-Adressen schnell. Aber diese Abonnenten wollen den Preis, nicht Ihre E-Mails. Vielleicht haben sie nicht einmal darauf geachtet, wer sie erreichen würde. Diese Abonnenten werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und es ist unwahrscheinlich, dass sie jemals einen Kauf tätigen.
+PreisausschreibenPreisausschreiben bietet eine große Anzahl von E-Mail-Adressen schnell. Aber diese Abonnenten wollen den Preis, nicht Ihre E-Mails. Vielleicht haben sie nicht einmal darauf geachtet, wer sie erreichen würde. Sie werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und es ist unwahrscheinlich, dass sie jemals einen Kauf tätigen oder einkaufen.
