@@ -8,10 +8,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -25,3 +25,7 @@ Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden Anbi
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
 * [Verizon Media Group (Yahoo, AOL, Verizon usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
+
+## Zusätzliche Ressourcen
+
+* Erfahren Sie mehr über die Verbesserung Ihres E-Mail-Rufs durch IP-Erwärmung in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
