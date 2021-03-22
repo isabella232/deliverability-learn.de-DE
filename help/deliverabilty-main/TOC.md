@@ -3,10 +3,10 @@ user-guide-title: Best Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 translation-type: tm+mt
-source-git-commit: 5019165cd38a3b7cd26e4971e11f155278c3d3da
+source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 20%
+source-wordcount: '163'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 20%
    + [Spam-Fallen](/help/metrics/spam-traps.md)
    + [Sperren und Sperren](/help/metrics/bulking-and-blocking.md)
 + [Interaktion](/help/engagement.md)
-+ Transition - Wechsel von E-Mail-Plattformen{#transition-process}
++ Transition - Umschalten zwischen E-Mail-Plattformen {#transition-process}
    + [So wechseln Sie beim reibungslosen Transition von E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
    + [Infrastruktur](/help/transition-process/infrastructure.md)
    + [Targeting-Kriterien](/help/transition-process/targeting-criteria.md)
@@ -40,4 +40,19 @@ ht-degree: 20%
    + [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Laufende Überwachung](/help/ongoing-monitoring.md)
-+ [Praktische Umsetzung](/help/putting-it-in-practice.md)
++ Praktische Umsetzung {#putting-it-in-practice}
+   + [Erzielen von Erfolg](/help/putting-it-in-practice/how-to-reach-success.md)
+   + Kampagne {#campaign}
+      + [Domänenname einrichten](/help/putting-it-in-practice/ac-domain-name-setup.md)
+      + [SSL-Zertifikatanforderungsvorgang](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+      + [Einrichten einer neuen Plattform](/help/putting-it-in-practice/ac-starting-new-platform.md)
+      + [Campaign Classic - Technische Empfehlungen](/help/putting-it-in-practice/acc-technical-recommendations.md)
++ Zusätzliche Ressourcen {#additional-resources}
+   + [Übersicht](/help/additional-resources/general-resources.md)
+   + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
+   + [E-Mail-Reputation mit IP-Warming verbessern](/help/additional-resources/increase-reputation-with-ip-warming.md)
+   + [Authentifizierung](/help/additional-resources/authentication.md)
+   + [Duplikate](/help/additional-resources/duplicates.md)
+   + [Best Practices zur Rückgewinnung](/help/additional-resources/re-engagement.md)
+   + [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md)
+   + [Fehlerbehebung](/help/additional-resources/troubleshooting.md)
