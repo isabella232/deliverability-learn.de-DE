@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -33,4 +33,4 @@ Eine auf die Blockierungsliste setzend  tritt auf, wenn ein Drittanbieter-Blocki
 
 ## Zusätzliche Ressourcen
 
-* [Datenbanken mit Blockierungslisten](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/block-list-databases.html?lang=en#sending-messages)
+* Erfahren Sie mehr über [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md), die Datenbanken mit IP-Adressen und Domänen verwalten, die von Spammern verwendet werden können.
