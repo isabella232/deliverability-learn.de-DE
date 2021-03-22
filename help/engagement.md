@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,16 @@ Ein letzter wichtiger Teil der Antwortstrategie ist, dass, wenn Sie eine echte E
 
 ## Produktspezifische Ressourcen
 
+**Adobe Campaign Classic**
+
+* [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Druckregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard **
 
 * [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Ermüdungsregeln (Produktdokumentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Ermüdungsregeln](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Zusätzliche Ressourcen
+
+* Erfahren Sie mehr über Rückeinsatzstrategien (oder Win-back-Strategien) in [diesem Abschnitt](/help/additional-resources/re-engagement.md).
