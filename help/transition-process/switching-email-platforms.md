@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Transition beim Wechsel von E-Mail-Plattformen reibungslos.
+# So wechseln Sie beim reibungslosen Transition von E-Mail-Plattformen
 
 Beim Verschieben von E-Mail-Dienstleistern (ESPs) ist es nicht möglich, auch Ihre bestehenden, etablierten IP-Adressen Transition. Es ist wichtig, dass Sie Best Practices für die Entwicklung eines positiven Rufs beim Neustarten befolgen. Da die neuen IP-Adressen, die Sie verwenden werden, noch nicht bekannt sind, können ISPs der E-Mail, die von ihnen stammt, nicht voll vertrauen und müssen vorsichtig sein, was sie für die Zustellung an ihre Kunden zulassen.
 
