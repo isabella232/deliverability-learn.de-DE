@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,17 @@ In vielen Fällen folgt transaktionale Postsendungen nicht dem traditionellen An
 2. Warenkorbabbruch - mittel - hohes Engagement im Allgemeinen
 3. Begrüßungs-E-Mails — hohe Interaktion, kann aber je nach Erfassungsmethoden Ihrer Liste falsche Adressen enthalten
 4. Winback-E-Mails — seltenere Interaktion
+
+## Produktspezifische Ressourcen
+
+**Campaign**
+
+* Weitere Informationen zum Verwalten der Zustellbarkeit beim Starten einer neuen Plattform mit Adobe Campaign finden Sie in [diesem Abschnitt](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* In [diesem Abschnitt ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) erfahren Sie, wie Sie mehrere Schübe mit Adobe Campaign Classic senden.
+* In [diesem Abschnitt ](/help/putting-it-in-practice/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic oder Standard delegieren.
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
+
+## Zusätzliche Ressourcen
+
+* Erfahren Sie mehr über die Verbesserung Ihres E-Mail-Rufs durch IP-Erwärmung in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
