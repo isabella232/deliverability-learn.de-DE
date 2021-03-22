@@ -3,10 +3,10 @@ user-guide-title: Best Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 28%
+source-wordcount: '160'
+ht-degree: 29%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 28%
    + [Verizon Media Group (Yahoo, AOL, Verizon usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Laufende Überwachung](/help/ongoing-monitoring.md)
 + Praktische Umsetzung {#putting-it-in-practice}
-   + [Erzielen von Erfolg](/help/putting-it-in-practice/how-to-reach-success.md)
+   + [Übersicht](/help/putting-it-in-practice/putting-it-in-practice.md)
    + Kampagne {#campaign}
       + [Domänenname einrichten](/help/putting-it-in-practice/ac-domain-name-setup.md)
       + [SSL-Zertifikatanforderungsvorgang](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
