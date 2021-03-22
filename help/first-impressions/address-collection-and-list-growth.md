@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 0%
+source-wordcount: '1623'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Die häufigste Form von **Website-Anmeldung** ist &quot;Single-opt-in&quot;. Die
 
 * Nicht bestätigte E-Mail-Adressen können Tippfehler aufweisen oder falsch, falsch oder böswillig verwendet werden. Typos und fehlerhafte Adressen verursachen hohe Absprungraten, was zu Blöcken führen kann, die von ISPs ausgestellt wurden, oder zu IP-Reputationsverlusten.
 
-* Die böswillige Übermittlung bekannter Spammfallen (manchmal auch als &quot;Vergiftung der Liste&quot;bezeichnet) kann zu erheblichen Problemen mit Versand und Ruf führen, wenn der Besitzer dieser Falle aktiv wird. Es ist unmöglich zu wissen, ob der Empfänger wirklich eine Marketing-Liste ohne eine Bestätigung hinzufügen möchte. Dies macht es ebenso unmöglich, die Erwartungen des Empfängers zu stellen und kann zu vermehrten Spam-Beschwerden führen - und manchmal auch zu einer schwarzen Liste, wenn die gesammelte E-Mail zufällig eine Spam-Falle ist.
+* Die böswillige Übermittlung bekannter Spammfallen (manchmal auch als &quot;Vergiftung der Liste&quot;bezeichnet) kann zu erheblichen Problemen mit Versand und Ruf führen, wenn der Besitzer dieser Falle aktiv wird. Es ist unmöglich zu wissen, ob der Empfänger wirklich eine Marketing-Liste ohne eine Bestätigung hinzufügen möchte. Dies macht es ebenso unmöglich, die Erwartungen des Empfängers zu stellen und kann zu vermehrten Spam-Beschwerden führen — — und manchmal auf die Blockierungsliste setzend, wenn die gesammelte E-Mail eine Spam-Falle ist.
 
 Eine Anleitung zur Minimierung von Problemen, die sowohl im physischen Speicher als auch im Einzel-Opt-in auftreten, finden Sie im Abschnitt [Datenqualität und -hygiene](#data-quality-and-hygiene) in diesem Handbuch, um Einzelheiten und Vorteile der Dublette-Teilnahme zu erfahren.
 
@@ -88,5 +88,17 @@ appendDas sind Kunden, die sich entschieden haben, mit Ihrer Marke, was großart
 **Messen oder andere Ereignisse**
 sammelnSammeladressen an einem Stand oder durch eine andere offizielle, klar markierte Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen sammeln und über den Ereignis-Projektträger oder -Host verteilen. Das bedeutet, dass die Inhaber dieser E-Mail-Adressen nie aufgefordert werden, E-Mails von Ihrer Marke zu erhalten. Diese Abonnenten werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und sie haben möglicherweise keine genauen Kontaktinformationen bereitgestellt.
 
-****
-PreisausschreibenPreisausschreiben bietet eine große Anzahl von E-Mail-Adressen schnell. Aber diese Abonnenten wollen den Preis, nicht Ihre E-Mails. Vielleicht haben sie nicht einmal darauf geachtet, wer sie erreichen würde. Sie werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und es ist unwahrscheinlich, dass sie jemals einen Kauf tätigen oder einkaufen.
+**Preisausschreiben**
+
+Preisausschreiben bieten eine große Anzahl von E-Mail-Adressen schnell. Aber diese Abonnenten wollen den Preis, nicht Ihre E-Mails. Vielleicht haben sie nicht einmal darauf geachtet, wer sie erreichen würde. Sie werden sich wahrscheinlich beschweren und Ihre E-Mail als Spam markieren, und es ist unwahrscheinlich, dass sie jemals einen Kauf tätigen oder einkaufen.
+
+## Produktspezifische Ressourcen
+
+**Adobe Campaign Classic**
+
+* [Abonnement-Formular mit zweifacher Bestätigung erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard **
+
+* [Dublette-Opt-in-Prozess](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
