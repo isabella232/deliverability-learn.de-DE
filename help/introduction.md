@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 7e9cc30c6d3fb69f557b17f452b43de08ae85a03
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 15%
 
 ---
@@ -39,7 +39,8 @@ Dieser Leitfaden zu Best Practice zur Lieferbarkeit umfasst die folgenden Themen
 7. [Absenderpermanenz](/help/sender-permanence.md)
 8. [Spezifikationen für Internet Dienstleister](/help/internet-service-provider-specifics/overview.md)
 9. [Laufende Überwachung](/help/ongoing-monitoring.md)
-   [Praktische Umsetzung](/help/putting-it-in-practice.md)
+10. [Praktische Umsetzung](/help/putting-it-in-practice/how-to-reach-success.md)
+11. [Zusätzliche Ressourcen](/help/additional-resources/general-resources.md)
 
 ## Quellen
 
