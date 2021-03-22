@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Erfolgreiche Lieferbarkeit hängt von einer soliden Grundlage ab. Die E-Mail-Infrastruktur ist ein Kernelement. Eine ordnungsgemäß konstruierte E-Mail-Infrastruktur umfasst mehrere Komponenten, nämlich Domäne(n) und IP-Adresse(n). Diese Komponenten sind wie die Maschine hinter den E-Mails, die Sie senden, und sie sind oft der Anker des Versands Reputation. Berater für die Lieferbarkeit stellen sicher, dass diese Elemente während der Implementierung korrekt eingerichtet werden. Aufgrund des Reputationsfaktors ist es jedoch wichtig, dass Sie über dieses Grundverständnis verfügen.
 
-## Domäneneinrichtung und -strategie
+## Domäneneinrichtung und -strategie {#domain-setup-and-strategy}
 
 Die Zeiten haben sich geändert, und einige ISPs (wie Gmail und Yahoo) beinhalten jetzt den Ruf der Domäne als zusätzlichen Punkt, wenn es darum geht, einem Absender einen Ruf in der E-Mail zuzuordnen. Der Ruf Ihrer Domäne basiert auf Ihrer sendenden Domäne und nicht auf Ihrer IP-Adresse. Das bedeutet, dass Ihre Marke bei der Entscheidung über das ISP-Filtern Vorrang hat.
 
@@ -32,7 +32,7 @@ Zu den Einstiegsprozessen für neue Absender auf Adoben-Plattformen gehören die
 * Erwägen Sie, eine Subdomäne Ihrer übergeordneten Domäne zu verwenden, um Ihre sendende Domäne zu legitimieren.
 * Trennen Sie Ihre Subdomänen für Kategorien von Transaktionsnachrichten und Marketingnachrichten. Dies wird Ihnen dabei helfen, den E-Mail-Traffic zuverlässiger zu gestalten, da ISPs nach dieser Versandmethode suchen, die eine bekannte Best Practice für E-Mails ist und dringend empfohlen wird.
 
-## IP-Strategie
+## IP-Strategie {#ip-strategy}
 
 Es ist wichtig, eine gut strukturierte IP-Strategie zu entwickeln, um einen positiven Ruf zu schaffen. Die Anzahl der IPs und des Setups hängt von Ihrem Geschäftsmodell und Ihren Marketingzielen ab. Arbeiten Sie mit einem Experten zusammen, um eine klare Strategie zum Beginn zu entwickeln. Betrachten Sie die folgenden Punkte, die wichtig sind:
 
@@ -41,11 +41,11 @@ Es ist wichtig, eine gut strukturierte IP-Strategie zu entwickeln, um einen posi
 * Die Trennung von Traffic für Messaging-Typen ist der Schlüssel. Es ist wichtig, dass die Marketing- und Transaktionspost auf ein Minimum beschränkt werden.
 * Abhängig von Ihrer Mail-Strategie kann es ratsam sein, verschiedene Produkte oder Marketingströme auf verschiedene IP-Pools zu trennen, wenn Ihr Ruf deutlich anders ist. Einige Marketingexperten segmentieren auch nach Region. Die Trennung der IP-Adresse für Traffic mit einem geringeren Ruf wird das Reputationsproblem nicht beheben, aber es werden Probleme mit Ihren E-Mail-Versänden mit &quot;gutem Ruf&quot;vermieden. Schließlich wollen Sie Ihre gute Audience nicht für eine riskantere opfern.
 
-## Feedback-Schleifen
+## Feedback-Schleifen {#feedback-loops}
 
 Hinter den Kulissen verarbeiten die Adoben Daten zu Absprüngen, Beschwerden, Abmeldungen und mehr. Die Einrichtung dieser Feedback-Schleifen ist ein wichtiger Aspekt für die Lieferbarkeit. Beschwerden können einen Ruf beschädigen, daher sollten Sie E-Mail-Adressen, die Beschwerden von Ihrer Zielgruppe Audience registrieren. Beachten Sie, dass Gmail diese Daten nicht zurückgibt. Listen-Abmeldekopfzeilen und Interaktionsfilterung sind besonders wichtig für Gmail-Abonnenten, die nun die Mehrzahl der Abonnentendatenbanken bilden.
 
-## Authentifizierung
+## Authentifizierung {#authentication}
 
 Die Authentifizierung ist der Prozess, mit dem ISPs die Identität eines Absenders überprüfen. Die beiden gebräuchlichsten Authentifizierungsprotokolle sind [!DNL Sender Policy Framework] (SPF) und [!DNL DomainKeys Identified Mail] (DKIM). Diese sind für den Endbenutzer nicht sichtbar, helfen ISPs jedoch, E-Mails von bestätigten Absendern zu filtern. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) gewinnt an Popularität, obwohl seine Richtlinien noch nicht von allen ISPs in ihre Reputationssysteme integriert sind.
 
@@ -63,10 +63,14 @@ Die Authentifizierung ist der Prozess, mit dem ISPs die Identität eines Absende
 
 ## Produktspezifische Ressourcen
 
-**Campaign Standard**
+**Campaign**
 
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html):  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
+* In [diesem Abschnitt ](/help/putting-it-in-practice/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic oder Standard delegieren.
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
+* Weitere Informationen zum Implementieren einer Feedback-Schleife für eine Campaign Classic-Instanz finden Sie in [diesem Abschnitt](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
 
-**Campaign Classic**
+## Zusätzliche Ressourcen
 
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html):  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
+* Weitere Informationen zu SPF-, DKIM- und DMARC-Authentifizierungsmethoden finden Sie in [diesem Abschnitt](/help/additional-resources/authentication.md).
+* Erfahren Sie mehr über die Verbesserung Ihres E-Mail-Rufs durch IP-Erwärmung in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
