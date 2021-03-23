@@ -1,6 +1,6 @@
 ---
-title: Absprünge
-description: Erfahren Sie mehr über die verschiedenen Arten von Absprüngen.
+title: Bounces
+description: Erfahren Sie mehr über die verschiedenen Arten von Bounces..
 feature: Metriken
 topics: Deliverability
 kt: 7047
@@ -12,42 +12,42 @@ translation-type: tm+mt
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 6%
+ht-degree: 89%
 
 ---
 
 
 # Absprünge
 
-Absprünge sind das Ergebnis eines Versand-Versuchs und -Fehlers, bei dem der ISP Rückmeldungen zur Fehlerbehebung angibt. Die Absprungbehandlung ist ein wichtiger Bestandteil der Hygiene in der Liste. Nachdem eine bestimmte E-Mail mehrmals hintereinander abgeschnitten wurde, markiert dieser Prozess sie zur Unterdrückung. Die Anzahl und Art der für die Unterdrückung der Trigger erforderlichen Absprünge variieren je nach System. Dieser Prozess verhindert, dass Systeme weiterhin ungültige E-Mail-Adressen senden. Absprünge sind eine der Schlüsseldaten, die ISPs zur Ermittlung des Rufs der IP verwenden. Diese Metrik im Auge zu behalten, ist sehr wichtig. &quot;Ausgeliefert&quot;im Vergleich zu &quot;Abgebrochen&quot;ist wahrscheinlich die häufigste Methode zur Messung des Versands von Marketingmeldungen: Je höher der gelieferte Prozentsatz ist, desto besser.
+Bounces sind das Ergebnis eines Zustellversuchs und -fehlers, bei dem der ISP Fehlermeldungen zurückgibt. Die Bounce-Verarbeitung ist ein wichtiger Bestandteil der Listenhygiene. Nachdem eine E-Mail mehrmals hintereinander abgewiesen wurde, wird sie durch diesen Prozess markiert und unterdrückt. Die Anzahl und die Art der Bounces, die erforderlich sind, um die Unterdrückung auszulösen, variieren je nach System. Dieser Prozess verhindert, dass Systeme weiterhin ungültige E-Mail-Adressen senden. Bounces gehören zu den wichtigsten Daten, mit denen ISPs die IP-Reputation bestimmen. Es ist sehr wichtig, diese Metrik im Auge zu behalten. &quot;Zugestellt&quot; versus &quot;Bounces&quot; ist wahrscheinlich die gebräuchlichste Art, die Zustellung von Marketing-Nachrichten zu messen: je höher der zugestellte Prozentsatz ist, desto besser.
 
-Wir werden zwei verschiedene Arten von Absprüngen untersuchen.
+Hier werden zwei verschiedene Arten von Bounces beschrieben .
 
 ## Hardbounces
 
-Hard Bounces sind dauerhafte Ausfälle, die erzeugt werden, nachdem ein ISP feststellt, dass ein Mailingversuch an eine Abonnentenadresse nicht auslieferbar ist. Innerhalb des Adobe Campaigns werden feste Absprünge, die als nicht auslieferbar eingestuft werden, der Quarantäne hinzugefügt, was bedeutet, dass sie nicht erneut versucht werden. Es gibt Fälle, in denen ein harter Absprung ignoriert wird, wenn die Ursache des Fehlers unbekannt ist.
-Hier sind einige häufige Beispiele für harte Absprünge:
+Hardbounces sind permanente Fehler, die generiert werden, nachdem ein ISP einen Mailing-Versuch an eine Abonnentenadresse als nicht zustellbar eingestuft hat. In Adobe Campaign werden der Quarantäne Hartbounces hinzugefügt, die als nicht zustellbar eingestuft werden. Dies bedeutet, dass ihre Zustellung nicht erneut versucht wird. Es gibt einige Fälle, in denen ein Hardbounce ignoriert wird, wenn die Ursache für den Fehler unbekannt ist.
+Hier finden Sie einige gängige Beispiele für Hardbounces:
 
-* Adresse nicht vorhanden
+* Adresse existiert nicht
 * Konto deaktiviert
-* Ungültige Syntax
-* Ungültige Domäne
+* Fehlerhafte Syntax
+* Fehlerhafte Domain
 
 ## Softbounces
 
-Weiche Absprünge sind vorübergehende Ausfälle, die von ISPs erzeugt werden, wenn sie Probleme bei der Zustellung von E-Mails haben. Bei Soft-Fehlern wird der Versuch wiederholt (je nach Verwendung von benutzerdefinierten oder vordefinierten Versand-Einstellungen), um einen erfolgreichen Versand zu versuchen. Adressen, die kontinuierlich weichen Absprung aufweisen, werden erst dann der Quarantäne hinzugefügt, wenn die maximale Anzahl von weiteren Zustellversuchen versucht wurde (die wiederum je nach Einstellungen variieren). Zu den häufigen Ursachen für weiche Absprünge zählen die folgenden:
+Softbounces sind vorübergehende Fehler, die ISPs generieren, wenn sie Schwierigkeiten haben, E-Mails zuzustellen. Bei Softbounce-Fehlschlägen wird der Zustellversuch mehrmals wiederholt (mit Abweichungen in Abhängigkeit von der Verwendung benutzerdefinierter oder nativen Versandeinstellungen). Adressen, die ständig einen Softbounce verursachen, werden erst dann in die Quarantäne aufgenommen, wenn die maximale Anzahl von Wiederholungsversuchen erreicht ist (die wiederum von den Einstellungen abhängt). Einige häufige Ursachen für Softbounces sind:
 
 * Postfach voll
-* Abrufen des E-Mail-Servers
-* Probleme mit dem Ruf des Absenders
+* E-Mail-Empfangs-Server ausgefallen
+* Probleme mit der Reputation des Absenders
 
-![Absprungarten](../assets/bounce-types.png)
+![Bounce-Typen](../assets/bounce-types.png)
 
 >[!NOTE]
 >
->Absprünge sind ein wichtiger Indikator für ein Reputationsproblem, da sie eine schlechte Datenquelle (Absprung) oder ein Reputationsproblem mit einem ISP (Absprung) hervorheben können.
+>Bounces sind ein wichtiger Indikator für ein Problem, da sie auf eine schlechte Datenquelle (Hardbounce) oder ein Reputationsproblem mit einem ISP (Softbounce) hinweisen können.
 >
->Weiche Absprünge treten oft beim Senden von E-Mails auf und sollten während der Wiederholung der Verarbeitung gelöst werden können, bevor sie als echte Bereitstellungsprobleme erkannt werden. Wenn Ihre Soft-Absprungrate bei einem einzelnen ISP größer als 30 Prozent ist und nicht innerhalb von 24 Stunden aufgelöst wird, sollten Sie sich bei Ihrem Adobe Campaign-Bereitstellungsberater um Bedenken bemühen.
+>Softbounces treten oft im Zuge des E-Mail-Versands auf und sollten die Möglichkeit erhalten, durch Wiederholungen behoben zu werden, bevor sie als echtes Zustellbarkeitsproblem eingestuft werden. Wenn Ihre Softbounce-Rate bei einem einzelnen ISP mehr als 30 Prozent beträgt und nicht innerhalb von 24 Stunden behoben wird, sollten Sie Ihren Zustellbarkeitsberater für Adobe Campaign auf das Problem aufmerksam machen.
 
 ## Produktspezifische Ressourcen
 
@@ -61,4 +61,4 @@ Weiche Absprünge sind vorübergehende Ausfälle, die von ISPs erzeugt werden, w
 
 * [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
 * [Bounce-Message-Qualifizierung          ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
-* [Zusammenfassungsbericht für Absprünge](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
+* [Zusammenfassungsbericht für Absprünge](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=de#reporting)
