@@ -3,7 +3,7 @@ user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 86%
@@ -41,7 +41,7 @@ ht-degree: 86%
    + [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Laufende Überwachung](/help/ongoing-monitoring.md)
 + [Praktische Umsetzung](/help/putting-it-in-practice.md)
-+ Apendix: Zusätzliche Ressourcen {#additional-resources}
++ Anlage: Zusätzliche Ressourcen {#additional-resources}
    + [Übersicht](/help/additional-resources/general-resources.md)
    + Allgemeine Ressourcen {#generic-resources}
       + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
