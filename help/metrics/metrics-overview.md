@@ -1,6 +1,6 @@
 ---
-title: Metriken für die Zustellbarkeit
-description: Verstehen Sie, welche wichtigen Zustellbarkeitsmetriken überwacht werden und wie Sie sie verwenden, um ein Reputationsproblem zu identifizieren.
+title: Zustellbarkeitsmetriken
+description: Erfahren Sie, welche wichtigen Zustellbarkeitsmetriken überwacht werden müssen und wie Sie sie verwenden, um ein Reputationsproblem zu identifizieren.
 feature: Metriken
 topics: Deliverability
 kt: 5256
@@ -12,19 +12,19 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 15%
+ht-degree: 62%
 
 ---
 
 
-# Metriken für die Zustellbarkeit
+# Zustellbarkeitsmetriken
 
-Eine der besten Methoden, um ein Problem mit dem Ruf des Senders zu identifizieren, sind die Metriken. Sehen wir uns einige wichtige Leistungsmetriken an, die überwacht werden sollen, und wie diese zur Identifizierung eines Reputationsproblems verwendet werden können.
+Eine der besten Möglichkeiten, um ein Reputationsproblem beim Senden festzustellen, sind Metriken. Werfen wir einen Blick auf einige wichtige zu überwachende Zustellbarkeitsmetriken und deren Verwendung zur Identifizierung eines Reputationsproblems. 
 
-* [Absprünge](/help/metrics/bounces.md)
+* [Bounces](/help/metrics/bounces.md)
 * [Beschwerden](/help/metrics/complaints.md)
 * [Spam-Fallen](/help/metrics/spam-traps.md)
-* [Sperren und Sperren](/help/metrics/bulking-and-blocking.md)
+* [Bulking und Blockieren](/help/metrics/bulking-and-blocking.md)
 
 ## Produktspezifische Ressourcen
 
