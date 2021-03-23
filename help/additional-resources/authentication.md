@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 47%
@@ -56,7 +56,7 @@ Für die Verwendung von DKIM müssen folgende Voraussetzungen gegeben sein:
 * **Sicherheit**: Die Verschlüsselung ist ein Schlüsselelement des DKIM. Um den Sicherheitsgrad des DKIM zu gewährleisten, empfiehlt sich eine Verschlüsselungsgröße von 1024b. Niedrigere DKIM-Schlüssel werden von den meisten Zugangsanbietern nicht als gültig angesehen.
 * **Reputation**: Der Ruf basiert auf der IP und/oder der Domäne, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl der Auswahl ist wichtig: vermeiden Sie, die &quot;Standard&quot;, die von jedem verwendet werden könnte und daher einen schwachen Ruf hat. Sie müssen einen anderen Selektor für **Retention vs Akquise Communications** und für die Authentifizierung implementieren.
 
-Erfahren Sie mehr über die Voraussetzung für DKIM bei Verwendung von Campaign Classic in [diesem Abschnitt](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc).
+Erfahren Sie mehr über die Voraussetzung für DKIM bei Verwendung von Campaign Classic in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
