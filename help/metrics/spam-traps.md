@@ -12,28 +12,28 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 3%
+ht-degree: 88%
 
 ---
 
 
 # Spam-Fallen
 
-Spam-Fallen bestehen, um E-Mails betrügerischer Absender oder Absender zu identifizieren, die nicht den Best Practices für E-Mails folgen. Die Spam-Trap-E-Mail-Adresse ist in der Regel nicht öffentlich bekannt und lässt sich kaum identifizieren. Die Bereitstellung von E-Mails an Spam-Fallen kann Ihren Ruf in unterschiedlichem Ausmaß beeinträchtigen, je nach Trap- und ISP-Typ. Erfahren Sie mehr über die verschiedenen Arten von Spam-Traps in den folgenden Abschnitten.
+Spam-Fallen dienen dazu, E-Mails von betrügerischen Absendern oder solchen, die sich nicht an Best Practices für E-Mails halten, zu identifizieren. Die E-Mail-Adresse der Spam-Falle wird im Allgemeinen nicht veröffentlicht und ist kaum zu identifizieren. Die Zustellung von E-Mails an Spam-Fallen kann Ihre Reputation abhängig von der Art der Falle und dem ISP unterschiedlich stark beeinträchtigen. Weitere Informationen zu den verschiedenen Arten von Spam-Fallen finden Sie in den folgenden Abschnitten.
 
-## Recycling
+## Recycelt
 
-Wiederverwertete Spam-Fallen sind Adressen, die einst gültig waren, aber nicht mehr verwendet werden. Eine wichtige Möglichkeit, Listen so sauber wie möglich zu halten, besteht darin, regelmäßig E-Mails an Ihre gesamte Liste zu senden und abgeschnittene E-Mails entsprechend zu unterdrücken. Dadurch können aufgegebene E-Mail-Adressen isoliert und von einer weiteren Verwendung ausgeschlossen werden.
+Recycelte Spam-Fallen sind Adressen, die einmal gültig waren, aber nicht mehr verwendet werden. Eine wichtige Möglichkeit, Listen so sauber wie möglich zu halten, besteht darin, regelmäßig E-Mails an Ihre gesamte Liste zu senden und abgewiesene E-Mails entsprechend zu unterdrücken. Auf diese Weise können ungültige E-Mail-Adressen unter Quarantäne gestellt und der weiteren Verwendung entzogen werden.
 
-In einigen Fällen kann eine Adresse innerhalb von 30 Tagen recycelt werden. Regelmäßige Entsendung ist ein entscheidender Aspekt guter Hygiene bei der Liste, und die regelmäßige Unterdrückung inaktiver Nutzer ist ein entscheidender Aspekt. **Erneute Interaktionskampagnen** sind in der Regel Teil ausgefeilter E-Mail-Marketing-Programm. Dieser Stil ermöglicht es dem Absender, Kampagnen zurückzugewinnen, die andernfalls nicht mehr per E-Mail versandt würden.
+In einigen Fällen kann eine Adresse innerhalb von 30 Tagen den Status &quot;Recycelt&quot; erhalten. Regelmäßiges Senden ist ein wichtiger Aspekt guter Listenhygiene, ebenso wie das regelmäßige Unterdrücken inaktiver Benutzer. **Erneute Interaktionskampagnen** sind in der Regel Teil ausgefeilter E-Mail-Marketing-Programm. Mit dieser Kampagnenart kann der Absender versuchen, Benutzer zurückzugewinnen, die sonst nicht mehr angeschrieben werden würden.
 
-## Typo
+## Tippfehler
 
-Eine Tippfehler-Spam-Falle ist eine Adresse, die eine Rechtschreibfehler oder Fehlbildungen enthält. Dies tritt häufig bei bekannten Rechtschreibfehlern wichtiger Domänen wie Gmail auf (z. B.: gmial ist ein häufiger Tippfehler). ISPs und andere Betreiber von Blockierungslisten registrieren bekannte schlechte Domänen, die als Spam-Falle verwendet werden, um Spammer zu identifizieren und die Absendergesundheit zu messen. Die beste Möglichkeit, Tippfehler in Spam-Traps zu verhindern, ist ein **Dublette-Abmeldeprozess** für die Liste-Erfassung zu verwenden.
+Eine Tippfehler-Spam-Falle ist eine Adresse, die einen Rechtschreib- oder Formatfehler enthält. Dies ist häufig der Fall bei bekannten Rechtschreibfehlern von großen Domains wie Gmail (z. B.: gmial ist ein häufiger Tippfehler). ISPs und andere Betreiber von Blockierungslisten registrieren bekannte fehlerhafte Domains, die als Spam-Falle verwendet werden, um Spammer zu identifizieren und die Integrität des Absenders zu bestimmen. Der beste Weg, um Tippfehler-Spam-Fallen zu verhindern, ist die Verwendung eines **doppelten Anmeldeverfahrens** für die Erfassung in einer Liste. 
 
-## Pristin
+## Pristine
 
-Eine ungewöhnliche Spam-Falle ist eine Adresse, die keinen Endbenutzer hat und noch nie einen Endbenutzer hatte. Es handelt sich dabei um eine Adresse, die ausschließlich zur Identifizierung von Spam-E-Mails erstellt wurde. Dies ist der wirkungsvollste Spam-Trap-Typ, da es praktisch unmöglich ist, ihn zu identifizieren, und es erfordert erhebliche Anstrengungen, um Ihre Liste zu reinigen. Die meisten Blockierungslisten nutzen unbekannte Spam-Fallen an Listen unseriöse Absender. Die einzige Möglichkeit, ungewöhnliche Spam-Fallen daran zu hindern, Ihre umfassendere Marketing-E-Mail-Liste zu infizieren, besteht darin, einen **Dublette-Anmeldeprozess** für die Liste zu verwenden.
+Eine &quot;pristine&quot; Spam-Falle ist eine Adresse, die keinen Endbenutzer hat und auch nie einen hatte. Es handelt sich dabei um eine Adresse, die ausschließlich zur Identifizierung von Spam-E-Mails erstellt wurde. Dies ist die wirkungsvollste Art einer Spam-Falle, da es praktisch unmöglich ist, sie zu identifizieren, und es einen erheblichen Aufwand erfordern würde, sie aus Ihrer Liste zu entfernen. Die meisten Blockierungslisten nutzen &quot;pristine&quot; Spam-Fallen, um unseriöse Absender zu identifizieren. Die einzige Möglichkeit zu verhindern, dass &quot;pristine&quot; Spam-Fallen Ihre Marketing-E-Mail-Liste infizieren, besteht darin, ein **doppeltes Anmeldeverfahren** für die Aufnahme in Ihre Liste zu verwenden.
 
 ## Zusätzliche Ressourcen
 
@@ -44,11 +44,11 @@ Eine ungewöhnliche Spam-Falle ist eine Adresse, die keinen Endbenutzer hat und 
 
 **Adobe Campaign Classic**
 
-* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=en#using-spamassassin)
+* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=de#using-spamassassin)
 * [Abonnement-Formular mit zweifacher Bestätigung erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard **
 
-* [Vorschau Ihrer E-Mail- und Anti-Spam-Analyse](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html#designing-content)
-* [Dublette-Opt-in-Prozess](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+* [Vorschau Ihrer E-Mail- und Anti-Spam-Analyse](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=de#designing-content)
+* [Doppeltes Anmeldeverfahren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=de#communication-channels)
 
