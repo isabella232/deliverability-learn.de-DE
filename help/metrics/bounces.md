@@ -8,16 +8,16 @@ thumbnail: kt7047.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Absprünge
+# Bounces
 
 Bounces sind das Ergebnis eines Zustellversuchs und -fehlers, bei dem der ISP Fehlermeldungen zurückgibt. Die Bounce-Verarbeitung ist ein wichtiger Bestandteil der Listenhygiene. Nachdem eine E-Mail mehrmals hintereinander abgewiesen wurde, wird sie durch diesen Prozess markiert und unterdrückt. Die Anzahl und die Art der Bounces, die erforderlich sind, um die Unterdrückung auszulösen, variieren je nach System. Dieser Prozess verhindert, dass Systeme weiterhin ungültige E-Mail-Adressen senden. Bounces gehören zu den wichtigsten Daten, mit denen ISPs die IP-Reputation bestimmen. Es ist sehr wichtig, diese Metrik im Auge zu behalten. &quot;Zugestellt&quot; versus &quot;Bounces&quot; ist wahrscheinlich die gebräuchlichste Art, die Zustellung von Marketing-Nachrichten zu messen: je höher der zugestellte Prozentsatz ist, desto besser.
 
@@ -53,12 +53,12 @@ Softbounces sind vorübergehende Fehler, die ISPs generieren, wenn sie Schwierig
 
 **Adobe Campaign Classic**
 
-* [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
-* [Bounce-Message-Verwaltung](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-management)
-* [Bericht über nicht lieferbare und Absprünge](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html#non-deliverables-and-bounces)
+* [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#delivery-failure-types-and-reasons)
+* [Bounce-Message-Verwaltung](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#bounce-mail-management)
+* [Report über Unzustellbarkeiten und Bounces](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=de#non-deliverables-and-bounces)
 
-**Adobe Campaign Standard **
+**Adobe Campaign Standard**
 
-* [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
-* [Bounce-Message-Qualifizierung          ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
-* [Zusammenfassungsbericht für Absprünge](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=de#reporting)
+* [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=de#delivery-failure-types-and-reasons)
+* [Bounce-Message-Qualifizierung](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=de#bounce-mail-qualification)
+* [Zusammenfassender Report über Bounces](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=de#reporting)
