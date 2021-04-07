@@ -8,11 +8,11 @@ thumbnail: kt5256.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ Eine der besten Möglichkeiten, um ein Reputationsproblem beim Senden festzustel
 
 **Adobe Campaign Classic**
 
-* [Überwachung der Versand](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [Zustellbarkeit überwachen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
-* [Ursachen für Fehler beim Versand](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+* [Überwachen des Versands](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=de)
+* [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=de)
+* [Ursachen für Fehler beim Versand](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de)
 
-**Adobe Campaign Standard **
+**Adobe Campaign Standard**
 
-* [Versand beobachten](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
-* [Zustellbarkeit überwachen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
-* [Ursachen für Fehler beim Versand](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html)
+* [Überwachen eines Versands](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=de)
+* [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=de#testing-and-sending)
+* [Ursachen für Fehler beim Versand](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=de)
