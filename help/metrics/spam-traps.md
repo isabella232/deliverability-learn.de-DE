@@ -8,11 +8,11 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Spam-Fallen dienen dazu, E-Mails von betrügerischen Absendern oder solchen, die
 
 Recycelte Spam-Fallen sind Adressen, die einmal gültig waren, aber nicht mehr verwendet werden. Eine wichtige Möglichkeit, Listen so sauber wie möglich zu halten, besteht darin, regelmäßig E-Mails an Ihre gesamte Liste zu senden und abgewiesene E-Mails entsprechend zu unterdrücken. Auf diese Weise können ungültige E-Mail-Adressen unter Quarantäne gestellt und der weiteren Verwendung entzogen werden.
 
-In einigen Fällen kann eine Adresse innerhalb von 30 Tagen den Status &quot;Recycelt&quot; erhalten. Regelmäßiges Senden ist ein wichtiger Aspekt guter Listenhygiene, ebenso wie das regelmäßige Unterdrücken inaktiver Benutzer. **Erneute Interaktionskampagnen** sind in der Regel Teil ausgefeilter E-Mail-Marketing-Programm. Mit dieser Kampagnenart kann der Absender versuchen, Benutzer zurückzugewinnen, die sonst nicht mehr angeschrieben werden würden.
+In einigen Fällen kann eine Adresse innerhalb von 30 Tagen den Status &quot;Recycelt&quot; erhalten. Regelmäßiges Senden ist ein wichtiger Aspekt guter Listenhygiene, ebenso wie das regelmäßige Unterdrücken inaktiver Benutzer. **Kampagnen zur Rückgewinnung** werden typischerweise im Rahmen von anspruchsvollen E-Mail-Marketing-Programmen durchgeführt. Mit dieser Kampagnenart kann der Absender versuchen, Benutzer zurückzugewinnen, die sonst nicht mehr angeschrieben werden würden.
 
 ## Tippfehler
 
@@ -38,17 +38,17 @@ Eine &quot;pristine&quot; Spam-Falle ist eine Adresse, die keinen Endbenutzer ha
 ## Zusätzliche Ressourcen
 
 * Weitere Informationen zum Identifizieren und Vermeiden von Spam-Fallen finden Sie in [diesem Abschnitt](/help/additional-resources/all-about-spam-traps.md).
-* Erfahren Sie mehr darüber, wie Sie die Zustellbarkeit durch Rückeinsatzstrategien verbessern können, in [diesem Abschnitt](/help/additional-resources/re-engagement.md).
+* In [diesem Abschnitt](/help/additional-resources/re-engagement.md) erfahren Sie, wie Sie die Zustellbarkeit durch Rückgewinnungsstrategien verbessern können.
 
 ## Produktspezifische Ressourcen
 
 **Adobe Campaign Classic**
 
-* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=de#using-spamassassin)
-* [Abonnement-Formular mit zweifacher Bestätigung erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=de#sending-messages)
+* [Abonnement-Formular mit doppeltem Opt-in erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=de#create-a-subscription--form-with-double-opt-in)
 
-**Adobe Campaign Standard **
+**Adobe Campaign Standard**
 
 * [Vorschau Ihrer E-Mail- und Anti-Spam-Analyse](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=de#designing-content)
-* [Doppeltes Anmeldeverfahren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=de#communication-channels)
+* [Doppeltes Opt-in-Verfahren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=de#communication-channels)
 
