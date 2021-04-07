@@ -1,5 +1,5 @@
 ---
-title: Einführung in Best Practices zur Lieferbarkeit
+title: Einführung in Best Practices zur Zustellbarkeit
 description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 feature: Zustellbarkeit
 kt: 5321
@@ -7,50 +7,50 @@ thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 
-# Einführung in Best Practices zur Lieferbarkeit
+# Einführung in Best Practices zur Zustellbarkeit
 
-E-Mail-Zustellbarkeit, eine wichtige Komponente für den Marketingerfolg jedes Absenders, zeichnet sich durch ständig wechselnde Kriterien und Regeln aus. ISPs müssen ständig Spammer verhindern, sodass sie dazu verpflichtet sind, ausgefeilte Filtertechniken zu entwickeln, um ihre Kunden zu schützen. E-Mail-Absender können in diesen Bemühungen unbeabsichtigt verankert werden. Die effektive Navigation in dieser digitalen Welt erfordert eine regelmäßige Abstimmung Ihrer E-Mail-Strategie unter Berücksichtigung der wichtigsten Lieferungstrends, um Ihre Audiencen am besten zu erreichen.
+E-Mail-Zustellbarkeit, eine wichtige Komponente für den Marketing-Erfolg jedes Absenders, ist gekennzeichnet durch ständig wechselnde Kriterien und Regeln. ISPs müssen laufend Spammer abwehren und sind daher gezwungen, ausgefeilte Filtertechniken zu entwickeln, um ihre Kunden zu schützen. E-Mail-Versender bekommen die Auswirkungen dieser Bemühungen zu spüren. Um in unserer digitalen Welt erfolgreich bestehen zu können, müssen sie ihre E-Mail-Strategie regelmäßig anpassen und dabei die wichtigsten Zustellbarkeits-Trends berücksichtigen, damit sie Ihre Audiences optimal erreichen.
 
-Laut [!DNL Lifewire] gibt es heute über 3,8 Milliarden E-Mail-Adressen. Darüber hinaus berichten Social Media-Berater [!DNL Lori Lewis] und [!DNL Chad Callahan], dass jede Minute 188 Millionen E-Mails gesendet werden, was mehr als die Hälfte der Weltbevölkerung umfasst. Aber vergangen sind die Tage, an denen maximale E-Mail-Mengen für minimale Konversionen gesendet werden. Tatsächlich besteht die Gefahr, dass Ihre hochengagierten Kunden ihre E-Mails nicht mehr erhalten, wenn Sie nur über das Volumen nachdenken. Dies kann erhebliche Umsatzauswirkungen für Sie als Absender haben. E-Mails als kostengünstige Kanal mit unbegrenztem Potenzial anzuzeigen, ist schwierig und fragil.
+Laut [!DNL Lifewire] gibt es heute über 3,8 Milliarden E-Mail-Adressen. Darüber hinaus berichten die Social-Media-Berater [!DNL Lori Lewis] und [!DNL Chad Callahan], dass jede Minute 188 Millionen E-Mails gesendet werden, was mehr als die Hälfte der Weltbevölkerung umfasst. Aber die Zeiten, in denen eine maximale Anzahl an E-Mails für minimale Konversionen gesendet wurde, sind vorbei. Tatsächlich besteht die Gefahr, dass durch die Berücksichtigung des Volumens allein Ihre aktivsten Kunden ihre E-Mails nicht erhalten. Dies kann für Sie als Absender große Auswirkungen auf den Umsatz haben. E-Mails als kostengünstigen Kanal mit unbegrenztem Potenzial zu betrachten, stellt eine Herausforderung und eine Schwachstelle dar.
 
-In dieser digitalen Ära erwarten die Menschen, dass sie gedemütigt werden - schnell. Sie wollen diesen &quot;ah ha&quot;-Moment mit allen, mit denen sie interagieren, und Wettbewerb ist heftig. Zwischen Geräten wie Computern, Mobiltelefonen und intelligenten Heimgeräten und den unterstützten Inhalten wie Instant Messaging, E-Mail, Web-, Push- und Social-Media-Anwendungen werden Verbraucher unaufhörlich mit Inhalten bombardiert. Wenn eine Nachricht nicht zwingend ist, kann sie sie löschen oder vollständig ausschließen.
+In unserem digitalen Zeitalter erwarten die Menschen, schnell begeistert zu werden. Sie wollen diesen &quot;Aha&quot;-Moment bei jedem, mit dem sie interagieren – und der Wettbewerb ist hart. Von Geräten wie Computern, Mobiltelefonen und Smart-Home-Tools sowie den unterstützten Inhalten von Instant-Messaging-, E-Mail-, Web-, Push- und Social-Media-Programmen werden die Verbraucher unaufhörlich mit Inhalten bombardiert. Ist eine Nachricht nicht fesselnd, besteht die Gefahr, dass sie sie löschen oder sich ganz abwenden.
 
-Machen wir uns das vor. Heute muss man sich mehr denn je heraushalten. Dies bedeutet, Ihren Kunden einzigartige, personalisierte und äußerst relevante Kundenerlebnisse zu bieten. Andernfalls riskieren Sie, einen Kunden für immer zu verlieren. Eine integrierte, dynamische und kanalübergreifende Strategie, die Ihre Audience dazu motiviert, sich zu engagieren, ist unverzichtbar.
+Fest steht, dass Sie sich heute mehr denn je von Ihren Mitbewerbern abheben müssen. Das bedeutet, Ihren Kunden einzigartige, personalisierte und relevante Kundenerlebnisse zu bieten. Andernfalls riskieren Sie, einen Kunden für immer zu verlieren. Eine integrierte, dynamische und kanalübergreifende Strategie, die Ihre Audience dazu motiviert, aktiv zu bleiben, ist unverzichtbar.
 
 In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Nutzen Sie ihn, um den E-Mail-Kanal in Ihrem Marketing-Mix an vorderster Front zu halten, mit hoher Priorität auf Zustellbarkeit, Platzierung im Posteingang und Ihrem Umsatz.
 
-Dieser Leitfaden zu Best Practice zur Lieferbarkeit umfasst die folgenden Themen:
+Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 
-1. [Strategie und Definition der Lieferbarkeit](/help/deliverability-strategy-and-definition.md)
-2. [Metriken für die Zustellbarkeit](/help/metrics/metrics-overview.md)
+1. [Strategie und Definition der Zustellbarkeit](/help/deliverability-strategy-and-definition.md)
+2. [Zustellbarkeitsmetriken](/help/metrics/metrics-overview.md)
 3. [Interaktion](/help/engagement.md)
-4. [Transition - Wechseln zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
-5. [Erste Impressionen - Listen- und Begrüßungs-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Best Practices für eine optimale Bereitstellung](/help/content-best-practices-for-optimal-delivery.md)
-7. [Absenderpermanenz](/help/sender-permanence.md)
-8. [Spezifikationen für Internet Dienstleister](/help/internet-service-provider-specifics/overview.md)
+4. [Transformationsprozess – Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
+5. [Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
+6. [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
+7. [Regelmäßiger Versand](/help/sender-permanence.md)
+8. [Besonderheiten der ISPs (Internetdienstanbieter)](/help/internet-service-provider-specifics/overview.md)
 9. [Laufende Überwachung](/help/ongoing-monitoring.md)
 10. [Praktische Umsetzung](/help/putting-it-in-practice.md)
 
 >[!NOTE]
 >
->[adobe-delivery-best-practices-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf) herunterladen
+>[Adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf) herunterladen
 
 ## Quellen
 
-[!DNL Heinz Tschabitscher],  [&quot;Wie viele Personen nutzen E-Mail weltweit?&quot;](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24. Juni 2019.
+[!DNL Heinz Tschabitscher], [&quot;How Many People Use Email Worldwide?&quot;](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24. Juni 2019.
 
-[!DNL Lori Lewis],  [&quot;2019: Dies geschieht in einer Internet-Minute&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5. März 2019.
+[!DNL Lori Lewis], [&quot;2019: This Is What Happens in an Internet Minute&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5. März 2019.
 
 ## Zusätzliche Ressourcen
 
-[Anlage: Zusätzliche Ressourcen](/help/additional-resources/general-resources.md)
+[Anhang: Zusätzliche Ressourcen](/help/additional-resources/general-resources.md)
