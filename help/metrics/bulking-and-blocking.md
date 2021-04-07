@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Eine Blockierungsauflistung tritt auf, wenn ein Blockierungslistenverwalter eine
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie mehr über [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md), die Datenbanken mit IP-Adressen und Domänen verwalten, die von Spammern verwendet werden können.
+* Erfahren Sie mehr über [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md), die Datenbanken mit IP-Adressen und Domains verwalten, die oft von Spammern verwendet werden.
