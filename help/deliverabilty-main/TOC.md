@@ -2,11 +2,11 @@
 user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 86%
    + [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Laufende Überwachung](/help/ongoing-monitoring.md)
 + [Praktische Umsetzung](/help/putting-it-in-practice.md)
-+ Anlage: Zusätzliche Ressourcen {#additional-resources}
++ Anhang: Zusätzliche Ressourcen {#additional-resources}
    + [Übersicht](/help/additional-resources/general-resources.md)
    + Allgemeine Ressourcen {#generic-resources}
       + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
@@ -52,8 +52,8 @@ ht-degree: 86%
       + [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md)
       + [Fehlerbehebung](/help/additional-resources/troubleshooting.md)
    + Produktspezifische Ressourcen {#product-specific-resources}
-      + Kampagne {#campaign}
-         + [Domänenname einrichten](/help/additional-resources/ac-domain-name-setup.md)
+      + Campaign {#campaign}
+         + [Domain-Namen einrichten](/help/additional-resources/ac-domain-name-setup.md)
          + [SSL-Zertifikatanforderungsvorgang](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)
-         + [Campaign Classic - Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
+         + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
