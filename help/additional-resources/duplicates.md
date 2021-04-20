@@ -1,7 +1,7 @@
 ---
 title: Duplikate
 description: Erfahren Sie, wie Sie Duplikat identifizieren und beschränken, um die Zustellbarkeit zu verbessern.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

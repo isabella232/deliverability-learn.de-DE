@@ -1,7 +1,7 @@
 ---
 title: Campaign Classic - Technische Empfehlungen
 description: Entdecken Sie Techniken, Konfigurationen und Werkzeuge zur Verbesserung Ihrer Zustellrate mit Adobe Campaign Classic.
-feature: Praktische Umsetzung
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

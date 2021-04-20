@@ -1,7 +1,7 @@
 ---
 title: Absenderpermanenz
 description: Die Entsendung von Dauerhaftigkeit ist der Prozess der Schaffung eines konsistenten Entsendungsvolumens und einer konsistenten Strategie, um den Ruf des ISP zu erhalten.
-feature: Absenderbleiblichkeit
+feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg

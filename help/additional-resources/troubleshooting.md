@@ -1,7 +1,7 @@
 ---
 title: Behebung von Problemen bei der Zustellbarkeit
 description: Erfahren Sie, wie Sie Probleme mit der Lieferbarkeit identifizieren und beheben können.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

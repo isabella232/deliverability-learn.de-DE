@@ -1,7 +1,7 @@
 ---
 title: Best Practices zur Rückgewinnung
 description: Erfahren Sie, wie Sie die Zustellbarkeit durch Strategien zur erneuten Interaktion verbessern können.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

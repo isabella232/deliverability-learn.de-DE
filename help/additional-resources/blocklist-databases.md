@@ -1,7 +1,7 @@
 ---
 title: Echtzeit-Blackhole-Listen
 description: Erfahren Sie mehr über Organisationen, die Listen von IP-Adressen und Domänen verwalten, die von Spammern verwendet werden können.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

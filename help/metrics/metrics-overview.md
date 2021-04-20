@@ -1,7 +1,7 @@
 ---
 title: Zustellbarkeitsmetriken
 description: Erfahren Sie, welche wichtigen Zustellbarkeitsmetriken überwacht werden müssen und wie Sie sie verwenden, um ein Reputationsproblem zu identifizieren.
-feature: Metriken
+feature: Metrics
 topics: Deliverability
 kt: 5256
 thumbnail: kt5256.jpg

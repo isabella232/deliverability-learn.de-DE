@@ -1,7 +1,7 @@
 ---
 title: Bulking und Blockieren von E-Mails
 description: Erfahren Sie, warum ISPs E-Mail-Nachrichten in Bulk-Ordnern platzieren oder blockieren.
-feature: Metriken
+feature: Metrics
 topics: Deliverability
 kt: 7051
 thumbnail: kt7051.jpg

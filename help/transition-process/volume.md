@@ -1,7 +1,7 @@
 ---
 title: Lautstärke - Tipps für eine reibungslose Transition
 description: Die Anzahl der Mails, die Sie senden, ist entscheidend, um einen positiven Ruf zu schaffen. Erfahren Sie, was Sie mit der Transition gut machen können.
-feature: Transition
+feature: Transition Process
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg

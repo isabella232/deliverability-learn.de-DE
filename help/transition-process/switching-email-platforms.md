@@ -1,7 +1,7 @@
 ---
 title: Transition beim Wechsel von E-Mail-Plattformen reibungslos.
 description: 'Beim Verschieben von E-Mail-Dienstleistern (ESPs) ist es nicht möglich, auch Ihre bestehenden, etablierten IP-Adressen Transition. Es ist wichtig, dass Sie Best Practices für die Entwicklung eines positiven Rufs beim Neustarten befolgen. '
-feature: Zustellbarkeit
+feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

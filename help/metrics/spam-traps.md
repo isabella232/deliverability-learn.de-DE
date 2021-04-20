@@ -1,7 +1,7 @@
 ---
 title: Spam-Fallen
 description: Erfahren Sie mehr über die verschiedenen Arten von Spam-Fallen.
-feature: Metriken
+feature: Metrics
 topics: Deliverability
 kt: 7050
 thumbnail: kt7050.jpg

@@ -1,7 +1,7 @@
 ---
 title: Domänenname einrichten
 description: Erfahren Sie, wie Sie eine Subdomäne an Adobe Campaign delegieren.
-feature: Praktische Umsetzung
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Zusätzliche Ressourcen
 description: In diesem Abschnitt werden eine Reihe zusätzlicher Ressourcen zur Lieferbarkeit Liste.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Alles über Spam-Fallen
 description: Erfahren Sie, wie Sie bei der Verwaltung der Zustellbarkeit Spammfallen erkennen und vermeiden können.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

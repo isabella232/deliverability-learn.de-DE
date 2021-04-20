@@ -1,7 +1,7 @@
 ---
 title: Laufende Überwachung
 description: Nach welchen Problemen müssen Sie suchen?
-feature: Überwachung
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

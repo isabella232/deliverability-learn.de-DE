@@ -1,7 +1,7 @@
 ---
 title: Interaktion
 description: Interaktion ist zum wichtigsten Faktor für die Einstiegsplatzierungsentscheidungen geworden.
-feature: Interaktion
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

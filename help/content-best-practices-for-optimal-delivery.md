@@ -1,7 +1,7 @@
 ---
 title: Best Practices für eine optimale Bereitstellung
 description: Inhalt ist der Schlüssel. Sie haben bereits unsere Perspektive zur Relevanz gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Lieferbarkeit in Bezug auf Inhalte.
-feature: Inhalt
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg

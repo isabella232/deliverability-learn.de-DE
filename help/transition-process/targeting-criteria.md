@@ -1,7 +1,7 @@
 ---
 title: Targeting-Kriterien
 description: Erfahren Sie, wie Sie einen guten Ruf von get-go aus aufbauen können, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Audiencen einführen.
-feature: Transition
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

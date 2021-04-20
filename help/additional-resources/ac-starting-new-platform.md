@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer neuen Plattform
 description: Erfahren Sie mehr über die Verwaltung der Zustellbarkeit beim Einrichten einer neuen Plattform mit Adobe Campaign.
-feature: Praktische Umsetzung
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: Was ist die Zustellbarkeitsstrategie und wie wird die Zustellbarkeit definiert?
 description: Erfahren Sie, wie die Zustellbarkeit definiert wird, warum sie wichtig ist und was die wichtigsten Zustellbarkeitsmetriken sind.
-feature: Zustellbarkeit
+feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg

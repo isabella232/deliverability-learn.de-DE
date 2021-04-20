@@ -1,7 +1,7 @@
 ---
 title: Beschwerden
 description: 'Erfahren Sie mehr über Beschwerden, die registriert werden, wenn ein Benutzer angibt, dass eine E-Mail unerwünscht ist oder unerwartet gesendet wurde. '
-feature: Metriken
+feature: Metrics
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg

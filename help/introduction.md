@@ -1,7 +1,7 @@
 ---
 title: Einführung in Best Practices zur Zustellbarkeit
 description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
-feature: Zustellbarkeit
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

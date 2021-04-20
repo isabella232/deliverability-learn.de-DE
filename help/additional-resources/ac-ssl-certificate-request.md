@@ -1,7 +1,7 @@
 ---
 title: SSL-Zertifikatanforderungsvorgang
 description: Erfahren Sie, wie Sie SSL-Zertifikate auf den Subdomänen installieren, die Sie an Adobe delegiert haben.
-feature: Praktische Umsetzung
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

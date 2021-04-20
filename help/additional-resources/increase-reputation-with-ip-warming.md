@@ -1,7 +1,7 @@
 ---
 title: E-Mail-Reputation mit IP-Warming verbessern
 description: Erfahren Sie, warum es wichtig ist, Ihren E-Mail-Ruf durch IP-Erwärmung zu verbessern und wie Sie mit der optimalen Bereitstellung fortfahren.
-feature: Zusätzliche Ressourcen
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

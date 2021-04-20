@@ -1,7 +1,7 @@
 ---
 title: Praktische Umsetzung
 description: Die Entsendung von Dauerhaftigkeit ist der Prozess der Schaffung eines konsistenten Entsendungsvolumens und einer konsistenten Strategie, um den Ruf des ISP zu erhalten.
-feature: Zustellbarkeit
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

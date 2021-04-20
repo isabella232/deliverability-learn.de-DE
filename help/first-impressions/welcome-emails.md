@@ -1,7 +1,7 @@
 ---
 title: Begrüßungs-E-Mails
 description: Verstehen Sie, welche wichtigen Elemente beim Erstellen Ihrer Begrüßungs-E-Mails zu beachten sind.
-feature: 'E-Mail '
+feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg

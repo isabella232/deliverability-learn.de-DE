@@ -1,7 +1,7 @@
 ---
 title: Erste Impressionen - Listen- und Begrüßungs-E-Mails
 description: 'Erfahren Sie, wie Sie sich für ein erfolgreiches E-Mail-Programm einrichten können, indem Sie einen guten ersten Eindruck machen. '
-feature: Audiencen, E-Mail
+feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg
