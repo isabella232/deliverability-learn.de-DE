@@ -1,63 +1,63 @@
 ---
 title: Alles über Spam-Fallen
-description: Erfahren Sie, wie Sie bei der Verwaltung der Zustellbarkeit Spammfallen erkennen und vermeiden können.
-feature: Additional resources
+description: Erfahren Sie, wie Sie bei der Verwaltung der Zustellbarkeit Spam-Fallen identifizieren und vermeiden können.
+feature: Zusätzliche Ressourcen
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 3696ec013014ea41c634ac4829ec40977d224ff1
-workflow-type: tm+mt
+exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
+translation-type: ht
+source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # Alles über Spam-Fallen
 
-Eine [Spam-Falle](/help/metrics/spam-traps.md) ist eine gültige Adresse ohne Fehlermeldung, wenn E-Mails an gesendet werden. Eine Spam-Falle hat eine Hauptaufgabe: Spammer oder Absender ohne Datenhygiene identifizieren.
+Eine [Spam-Falle](/help/metrics/spam-traps.md) ist eine technisch gültige Adresse, die keine Fehlermeldung auslöst, wenn E-Mails an sie gesendet werden. Die Hauptaufgabe von Spam-Fallen ist, Spammer oder Absender zu identifizieren, die über keine Verfahren zur Datenbereinigung verfügen.
 
-## Wer verwaltet diese Adressen für Spam-Traps?
+## Wer verwaltet die Adressen für Spam-Fallen?
 
-Der erste Typ von Spam-Trap-Adressen ist die IP und Domain Blockierungsliste Firma wie SpamHaus, Sorbs, SpamCop. Diese Firmen haben ein riesiges Netzwerk von Adressen, die auf verschiedenen Internetseiten versendet werden, wie Website, Blog, Foren, sodass ihre Adressen von Spammer gesammelt werden.
+Eine Art von Spam-Fallen-Adressen basiert auf IP- und Domain-Blockierungslisten von Unternehmen wie SpamHaus, Sorbs und SpamCop. Diese Firmen besitzen ein riesiges Netzwerk von Adressen, die auf verschiedenen Internet-Seiten wie Websites, Blogs und Foren platziert werden, sodass Spammer diese Adressen sammeln.
 
-Der zweite Typ von Spam-Trap basiert auf alten aktiven ISP-Adressen. Diese ISPs verfügen über ein eigenes Spam-Trap-Netzwerk, das auf inaktiven Adressen basiert, die in Trap umgerechnet werden und die IP und den Ruf der Domäne beeinträchtigen.
+Die andere Art von Spam-Fallen basiert auf alten aktiven ISP-Adressen. Diese ISPs haben ihr eigenes Spam-Fallen-Netzwerk, das auf inaktiven Adressen beruht, die in Fallen umgewandelt werden. Jeder Versand an diese Adresse wirkt sich negativ auf die Reputation der Absender-IP und -Domain aus.
 
 ## Funktionsweise
 
-**Eine E-Mail-Adresse ohne Endbenutzer**: Diese Adressen haben und werden nie einen Endbenutzer haben, der sich bei Newslettern oder anderen Kommunikationsformen registrieren kann.
+**Eine E-Mail-Adresse ohne Endbenutzer**: Diese Adressen haben keinen Endbenutzer, der sich für Newsletter oder andere Arten von Kommunikation registrieren könnte, und werden auch nie an einen vergeben.
 
-**Eine von einem Benutzer** abgebrochene E-Mail-Adresse: Nach einer Inaktivität werden Adressen von den ISPs deaktiviert. Absprünge werden an Absender gesendet, um sie über diesen neuen Status zu informieren. Die Absender müssen diese Adressen in Quarantäne setzen oder sie aus der zukünftigen Kommunikation entfernen. ISPs verwenden diese Adressen, die in &quot;Spam-Falle&quot;umgewandelt werden, um Absender mit schlechten Praktiken zu überwachen.
+**Eine von einem Benutzer nicht mehr verwendete E-Mail-Adresse**: Nach einer gewissen Zeit der Inaktivität werden Adressen von den ISPs deaktiviert. Bounce-Nachrichten werden an die Absender gesendet, um sie über diesen neuen Status zu informieren. Absender müssen diese Adressen in Quarantäne verschieben oder sie aus zukünftigen Aussendungen entfernen. ISPs verwenden diese in „Spam-Fallen“ umgewandelten Adressen, um Absender mit unzulässigen Praktiken zu überwachen.
 
 ## Wie erkennt man eine Spam-Falle?
 
-Es ist eine schwierige Aufgabe, Spam-Fallen zu identifizieren, müssen diese Adressen anonym bleiben, da sie zur Identifizierung schlechter Absender verwendet werden. Die meisten ISPs verfügen nicht über ein offenes Klicksystem, um fehlerhafte Absendertreffer zu überwachen. Nach vorherigen Definitionen ist es möglich, einen Pod mit verdächtigen Adressen zu bestimmen und die Effizienz der Pod-Auswahl zu testen.
+Spam-Fallen zu identifizieren ist schwierig. Diese Adressen müssen anonym bleiben, da sie zur Identifizierung unzulässiger Absender verwendet werden. Der Großteil der ISPs verfügt über kein vollautomatisches System zur Überwachung von E-Mails von unzulässigen Absendern. Anhand von früheren Definitionen ist es jedoch möglich, eine Gruppe verdächtiger Adressen zu bestimmen und die Effizienz dieser Auswahl zu testen.
 
 ## Warum ist Ihre Datenbank mit Spam-Fallen infiziert?
 
-Ihre Datenbank mit E-Mail-Adressen enthält Spam-Trap, wie könnte es möglich sein? Die beiden Hauptgründe sind ein Mangel an Hygiene in der Datenbank oder das Sammeln von Funktionsstörungen.
+Ihre Adressdatenbank enthält Spam-Fallen. Wie konnte das passieren? Die beiden Hauptgründe sind ein mangelhaftes Datenbereinigungsverfahren oder eine Fehlfunktion bei der Erfassung.
 
-Diese wenigen Punkte helfen Ihnen dabei, Ihre Prozesse zu überprüfen:
+Anhand dieser Fragen können Sie Ihre Verfahren überprüfen:
 
-* Funktionsstörung erfassen:
-   * Woher kommen Ihre E-Mail-Adressen? Wie viele Quellen werden zur Erfassung dieser Adressen verwendet? Können Sie sie identifizieren? Interne/koregistrierung?
+* Fehlfunktion bei der Erfassung:
+   * Woher kommen Ihre E-Mail-Adressen? Wie viele Quellen werden zur Erfassung dieser Adressen verwendet? Können Sie sie identifizieren? Interne/Co-Registrierung?
    * Funktioniert Ihr Opt-in-System ordnungsgemäß?
-   * Haben Sie die Domänen und den Alias Ihrer Adressen überprüft? Tun Sie es mit der Tabelle unten!
-* Datenbankhygiene:
-   * Wie sieht Ihr Verfahren bezüglich der inaktiven Adresse der letzten 12 Monate aus?
-   * Verarbeiten Sie eine Quarantäne auf Soft Bounces als &quot;Inaktiver Benutzer&quot;?
-   * Wann kümmert du dich das letzte Mal um deine Datenbank und versuchst sie zu bereinigen? Mach es regelmäßig.
+   * Haben Sie die Domains und den Alias Ihrer Adressen überprüft? Sie können dies mit der Tabelle unten tun.
+* Verfahren zur Datenbereinigung:
+   * Wie sieht Ihr Verfahren bei inaktiven Adressen der letzten 12 Monate aus?
+   * Verhängen Sie eine Quarantäne bei Softbounces, indem Sie sie als „inaktive Benutzer“ kennzeichnen?
+   * Wann haben Sie das letzte Mal Ihre Datenbank gepflegt und versucht, sie zu bereinigen? Machen Sie es regelmäßig.
 
-## Alias und Domänen zur Vermeidung
+## Zu vermeidende Aliase und Domains
 
 **Aliase**
 
 ![](../../help/assets/aliases.png)
 
-**Domänen**
+**Domains**
 
 ![](../../help/assets/domains.png)
