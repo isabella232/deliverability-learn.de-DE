@@ -1,21 +1,21 @@
 ---
 title: Infrastruktur
-description: 'Erfahren Sie, was zum ordnungsgemäßen Aufbau einer E-Mail-Infrastruktur erforderlich ist. '
-feature: Transition Process
+description: 'Erfahren Sie, was für den Aufbau einer E-Mail-Infrastruktur erforderlich ist. '
+feature: Transition
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # Infrastruktur
 
@@ -66,8 +66,8 @@ Die Authentifizierung ist der Prozess, mit dem ISPs die Identität eines Absende
 **Campaign**
 
 * In [diesem Abschnitt ](/help/additional-resources/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic oder Standard delegieren.
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
+* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
 * Weitere Informationen zum Implementieren einer Feedback-Schleife für eine Campaign Classic-Instanz finden Sie in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Zusätzliche Ressourcen
