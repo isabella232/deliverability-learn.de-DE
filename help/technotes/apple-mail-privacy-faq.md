@@ -1,18 +1,18 @@
 ---
-title: Häufig gestellte Fragen zum Datenschutz bei Apple Mail - 23. Juni 2021
-description: Häufig gestellte Fragen zum Datenschutz bei Apple Mail - 23. Juni 2021
+title: Häufig gestellte Fragen zum Datenschutz bei Apple Mail
+description: Häufig gestellte Fragen zum Datenschutz bei Apple Mail
 feature: Zustellbarkeit
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: fe42e3a1edfb48192fd1bb3b811247fcd528ab05
+source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen zum Datenschutz bei Apple Mail - 23. Juni 2021
+# Häufig gestellte Fragen zum Datenschutz bei Apple Mail
 
 Diese häufig gestellten Fragen enthalten erste Anleitungen als Reaktion auf die Ankündigung von Apple bezüglich der iOS 15-Version, einschließlich [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Diese Änderungen werden im September vorgenommen, und wir werden dieses Dokument weiter aktualisieren und unseren Kunden Leitlinien an die Hand geben.
 
