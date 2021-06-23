@@ -5,7 +5,7 @@ feature: Zustellbarkeit
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Das Tracking von Pixeln in Apple Mail wird deaktiviert, was bedeutet, dass Marke
 
 ## Gibt es weitere Auswirkungen?
 
-Apple blendet standardmäßig IP-Adressinformationen in der nativen Mail-App, im Safari-Browser und in den iCloud-Diensten aus. Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom E-Mail-Datenschutzschutz von Apple betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Diese Änderungen bedeuten, dass Marketing-Experten
-muss mit der Planung beginnen, um zu bestimmen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe hilft unseren Kunden, diese Veränderungen durch Aktualisierungen, Anleitungen und Gedankenführung zu bewältigen.
+Apple blendet standardmäßig IP-Adressinformationen in der nativen Mail-App, im Safari-Browser und in den iCloud-Diensten aus. Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom E-Mail-Datenschutzschutz von Apple betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Diese Änderungen bedeuten, dass Marketing-Experten planen müssen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe hilft unseren Kunden, diese Veränderungen durch Aktualisierungen, Anleitungen und Gedankenführung zu bewältigen.
 
 ## Betrifft diese Mitteilung alle auf einem Apple-Gerät geöffneten E-Mails?
 
