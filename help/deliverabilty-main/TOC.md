@@ -2,16 +2,15 @@
 user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
-translation-type: ht
-source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
 
-# Best-Practice-Leitfaden zur Zustellbarkeit mit Adobe Campaign{#deliverability-best-practice-guide}
+# Best-Practice-Leitfaden zur Zustellbarkeit mit Adobe Campaign {#deliverability-best-practice-guide}
 
 + [Einführung](/help/introduction.md)
 + [Strategie und Definition der Zustellbarkeit](/help/deliverability-strategy-and-definition.md)
@@ -23,10 +22,10 @@ ht-degree: 100%
    + [Bulking und Blockieren](/help/metrics/bulking-and-blocking.md)
 + [Interaktion](/help/engagement.md)
 + Transformationsprozess – Wechsel zwischen E-Mail-Plattformen {#transition-process}
-   + [Reibungslose Transition beim Wechsel von E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
+   + [Reibungsloser Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
    + [Infrastruktur](/help/transition-process/infrastructure.md)
    + [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)
-   + [ISP-spezifische Überlegungen während der IP-Erwärmung](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
+   + [ISP-spezifische Überlegungen beim IP-Warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
    + [Volumen](/help/transition-process/volume.md)
 + Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails {#first-impressions}
    + [Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/introduction.md)
@@ -57,3 +56,6 @@ ht-degree: 100%
          + [SSL-Zertifikatanforderungsvorgang](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
++ Technotes (ausgeblendet){#technotes}
+   + [Apple-Datenschutz](/help/technotes/apple-mail-privacy-faq.md)
+
