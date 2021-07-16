@@ -3,9 +3,9 @@ user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,6 @@ ht-degree: 97%
          + [SSL-Zertifikatanforderungsvorgang](/help/additional-resources/ac-ssl-certificate-request.md)
          + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
-+ Technotes (ausgeblendet){#technotes}
++ Technotes (hidden){#technotes}
    + [Apple-Datenschutz](/help/technotes/apple-mail-privacy-faq.md)
 
