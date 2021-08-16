@@ -1,31 +1,30 @@
 ---
-title: ISP-spezifische Aspekte bei der IP-Erwärmung
-description: null
+title: ISP-spezifische Überlegungen beim IP-Warming
+description: ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist.
 topics: Deliverability
 kt: 7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
+source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 16%
 
 ---
 
+# ISP-spezifische Überlegungen beim IP-Warming
 
-# ISP-spezifische Aspekte bei der IP-Erwärmung
+ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Gmail ist beispielsweise einer der komplexesten ISPs, da sie neben allen anderen Reputationsmaßnahmen die Interaktion sehr genau (Öffnungen und Klicks) betrachten. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist. Andere ISPs erfordern möglicherweise auch dasselbe. Wenden Sie sich an Ihren Adobe Delivery Consultant, um einen spezifischen Plan zu erstellen.
 
-ISPs haben unterschiedliche Regeln und verschiedene Arten, ihren Traffic zu betrachten. Beispielsweise ist Gmail einer der ausgefeiltesten ISPs, weil sie sich neben allen anderen Reputationsmaßnahmen auch sehr streng mit dem Einsatz (Öffnen und Klicken) auseinander setzen. Dies erfordert einen angepassten Plan, bei dem nur die am häufigsten verwendeten Benutzer zu Beginn der Anwendung Zielgruppe werden. Andere ISPs erfordern möglicherweise dasselbe. Wenden Sie sich an Ihren Berater für die Adobe, um einen spezifischen Plan zu erstellen.
-
-Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden Anbietergruppe finden Sie im Abschnitt [Internet-Dienstleister-Spezifikationen](/help/internet-service-provider-specifics/overview.md):
+Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausgewählten Gruppe von Anbietern finden Sie im Abschnitt [Internet Service Provider-Spezifikationen](/help/internet-service-provider-specifics/overview.md) .
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
-* [Verizon Media Group (Yahoo, AOL, Verizon usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
+* [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie mehr über die Verbesserung Ihres E-Mail-Rufs durch IP-Erwärmung in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* In [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md) erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming.
