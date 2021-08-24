@@ -1,37 +1,34 @@
 ---
-title: Targeting-Kriterien
-description: Erfahren Sie, wie Sie einen guten Ruf von get-go aus aufbauen können, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Audiencen einführen.
-feature: Transition Process
+title: Kriterien für die Zielgruppenbestimmung
+description: Lernen Sie, wie Sie von Anfang an einen guten Ruf aufbauen, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Zielgruppen ansprechen.
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: e6a855ba-a929-477f-a339-6861a755a529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 8%
+source-wordcount: '206'
+ht-degree: 22%
 
 ---
 
+# Kriterien für die Zielgruppenbestimmung
 
-# Targeting-Kriterien
+Wenn Sie neuen Traffic senden, sollten Sie nur Ihre am meisten engagierten Benutzer in den frühen Phasen der IP-Erwärmung ansprechen. Dies trägt dazu bei, eine positive Reputation aus dem &quot;get-go&quot;-Programm herzustellen, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Zielgruppen einbinden. Hier finden Sie eine grundlegende Formel für die Interaktion:
 
-Beim Versand von neuem Traffic sollten Sie nur die Zielgruppe Ihrer am meisten engagierten Benutzer während der ersten Phase der IP-Erwärmung vornehmen. Dies hilft, einen positiven Ruf von get-go zu etablieren, um effektiv Vertrauen aufzubauen, bevor Sie Ihre weniger engagierten Audiencen einführen. Hier ist eine grundlegende Formel für Interaktionen:
+![Interaktionsformel](../assets/formula-for-enagement.png)
 
-![Einsatzformel](../assets/formula-for-enagement.png)
-
-In der Regel basiert eine Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann drastisch variieren, je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Mailing-Typen oder Kampagnen angewendet wird. Die spezifischen Targeting-Kriterien müssen durch die Zusammenarbeit mit Ihrem Berater für die Adobe bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen angepassten Plan benötigt.
+In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Versandtypen oder Kampagnen angewendet wird, stark variieren. Die spezifischen Targeting-Kriterien müssen von Ihrem Adobe Delivery Consultant bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen benutzerdefinierten Plan erfordert.
 
 ## Produktspezifische Ressourcen
 
 **Analytics**
 
-* [Erhöhung der Interaktions- und Retentionsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifizieren Sie mit Cohorts belegte Audiencen anhand ihres Verhaltens und kennen Sie die zugrunde liegenden Ursachen, die die Stickiness in Ihren mobilen Apps fördern. Verwenden Sie Data Science-Algorithmen in Segment-IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu überblicken.*
+* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und kennen Sie die zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Data Science-Algorithmen in Segment-IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu überblicken.*
 
 **Campaign Standard**
 
-* [AI-basierte E-Mails: Bewertung der voraussichtlichen Interaktion](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
-
+* [KI-gestützte E-Mails: Prädiktive Interaktionsbewertung](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
