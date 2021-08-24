@@ -1,27 +1,25 @@
 ---
 title: Zusätzliche Ressourcen
-description: In diesem Abschnitt werden eine Reihe zusätzlicher Ressourcen zur Lieferbarkeit Liste.
-feature: Additional resources
+description: In diesem Abschnitt finden Sie eine Reihe zusätzlicher Ressourcen zur Zustellbarkeit.
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 21%
+source-wordcount: '99'
+ht-degree: 39%
 
 ---
-
 
 # Zusätzliche Ressourcen - Übersicht
 
 ## Allgemeine Ressourcen
 
-In diesem Abschnitt werden einige zusätzliche Ressourcen zur Bereitstellbarkeit Liste, z. B. spezielle Empfehlungen und Best Practices, andere Tools oder Fehlerbehebungsverfahren.
+In diesem Abschnitt finden Sie einige zusätzliche Ressourcen zur Zustellbarkeit, z. B. spezifische Empfehlungen und Best Practices, andere Tools oder Verfahren zur Fehlerbehebung.
 
 * [Alles über Spam-Fallen](../../help/additional-resources/all-about-spam-traps.md)
 * [E-Mail-Reputation mit IP-Warming verbessern](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -37,11 +35,11 @@ In diesem Abschnitt werden einige zusätzliche Ressourcen zur Bereitstellbarkeit
 
 ## Produktspezifische Ressourcen
 
-Darüber hinaus werden in diesem Abschnitt eine Reihe produktspezifischer Ressourcen Liste, die Ihnen bei der Implementierung der Bereitstellbarkeit und der Erzielung eines Erfolgs mit Ihren Adoben helfen.
+Darüber hinaus finden Sie in diesem Abschnitt eine Reihe produktspezifischer Ressourcen, die Ihnen bei der Implementierung der Zustellbarkeit und der erfolgreichen Umsetzung Ihrer Adobe-Lösungen helfen.
 
 **Campaign**
 
-* [Domänenname einrichten](../../help/additional-resources/ac-domain-name-setup.md)
+* [Domain-Namen einrichten](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR- und SSL-Zertifikatanforderungsprozess](../../help/additional-resources/ac-ssl-certificate-request.md)
 * [Einrichten einer neuen Plattform](../../help/additional-resources/ac-starting-new-platform.md)
-* [Campaign Classic - Technische Empfehlungen](../../help/additional-resources/acc-technical-recommendations.md)
+* [Campaign Classic – Technische Empfehlungen](../../help/additional-resources/acc-technical-recommendations.md)
