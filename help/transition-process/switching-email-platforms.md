@@ -1,35 +1,33 @@
 ---
-title: Transition beim Wechsel von E-Mail-Plattformen reibungslos.
-description: 'Beim Verschieben von E-Mail-Dienstleistern (ESPs) ist es nicht möglich, auch Ihre bestehenden, etablierten IP-Adressen Transition. Es ist wichtig, dass Sie Best Practices für die Entwicklung eines positiven Rufs beim Neustarten befolgen. '
-feature: Deliverability
+title: Reibungsloser Wechsel zwischen E-Mail-Plattformen.
+description: 'Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch bestehende, etablierte IP-Adressen zu übersetzen. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln. '
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
+exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
 
+# Reibungsloser Wechsel zwischen E-Mail-Plattformen
 
-# So wechseln Sie beim reibungslosen Transition von E-Mail-Plattformen
+Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch Ihre vorhandenen, etablierten IP-Adressen zu überarbeiten. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln. Da die neuen IP-Adressen, die Sie verwenden werden, noch nicht über die Reputation verfügen, können ISPs den von ihnen stammenden E-Mails nicht vollständig vertrauen und müssen bei der Zustellung an ihre Kunden vorsichtig sein.
 
-Beim Verschieben von E-Mail-Dienstleistern (ESPs) ist es nicht möglich, auch Ihre bestehenden, etablierten IP-Adressen Transition. Es ist wichtig, dass Sie Best Practices für die Entwicklung eines positiven Rufs beim Neustarten befolgen. Da die neuen IP-Adressen, die Sie verwenden werden, noch nicht bekannt sind, können ISPs der E-Mail, die von ihnen stammt, nicht voll vertrauen und müssen vorsichtig sein, was sie für die Zustellung an ihre Kunden zulassen.
+Ein positiver Ruf ist ein Prozess. Sobald es aber erwiesen ist, haben kleine negative Indikatoren weniger Einfluss auf Sie und Ihren E-Mail-Versand.
 
-Ein positiver Ruf ist ein Prozess. Aber sobald sie eingerichtet ist, haben kleine negative Indikatoren weniger Einfluss auf Sie und Ihren E-Mail-Versand.
+![Übergangsprozess](../assets/transition-process.png)
 
-![Transition](../assets/transition-process.png)
+Die Dauer der Aufwärmphase Ihrer IP-Adressen und Domänen kann variieren, doch für typische Absender ist es üblich, bis zu einem achtwöchigen Benchmark eine Reputation bei höchstens Tier-1-ISPs herzustellen (Gmail, Microsoft, Verizon/Yahoo/AOL usw.).
 
-Die Wartezeit zum Aufwärmen Ihrer IP-Adressen und Domänen kann unterschiedlich sein, aber für typische Absender ist es üblich, bis zu acht Wochen lang einen Ruf bei den meisten Tier-1-ISPs (Gmail, Microsoft, Verizon/Yahoo/AOL usw.) zu etablieren.
-
-In den nächsten Abschnitten werden wir einige Schlüsselbereiche untersuchen, auf die wir uns auf die korrekte Einführung an Bord konzentrieren sollten:
+In den nächsten Abschnitten werden wir einige Schlüsselbereiche untersuchen, auf die wir uns auf die richtige Integration konzentrieren können:
 
 1. [Infrastruktur](/help/transition-process/infrastructure.md)
-2. [Targeting-Kriterien](/help/transition-process/targeting-criteria.md)
-3. [ISP-spezifische Aspekte bei der IP-Erwärmung](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
+2. [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)
+3. [ISP-spezifische Überlegungen beim IP-Warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
 4. [Volumen](/help/transition-process/volume.md)
