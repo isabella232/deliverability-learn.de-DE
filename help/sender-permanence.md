@@ -1,34 +1,32 @@
 ---
-title: Absenderpermanenz
-description: Die Entsendung von Dauerhaftigkeit ist der Prozess der Schaffung eines konsistenten Entsendungsvolumens und einer konsistenten Strategie, um den Ruf des ISP zu erhalten.
-feature: Sender Permanence
+title: Regelmäßiger Versand
+description: Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren.
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+exl-id: f57de522-1361-43a3-8f8b-f9a191986529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
+# Regelmäßiger Versand
 
-# Absenderpermanenz
+Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren. Im Folgenden finden Sie einige Gründe, warum eine permanente Absender-Nutzung wichtig ist:
 
-Die Entsendung von Dauerhaftigkeit ist der Prozess der Schaffung eines konsistenten Entsendungsvolumens und einer konsistenten Strategie, um den Ruf des ISP zu erhalten. Aus den folgenden Gründen ist eine permanente Absender-Funktion wichtig:
+* Spammer werden normalerweise &quot;IP-Adressenwechsel&quot;durchführen, d. h. sie verschieben den Traffic über viele IP-Adressen hinweg, um Reputationsprobleme zu vermeiden.
+* Konsistenz ist wichtig, um ISPs zu beweisen, dass der Absender seriös ist und nicht versucht, Reputationsprobleme zu umgehen, die auf schlechte Versandpraktiken zurückzuführen sind.
+* Die Aufrechterhaltung dieser konsistenten Strategien über einen langen Zeitraum hinweg ist erforderlich, bevor einige ISPs die Reputation des Absenders überhaupt berücksichtigen.
 
-* Spammers werden normalerweise &quot;IP-Adressenhop&quot;genannt, d. h., sie verschieben den Traffic über viele IP-Adressen hinweg, um Reputationsfehler zu vermeiden.
-* Konsistenz ist der Schlüssel zum Nachweis, dass der Absender seriös ist und nicht versucht, Reputationsprobleme zu umgehen, die auf schlechte Versandmethoden zurückzuführen sind.
-* Die Beibehaltung dieser konsistenten Strategien über einen langen Zeitraum hinweg ist erforderlich, bevor einige ISPs die seriöse Absender überhaupt in Betracht ziehen.
+**Im Folgenden finden Sie einige Beispiele:**
 
-**Hier einige Beispiele:**
+![Gute Versandlaufzeit](assets/Sender_Permanence_1.png)
 
-![Gute Entsendungsbeständigkeit](assets/Sender_Permanence_1.png)
+![Schlechte Dauer des Versands](assets/Sender_Permanence_2.png)
 
-![Schlechte Bereitschaftszeit beim Senden](assets/Sender_Permanence_2.png)
-
-![Zulässige Entsendungsbeständigkeit](assets/Sender_Permanence_3.png)
+![Zulässige Versandlaufzeit](assets/Sender_Permanence_3.png)
