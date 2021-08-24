@@ -1,45 +1,43 @@
 ---
 title: Laufende Überwachung
 description: Nach welchen Problemen müssen Sie suchen?
-feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 9%
+source-wordcount: '202'
+ht-degree: 35%
 
 ---
 
-
 # Laufende Überwachung
 
-Hier einige Möglichkeiten, ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
+Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
 
-* Es gibt eine beobachtete Spitze in harten oder weichen Absprüngen. Dies könnte ein Hinweis auf eine Blockliste oder eine andere Frage der Lieferbarkeit sein.
-* Die Anzahl der offenen und Klickmetriken ist deutlich zurückgegangen, während die bereitgestellten Raten hoch bleiben. Dies ist ein Hinweis auf eine potenzielle Platzierung von Massenordnern.
-* Die Zahl der Beschwerden nimmt erheblich zu. Dies kann auf eine schlechte Qualität der Liste zurückzuführen sein.
-* Sie haben strategische Initiativen, die sich auf die Lieferbarkeit auswirken könnten. Dazu gehören u. a. die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und Kampagne.
+* Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder andere Zustellbarkeitsprobleme hindeuten.
+* Die Öffnungs- und Klickmetriken nehmen merklich ab, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
+* Die Zahl der Beschwerden nimmt beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
+* Sie verfügen über strategische Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und des Kampagnentyps.
 
 ## Produktspezifische Ressourcen
 
 **Adobe Campaign Classic**
 
-* [Überwachung der Versand](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [Versandberichte](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)
-* [Zustellbarkeit überwachen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
+* [Überwachen des Versands](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=de)
+* [Versandberichte](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=de)
+* [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=de)
 
-**Adobe Campaign Standard **
+**Adobe Campaign Standard**
 
-* [Versand beobachten](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Überwachen eines Versands](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=de)
 * [Versandzusammenfassung](https://docs-author-stg.corp.adobe.com/content/help/en/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
-* [Zustellbarkeit überwachen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
+* [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=de#testing-and-sending)
 
 ## Zusätzliche Ressourcen
 
-* In [diesem Abschnitt ](/help/additional-resources/troubleshooting.md) erfahren Sie, wie Sie Bereitstellungsprobleme beheben können.
+* In [diesem Abschnitt](/help/additional-resources/troubleshooting.md) erfahren Sie, wie Sie Zustellbarkeitsprobleme beheben können.
