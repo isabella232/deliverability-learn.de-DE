@@ -1,7 +1,6 @@
 ---
 title: Domain-Namen einrichten
 description: Erfahren Sie, wie Sie Adobe Campaign eine Subdomain zuweisen.
-feature: Praktische Umsetzung
 topics: Deliverability
 kt: null
 thumbnail: null
@@ -9,10 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '2032'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '2028'
 ht-degree: 100%
 
 ---
