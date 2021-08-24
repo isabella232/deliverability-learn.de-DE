@@ -1,25 +1,23 @@
 ---
-title: Campaign Classic - Technische Empfehlungen
+title: Campaign Classic – Technische Empfehlungen
 description: Entdecken Sie Techniken, Konfigurationen und Werkzeuge zur Verbesserung Ihrer Zustellrate mit Adobe Campaign Classic.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 60%
+source-wordcount: '1606'
+ht-degree: 63%
 
 ---
 
+# Campaign Classic – Technische Empfehlungen {#technical-recommendations}
 
-# Campaign Classic - Technische Empfehlungen {#technical-recommendations}
-
-Im Folgenden werden verschiedene Techniken, Konfigurationen und Tools aufgeführt, mit denen Sie die Bereitstellungsrate bei Verwendung von Adobe Campaign Classic verbessern können.
+Nachfolgend sind verschiedene Techniken, Konfigurationen und Tools aufgeführt, mit denen Sie Ihre Zustellrate bei Verwendung von Adobe Campaign Classic verbessern können.
 
 ## Konfiguration {#configuration}
 
@@ -39,19 +37,19 @@ Die Wahl der Domain für ein Reverse DNS hat Auswirkungen auf den Umgang mit bes
 
 MX-Regeln (Mail eXchanger) dienen zur Verwaltung der Kommunikation zwischen einem Sender- und einem Empfangs-Server.
 
-Genauer gesagt werden sie dazu verwendet, die Geschwindigkeit zu steuern, mit der das Adobe Campaign MTA (Message Transfer Agent) E-Mails an jede einzelne E-Mail-Domäne oder jeden ISP sendet (z. B. hotmail.com, comcast.net). Diese Regeln basieren in der Regel auf den von den ISPs veröffentlichten Beschränkungen (etwa nicht mehr als 20 Meldungen pro SMTP-Verbindung).
+Genauer gesagt werden sie verwendet, um die Geschwindigkeit zu steuern, mit der der Adobe Campaign MTA (Message Transfer Agent) E-Mails an jede E-Mail-Domain oder jeden ISP sendet (z. B. hotmail.com, comcast.net). Diese Regeln basieren in der Regel auf Beschränkungen, die von den ISPs veröffentlicht werden (z. B. nicht mehr als 20 Nachrichten pro SMTP-Verbindung).
 
 >[!NOTE]
 >
->Weitere Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie in diesem Abschnitt [unter ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Weiterführende Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
 : TLS (Transport Layer Security) ist ein Verschlüsselungsprotokoll zur Sicherung der Verbindung zwischen zwei E-Mail-Servern. Damit wird sichergestellt, dass die E-Mail nur vom beabsichtigten Empfänger gelesen werden kann.
 
-### Domäne des Absenders {#sender-domain}
+### Domain des Absenders {#sender-domain}
 
-Um die für den HELO-Befehl verwendete Domäne zu definieren, bearbeiten Sie die Konfigurationsdatei der Instanz (conf/config-instance.xml) und definieren Sie ein Attribut &quot;localDomain&quot;wie folgt:
+Um die für den HELO-Befehl verwendete Domain zu definieren, bearbeiten Sie die Konfigurationsdatei der Instanz (conf/config-instance.xml) und definieren Sie das Attribut &quot;localDomain&quot; wie folgt:
 
 ```
 <serverConf>
@@ -61,21 +59,21 @@ Um die für den HELO-Befehl verwendete Domäne zu definieren, bearbeiten Sie die
 </serverConf>
 ```
 
-Die Domäne MAIL VON ist die Domäne, die in technischen Absprungmeldungen verwendet wird. Diese Adresse wird im Bereitstellungsassistenten oder über die Option NmsEmail_DefaultErrorAddr definiert.
+Die Domäne MAIL FROM ist die Domäne, die in technischen Bounce Messages verwendet wird. Diese Adresse wird im Softwareverteilungs-Assistenten oder über die Option NmsEmail_DefaultErrorAddr definiert.
 
 ### SPF-Datensatz {#dns-configuration}
 
-Ein SPF-Datensatz kann derzeit auf einem DNS-Server als TXT-Typdatensatz (Code 16) oder als SPF-Typdatensatz (Code 99) definiert werden. Ein SPF-Datensatz wird in Form einer Zeichenfolge ausgegeben. Beispiel:
+Ein SPF-Eintrag kann derzeit auf einem DNS-Server als TXT-Eintrag (Code 16) oder als SPF-Eintrag (Code 99) definiert werden. Ein SPF-Datensatz hat die Form einer Zeichenfolge. Beispiel:
 
 ```
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als autorisiert, E-Mails für die Domäne zu senden. **~** allesamt bedeutet, dass jede andere Adresse als SoftFail interpretiert werden sollte.
+definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als berechtigt, E-Mails für die Domain zu senden. **~** bedeutet, dass jede andere Adresse als SoftFail interpretiert werden sollte.
 
 Recommendations zum Definieren eines SPF-Datensatzes:
 
-* hinzufügen **~all** (SoftFail) oder **-all** (Fail) am Ende, um alle anderen als die definierten Server abzulehnen. Andernfalls können Server diese Domäne (mit einer neutralen Auswertung) formen.
+* Fügen Sie am Ende **~all** (SoftFail) oder **-all** (Fail) hinzu, um alle Server abzulehnen, die nicht definiert sind. Andernfalls können Server diese Domain (mit einer neutralen Auswertung) fälschen.
 * Fügen Sie nicht **ptr** hinzu (openspf.org empfiehlt dies als kostspielig und unzuverlässig).
 
 >[!NOTE]
@@ -94,17 +92,17 @@ Recommendations zum Definieren eines SPF-Datensatzes:
 >
 >Bei gehosteten oder hybriden Installationen erfolgt die DKIM-E-Mail-Authentifizierungssignatur für alle Nachrichten mit allen Domains durch den Enhanced MTA, wenn Sie auf den [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages) aktualisiert haben.
 
-Die Verwendung von [DKIM](/help/additional-resources/authentication.md#dkim) mit Adobe Campaign Classic erfordert folgende Voraussetzung:
+Für die Verwendung von [DKIM](/help/additional-resources/authentication.md#dkim) mit Adobe Campaign Classic ist die folgende Voraussetzung erforderlich:
 
-**Adobe Campaign-Optionsdeklaration**: In Adobe Campaign basiert der DKIM-Privatschlüssel auf einem DKIM-Selektor und einer Domäne. Es ist derzeit nicht möglich, mehrere private Schlüssel für dieselbe Domäne/Subdomäne mit verschiedenen Selektoren zu erstellen. Es ist nicht möglich zu definieren, welche Selektordomäne/Subdomäne weder für die Plattform noch für die E-Mail-Authentifizierung verwendet werden muss. Die Plattform wählt alternativ einen der privaten Schlüssel aus, was bedeutet, dass die Authentifizierung eine hohe Wahrscheinlichkeit hat, dass es nicht funktioniert.
+**Adobe Campaign-Optionsdeklaration**: in Adobe Campaign basiert der private DKIM-Schlüssel auf einem DKIM-Selektor und einer Domäne. Es ist derzeit nicht möglich, mehrere private Schlüssel für dieselbe Domäne/Subdomäne mit verschiedenen Selektoren zu erstellen. Es ist nicht möglich zu definieren, welche Selektordomäne/Subdomäne für die Authentifizierung in weder der Plattform noch der E-Mail verwendet werden muss. Die Plattform wählt alternativ einen der privaten Schlüssel aus, was bedeutet, dass die Authentifizierung mit hoher Wahrscheinlichkeit fehlschlägt.
 
-* Wenn Sie DomainKeys für Ihre Adobe Campaign-Instanz konfiguriert haben, müssen Sie nur **dkim** in den [Domain-Verwaltungsregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules) auswählen. Andernfalls führen Sie die gleichen Konfigurationsschritte (privater/öffentlicher Schlüssel) wie bei DomainKeys (der DKIM ersetzt hat) aus.
+* Wenn Sie DomainKeys für Ihre Adobe Campaign-Instanz konfiguriert haben, müssen Sie nur **dkim** in den [Domain-Verwaltungsregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules) auswählen. Wenn nicht, führen Sie dieselben Konfigurationsschritte (privater/öffentlicher Schlüssel) wie für DomainKeys aus (der DKIM ersetzt hat).
 * Es ist nicht notwendig, sowohl DomainKeys als auch DKIM für dieselbe Domain zu aktivieren, da es sich bei DKIM um eine verbesserte Version von DomainKeys handelt.
 * Folgende Domains validieren aktuell DKIM: AOL, Gmail.
 
 ## Feedback Loops {#feedback-loop-acc}
 
-Eine Feedback-Schleife funktioniert, indem auf der ISP-Ebene eine bestimmte E-Mail-Adresse für einen Bereich von IP-Adressen angegeben wird, der zum Senden von Nachrichten verwendet wird. Der ISP wird die Nachrichten, die von Empfängern als Spam gemeldet werden, auf ähnliche Weise an diesen Posteingang senden wie bei Bounce-Nachrichten. Die Plattform sollte so konfiguriert sein, dass zukünftige Sendungen für Benutzer, die sich beschwert haben, blockiert werden. Es ist wichtig, dass sie nicht mehr kontaktiert werden, auch wenn sie nicht den richtigen Ausschluss-Link verwendet haben. Auf der Grundlage dieser Beschwerden wird einem ISP eine IP-Adresse zu seiner Blockierungsliste hinzugefügt. Je nach ISP wird eine Beschwerderate von etwa 1 % dazu führen, dass eine IP-Adresse blockiert wird.
+Eine Feedback-Schleife funktioniert, indem auf der ISP-Ebene eine bestimmte E-Mail-Adresse für einen Bereich von IP-Adressen angegeben wird, der zum Senden von Nachrichten verwendet wird. Der ISP wird die Nachrichten, die von Empfängern als Spam gemeldet werden, auf ähnliche Weise an diesen Posteingang senden wie bei Bounce-Nachrichten. Die Plattform sollte so konfiguriert sein, dass zukünftige Sendungen für Benutzer, die sich beschwert haben, blockiert werden. Es ist wichtig, dass sie nicht mehr kontaktiert werden, auch wenn sie nicht den richtigen Ausschluss-Link verwendet haben. Auf der Grundlage dieser Beschwerden fügt ein ISP seiner Blockierungsliste eine IP-Adresse hinzu. Je nach ISP wird eine Beschwerderate von etwa 1 % dazu führen, dass eine IP-Adresse blockiert wird.
 
 Aktuell wird an der Konzeption eines Standards für das Format von Feedback-Loop-Nachrichten gearbeitet: das [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -115,8 +113,8 @@ Zur Implementierung eines Feedback Loops für eine Instanz sind folgende Element
 
 Die Implementierung eines einfachen Feedback Loop in Adobe Campaign verwendet die Bounce-Nachrichtenfunktionalität. Das Feedback Loop-Postfach wird als ein Bounce-Postfach verwendet. Es wird eine Regel zur Erkennung dieser Nachrichten definiert. Die E-Mail-Adressen der Empfänger, die die Nachricht als Spam gemeldet haben, werden der Quarantäneliste hinzugefügt.
 
-* Erstellen oder ändern Sie eine Absprungmail-Regel, **Feedback_loop**, in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** mit dem Grund **Verweigert** und dem Typ **Hard**.
-* Wenn ein Mailbox speziell für die Feedback-Schleife definiert wurde, definieren Sie die Parameter, um darauf zuzugreifen, indem Sie ein neues externes Bounce-Mails-Konto in **[!UICONTROL Administration > Platform > External accounts]** erstellen.
+* Erstellen oder bearbeiten Sie im Knoten **[!UICONTROL Administration > Kampagnen > Unzustellbarkeitsverwaltung > E-Mail-Regeln]** eine Bounce-Message-Regel **Feedback_loop** und geben Sie dabei den Grund **Abgelehnt** sowie den Typ **Hard** an.
+* Wenn speziell für das Feedback Loop ein Postfach definiert wurde, definieren Sie die dafür geltenden Zugriffsparameter, indem Sie unter **[!UICONTROL Administration > Plattform > Externe Konten]** ein neues externes Bounce-Message-Konto erstellen.
 
 Der Mechanismus zur Verarbeitung von Beschwerdebenachrichtigungen ist sofort funktionstüchtig. Um die korrekte Funktionsweise der Regel sicherzustellen, können Sie die Konten zeitweise deaktivieren, damit sie diese Nachrichten nicht abrufen. Sie können die Inhalte des Feedback-Loop-Postfachs dann manuell überprüfen. Führen Sie auf dem Server die folgenden Befehle aus:
 
@@ -165,9 +163,9 @@ Die folgende Befehlszeile kann zum Zweck der Erstellung eines dynamischen **List
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Schaltfläche zum Abbestellen ist direkt in ihrer Oberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
+Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Abmelde-Schaltfläche ist direkt in ihrer Benutzeroberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
 
-Sie können **Liste-Abmeldung** entweder implementieren, indem Sie
+Sie können **List-Unsubscribe** implementieren, indem Sie:
 
 * Direktes [Hinzufügen der Befehlszeile in der Versandvorlage](#adding-a-command-line-in-a-delivery-template)
 * [Erstellung einer Typologieregel](#creating-a-typology-rule)
@@ -200,7 +198,7 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 >[!NOTE]
 >
->Erfahren Sie, wie Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules) Typologieregeln in Adobe Campaign Classic erstellen.
+>In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules) erfahren Sie, wie Sie Typologieregeln in Adobe Campaign Classic erstellen.
 
 ## E-Mail-Optimierung {#email-optimization}
 
@@ -208,9 +206,9 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 SMTP (Simple Mail Transfer Protocol) ist ein Internet-Standard für die E-Mail-Übertragung.
 
-Die SMTP-Fehler, die nicht von einer Regel überprüft werden, werden im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** aufgelistet. Diese Fehlermeldungen werden standardmäßig als unerreichbar weiche Fehler interpretiert.
+Die SMTP-Fehler, die nicht von einer Regel überprüft werden, sind im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Versandlogqualifizierung]** aufgeführt. Diese Fehlermeldungen werden standardmäßig als unerreichbare Softbounces interpretiert.
 
-Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** hinzugefügt werden, wenn Sie das Feedback von den SMTP-Servern korrekt qualifizieren möchten. Andernfalls führt die Plattform unnötige weitere Zustellversuche durch (bei Unbekannten Nutzern) oder legt nach einer bestimmten Anzahl von Tests fälschlicherweise bestimmte Empfänger in die Quarantäne.
+Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel in **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL E-Mail-Regelsätze]** hinzugefügt werden, wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
 
 ### Dedizierte IP-Adressen {#dedicated-ips}
 
