@@ -1,7 +1,6 @@
 ---
-title: Lautstärke - Tipps für eine reibungslose Transition
-description: Die Anzahl der Mails, die Sie senden, ist entscheidend, um einen positiven Ruf zu schaffen. Erfahren Sie, was Sie mit der Transition gut machen können.
-feature: Transition
+title: Lautstärke - Tipps für einen reibungslosen Übergang
+description: Das Volumen der gesendeten E-Mails ist entscheidend für einen positiven Ruf. Erfahren Sie, was Sie für einen reibungslosen Übergang tun können.
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg
@@ -9,50 +8,49 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-translation-type: tm+mt
-source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
 
 # Volumen
 
-Die Anzahl der Mails, die Sie senden, ist entscheidend, um einen positiven Ruf zu schaffen. Legen Sie sich in einen ISPs Schuhe — Wenn Sie einen Beginn sehen, der eine Tonne Traffic von jemandem sieht, den Sie nicht kennen, wäre das alarmierend. Die sofortige Versendung großer Mengen von E-Mails ist riskant und wird mit Sicherheit zu Reputationsproblemen führen, die oft schwer zu lösen sind. Es kann frustrierend, zeitaufwendig und kostspielig sein, sich selbst aus schlechter Reputation zu befreien und Probleme zu krümmen und zu blockieren, die sich daraus ergeben, dass sie zu früh gesendet werden.
+Das Volumen der gesendeten E-Mails ist entscheidend für einen positiven Ruf. Setzen Sie sich in die Schuhe eines ISPs - wenn Sie eine Menge Traffic von jemandem sehen, den Sie nicht kennen, wäre das alarmierend. Der sofortige Versand großer Mengen von E-Mails ist riskant und verursacht sicher Reputationsprobleme, die häufig schwer zu lösen sind. Es kann frustrierend, zeitaufwendig und kostspielig sein, sich aus der schlechten Reputation zu befreien und Probleme zu schüren und zu blockieren, die sich aus dem Versand zu viel zu früh ergeben.
 
-Die Mengenschwellenwerte variieren je nach ISP und können auch je nach Ihren durchschnittlichen Einsatzmetriken variieren. Einige Absender benötigen eine sehr niedrige und langsame Mengenrampe, während andere eine stärkere Mengenrampe ermöglichen. Wir empfehlen die Zusammenarbeit mit einem Experten, wie einem Berater für Adobe-Lieferbarkeit, um einen maßgeschneiderten Volumenplan zu entwickeln.
+Die Volumenschwellen variieren je nach ISP und können abhängig von Ihren durchschnittlichen Interaktionsmetriken variieren. Einige Absender benötigen eine sehr geringe und langsame Rampe, während andere eine stärkere Rampe ermöglichen können. Es wird empfohlen, mit einem Experten wie einem Berater für die Zustellbarkeit von Adoben zusammenzuarbeiten, um einen benutzerdefinierten Volumenplan zu erstellen.
 
-Hier finden Sie eine Liste mit Hinweisen und Tipps zur reibungslosen Transition:
+Hier finden Sie eine Liste mit Hinweisen und Tipps für einen reibungslosen Übergang:
 
-* **** Permissionist die Grundlage für jedes erfolgreiche E-Mail-Programm.
-* **Niedrig und langsam** — Beginn mit niedrigen Versandvolumen und erhöhen sich dann, wenn Sie Ihren Ruf als Absender feststellen.
-* Eine **Tandempostversand-Strategie** ermöglicht es Ihnen, das Volumen bei der Kampagne zu erhöhen, während Sie mit Ihrem aktuellen ESP abbrechen, ohne dass Ihr E-Mail-Kalender gestört wird.
-* **Interaktionsfragen** — Beginn mit den Abonnenten, die Ihre E-Mails regelmäßig öffnen und anklicken.
-* **Folgen Sie dem Plan** — Unsere Empfehlungen haben Hunderten von Kampagnen geholfen, ihre E-Mail-Programme erfolgreich zu erhöhen.
-* **Überwachen Sie Ihr E-Mail-Konto** für die Antwort. Es ist ein schlechtes Erlebnis für Ihren Kunden, noreply@xyz.com zu verwenden oder nicht zu antworten.
-* Inaktive Adressen können sich negativ auf die Zustellbarkeit auswirken. **Reaktivieren und reaktivieren Sie die Berechtigung auf Ihrer aktuellen Plattform**, nicht auf Ihren neuen IPs.
-* **Domänen** — eine sendende Domäne verwenden, die eine Subdomäne der tatsächlichen Domäne Ihrer Firma ist
-   * Wenn Ihre Firmen-Domäne beispielsweise xyz.com ist, bietet email.xyz.com den ISPs mehr Glaubwürdigkeit als xyzemail.com
-* **Transparenz** — Registrierungsdetails für Ihre E-Mail-Domäne sollten öffentlich verfügbar sein und nicht privat sein.
+* **** Berechtigungen sind die Grundlage für jedes erfolgreiche E-Mail-Programm.
+* **Niedrig und langsam**  - beginnen Sie mit geringen Versandvolumen und erhöhen Sie dann die Reputation Ihres Absenders.
+* Eine **Tandempostversand-Strategie** ermöglicht es Ihnen, das Volumen in Campaign zu erhöhen, während Sie mit Ihrem aktuellen ESP abschließen, ohne Ihren E-Mail-Kalender zu stören.
+* **Interaktion zählt**  - beginnen Sie mit den Abonnenten, die Ihre E-Mails regelmäßig öffnen und anklicken.
+* **Befolgen Sie den Plan** . Unsere Empfehlungen haben Hunderten von Campaign-Kunden dabei geholfen, ihre E-Mail-Programme erfolgreich auf den Weg zu bringen.
+* **Überwachen Sie Ihr E-Mail-Konto für die Antwort**. Es ist ein schlechtes Erlebnis für Ihren Kunden, noreply@xyz.com zu verwenden oder nicht zu antworten.
+* Inaktive Adressen können sich negativ auf die Zustellbarkeit auswirken. **Reaktivieren und reberechtigen Sie auf Ihrer aktuellen Plattform**, nicht auf Ihren neuen IPs.
+* **Domänen**  - Verwenden Sie eine Versanddomäne, die eine Subdomäne der tatsächlichen Domäne Ihres Unternehmens ist.
+   * Wenn Ihre Unternehmensdomäne beispielsweise xyz.com lautet, bietet email.xyz.com den ISPs mehr Glaubwürdigkeit als xyzemail.com
+* **Transparenz** : Registrierungsdetails für Ihre E-Mail-Domain sollten öffentlich verfügbar sein und nicht privat sein.
 
-In vielen Fällen folgt transaktionale Postsendungen nicht dem traditionellen Ansatz zur Förderung der Erwärmung. Es ist offensichtlich schwierig, die Lautstärke in der transaktionalen E-Mail zu kontrollieren, da es in der Regel eine Benutzerinteraktion erfordert, um die E-Mail-Berührung Trigger. In einigen Fällen kann die transaktionale Post einfach ohne formalen Plan übergeben werden. In anderen Fällen ist es möglicherweise besser, jeden Nachrichtentyp im Zeitverlauf Transition, um die Lautstärke langsam zu erhöhen. Sie können beispielsweise wie folgt Transitionen durchführen:
+Unter vielen Umständen folgt die Transaktionsnachricht nicht dem herkömmlichen Ansatz der Werbeerwärmung. Die Lautstärke von Transaktionsnachrichten lässt sich aufgrund ihrer Beschaffenheit nur schwer kontrollieren, da im Allgemeinen eine Benutzerinteraktion erforderlich ist, um den E-Mail-Kontakt Trigger. In einigen Fällen kann die Transition von Transaktionsnachrichten einfach ohne formellen Plan erfolgen. In anderen Fällen kann es besser sein, jeden Nachrichtentyp im Laufe der Zeit zu übergehen, um das Volumen langsam zu erhöhen. Sie können beispielsweise eine Transition wie folgt durchführen:
 
-1. Kaufbestätigungen — hohe Interaktion
-2. Warenkorbabbruch - mittel - hohes Engagement im Allgemeinen
-3. Begrüßungs-E-Mails — hohe Interaktion, kann aber je nach Erfassungsmethoden Ihrer Liste falsche Adressen enthalten
-4. Winback-E-Mails — seltenere Interaktion
+1. Kaufbestätigungen — hohe Interaktion im Allgemeinen
+2. Warenkorbabbruch - mittel - hohe Interaktion im Allgemeinen
+3. Willkommens-E-Mails - hohe Interaktion, können aber je nach den Erfassungsmethoden Ihrer Liste fehlerhafte Adressen enthalten
+4. Winback-E-Mails - niedrigere Interaktion im Allgemeinen
 
 ## Produktspezifische Ressourcen
 
 **Campaign**
 
-* Weitere Informationen zum Verwalten der Zustellbarkeit beim Starten einer neuen Plattform mit Adobe Campaign finden Sie in [diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
-* In [diesem Abschnitt ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) erfahren Sie, wie Sie mehrere Schübe mit Adobe Campaign Classic senden.
-* In [diesem Abschnitt ](/help/additional-resources/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic oder Standard delegieren.
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Classic delegieren.*
-* [Systemsteuerung: Vollständige Subdomänenübertragung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomäne vollständig an Adobe Campaign Standard delegieren.*
+* Weitere Informationen zur Verwaltung der Zustellbarkeit beim Start einer neuen Plattform mit Adobe Campaign finden Sie in [diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
+* In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) erfahren Sie, wie Sie mit Adobe Campaign Classic mehrere Schübe senden.
+* In [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic oder Standard zuweisen.
+* [Control Panel: Vollständige Subdomain-Zuweisung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic zuweisen.*
+* [Control Panel: Vollständige Subdomain-Zuweisung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Standard zuweisen.*
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie mehr über die Verbesserung Ihres E-Mail-Rufs durch IP-Erwärmung in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* In [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md) erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming.
