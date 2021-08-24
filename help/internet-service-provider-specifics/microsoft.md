@@ -1,41 +1,39 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live usw.)
-description: Microsoft ist in der Regel der zweit- oder drittgrößte Anbieter, je nach Zusammensetzung Ihrer Liste, und sie verarbeiten Traffic leicht anders als andere ISPs.
-feature: ISPs
+description: Microsoft ist in der Regel der zweit- oder drittgrößte Anbieter, je nach der Zusammensetzung Ihrer Liste, und er verarbeitet Traffic, der sich geringfügig von anderen ISPs unterscheidet.
 topics: Deliverability
 kt: 5319
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 992bfc9d0aff9daf29fa6878ead19372b065b436
+exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
+# [!DNL Microsoft] ([!DNL Hotmail],  [!DNL Outlook],  [!DNL Windows Live] usw.)
 
-# [!DNL Microsoft] ([!DNL Hotmail],  [!DNL Outlook],  [!DNL Windows Live]usw.)
+[!DNL Microsoft] ist in der Regel der zweit- oder drittgrößte Provider, je nach Aufbau Ihrer Liste, und er verarbeitet Traffic, der sich geringfügig von anderen ISPs unterscheidet.
 
-[!DNL Microsoft] ist in der Regel der zweit- oder drittgrößte Anbieter, je nach Zusammensetzung Ihrer Liste, und sie behandeln Traffic leicht anders als andere ISPs.
-
-Hier einige Highlights:
+Im Folgenden finden Sie einige Highlights:
 
 ## Welche Daten sind wichtig?
 
-[!DNL Microsoft] konzentriert sich auf den Ruf des Absenders, Beschwerden, Benutzerinteraktionen und die eigene Gruppe vertrauenswürdiger Benutzer (auch als Absender Reputation Data oder SRD bezeichnet), die sie für Feedback abfragen.
+[!DNL Microsoft] konzentriert sich auf die Reputation des Absenders, Beschwerden, Benutzerinteraktionen und die eigene Gruppe vertrauenswürdiger Benutzer (auch als Sender Reputation Data oder SRD bezeichnet), die zum Feedback abgerufen werden.
 
-## Welche Daten stehen zur Verfügung?
+## Welche Daten werden bereitgestellt?
 
-[!DNL Microsoft]Mit dem proprietären Tool zum Absender von Berichten  [!DNL Smart Network Data Services] (SNDS) können Sie Metriken darüber anzeigen, wie viel Mails Sie senden und wie viel Post akzeptiert wird, sowie über Beschwerden und Spam-Fallen. Denken Sie daran, dass die freigegebenen Daten ein Beispiel sind und keine genauen Zahlen widerspiegeln. Es ist jedoch am besten zu erkennen, wie [!DNL Microsoft] Sie als Absender Ansicht haben. [!DNL Microsoft] stellt keine Informationen zu ihrer vertrauenswürdigen Benutzergruppe öffentlich bereit, diese Daten sind jedoch gegen eine zusätzliche Gebühr über das  [!DNL Return Path Certification] Programm verfügbar.
+[!DNL Microsoft]Mit dem proprietären Tool für die Absenderberichterstellung ( [!DNL Smart Network Data Services] SNDS) können Sie Metriken dazu anzeigen, wie viel E-Mails Sie senden und wie viel E-Mails akzeptiert werden, sowie Beschwerden und Spamfallen. Beachten Sie, dass es sich bei den freigegebenen Daten um ein Beispiel handelt, das nicht exakte Zahlen widerspiegelt, aber am besten zeigt, wie [!DNL Microsoft] Sie als Absender ansieht. [!DNL Microsoft] stellt keine Informationen über ihre vertrauenswürdige Benutzergruppe öffentlich zur Verfügung, diese Daten sind jedoch gegen eine zusätzliche Gebühr über das  [!DNL Return Path Certification] Programm verfügbar.
 
-## der Reputation des Absenders.
+## Reputation des Absenders
 
-[!DNL Microsoft] hat sich traditionell auf die Versendung von IP in ihren Reputationsbewertungen und Filterentscheidungen konzentriert. Sie arbeiten auch aktiv daran, ihre Möglichkeiten für die Entsendung von Domänen auszubauen. Beide werden größtenteils von den traditionellen Reputationseinflüssen wie Beschwerden und Spam-Fallen angetrieben. Die Lieferbarkeit kann auch stark vom Rückgabepfadzertifizierungs-Programm beeinflusst werden, das besondere quantitative und qualitative Programm-Anforderungen hat.
+[!DNL Microsoft] hat sich traditionell auf das Senden von IP in Reputationsbewertungen und Filterentscheidungen konzentriert. Sie arbeiten aktiv an der Erweiterung ihrer Funktionen für die Versanddomäne. Beide werden größtenteils von den traditionellen Reputationseinflüssen wie Beschwerden und Spamfallen angetrieben. Die Zustellbarkeit kann auch durch das Zertifizierungsprogramm Return Path stark beeinflusst werden, das über spezifische quantitative und qualitative Programmanforderungen verfügt.
 
 ## Insights
 
-[!DNL Microsoft] kombiniert alle ihre empfangenden Domänen, um den Ruf des Senders zu etablieren und zu verfolgen. Dazu gehören [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live] usw. sowie alle gehosteten E-Mails von Office 365. [!DNL Microsoft] kann besonders empfindlich gegenüber Volumenschwankungen sein. Daher sollten Sie bestimmte Strategien anwenden, um große Sends zu starten und zu verringern, anstatt dass plötzlich Volumenänderungen möglich sind.
+[!DNL Microsoft] kombiniert alle ihre Empfangs-Domains, um die Reputation des Versands festzustellen und zu verfolgen. Dazu gehören [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live] usw. sowie alle gehosteten E-Mails von Office 365. [!DNL Microsoft] kann besonders empfindlich gegenüber Volumenschwankungen sein. Daher sollten Sie bestimmte Strategien anwenden, um große Sendungen schneller und langsamer zu starten, anstatt auf Volumenänderungen basierende plötzliche Änderungen zu berücksichtigen.
 
-[!DNL Microsoft] ist auch besonders streng während der ersten Tage der IP-Erwärmung, was in der Regel bedeutet, dass die meisten Mails zunächst gefiltert werden. Die meisten ISPs betrachten Absender bis zum Beweis ihrer Schuld als unschuldig. [!DNL Microsoft] ist das Gegenteil und betrachtet Sie schuldig, bis Sie sich selbst unschuldig beweisen.
+[!DNL Microsoft] ist auch während der ersten Tage der IP-Erwärmung besonders streng, was im Allgemeinen bedeutet, dass die meisten E-Mails anfänglich gefiltert werden. Die meisten ISPs betrachten Absender als unschuldig, bis sie sich als schuldig erwiesen haben. [!DNL Microsoft] ist das Gegenteil und betrachtet Sie als schuldig, bis Sie sich selbst als unschuldig erweisen.
