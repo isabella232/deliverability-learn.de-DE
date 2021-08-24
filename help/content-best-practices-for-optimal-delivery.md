@@ -1,29 +1,27 @@
 ---
-title: Best Practices für eine optimale Bereitstellung
-description: Inhalt ist der Schlüssel. Sie haben bereits unsere Perspektive zur Relevanz gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Lieferbarkeit in Bezug auf Inhalte.
-feature: Content
+title: Best Practices für Inhalte für eine optimale Zustellbarkeit
+description: Inhalt ist wichtig. Sie haben unsere Perspektive zur Relevanz bereits gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Zustellbarkeit in Bezug auf Inhalte.
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 6%
+source-wordcount: '195'
+ht-degree: 13%
 
 ---
 
+# Best Practices für Inhalte für eine optimale Zustellbarkeit
 
-# Best Practices für eine optimale Bereitstellung
+Inhalt ist wichtig. Sie haben unsere Perspektive zur Relevanz bereits gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Zustellbarkeit in Bezug auf Inhalte:
 
-Inhalt ist der Schlüssel. Sie haben unsere Sicht der Relevanz bereits gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Lieferbarkeit in Bezug auf Inhalte:
-
-* **Vermeiden Sie zu große HTML-Dateien**. Halten Sie unter 100 KB, versuchen Sie aber, zwischen 60 und 80 KB zu bleiben, um langsamen Versand zu vermeiden.
-* **Verwenden Sie Alt-Tags zu Ihrem Vorteil**. Alt-Tags werden im Bildcode des HTML-Codes gespeichert und zeigen Text an, wenn das Bild nicht sichtbar ist oder geladen wird. Anstatt eine einfache Beschreibung wie &quot;Produktaufnahme&quot;zu haben, möchten Sie vielleicht etwas überzeugenderes sagen wie: &quot;Jetzt kaufen und 30% Rabatt bekommen.&quot;
-* **Vermeiden Sie zu viele Bilder.** Die meisten ISPs blockieren jetzt standardmäßig Bilder. Sie möchten eine Möglichkeit haben, Ihre Audience zu erfassen, ohne dass die Bilder aktiviert sind, damit sie aktiviert werden.
+* **Vermeiden Sie zu große HTML-Dateien**. Halten Sie unter 100 KB, versuchen Sie jedoch, zwischen 60 und 80 KB zu bleiben, um eine langsame Bereitstellung zu verhindern.
+* **Verwenden Sie Alt-Tags zu Ihrem Vorteil**. Alt-Tags befinden sich im Bildcode des HTML-Codes und zeigen Text an, wenn das Bild nicht sichtbar oder geladen ist. Statt eine einfache Beschreibung wie &quot;Produkt-Shot&quot;zu haben, möchten Sie vielleicht etwas überzeugenderes sagen wie: &quot;Jetzt kaufen und 30% Rabatt.&quot;
+* **Vermeiden Sie zu viele Bilder.** Die meisten ISPs blockieren jetzt standardmäßig Bilder. Sie möchten eine Möglichkeit haben, Ihre Zielgruppe zu erfassen, ohne dass die Bilder aktiviert sind, damit sie sie aktivieren.
 
 ## Produktspezifische Ressourcen
 
