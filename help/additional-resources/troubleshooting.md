@@ -1,21 +1,19 @@
 ---
 title: Behebung von Problemen bei der Zustellbarkeit
-description: Erfahren Sie, wie Sie Probleme mit der Lieferbarkeit identifizieren und beheben können.
-feature: Additional resources
+description: Erfahren Sie, wie Sie Zustellbarkeitsprobleme identifizieren und beheben können.
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
-
 
 # Behebung von Problemen bei der Zustellbarkeit {#troubleshooting}
 
@@ -23,7 +21,7 @@ Nachstehend finden Sie einige Best Practices, die Ihnen helfen können, Probleme
 
 ## Ein Problem mit der Zustellbarkeit erkennen {#identify-deliverability-issue}
 
-Um ein mögliches Problem zu identifizieren, können die Elemente, die auf [dieser Seite](/help/ongoing-monitoring.md) aufgelistet sind, Ihre Aufmerksamkeit darauf lenken.
+Um ein mögliches Problem zu identifizieren, können die Elemente auf [dieser Seite](/help/ongoing-monitoring.md) Ihre Aufmerksamkeit auf sich lenken.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -51,7 +49,7 @@ Stellen Sie sich folgende Fragen, um die möglichen Ursachen für Ihr Zustellbar
 [](/help/metrics/complaints.md)Beschwerden werden durch Abonnenten definiert, die E-Mails als Spam melden, indem sie in ihrem Posteingang auf die entsprechende Schaltfläche klicken.
 
 Wenn Ihr Versandproblem durch Beschwerden verursacht wurde:
-* Du musst versuchen herauszufinden, warum Empfänger sich beschweren.
+* Sie müssen versuchen zu ermitteln, warum sich Empfänger beschweren.
 * Sie können auch überlegen, den Link zum Abmelden an den Anfang Ihrer E-Mail zu verschieben. So werden Abonnenten dazu ermutigt, sich abzumelden, anstatt sich über die Spam-Schaltfläche zu beschweren.
 
 Absender können aus ihren [Feedback Loop](/help/transition-process/infrastructure.md#feedback-loops) -Beschwerden eine Vielzahl von Daten sammeln:
@@ -65,14 +63,14 @@ Beschwerden stammen zum Teil auch von Abonnenten, die einfach keine E-Mails mehr
 
 ### Datengültigkeit
 
-**Hardbounces** treten auf, wenn Sie bei einem ISP an eine **nicht zustellbare Adresse** senden. Eine Adresse kann aus zahlreichen Gründen unzustellbar sein, z. B.:
+**Hardbounces treten auf, wenn Sie bei einem ISP Nachrichten an eine nicht zustellbare Adresse senden.****** Eine Adresse kann aus zahlreichen Gründen unzustellbar sein, z. B.:
 * Falsch geschriebene Adresse. Das kann mit einem echtzeitbasierten Datenvalidierungsdienst oder durch Vorschreiben eines Opt-in mit Bestätigung behoben werden, bevor Marketing-E-Mails an diese Adresse gesendet werden.
 * Fehlerhafte Liste oder Datenquelle. Wenn die Adresse aus einer neuen Quelle stammt, überprüfen Sie, wie sie erfasst wurde, und stellen Sie sicher, dass die entsprechende Berechtigung erteilt wurde.
 * Senden an eine Adresse, die einmal aktiv war, aber nach einer gewissen Phase der Inaktivität geschlossen oder beendet wurde.
 
 ### Interaktion
 
-Neben Beschwerden und Datenvalidität konzentrieren sich ISPs bei Versandentscheidungen mehr denn je auf **positive Interaktion**. Sie versuchen herauszufinden, ob Abonnenten Ihre E-Mails öffnen oder aber löschen, ohne sie gelesen zu haben. Da sie diese Daten nicht an Absender weitergeben, müssen wir die uns zur Verfügung stehenden Informationen verwenden und open/clicks/transaction als Interaktion übersetzen.
+Neben Beschwerden und Datenvalidität konzentrieren sich ISPs bei Versandentscheidungen mehr denn je auf **positive Interaktion**. Sie versuchen herauszufinden, ob Abonnenten Ihre E-Mails öffnen oder aber löschen, ohne sie gelesen zu haben. Da sie diese Daten nicht mit Absendern teilen, müssen wir die verfügbaren Informationen verwenden und Öffnungen/Klicks/Transaktionen als Interaktion übersetzen.
 
 Im Rahmen der laufenden Reputationssicherung ist es wichtig, zu verstehen, wie engagiert Abonnenten auf Ihrer Liste sind, und eine **Aktualitäts-Risikohierarchie** für die Abonnenten in jeder Datei zu erstellen. Neuigkeit wird als letztes Öffnungs-, Klick-, Transaktions- oder Anmeldedatum definiert. Dieser Zeitrahmen kann sich je nach Vertikale unterscheiden. Gehen Sie folgendermaßen vor:
 
