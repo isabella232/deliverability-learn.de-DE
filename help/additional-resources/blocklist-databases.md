@@ -1,21 +1,19 @@
 ---
 title: Echtzeit-Blackhole-Listen
-description: Erfahren Sie mehr über Organisationen, die Listen von IP-Adressen und Domänen verwalten, die von Spammern verwendet werden können.
-feature: Additional resources
+description: Erfahren Sie mehr über Organisationen, die Listen mit IP-Adressen und Domänen führen, die von Spammern verwendet werden könnten.
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 84%
+source-wordcount: '407'
+ht-degree: 85%
 
 ---
-
 
 # Echtzeit-Blackhole-Listen
 
@@ -25,7 +23,7 @@ Diese Art von Datenbanken, die über einen DNS-Mechanismus abgefragt werden, nen
 
 * Nach IP-Adresse: Auflistung von IP-Adressen, die Spam senden oder ihn wahrscheinlich weiterleiten.
 * Nach Absender-Domain: Auflistung von Absender-Domains (vollständige Domain der Bounce-Message-Adresse), die Spam senden oder eine falsche Konfiguration aufweisen.
-* Nach Webdomäne: Liste der Domänen (Domänen auf hoher Ebene, wie sie bei den Registrierstellen registriert sind), die in den URLs der Links und Bilder in Spam-Inhalten enthalten sind. Bei Adobe-Lösungen ist die Domäne, die berücksichtigt werden soll, im Allgemeinen die Adresse, die für die Verfolgung verwendet wird.
+* Nach Webdomäne: listet die in den URLs der im Spam-Inhalt enthaltenen Links und Bilder enthaltenen Domains (Domänen auf hoher Ebene, wie bei den Registraren registriert) auf. In Adobe-Lösungen ist die zu berücksichtigende Domain im Allgemeinen die für das Tracking verwendete Adresse.
 
 Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umfassendere Liste finden Sie unter [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
