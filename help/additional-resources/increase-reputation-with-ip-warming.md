@@ -1,7 +1,6 @@
 ---
 title: E-Mail-Reputation mit IP-Warming verbessern
 description: Erfahren Sie, warum es wichtig ist, Ihre E-Mail-Reputation mit IP-Warming zu verbessern, und wie Sie am besten vorgehen, um eine optimale Zustellbarkeit zu erreichen.
-feature: Zusätzliche Ressourcen
 topics: Deliverability
 kt: null
 thumbnail: null
@@ -9,10 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '1602'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '1600'
 ht-degree: 100%
 
 ---
