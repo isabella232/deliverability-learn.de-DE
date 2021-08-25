@@ -2,15 +2,13 @@
 title: SSL-Zertifikatanforderungsprozess
 description: Erfahren Sie, wie Sie SSL-Zertifikate auf den Subdomains installieren, die Sie an Adobe delegiert haben.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2265'
 ht-degree: 2%
 
 ---
@@ -209,7 +207,7 @@ Sobald Sie sicher sind, dass die angeforderten SSL-Zertifikate ordnungsgemäß i
 
 >[!NOTE]
 >
->Die zu aktualisierenden URLs befinden sich zum Campaign Classic hauptsächlich im [Softwareverteilungs-Assistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und im [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (Tracking-, Mirrorseite- und Public-Resource-Domänen). Campaign Standard: Siehe [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>Die zu aktualisierenden URLs befinden sich zum Campaign Classic hauptsächlich im [Softwareverteilungs-Assistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und im [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (Tracking-, Mirrorseite- und Public-Resource-Domänen). Campaign Standard: Siehe [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Nach der Aktualisierung der Konfigurationen werden neue E-Mails mit HTTPS-URLs und nicht mit HTTP gesendet. Um zu überprüfen, ob die URLs jetzt sicher sind, können Sie schnell die folgenden Tests durchführen:
 
