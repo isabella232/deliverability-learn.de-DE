@@ -49,7 +49,7 @@ Authentifizierung ist der Prozess, den ISPs zur Validierung der Identität eines
 
 ### SPF
 
-[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Eigentümer einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
+[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Inhaber einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
 
 ### DKIM
 

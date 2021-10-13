@@ -6,14 +6,21 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 39%
+source-wordcount: '126'
+ht-degree: 31%
 
 ---
 
 # Zusätzliche Ressourcen - Übersicht
+
+## Neuerungen
+
+In den folgenden Technotes erfahren Sie mehr über aktuelle Updates zur Zustellbarkeit.
+
+* [Implementieren von Gmail&#39;s Brand Indicators for Message Identification (BIMI)](../technotes/implement-bimi.md)
+* [Häufig gestellte Fragen zum Apple Mail-Datenschutz](../technotes/apple-mail-privacy-faq.md)
 
 ## Allgemeine Ressourcen
 
@@ -35,7 +42,7 @@ In diesem Abschnitt finden Sie einige zusätzliche Ressourcen zur Zustellbarkeit
 
 Darüber hinaus finden Sie in diesem Abschnitt eine Reihe produktspezifischer Ressourcen, die Ihnen bei der Implementierung der Zustellbarkeit und der erfolgreichen Umsetzung Ihrer Adobe-Lösungen helfen.
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [Domain-Namen einrichten](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR- und SSL-Zertifikatanforderungsprozess](../../help/additional-resources/ac-ssl-certificate-request.md)

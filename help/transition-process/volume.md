@@ -23,7 +23,7 @@ Die Volumenschwellen variieren je nach ISP und können abhängig von Ihren durch
 
 Hier finden Sie eine Liste mit Hinweisen und Tipps für einen reibungslosen Übergang:
 
-* **** Berechtigungen sind die Grundlage für jedes erfolgreiche E-Mail-Programm.
+* **** Die Berechtigung ist die Grundlage für jedes erfolgreiche E-Mail-Programm.
 * **Niedrig und langsam**  - beginnen Sie mit geringen Versandvolumen und erhöhen Sie dann die Reputation Ihres Absenders.
 * Eine **Tandempostversand-Strategie** ermöglicht es Ihnen, das Volumen in Campaign zu erhöhen, während Sie mit Ihrem aktuellen ESP abschließen, ohne Ihren E-Mail-Kalender zu stören.
 * **Interaktion zählt**  - beginnen Sie mit den Abonnenten, die Ihre E-Mails regelmäßig öffnen und anklicken.

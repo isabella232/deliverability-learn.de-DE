@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 100%
+source-wordcount: '2061'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Dieses Dokument beschreibt die betrieblichen und technischen Anforderungen für 
 
 >[!NOTE]
 >
->Sie können neue Subdomains auch über das Control Panel einrichten (als Beta-Version verfügbar). Weiterführende Informationen finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#must-read).
+>Sie können neue Subdomains auch über das Control Panel einrichten (als Betaversion verfügbar). Weiterführende Informationen finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de#must-read).
 
 ## Subdomains
 
@@ -54,10 +54,22 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 | MX | E-Mail-Server für eingehende Nachrichten angeben | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys Identified Mail (mit DomainKeys identifizierte E-Mail) | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| DMARC (TXT) | Domain-basierte Nachrichtenauthentifizierung | Reporting und Konformität | _dmarc.email.example.com</br>“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” |
 | Einträge auf Hosts (A) | Mirror-Seiten, Bild-Hosting und Tracking-Links, alle sendenden Domains | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
 | Umgekehrtes DNS (PTR) | Ordnet die IP-Adressen des Kunden einem Host-Namen unter dem Markennamen des Kunden zu | 18.101.100.192.in-addr.arpa domain name pointer r18.email.example.com |
-| CNAME | Stellt einen Alias für einen anderen Domain-Namen bereit | t1.email.example.com ist ein Alias für | t1.email.example.campaign.adobe.com |
+| CNAME | Stellt einen Alias für einen anderen Domain-Namen bereit | t1.email.example.com ist ein Alias für t1.email.example.campaign.adobe.com |
+
+
+Es wird empfohlen, domänenbasierte Message Authentication, Reporting and Conformance (DMARC) zu verwenden, um E-Mail-Absender zu authentifizieren und sicherzustellen, dass Ziel-E-Mail-Systeme den von Ihrer Domain gesendeten Nachrichten vertrauen.
+
+Beispiel für einen DMARC TXT-Eintrag:
+
+```
+_dmarc.email.example.com
+
+“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
+```
+
+Sie können DMARC manuell implementieren oder sich an die Adobe wenden, um DMARC für Ihre Marke einzurichten.
 
 ## Anforderungen an das Setup
 

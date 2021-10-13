@@ -1,6 +1,6 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live usw.)
-description: Microsoft ist in der Regel der zweit- oder drittgrößte Anbieter, je nach der Zusammensetzung Ihrer Liste, und er verarbeitet Traffic, der sich geringfügig von anderen ISPs unterscheidet.
+description: Microsoft ist in der Regel der zweit- oder drittgrößte Anbieter, je nach Aufbau Ihrer Liste, und er verarbeitet Traffic, der sich geringfügig von anderen ISPs unterscheidet.
 topics: Deliverability
 kt: 5319
 doc-type: article

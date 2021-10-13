@@ -1,23 +1,22 @@
 ---
-title: Häufig gestellte Fragen zum Datenschutz bei Apple Mail
-description: Häufig gestellte Fragen zum Datenschutz bei Apple Mail
+title: Häufig gestellte Fragen zum Apple Mail-Datenschutz
+description: Häufig gestellte Fragen zum Apple Mail-Datenschutz
 topics: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
+source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen zum Datenschutz bei Apple Mail
+# Häufig gestellte Fragen zum Apple Mail-Datenschutz
 
 Diese häufig gestellten Fragen enthalten erste Anleitungen als Reaktion auf die Ankündigung von Apple bezüglich der iOS 15-Version, einschließlich [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Diese Änderungen werden im September vorgenommen, und wir werden dieses Dokument weiter aktualisieren und unseren Kunden Leitlinien an die Hand geben.
 
 ## Was hat Apple angekündigt?
 
-Am 7. Juni kündigten sie auf der jährlichen Weltweiten Entwicklerkonferenz von Apple (WWDC 2021) in ihrer iOS 15-Version an, dass [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) auf allen Apple-Geräten - iPhone, iPad und Mac - für die native Mail-App aktiviert sein würde. Apple zufolge verhindert &quot;Mail Privacy Protection, dass Absender unsichtbare Pixel zum Sammeln von Informationen über den Benutzer verwenden, was den Absender daran hindert, zu wissen, wann er eine E-Mail öffnet und seine IP-Adresse maskiert, sodass sie nicht mit anderen Online-Aktivitäten verknüpft werden kann oder zur Bestimmung ihres Standorts verwendet wird.&quot; Eine Auswirkung für Marketingexperten ist, dass sie nicht wissen, wann oder ob ein Benutzer seine E-Mail in der Apple-E-Mail-App geöffnet hat. Die Einschränkung, die die Zustimmung des Benutzers erfordert, gilt für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.).
+Am 7. Juni kündigten sie auf der Apple-Jahrestagung der weltweiten Entwickler (WWDC 2021) in ihrer iOS 15-Version an, dass [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) für die native Mail-App auf allen Apple-Geräten - iPhone, iPad und Mac - aktiviert sein würde. Laut Apple verhindert &quot;Mail Privacy Protection, dass Absender unsichtbare Pixel zum Sammeln von Informationen über den Benutzer verwenden, was verhindert, dass Absender wissen, wann sie eine E-Mail öffnen und ihre IP-Adresse maskieren, sodass sie nicht mit anderen Online-Aktivitäten verknüpft werden kann oder zur Bestimmung ihres Standorts verwendet werden kann.&quot; Eine Auswirkung für Marketingexperten besteht darin, dass sie nicht wissen, wann oder ob ein Benutzer seine E-Mail in der E-Mail-App von Apple geöffnet hat. Die Einschränkung, die die Zustimmung des Benutzers erfordert, gilt für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.).
 
 ## Wann wird dies in Kraft treten?
 
@@ -25,15 +24,15 @@ Die iOS 15-Version wird in diesem Herbst verfügbar sein, möglicherweise schon 
 
 ## Welche Auswirkungen hat dies auf das Tracking und die Messung der Ergebnisse von E-Mail-Kampagnen?
 
-Das Tracking von Pixeln in Apple Mail wird deaktiviert, was bedeutet, dass Marketing-Experten nicht mehr zuverlässig erkennen, wann eine E-Mail geöffnet wird. Die Deaktivierung von Tracking-Pixeln ist zwar nicht neu, doch haben mehrere Anbieter in der Vergangenheit ähnliche Maßnahmen ergriffen. Die Mail-App von Apple ist bei vielen Anbietern weit verbreitet. Daher könnte die Auswirkung deutlicher sein als bisher, wenn andere Anbieter die standardmäßig Deaktivierung von Tracking-Pixeln beschlossen haben. Die Datenschutzbestimmungen, für die die Zustimmung des Benutzers erforderlich ist, gelten für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.). Wenn der Benutzer die Gmail-App oder eine andere E-Mail-App verwendet, sind die Datenschutzkontrollen nicht betroffen. Der Marktanteil von [Apple Mobile Device](https://www.counterpointresearch.com/global-smartphone-share/) im ersten Quartal betrug 17 % weltweit und 55 % in den USA.
+Das Tracking von Pixeln in Apple Mail wird deaktiviert, was bedeutet, dass Marketing-Experten nicht mehr zuverlässig erkennen, wann eine E-Mail geöffnet wird. Die Deaktivierung von Tracking-Pixeln ist zwar nicht neu, doch haben mehrere Anbieter in der Vergangenheit ähnliche Maßnahmen ergriffen. Die E-Mail-App von Apple ist bei vielen Anbietern weit verbreitet. Daher könnte die Auswirkung deutlicher sein als bisher, wenn andere Anbieter die standardmäßig Deaktivierung von Tracking-Pixeln beschlossen haben. Die Datenschutzbestimmungen, für die die Zustimmung des Benutzers erforderlich ist, gelten für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.). Wenn der Benutzer die Gmail-App oder eine andere E-Mail-App verwendet, sind die Datenschutzkontrollen nicht betroffen. Der Marktanteil von [Apple-Mobilgeräten](https://www.counterpointresearch.com/global-smartphone-share/) im ersten Quartal betrug 17 % weltweit und 55 % in den USA.
 
 ## Gibt es weitere Auswirkungen?
 
-Apple blendet standardmäßig IP-Adressinformationen in der nativen Mail-App, im Safari-Browser und in den iCloud-Diensten aus. Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom E-Mail-Datenschutzschutz von Apple betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Diese Änderungen bedeuten, dass Marketing-Experten planen müssen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe hilft unseren Kunden, diese Veränderungen durch Aktualisierungen, Anleitungen und Gedankenführung zu bewältigen.
+Apple blendet standardmäßig IP-Adressinformationen in der nativen Mail-App, im Safari-Browser und in den iCloud-Diensten aus. Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom Apple-Datenschutzgesetz für E-Mails betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Diese Änderungen bedeuten, dass Marketing-Experten planen müssen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe hilft unseren Kunden, diese Veränderungen durch Aktualisierungen, Anleitungen und Gedankenführung zu bewältigen.
 
 ## Betrifft diese Mitteilung alle auf einem Apple-Gerät geöffneten E-Mails?
 
-Die Funktion zum Datenschutz bei E-Mails bezieht sich auf Benutzer mit iOS 15 UND überprüft ihre E-Mail in der nativen Apple Mail-App. Wenn der Benutzer die E-Mail in der Gmail-App oder einer anderen E-Mail-App prüft, die nicht von Apple Mail stammt, sind die Datenschutzkontrollen selbst unter iOS 15 nicht wirksam. Dies macht es für Marketingexperten wichtig, ihre Listen und Datenbanken zu segmentieren und die potenziellen Auswirkungen zu ermitteln.
+Die Funktion zum Datenschutz bei E-Mails bezieht sich auf den Benutzer, der über iOS 15 verfügt UND dessen E-Mail in der nativen Apple Mail-App prüft. Wenn der Benutzer die E-Mail in der Gmail-App oder einer anderen E-Mail-App prüft, bei der es sich nicht um Apple Mail handelt, sind die Datenschutzkontrollen auch in iOS 15 nicht wirksam. Dies macht es für Marketingexperten wichtig, ihre Listen und Datenbanken zu segmentieren und die potenziellen Auswirkungen zu ermitteln.
 
 ## Wie wirkt sich das auf die Messung von Öffnungsraten, KTOREN (Klicks zur Öffnungsrate) und Umsatz zusammen mit den anderen Metriken aus?
 
@@ -41,11 +40,11 @@ Die Öffnungsrate von E-Mails war nicht immer eine zuverlässige Metrik, da eini
 
 ## Was hat nicht nur Einfluss auf die Messung von Öffnungen, sondern auch auf deren Auswirkungen?
 
-Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom E-Mail-Datenschutzschutz von Apple betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Die Datenschutzeinschränkungen wirken sich auch auf E-Mail-Kampagnen aus, die Standortdaten für die Personalisierung enthalten. Diese Änderungen bedeuten, dass Marketing-Experten planen müssen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe arbeitet mit den Kunden zusammen, um sicherzustellen, dass eine geeignete Strategie zur Unterstützung dieser Strategien und Anwendungsfälle vorhanden ist.
+Die Messung von Öffnungsraten ist nicht der einzige Aspekt des E-Mail-Marketings, der vom Apple-Datenschutzgesetz für E-Mails betroffen ist. E-Mail öffnet Steuerungsstrategien zur Sendezeitoptimierung, Echtzeit-Personalisierung, Rückgewinnungskampagnen und automatisierten Multi-Wave-Kampagnen. Die Datenschutzeinschränkungen wirken sich auch auf E-Mail-Kampagnen aus, die Standortdaten für die Personalisierung enthalten. Diese Änderungen bedeuten, dass Marketing-Experten planen müssen, wie diese Strategien für Apple-Benutzer aussehen werden, sobald iOS 15 veröffentlicht wird und die Datenschutzfunktionen in diesem Herbst greifen. Adobe arbeitet mit den Kunden zusammen, um sicherzustellen, dass eine geeignete Strategie zur Unterstützung dieser Strategien und Anwendungsfälle vorhanden ist.
 
 ## Was können Marketingexperten jetzt tun?
 
-Wenn Marketingexperten dies nicht bereits tun, sollten Sie sich auf die gerätebasierte Segmentierung konzentrieren, die in Adobe Campaign, Marketo oder Journey Optimizer durchgeführt werden kann. Gerätedaten helfen Marketern dabei zu verstehen, welche Geräte Ihre Kunden zum Lesen Ihrer E-Mails verwenden. Dies könnte ein guter Ausgangspunkt sein, um die potenziellen Auswirkungen auf E-Mail-Programme zu ermitteln. Darüber hinaus bietet die Segmentierung nach Gerätetyp Einblicke in die Menge, in der eine Zielgruppe Apple Mail zum Lesen von E-Mails verwendet. Außerdem wäre es für den Marketingexperten von Vorteil, andere Kampagnen und Strategien zu verstehen, die Öffnungen als Trigger oder Metrik beinhalten (d. h. Rückgewinnungskampagnen, Optimierung der Versandzeit usw.). Adobe bietet weitere Anleitungen, sobald die Veröffentlichung von iOS 15 näher rückt.
+Wenn Marketingexperten dies nicht bereits tun, sollten Sie sich auf die gerätebasierte Segmentierung konzentrieren, die in Adobe Campaign, Marketo oder Journey Optimizer durchgeführt werden kann. Gerätedaten helfen Marketern dabei zu verstehen, welche Geräte Ihre Kunden zum Lesen Ihrer E-Mails verwenden. Dies könnte ein guter Ausgangspunkt sein, um die potenziellen Auswirkungen auf E-Mail-Programme zu ermitteln. Darüber hinaus bietet die Segmentierung nach Gerätetyp Einblicke in die Menge, in der eine Zielgruppe Apple Mail zum Lesen von E-Mails verwendet. Außerdem wäre es für den Marketingexperten von Vorteil, andere Kampagnen und Strategien zu verstehen, die Öffnungen als Trigger oder Metrik beinhalten (d. h. Rückgewinnungskampagnen, Optimierung der Versandzeit usw.). Adobe wird weitere Anleitungen geben, sobald die Veröffentlichung von iOS 15 näher rückt.
 
 ## Hat das Tracking mobiler Push-Benachrichtigungen Auswirkungen?
 
