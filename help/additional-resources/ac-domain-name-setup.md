@@ -7,9 +7,9 @@ activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 | CNAME | Stellt einen Alias für einen anderen Domain-Namen bereit | t1.email.example.com ist ein Alias für t1.email.example.campaign.adobe.com |
 
 
-Es wird empfohlen, domänenbasierte Message Authentication, Reporting and Conformance (DMARC) zu verwenden, um E-Mail-Absender zu authentifizieren und sicherzustellen, dass Ziel-E-Mail-Systeme den von Ihrer Domain gesendeten Nachrichten vertrauen.
+Um Mail-Absender zu authentifizieren und sicherzustellen, dass die Ziel-E-Mail-Systeme den von Ihrer Domain gesendeten Nachrichten vertrauen, wird die Verwendung von DMARC (Domain-based Message Authentication, Reporting, and Conformance) empfohlen.
 
-Beispiel für einen DMARC TXT-Eintrag:
+Beispiel für DMARC-TXT-Datensatz:
 
 ```
 _dmarc.email.example.com
@@ -69,7 +69,7 @@ _dmarc.email.example.com
 “v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
 ```
 
-Sie können DMARC manuell implementieren oder sich an die Adobe wenden, um DMARC für Ihre Marke einzurichten.
+Sie können DMARC manuell implementieren oder sich mit Adobe in Verbindung setzen, um DMARC für Ihre Marke einzurichten.
 
 ## Anforderungen an das Setup
 
