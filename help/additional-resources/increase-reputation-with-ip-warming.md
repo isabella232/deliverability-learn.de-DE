@@ -7,7 +7,7 @@ activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1600'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Zu Beginn werden Ihnen eigene IP-Adressen (Internet Protocol) zugewiesen. Im Zus
 * [IP-Strategie](../../help/transition-process/infrastructure.md#ip-strategy)
 * [ISP-spezifische Überlegungen beim IP-Warming](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 
-## IP-Warming: Warum macht man das? {#why-ip-warming}
+## Welchen Zweck hat IP-Warming? {#why-ip-warming}
 
 ISPs oder Mailbox-Anbieter (MBP – Mailbox-Provider) ergreifen Vorsichtsmaßnahmen, wenn sie eine unbekannte IP-Adresse und sendende Domain erkennen. Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt. ISPs/MBPs prüfen die IP-Adresse und die sendende Domain sehr genau, um festzustellen, ob die von dieser IP-Adresse und Domain gesendeten E-Mails Spam sind oder nicht.  Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt.
 
