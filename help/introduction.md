@@ -8,7 +8,7 @@ activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 1. [Strategie und Definition der Zustellbarkeit](/help/deliverability-strategy-and-definition.md)
 2. [Zustellbarkeitsmetriken](/help/metrics/metrics-overview.md)
 3. [Interaktion](/help/engagement.md)
-4. [Transformationsprozess – Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
+4. [Verfahren beim Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
 5. [Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
 7. [Regelmäßiger Versand](/help/sender-permanence.md)
-8. [Besonderheiten der ISPs (Internetdienstanbieter)](/help/internet-service-provider-specifics/overview.md)
+8. [Besonderheiten der Internetdienstanbieter](/help/internet-service-provider-specifics/overview.md)
 9. [Laufende Überwachung](/help/ongoing-monitoring.md)
 10. [Praktische Umsetzung](/help/putting-it-in-practice.md)
 
