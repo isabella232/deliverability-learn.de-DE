@@ -3,20 +3,20 @@ title: Häufig gestellte Fragen zum Apple Mail-Datenschutz
 description: Häufig gestellte Fragen zum Apple Mail-Datenschutz
 topics: Deliverability
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
-source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
+source-git-commit: 994e31f8038f2a6d9ec986f93dc2640e6a8796d7
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
 # Häufig gestellte Fragen zum Apple Mail-Datenschutz
 
-Diese häufig gestellten Fragen enthalten erste Anleitungen als Reaktion auf die Ankündigung von Apple bezüglich der iOS 15-Version, einschließlich [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Diese Änderungen werden im September vorgenommen, und wir werden dieses Dokument weiter aktualisieren und unseren Kunden Leitlinien an die Hand geben.
+Diese häufig gestellten Fragen enthalten erste Anleitungen als Reaktion auf die Ankündigung von Apple bezüglich der iOS 15-Version, einschließlich [Datenschutz bei E-Mails](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). Diese Änderungen werden im September vorgenommen, und wir werden dieses Dokument weiter aktualisieren und unseren Kunden Leitlinien an die Hand geben.
 
 ## Was hat Apple angekündigt?
 
-Am 7. Juni kündigten sie auf der Apple-Jahrestagung der weltweiten Entwickler (WWDC 2021) in ihrer iOS 15-Version an, dass [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) für die native Mail-App auf allen Apple-Geräten - iPhone, iPad und Mac - aktiviert sein würde. Laut Apple verhindert &quot;Mail Privacy Protection, dass Absender unsichtbare Pixel zum Sammeln von Informationen über den Benutzer verwenden, was verhindert, dass Absender wissen, wann sie eine E-Mail öffnen und ihre IP-Adresse maskieren, sodass sie nicht mit anderen Online-Aktivitäten verknüpft werden kann oder zur Bestimmung ihres Standorts verwendet werden kann.&quot; Eine Auswirkung für Marketingexperten besteht darin, dass sie nicht wissen, wann oder ob ein Benutzer seine E-Mail in der E-Mail-App von Apple geöffnet hat. Die Einschränkung, die die Zustimmung des Benutzers erfordert, gilt für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.).
+Am 7. Juni kündigten sie auf der Apple-Jahrestagung der weltweiten Entwickler (WWDC 2021) in ihrer iOS-Version 15 an, dass [Datenschutz bei E-Mails](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) auf allen Apple-Geräten - iPhone, iPad und Mac - im nativen Mail-Programm aktiviert werden. Laut Apple verhindert &quot;Mail Privacy Protection, dass Absender unsichtbare Pixel zum Sammeln von Informationen über den Benutzer verwenden, was verhindert, dass Absender wissen, wann sie eine E-Mail öffnen und ihre IP-Adresse maskieren, sodass sie nicht mit anderen Online-Aktivitäten verknüpft werden kann oder zur Bestimmung ihres Standorts verwendet werden kann.&quot; Eine Auswirkung für Marketingexperten besteht darin, dass sie nicht wissen, wann oder ob ein Benutzer seine E-Mail in der E-Mail-App von Apple geöffnet hat. Die Einschränkung, die die Zustimmung des Benutzers erfordert, gilt für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.).
 
 ## Wann wird dies in Kraft treten?
 
@@ -24,7 +24,9 @@ Die iOS 15-Version wird in diesem Herbst verfügbar sein, möglicherweise schon 
 
 ## Welche Auswirkungen hat dies auf das Tracking und die Messung der Ergebnisse von E-Mail-Kampagnen?
 
-Das Tracking von Pixeln in Apple Mail wird deaktiviert, was bedeutet, dass Marketing-Experten nicht mehr zuverlässig erkennen, wann eine E-Mail geöffnet wird. Die Deaktivierung von Tracking-Pixeln ist zwar nicht neu, doch haben mehrere Anbieter in der Vergangenheit ähnliche Maßnahmen ergriffen. Die E-Mail-App von Apple ist bei vielen Anbietern weit verbreitet. Daher könnte die Auswirkung deutlicher sein als bisher, wenn andere Anbieter die standardmäßig Deaktivierung von Tracking-Pixeln beschlossen haben. Die Datenschutzbestimmungen, für die die Zustimmung des Benutzers erforderlich ist, gelten für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.). Wenn der Benutzer die Gmail-App oder eine andere E-Mail-App verwendet, sind die Datenschutzkontrollen nicht betroffen. Der Marktanteil von [Apple-Mobilgeräten](https://www.counterpointresearch.com/global-smartphone-share/) im ersten Quartal betrug 17 % weltweit und 55 % in den USA.
+Daten aus Tracking-Pixeln in Apple Mail sind nicht mehr genau, was bedeutet, dass Marketing-Experten nicht mehr zuverlässig feststellen können, wann eine E-Mail geöffnet wird. Während das Vorausfüllen von Bildern und Pixeln und die Verwendung von Proxys zur Anonymisierung von Daten nicht neu sind, haben mehrere Anbieter in der Vergangenheit ähnliche Maßnahmen getroffen, ist Umfang, Methode und Umfang der Implementierung neu.
+
+Die E-Mail-App von Apple ist bei vielen Anbietern weit verbreitet. Daher könnte die Auswirkung deutlicher sein als bisher, wenn andere Anbieter die standardmäßig Deaktivierung von Tracking-Pixeln beschlossen haben. Die Datenschutzbestimmungen, für die die Zustimmung des Benutzers erforderlich ist, gelten für alle E-Mails, die in der E-Mail-App von Apple geöffnet werden (Gmail, Yahoo, Outlook usw.). Wenn der Benutzer die Gmail-App oder eine andere E-Mail-App verwendet, sind die Datenschutzkontrollen nicht betroffen. Im Kontext wird die [Marktanteil von Apple-Mobilgeräten](https://www.counterpointresearch.com/global-smartphone-share/) Für das 1. Quartal betrug der Anteil 17 % weltweit und 55 % in den USA.
 
 ## Gibt es weitere Auswirkungen?
 
@@ -52,4 +54,4 @@ Derzeit glauben wir, dass diese Datenschutzfunktion das Tracking mobiler Push-Be
 
 ## Wie unterstützt Adobe unsere Kunden?
 
-Wir werden zusätzliche Inhalte veröffentlichen, die unseren POV und die vorgeschlagenen Strategien (kurz- und langfristig) skizzieren. Darüber hinaus können Kunden einen [Zustellbarkeitshandbuch](../introduction.md) herunterladen, einen [Kurs zur Zustellbarkeit](http://bit.ly/Deliverability-Course) absolvieren und ein [aktuelles Webinar](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) zur Zustellbarkeit anzeigen, um mit den neuesten Trends und Best Practices Schritt zu halten. Kunden können natürlich auch zukünftige Blog-Posts, Webinare und Updates bezüglich der Zustellbarkeit und anderer sich entwickelnder Dynamiken im Zusammenhang mit Datenschutz im Auge behalten.
+Wir werden zusätzliche Inhalte veröffentlichen, die unseren POV und die vorgeschlagenen Strategien (kurz- und langfristig) skizzieren. Darüber hinaus können Kunden eine [Zustellbarkeitshandbuch](../introduction.md), nehmen Sie eine [Zustellbarkeitskurs](http://bit.ly/Deliverability-Course)und eine [aktuelles Webinar](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) über die Zustellbarkeit, um mit den neuesten Trends und Best Practices Schritt zu halten. Kunden können natürlich auch zukünftige Blog-Posts, Webinare und Updates bezüglich der Zustellbarkeit und anderer sich entwickelnder Dynamiken im Zusammenhang mit Datenschutz im Auge behalten.
