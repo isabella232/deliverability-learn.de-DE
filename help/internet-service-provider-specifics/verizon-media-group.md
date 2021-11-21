@@ -30,7 +30,7 @@ VMG verfügt über eine FBL, mit der Beschwerdedaten an Absender zurückgegeben 
 
 ## Reputation des Absenders
 
-Die Reputation eines Absenders besteht aus einer Kombination aus IP-Adresse, Domain und Adresse. Der Ruf wird anhand der herkömmlichen Komponenten berechnet, einschließlich Beschwerden, Spamfallen, inaktiven oder fehlerhaften Adressen und Interaktionen. VMG verwendet Ratenbegrenzung (auch als Drosselung bezeichnet) zusammen mit Massenordnern, um sich gegen Spam zu schützen. Sie ergänzen ihre internen Filtersysteme mit einigen [!DNL Spamhaus] schwarzen Listen, einschließlich PBL, SBL und XBL, um ihre Benutzer zu schützen.
+Die Reputation eines Absenders besteht aus einer Kombination aus IP-Adresse, Domain und Adresse. Der Ruf wird anhand der herkömmlichen Komponenten berechnet, einschließlich Beschwerden, Spamfallen, inaktiven oder fehlerhaften Adressen und Interaktionen. VMG verwendet Ratenbegrenzung (auch als Drosselung bezeichnet) zusammen mit Massenordnern, um sich gegen Spam zu schützen. Sie ergänzen ihre internen Filtersysteme mit einigen [!DNL Spamhaus] schwarze Listen, einschließlich PBL, SBL und XBL, um ihre Benutzer zu schützen.
 
 ## Insights
 

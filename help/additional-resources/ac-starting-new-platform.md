@@ -34,7 +34,7 @@ Nachfolgend sind die wichtigsten Grundsätze aufgeführt, die Sie beim Start ein
 * Wenn Sie über solche Daten verfügen, **importieren Sie ungültige Adressen in die Quarantänetabelle**.
 Oft werden Plattformen gestartet, wenn eine Adressliste zum ersten Mal verwendet wird; diese ist möglicherweise nicht vollständig qualifiziert. Wenn Sie an ungültige Adressen oder Honeypot-Adressen senden, verschlechtert sich die Reputation der Plattform.
 
-   * Wenn Sie über eine Liste ungültiger Adressen verfügen, ist es in Ihrem Interesse, diese in die Quarantänetabelle zu importieren, bevor Sie zum ersten Mal senden. Die Quarantänetabelle ist über die Menüs **[!UICONTROL Administration > Kampagnenverwaltung > Unzustellbarkeitsverwaltung > Adressen unzustellbarer Sendungen]** (Campaign Classic) und **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** (Campaign Standard) verfügbar.
+   * Wenn Sie über eine Liste ungültiger Adressen verfügen, ist es in Ihrem Interesse, diese in die Quarantänetabelle zu importieren, bevor Sie zum ersten Mal senden. Die Quarantänetabelle kann über das **[!UICONTROL Administration > Kampagnenverwaltung > Unzustellbarkeitsverwaltung > Adressen unzustellbarer Sendungen]** (Campaign Classic) und **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** (Campaign Standard).
 
    * Wenn Sie die ungültigen Adressen trotzdem erneut qualifizieren möchten, ist es viel besser, dies zu tun, sobald die Reputation der Plattform etabliert ist – und zwar nach und nach, um die Verwendung schlechter Adressen im Laufe der Zeit zu &quot;verwässern&quot;.
 
@@ -45,7 +45,7 @@ Oft werden Plattformen gestartet, wenn eine Adressliste zum ersten Mal verwendet
 * **Senden Sie regelmäßig**. In gewissem Maße ist es besser, regelmäßig kleine Sendungen vorzunehmen als selten große Kampagnen durchzuführen.
 * **Beachten Sie dabei die Versandberichte**. Hohe Fehlerindikatoren können darauf hindeuten, dass eine technische Einstellung nicht richtig konfiguriert ist.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 Weitere Informationen zu den oben aufgeführten Grundsätzen und ihrer Implementierung mit Adobe Campaign finden Sie in den folgenden Abschnitten:
 

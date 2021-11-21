@@ -27,7 +27,7 @@ In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese M
 
 **Analytics**
 
-* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und kennen Sie die zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Data Science-Algorithmen in Segment-IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu überblicken.*
+* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und kennen Sie die zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Data Science-Algorithmen in Segment-IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu überblicken.*
 
 **Campaign Standard**
 

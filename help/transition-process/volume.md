@@ -23,16 +23,16 @@ Die Volumenschwellen variieren je nach ISP und können abhängig von Ihren durch
 
 Hier finden Sie eine Liste mit Hinweisen und Tipps für einen reibungslosen Übergang:
 
-* **** Die Berechtigung ist die Grundlage für jedes erfolgreiche E-Mail-Programm.
-* **Niedrig und langsam**  - beginnen Sie mit geringen Versandvolumen und erhöhen Sie dann die Reputation Ihres Absenders.
-* Eine **Tandempostversand-Strategie** ermöglicht es Ihnen, das Volumen in Campaign zu erhöhen, während Sie mit Ihrem aktuellen ESP abschließen, ohne Ihren E-Mail-Kalender zu stören.
-* **Interaktion zählt**  - beginnen Sie mit den Abonnenten, die Ihre E-Mails regelmäßig öffnen und anklicken.
-* **Befolgen Sie den Plan** . Unsere Empfehlungen haben Hunderten von Campaign-Kunden dabei geholfen, ihre E-Mail-Programme erfolgreich auf den Weg zu bringen.
-* **Überwachen Sie Ihr E-Mail-Konto für die Antwort**. Es ist ein schlechtes Erlebnis für Ihren Kunden, noreply@xyz.com zu verwenden oder nicht zu antworten.
-* Inaktive Adressen können sich negativ auf die Zustellbarkeit auswirken. **Reaktivieren und reberechtigen Sie auf Ihrer aktuellen Plattform**, nicht auf Ihren neuen IPs.
-* **Domänen**  - Verwenden Sie eine Versanddomäne, die eine Subdomäne der tatsächlichen Domäne Ihres Unternehmens ist.
+* **Berechtigung** ist die Grundlage für jedes erfolgreiche E-Mail-Programm.
+* **Niedrig und langsam** - Beginnen Sie mit geringen Versandvolumen und erhöhen Sie dann, wenn Sie Ihre Reputation als Absender feststellen.
+* A **Tandempost-Strategie** ermöglicht es Ihnen, das Volumen in Campaign zu erhöhen, während Sie mit Ihrem aktuellen ESP abschließen, ohne Ihren E-Mail-Kalender zu stören.
+* **Interaktionsfragen** - beginnen Sie mit den Abonnenten, die Ihre E-Mails regelmäßig öffnen und anklicken.
+* **Befolgen Sie den Plan.** - Unsere Empfehlungen haben Hunderten von Campaign-Kunden dabei geholfen, ihre E-Mail-Programme erfolgreich auf den Weg zu bringen.
+* **E-Mail-Konto für Antworten überwachen**. Es ist ein schlechtes Erlebnis für Ihren Kunden, noreply@xyz.com zu verwenden oder nicht zu antworten.
+* Inaktive Adressen können sich negativ auf die Zustellbarkeit auswirken. **Reaktivieren und erneutes Zulassen der aktuellen Plattform**, nicht Ihre neuen IPs.
+* **Domänen** - Verwenden Sie eine Versanddomäne, die eine Subdomäne der tatsächlichen Domäne Ihres Unternehmens ist.
    * Wenn Ihre Unternehmensdomäne beispielsweise xyz.com lautet, bietet email.xyz.com den ISPs mehr Glaubwürdigkeit als xyzemail.com
-* **Transparenz** : Registrierungsdetails für Ihre E-Mail-Domain sollten öffentlich verfügbar sein und nicht privat sein.
+* **Transparenz** — Registrierungsdetails für Ihre E-Mail-Domain sollten öffentlich verfügbar sein und nicht privat sein.
 
 Unter vielen Umständen folgt die Transaktionsnachricht nicht dem herkömmlichen Ansatz der Werbeerwärmung. Die Lautstärke von Transaktionsnachrichten lässt sich aufgrund ihrer Beschaffenheit nur schwer kontrollieren, da im Allgemeinen eine Benutzerinteraktion erforderlich ist, um den E-Mail-Kontakt Trigger. In einigen Fällen kann die Transition von Transaktionsnachrichten einfach ohne formellen Plan erfolgen. In anderen Fällen kann es besser sein, jeden Nachrichtentyp im Laufe der Zeit zu übergehen, um das Volumen langsam zu erhöhen. Sie können beispielsweise eine Transition wie folgt durchführen:
 
@@ -45,12 +45,12 @@ Unter vielen Umständen folgt die Transaktionsnachricht nicht dem herkömmlichen
 
 **Campaign**
 
-* Weitere Informationen zur Verwaltung der Zustellbarkeit beim Start einer neuen Plattform mit Adobe Campaign finden Sie in [diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
-* In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves) erfahren Sie, wie Sie mit Adobe Campaign Classic mehrere Schübe senden.
-* In [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md) erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic oder Standard zuweisen.
-* [Control Panel: Vollständige Subdomain-Zuweisung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic zuweisen.*
-* [Control Panel: Vollständige Subdomain-Zuweisung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Standard zuweisen.*
+* Erfahren Sie mehr über die Verwaltung der Zustellbarkeit beim Start einer neuen Plattform mit Adobe Campaign in [diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
+* Erfahren Sie, wie Sie mit Adobe Campaign Classic in mehrere Schübe senden können. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic oder Standard zuweisen. [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md).
+* [Control Panel: Vollständige Zuweisung von Subdomains (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic zuweisen.*
+* [Control Panel: Vollständige Zuweisung von Subdomains (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Standard zuweisen.*
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
-* In [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md) erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming.
+* Erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

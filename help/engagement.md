@@ -27,19 +27,19 @@ Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen könn
 
 ## Qualität über Menge
 
-**Bio-Liste** wächst dies zum Eckpfeiler einer gesunden Liste. Viele Marketer legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
+**Biologische Listenwachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketer legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
 
-**Bei der Erstellung und Pflege eines E-Mail-Marketing-Programms ist die** Häufigkeit des Versands zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
+**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
 
 Die richtige Häufigkeit ist etwas, das jeder Marketing-Experte für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Frequenzen zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Die Interaktion und Aktivierung von Empfängern ist eine der wichtigsten Maßnahmen, die ein Marketingexperte treffen kann, um den Erfolg eines E-Mail-Marketingprogramms sicherzustellen.
 
 ## Interessensänderung
 
-Die Interessen der Abonnenten entwickeln sich ständig weiter, und Marketing-Experten müssen verstehen, dass das Engagement für eine Marke vorübergehend sein kann. Einige Abonnenten werden sich abmelden, aber viele werden unerwünschte E-Mails einfach löschen oder ignorieren. Aus der Sicht des Verbrauchers wird jede Nachricht, die unerwünscht oder unerwünscht ist, als Spam wahrgenommen. Daher müssen sich Marketer für den Verlust von Interesse auf **berechtigungsbasiertes Marketing** und **Überwachung der Interaktion** verlassen. Um eine optimale Platzierung im Posteingang zu erreichen, empfehlen wir Marketing-Experten, Abonnenten mithilfe von Reaktivierungskampagnen und einer Win-back-Strategie strategisch erneut anzusprechen, was für E-Mail-Marketing-Experten sehr nützliche Tools sein können.
+Die Interessen der Abonnenten entwickeln sich ständig weiter, und Marketing-Experten müssen verstehen, dass das Engagement für eine Marke vorübergehend sein kann. Einige Abonnenten werden sich abmelden, aber viele werden unerwünschte E-Mails einfach löschen oder ignorieren. Aus der Sicht des Verbrauchers wird jede Nachricht, die unerwünscht oder unerwünscht ist, als Spam wahrgenommen. Daher müssen sich Marketer auf **Permission-Marketing** und **Interaktion überwachen** für Zinsverlust. Um eine optimale Platzierung im Posteingang zu erreichen, empfehlen wir Marketing-Experten, Abonnenten mithilfe von Reaktivierungskampagnen und einer Win-back-Strategie strategisch erneut anzusprechen, was für E-Mail-Marketing-Experten sehr nützliche Tools sein können.
 
-Eine **Win-back-Strategie** ist der Fall, wenn regelmäßig ein Sonderanreiz an einen bestimmten Teil einer Marketing-Datenbank gesendet wird, um zu versuchen, eine Liste erneut zu aktivieren, die eine niedrige Öffnungs- und Klickaktivität aufweist. Positive Antworten werden beibehalten und der Teil der Liste, der nicht reagiert, wird in den inaktiven Status verschoben und wird nicht mehr an gesendet.
+A **Win-back-Strategie** ist der Zeitpunkt, zu dem regelmäßig ein Sonderanreiz an einen bestimmten Teil einer Marketing-Datenbank gesendet wird, um zu versuchen, eine Liste mit geringer Öffnungs- und Klickaktivität erneut zu aktivieren. Positive Antworten werden beibehalten und der Teil der Liste, der nicht reagiert, wird in den inaktiven Status verschoben und wird nicht mehr an gesendet.
 
-Eine **Reaktivierungskampagne** ist ähnlich, wird jedoch verwendet, um eine Liste einmal zu bestätigen, was bei alten, veralteten Listen nützlich ist - Listen, die seit über 12 Monaten oder sogar Jahren nicht mehr an gesendet wurden. Diese Art von Kampagne wird in der Regel auch durch Blockierungslisten erzwungen, um einen Block zu lösen. Die Abonnenten, die sich nicht erfolgreich über diesen Prozess erneut engagieren, sollten von künftigen E-Mail-Promotions ausgeschlossen werden.
+A **Reaktivierungskampagne** ist ähnlich, wird jedoch verwendet, um eine Liste einmal zu bestätigen, was nützlich ist, wenn es um alte, veraltete Listen geht - solche, die seit über 12 Monaten oder sogar Jahren nicht an gesendet wurden. Diese Art von Kampagne wird in der Regel auch durch Blockierungslisten erzwungen, um einen Block zu lösen. Die Abonnenten, die sich nicht erfolgreich über diesen Prozess erneut engagieren, sollten von künftigen E-Mail-Promotions ausgeschlossen werden.
 
 Die beste Möglichkeit, eine Win-back- oder Reaktivierungskampagne zu implementieren, ist Ihr E-Mail-Programm und sollte vollständig auf Ihre geschäftlichen Anforderungen und Situationen abgestimmt sein.
 
@@ -47,7 +47,7 @@ Die beste Möglichkeit, eine Win-back- oder Reaktivierungskampagne zu implementi
 
 Es ist einfach, Ihre E-Mail-Antwort einfach auf eine &quot;No-Response&quot;-Adresse zu setzen, aber dies wäre ein Fehler, der das Gesamtbild außer Acht lässt.
 
-Wenn Empfänger auf Marketing-E-Mails antworten, wird eine Antwort erwartet. Durch Aktivierung eines **Antwort- und Antwortsystems** verbessern Sie die Reputation Ihres Absenders. Dies erhöht die Wahrscheinlichkeit positiver Zustellbarkeits- und Platzierungsraten im Posteingang.
+Wenn Empfänger auf Marketing-E-Mails antworten, wird eine Antwort erwartet. Durch Aktivierung einer **Antwort- und Antwortsystem** können Sie die Reputation Ihres Absenders verbessern. Dies erhöht die Wahrscheinlichkeit positiver Zustellbarkeits- und Platzierungsraten im Posteingang.
 
 Es ist auch ein viel besseres Kundenerlebnis und wird dazu beitragen, die positive Wahrnehmung Ihrer Marke durch die Verbraucher zu steigern. Schließlich steht in nichts &quot;Bitte machen Sie Geschäfte mit uns&quot; wie &quot;wir wollen von Ihnen hören.&quot;
 
@@ -65,6 +65,6 @@ Ein letzter wichtiger Teil der Antwort-Strategie besteht darin, dass, wenn Sie e
 * [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
 * [Ermüdungsregeln](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
-* Weitere Informationen zu Rückgewinnungsstrategien finden Sie in [diesem Abschnitt](/help/additional-resources/re-engagement.md).
+* Erfahren Sie mehr über Rückgewinnungsstrategien in [diesem Abschnitt](/help/additional-resources/re-engagement.md).

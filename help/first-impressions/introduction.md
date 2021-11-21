@@ -20,7 +20,7 @@ ht-degree: 4%
 Bei der Suche nach einer neuen Beziehung ist es entscheidend, einen guten ersten Eindruck zu machen. Ohne sie kann nichts anderes, was du sagst oder tust, eine Chance bekommen. Die Beziehung zwischen einer Marke und denen, die sich für die Interaktion entscheiden, unterscheidet sich nicht. Alles fängt irgendwo an. Und wenn es um die Durchführung eines E-Mail-Programms geht, beginnt es mit der Erfassung von E-Mail-Adressen und dem Empfang dieser Abonnenten in Ihrem Programm. Sehen wir uns an, wie Sie sich für ein erfolgreiches E-Mail-Programm einrichten können, indem Sie einen guten ersten Eindruck in diesen Bereichen machen.
 
 Schritt 1:  [Adresserfassung und Listenwachstum](/help/first-impressions/address-collection-and-list-growth.md):
-*Erfahren Sie, welche Quellen für neue E-Mail-Adressen am besten geeignet sind, wie Sie eine hohe Datenqualität sicherstellen und sich an die rechtlichen Richtlinien anpassen.*
+*Erfahren Sie, welche Quellen für neue E-Mail-Adressen am besten geeignet sind, wie Sie eine hohe Datenqualität sicherstellen und sich an die gesetzlichen Richtlinien anpassen können.*
 
 Schritt 2:  [Willkommens-E-Mails](/help/first-impressions/welcome-emails.md):
-*Verstehen Sie, welche Schlüsselelemente beim Erstellen Ihrer Begrüßungs-E-Mails zu beachten sind.*
+*Erfahren Sie, welche Schlüsselelemente beim Erstellen Ihrer Willkommens-E-Mails zu beachten sind.*

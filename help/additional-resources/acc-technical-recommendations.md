@@ -15,7 +15,7 @@ ht-degree: 63%
 
 # Campaign Classic – Technische Empfehlungen {#technical-recommendations}
 
-Nachfolgend sind verschiedene Techniken, Konfigurationen und Tools aufgeführt, mit denen Sie Ihre Zustellrate bei Verwendung von Adobe Campaign Classic verbessern können.
+Nachfolgend sind verschiedene Techniken, Konfigurationen und Tools aufgeführt, mit denen Sie die Zustellrate bei Verwendung von Adobe Campaign Classic verbessern können.
 
 ## Konfiguration {#configuration}
 
@@ -29,7 +29,7 @@ Die Wahl der Domain für ein Reverse DNS hat Auswirkungen auf den Umgang mit bes
 
 >[!NOTE]
 >
->Sie können [dieses externe Tool](https://mxtoolbox.com/SuperTool.aspx) verwenden, um die Konfiguration einer Domäne zu überprüfen.
+>Sie können [dieses externe Tool](https://mxtoolbox.com/SuperTool.aspx) , um die Konfiguration einer Domain zu überprüfen.
 
 ### MX-Regeln {#mx-rules}
 
@@ -39,7 +39,7 @@ Genauer gesagt werden sie verwendet, um die Geschwindigkeit zu steuern, mit der 
 
 >[!NOTE]
 >
->Weiterführende Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Weitere Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -67,22 +67,22 @@ Ein SPF-Eintrag kann derzeit auf einem DNS-Server als TXT-Eintrag (Code 16) oder
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als berechtigt, E-Mails für die Domain zu senden. **~** bedeutet, dass jede andere Adresse als SoftFail interpretiert werden sollte.
+definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als berechtigt, E-Mails für die Domain zu senden. **~all** bedeutet, dass jede andere Adresse als SoftFail interpretiert werden sollte.
 
 Recommendations zum Definieren eines SPF-Datensatzes:
 
-* Fügen Sie am Ende **~all** (SoftFail) oder **-all** (Fail) hinzu, um alle Server abzulehnen, die nicht definiert sind. Andernfalls können Server diese Domain (mit einer neutralen Auswertung) fälschen.
-* Fügen Sie nicht **ptr** hinzu (openspf.org empfiehlt dies als kostspielig und unzuverlässig).
+* Hinzufügen **~all** (SoftFail) oder **-all** (Fehler) am Ende alle Server mit Ausnahme der definierten zurückweisen. Andernfalls können Server diese Domain (mit einer neutralen Auswertung) fälschen.
+* Nicht hinzufügen **ptr** (openspf.org empfiehlt dagegen als kostspielig und unzuverlässig).
 
 >[!NOTE]
 >
->Weitere Informationen zu SPF finden Sie in [diesem Abschnitt](/help/additional-resources/authentication.md#spf).
+>Weitere Informationen zu SPF finden Sie unter [diesem Abschnitt](/help/additional-resources/authentication.md#spf).
 
 ## Authentifizierung
 
 >[!NOTE]
 >
->Weitere Informationen zu den verschiedenen Formen der E-Mail-Authentifizierung finden Sie in [diesem Abschnitt](/help/additional-resources/authentication.md).
+>Erfahren Sie mehr über die verschiedenen Formen der E-Mail-Authentifizierung in [diesem Abschnitt](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
@@ -90,7 +90,7 @@ Recommendations zum Definieren eines SPF-Datensatzes:
 >
 >Bei gehosteten oder hybriden Installationen erfolgt die DKIM-E-Mail-Authentifizierungssignatur für alle Nachrichten mit allen Domains durch den Enhanced MTA, wenn Sie auf den [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages) aktualisiert haben.
 
-Für die Verwendung von [DKIM](/help/additional-resources/authentication.md#dkim) mit Adobe Campaign Classic ist die folgende Voraussetzung erforderlich:
+Verwenden [DKIM](/help/additional-resources/authentication.md#dkim) Für Adobe Campaign Classic ist die folgende Voraussetzung erforderlich:
 
 **Adobe Campaign-Optionsdeklaration**: in Adobe Campaign basiert der private DKIM-Schlüssel auf einem DKIM-Selektor und einer Domäne. Es ist derzeit nicht möglich, mehrere private Schlüssel für dieselbe Domäne/Subdomäne mit verschiedenen Selektoren zu erstellen. Es ist nicht möglich zu definieren, welche Selektordomäne/Subdomäne für die Authentifizierung in weder der Plattform noch der E-Mail verwendet werden muss. Die Plattform wählt alternativ einen der privaten Schlüssel aus, was bedeutet, dass die Authentifizierung mit hoher Wahrscheinlichkeit fehlschlägt.
 
@@ -163,9 +163,9 @@ List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessa
 
 Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Abmelde-Schaltfläche ist direkt in ihrer Benutzeroberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
 
-Sie können **List-Unsubscribe** implementieren, indem Sie:
+Sie können die **List-Unsubscribe** entweder
 
-* Direktes [Hinzufügen der Befehlszeile in der Versandvorlage](#adding-a-command-line-in-a-delivery-template)
+* Direkt [Hinzufügen der Befehlszeile in der Versandvorlage](#adding-a-command-line-in-a-delivery-template)
 * [Erstellung einer Typologieregel](#creating-a-typology-rule)
 
 ### Hinzufügen einer Befehlszeile in einer Versandvorlage {#adding-a-command-line-in-a-delivery-template}
@@ -196,7 +196,7 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 >[!NOTE]
 >
->In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules) erfahren Sie, wie Sie Typologieregeln in Adobe Campaign Classic erstellen.
+>Erfahren Sie, wie Sie in Adobe Campaign Classic Typologieregeln erstellen. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## E-Mail-Optimierung {#email-optimization}
 
@@ -204,9 +204,9 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 SMTP (Simple Mail Transfer Protocol) ist ein Internet-Standard für die E-Mail-Übertragung.
 
-Die SMTP-Fehler, die nicht von einer Regel überprüft werden, sind im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Versandlogqualifizierung]** aufgeführt. Diese Fehlermeldungen werden standardmäßig als unerreichbare Softbounces interpretiert.
+Die SMTP-Fehler, die nicht von einer Regel überprüft werden, werden im Abschnitt **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Verwaltung von Fehlern]** > **[!UICONTROL Versandlogqualifizierung]** Ordner. Diese Fehlermeldungen werden standardmäßig als unerreichbare Softbounces interpretiert.
 
-Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel in **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL E-Mail-Regelsätze]** hinzugefügt werden, wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
+Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel hinzugefügt werden in **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Verwaltung von Fehlern]** > **[!UICONTROL E-Mail-Regelsätze]** , wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
 
 ### Dedizierte IP-Adressen {#dedicated-ips}
 

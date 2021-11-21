@@ -20,7 +20,7 @@ ht-degree: 35%
 Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
 
 * Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder andere Zustellbarkeitsprobleme hindeuten.
-* Die Öffnungs- und Klickmetriken nehmen merklich ab, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
+* Die Öffnungs- und Klickmetriken werden deutlich reduziert, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
 * Die Zahl der Beschwerden nimmt beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
 * Sie verfügen über strategische Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und des Kampagnentyps.
 
@@ -38,6 +38,6 @@ Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu iden
 * [Versandzusammenfassung](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
 * [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=de#testing-and-sending)
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
-* In [diesem Abschnitt](/help/additional-resources/troubleshooting.md) erfahren Sie, wie Sie Zustellbarkeitsprobleme beheben können.
+* Erfahren Sie, wie Sie Zustellbarkeitsprobleme in [diesem Abschnitt](/help/additional-resources/troubleshooting.md).

@@ -19,12 +19,12 @@ ht-degree: 16%
 
 ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Gmail ist beispielsweise einer der komplexesten ISPs, da sie neben allen anderen Reputationsmaßnahmen die Interaktion sehr genau (Öffnungen und Klicks) betrachten. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist. Andere ISPs erfordern möglicherweise auch dasselbe. Wenden Sie sich an Ihren Adobe Delivery Consultant, um einen spezifischen Plan zu erstellen.
 
-Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausgewählten Gruppe von Anbietern finden Sie im Abschnitt [Internet Service Provider-Spezifikationen](/help/internet-service-provider-specifics/overview.md) .
+Siehe [Spezifikationen des Internet Service Providers](/help/internet-service-provider-specifics/overview.md) für weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausgewählten Gruppe von Anbietern:
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
 * [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
-* In [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md) erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming.
+* Erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

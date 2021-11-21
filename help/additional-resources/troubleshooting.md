@@ -19,7 +19,7 @@ Nachstehend finden Sie einige Best Practices, die Ihnen helfen können, Probleme
 
 ## Ein Problem mit der Zustellbarkeit erkennen {#identify-deliverability-issue}
 
-Um ein mögliches Problem zu identifizieren, können die Elemente auf [dieser Seite](/help/ongoing-monitoring.md) Ihre Aufmerksamkeit auf sich lenken.
+Um ein mögliches Problem zu identifizieren, werden die Elemente unter [diese Seite](/help/ongoing-monitoring.md) kann Ihre Aufmerksamkeit lenken.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -70,7 +70,7 @@ Beschwerden stammen zum Teil auch von Abonnenten, die einfach keine E-Mails mehr
 
 Neben Beschwerden und Datenvalidität konzentrieren sich ISPs bei Versandentscheidungen mehr denn je auf **positive Interaktion**. Sie versuchen herauszufinden, ob Abonnenten Ihre E-Mails öffnen oder aber löschen, ohne sie gelesen zu haben. Da sie diese Daten nicht mit Absendern teilen, müssen wir die verfügbaren Informationen verwenden und Öffnungen/Klicks/Transaktionen als Interaktion übersetzen.
 
-Im Rahmen der laufenden Reputationssicherung ist es wichtig, zu verstehen, wie engagiert Abonnenten auf Ihrer Liste sind, und eine **Aktualitäts-Risikohierarchie** für die Abonnenten in jeder Datei zu erstellen. Neuigkeit wird als letztes Öffnungs-, Klick-, Transaktions- oder Anmeldedatum definiert. Dieser Zeitrahmen kann sich je nach Vertikale unterscheiden. Gehen Sie folgendermaßen vor:
+Im Rahmen der laufenden Reputationssicherung ist es wichtig, zu verstehen, wie engagiert Abonnenten auf Ihrer Liste sind, und eine **Aktualitäts-Risikohierarchie** für die Abonnenten in jeder Datei zu erstellen. Neuigkeit wird als letztes Öffnungs-, Klick-, Transaktions- oder Anmeldedatum definiert. Dieser Zeitrahmen kann sich je nach Vertikale unterscheiden. Gehen Sie dazu folgendermaßen vor:
 
 1. Bestimmen Sie für jede Vertikale aktive (&quot;sichere&quot;) Segmente. Das sind typischerweise Abonnenten, die in den letzten drei bis sechs Monaten aktiv waren.
 1. Verringern Sie die Häufigkeit bei Inaktiven.

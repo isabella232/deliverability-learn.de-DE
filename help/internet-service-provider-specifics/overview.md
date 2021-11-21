@@ -1,6 +1,6 @@
 ---
-title: Besonderheiten der ISPs (Internetdienstanbieter)
-description: ISPs sind nicht alle gleich. Sie konzentrieren sich bei der Bestimmung, welche E-Mail an den Posteingang ihrer Benutzer weitergeleitet werden soll und welche E-Mail in den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen wird. Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einigen wenigen ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
+title: Besonderheiten der Internetdienstanbieter
+description: ISPs sind nicht alle gleich. Sie konzentrieren sich bei der Bestimmung, welche E-Mail an den Posteingang ihrer Benutzer weitergeleitet werden soll und welche E-Mail in den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen wird. Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
 topics: Deliverability
 kt: null
 doc-type: article
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 ---
 
-# Besonderheiten der ISPs (Internetdienstanbieter)
+# Besonderheiten der Internetdienstanbieter
 
 ISPs sind nicht alle gleich. Sie konzentrieren sich bei der Bestimmung, welche E-Mail an den Posteingang ihrer Benutzer weitergeleitet werden soll und welche E-Mail in den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen wird.
 
-Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einigen wenigen ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
+Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](./microsoft.md)
