@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -29,7 +29,7 @@ Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umf
 
    Weiterführende Informationen finden Sie unter [https://www.spamhaus.org/](https://www.spamhaus.org/),
 
-   Die Datenbank ist wichtiger. Die Nennung in dieser Liste stellt im Allgemeinen eine ernste Situation dar. In diesem Fall müssen Sie SOFORT handeln und kommerzielle Dienste, Zustellbarkeitsdienste und die [Adobe Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) warnen.
+   Die Datenbank ist wichtiger. Die Nennung in dieser Liste stellt im Allgemeinen eine ernste Situation dar. In diesem Fall müssen Sie SOFORT handeln und kommerzielle Dienste, Zustellbarkeitsdienste und die [Adobe Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=de) warnen.
 
 * **SpamCop**
 
@@ -45,7 +45,7 @@ Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umf
 
 * **SURBL**
 
-   Besuchen Sie die Seite [http://www.surbl.org/](http://www.surbl.org/),
+   Siehe [https://surbl.org/](https://surbl.org/)
 
    SURBL identifiziert die Websites, die regelmäßig in Spam erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
 
