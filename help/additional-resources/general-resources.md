@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
+source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 35%
 In den folgenden Technotes erfahren Sie mehr über aktuelle Updates zur Zustellbarkeit.
 
 * [Implementieren von Gmail&#39;s Brand Indicators for Message Identification (BIMI)](../technotes/implement-bimi.md)
-* [Häufig gestellte Fragen zum Apple Mail-Datenschutz](../technotes/apple-mail-privacy-faq.md)
 
 ## Allgemeine Ressourcen
 
