@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2253'
 ht-degree: 3%
 
 ---
@@ -126,7 +126,7 @@ Der Text in der resultierenden CSR-Datei muss mit **&quot;—BEGIN CERTIFICATE R
 Nachdem Sie die CSR-Datei von Adobe erhalten haben, führen Sie die folgenden Schritte aus:
 
 1. Kopieren Sie den CSR-Dateitext und fügen Sie ihn in einen Online-Decoder wie https://www.sslshopper.com/csr-decoder.html ein. <!--https://www.certlogik.com/decoder/,--> oder https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-Alternativ können Sie die *OpenSSL* lokal auf einem Linux-Computer. Weitere Informationen hierzu finden Sie unter [diese externe Seite](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+Alternativ können Sie die *OpenSSL* lokal auf einem Linux-Computer.
 1. Überprüfen Sie, ob alle Prüfungen erfolgreich sind.
 1. Überprüfen Sie, ob die richtigen Parameter und Domänennamen enthalten sind.
 1. Überprüfen Sie, ob alle anderen Daten mit den Details übereinstimmen, die Sie beim Senden Ihrer Anfrage angegeben haben.
@@ -199,7 +199,7 @@ Es liegt in Ihrer Verantwortung, den Gültigkeitszeitraum zu überprüfen. Adobe
 
 * Erstellen Sie ein Support-Ticket, um ein aktualisiertes Zertifikat mindestens zwei Wochen vor dem Ablaufdatum des Zertifikats anzufordern. Sie müssen keine zusätzliche CSR anfordern, es sei denn, die CSR-Details wurden geändert.
 
-* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)und wenn Ihre Umgebung in einer AWS-Umgebung von Adobe gehostet wird, können Sie das Control Panel verwenden, um das Zertifikat zu verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in diesem [Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)und wenn Ihre Umgebung in einer AWS-Umgebung von Adobe gehostet wird, können Sie das Control Panel verwenden, um das Zertifikat zu verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Schritt 8: Aktualisieren einer bestimmten Konfiguration {#update-configuration}
 
@@ -207,7 +207,7 @@ Sobald Sie sicher sind, dass die angeforderten SSL-Zertifikate ordnungsgemäß i
 
 >[!NOTE]
 >
->Campaign Classic: Die zu aktualisierenden URLs befinden sich hauptsächlich im [Implementierungsassistent](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und im [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (Tracking, Mirrorseite und Domänen öffentlicher Ressourcen). Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>Campaign Classic: Die zu aktualisierenden URLs befinden sich hauptsächlich im [Implementierungsassistent](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und im [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=de) (Tracking, Mirrorseite und Domänen öffentlicher Ressourcen). Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Nach der Aktualisierung der Konfigurationen werden neue E-Mails mit HTTPS-URLs und nicht mit HTTP gesendet. Um zu überprüfen, ob die URLs jetzt sicher sind, können Sie schnell die folgenden Tests durchführen:
 
