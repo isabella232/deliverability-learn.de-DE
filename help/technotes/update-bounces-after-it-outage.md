@@ -2,9 +2,7 @@
 title: Aktualisierung der Bounce-Qualifizierung nach Italia Online-Ausfall
 description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem Online-Ausfall von Italia aktualisieren
 feature: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: dfa9b3c9537847c79e612bdcfcacc8e0dccd01ea
+source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 25%
