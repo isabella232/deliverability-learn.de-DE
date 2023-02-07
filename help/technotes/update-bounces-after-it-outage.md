@@ -2,10 +2,11 @@
 title: Aktualisierung der Bounce-Qualifizierung nach Italia Online-Ausfall
 description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem Online-Ausfall von Italia aktualisieren
 feature: Deliverability
-source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
+source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 25%
+source-wordcount: '423'
+ht-degree: 21%
 
 ---
 
@@ -34,6 +35,8 @@ Die Symptome waren:
 
 ## Aktualisierungsprozess{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 Gemäß der Standardlogik für die Behandlung von Bounces hat Adobe Campaign diese Empfänger automatisch der Quarantäneliste mit dem **[!UICONTROL Status]** **[!UICONTROL Quarantäne]** hinzugefügt. Um dies zu korrigieren, müssen Sie Ihre Quarantänetabelle in Campaign aktualisieren, indem Sie diese Empfänger finden und entfernen oder ihren **[!UICONTROL Status]** auf **[!UICONTROL Gültig]** ändern, damit der nächtliche Bereinigungs-Workflow sie entfernt.
 
 Um die Empfänger zu finden, die von diesem Problem betroffen waren, oder für den Fall, dass dies bei einem anderen ISP erneut auftritt, lesen Sie bitte die folgenden Anweisungen:
@@ -41,5 +44,11 @@ Um die Empfänger zu finden, die von diesem Problem betroffen waren, oder für d
 * Campaign Classic v7 und Campaign v8 finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * Campaign Standard finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
+### Adobe Journey Optimizer{#ajo-update}
 
+Gemäß der standardmäßigen Bounce-Verarbeitungslogik hat Adobe Journey Optimizer diese E-Mail-Adressen automatisch mit einer **[!UICONTROL Grund]** Einstellung von **[!UICONTROL Ungültiger Empfänger]**. Um dies zu korrigieren, müssen Sie die Unterdrückungsliste aktualisieren, indem Sie diese E-Mail-Adressen suchen und entfernen.
+
+Nach der Identifizierung können diese Adressen mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
+
+Weitere Informationen finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
