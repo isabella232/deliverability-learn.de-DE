@@ -5,10 +5,10 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
+source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 21%
+source-wordcount: '430'
+ht-degree: 20%
 
 ---
 
@@ -27,11 +27,11 @@ Weitere Informationen finden Sie in der offiziellen Mitteilung [here](https://te
 
 ## Wirkung{#outage-impact}
 
-Wie in den meisten Fällen, in denen ein ISP ausfällt, wurden einige über Campaign gesendete E-Mails fälschlicherweise als Bounces markiert. Dies wirkte sich nicht nur auf die Adobe aus, sondern alle, die versuchen, während des Ausfalls E-Mails an Italia Online zukommen zu lassen.
+Wie in den meisten Fällen, in denen ein Internetdienstanbieter (ISP) ausfällt, wurden einige E-Mails, die über Campaign oder Journey Optimizer gesendet wurden, fälschlicherweise als Bounces markiert. Dies wirkte sich nicht nur auf die Adobe aus, sondern alle, die versuchen, während des Ausfalls E-Mails an Italia Online zukommen zu lassen.
 
 Die Symptome waren:
 
-* **Rückstellung** mit der Nachricht `452 requested action aborted: try again later` - diese wurden automatisch wiederholt und es sind keine Aktionen erforderlich.
+* **Softbounces** mit der Nachricht `452 requested action aborted: try again later` - diese wurden automatisch wiederholt und es sind keine Aktionen erforderlich.
 
 * **Hardbounces** mit der Nachricht `550 <email address> recipient rejected` wurden vom ISP am 26. Januar zwischen 8:00 und 14:00 Uhr Ortszeit zurückgegeben, um zu verhindern, dass Absender ihre Server weiterhin überlasten. Wie vom Italia Online Postmaster bestätigt, handelt es sich hierbei nicht um echte Hardbounces. Daher empfehlen wir, die Quarantäne für alle E-Mail-Adressen aufzuheben, die am 26. Januar 2023 aufgrund dieser Nachricht ausgeschlossen wurden.
 
