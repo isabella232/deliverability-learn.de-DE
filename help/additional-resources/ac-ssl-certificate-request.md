@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
+source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2252'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 Sie müssen die Domänennamen und Funktionen (Tracking, Mirrorseiten, Webapps usw.) identifizieren. zu sichern.
 >[!NOTE]
 >
->Adobe kann bei der Definition der Domänennamen und Funktionen helfen, die einbezogen werden sollen. Weitere Informationen erhalten Sie von Ihrem Adobe Customer Success Manager.
+>Adobe kann bei der Definition der Domänennamen und Funktionen helfen, die einbezogen werden sollen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 ### Schritt 1: CSR-Datei abrufen
 
@@ -160,7 +160,7 @@ Alternativ können Sie die *OpenSSL* lokal auf einem Linux-Computer. Weitere Inf
 
 ### Schritt 5: Anfordern der Installation des SSL-Zertifikats
 
-* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)folgen Sie den Anweisungen unter [diese Seite](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate) , um das Zertifikat in das Control Panel hochzuladen.
+* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)folgen Sie den Anweisungen unter [diese Seite](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate) , um das Zertifikat in das Control Panel hochzuladen.
 
 * Erstellen Sie andernfalls ein weiteres Support-Ticket über https://adminconsole.adobe.com/ , um die Adobe zur Installation des Zertifikats auf den Adobe-Servern anzufordern.
 
@@ -199,7 +199,7 @@ Es liegt in Ihrer Verantwortung, den Gültigkeitszeitraum zu überprüfen. Adobe
 
 * Erstellen Sie ein Support-Ticket, um ein aktualisiertes Zertifikat mindestens zwei Wochen vor dem Ablaufdatum des Zertifikats anzufordern. Sie müssen keine zusätzliche CSR anfordern, es sei denn, die CSR-Details wurden geändert.
 
-* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)und wenn Ihre Umgebung in einer AWS-Umgebung von Adobe gehostet wird, können Sie das Control Panel verwenden, um das Zertifikat zu verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)und wenn Ihre Umgebung in einer AWS-Umgebung von Adobe gehostet wird, können Sie das Control Panel verwenden, um das Zertifikat zu verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Schritt 8: Aktualisieren einer bestimmten Konfiguration {#update-configuration}
 
