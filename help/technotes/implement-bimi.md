@@ -3,9 +3,9 @@ title: Implementieren von Gmail's Brand Indicators for Message Identification (B
 description: Erfahren Sie, wie Sie BIMI implementieren
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
+source-git-commit: aca2bfff9f0315b735cf0a97f2177083c58e0875
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Ein Verified Mark Certificate (VMC) ist nur für einige Postfachanbieter wie Gma
 
 Ein Verified Mark Certificate ist eine gültige Bestätigung dafür, dass die Marke das Logo verwenden kann. Eine Zertifizierungsstelle prüft dies über die Markenbehörde, bei der das Markenlogo registriert ist. Dieser Prozess umfasst mehrere Validierungen und Prüfungen, die einige Zeit in Anspruch nehmen können. Derzeit stellen zwei Zertifizierungsstellen (Zertifizierungsstellen) VMC aus: Digicert und Entrust. Die ersten Markenbüros sind die USA, Kanada, die EU, Großbritannien, Deutschland, Japan, Australien und Spanien.
 
-Als Faustregel benötigen Sie einen VMC pro Logo. Eine VMC für Ihre Organisationsdomäne deckt Unterdomänen ab und verfügt über eine zusätzliche Funktion auch für verschiedene Domänen. Falls Sie unterschiedliche Logos haben, benötigen Sie mehr als einen VMC. Die Zertifizierungsstelle oder der Partner, mit dem Sie zusammenarbeiten, hilft Ihnen bei der Einrichtung.
+In der Regel benötigen Sie einen VMC pro Logo. Eine VMC für Ihre Organisationsdomäne deckt Unterdomänen ab und verfügt über eine zusätzliche Funktion auch für verschiedene Domänen. Falls Sie unterschiedliche Logos haben, benötigen Sie mehr als einen VMC. Die Zertifizierungsstelle oder der Partner, mit dem Sie zusammenarbeiten, hilft Ihnen bei der Einrichtung.
 
 >[!NOTE]
 >
