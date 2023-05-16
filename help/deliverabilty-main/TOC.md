@@ -3,9 +3,9 @@ user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
 source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,5 +57,5 @@ ht-degree: 96%
       + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
    + Technotes {#technotes}
       + [BIMI implementieren](/help/technotes/implement-bimi.md)
-      + [Bounces nach Italia Online-Ausfall aktualisieren](/help/technotes/update-bounces-after-it-outage.md)
+      + [Aktualisierung von Bounces nach Ausfall von Italia Online](/help/technotes/update-bounces-after-it-outage.md)
 
