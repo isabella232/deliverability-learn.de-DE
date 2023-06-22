@@ -2,14 +2,14 @@
 title: Spam-Fallen
 description: Erfahren Sie mehr über die verschiedenen Arten von Spam-Fallen.
 topics: Deliverability
-kt: 7050
+jira: KT-7050
 thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 
