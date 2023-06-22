@@ -2,14 +2,14 @@
 title: Was ist die Zustellbarkeitsstrategie und wie wird die Zustellbarkeit definiert?
 description: Erfahren Sie, wie die Zustellbarkeit definiert wird, warum sie wichtig ist und was die wichtigsten Zustellbarkeitsmetriken sind.
 topics: Deliverability
-kt: 5255
+jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
 source-wordcount: '843'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Konversion ist wichtig, aber was ist die Alternative? Ihre Zustellbarkeitsstrate
 
 | Gesendet | Prozent | zugestellt | Prozent | Posteingang | Anzahl nicht im Posteingang | Konversionsrate | Anzahl der verlorenen | Durchschnittlicher | Verlorener |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
-|  | Zugestellt |  | Posteingang |  |  |  | Konversionen | Kauf | Umsatz |
+|      | Zugestellt |           | Posteingang |       |                     |                 | Konversionen | Kauf | Umsatz |
 | 100.000 | 99 % | 99.000 | 100 % | 99.000 | – | 2 % | 0 | $ 100 | $ - |
 | 100.000 | 99 % | 99.000 | 90 % | 89.100 | 9.900 | 2 % | 198 | $ 100 | $ 19.800 |
 | 100.000 | 99 % | 99.000 | 80 % | 79.200 | 19.800 | 2 % | 396 | $ 100 | $ 39.600 |
