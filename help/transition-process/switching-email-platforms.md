@@ -1,14 +1,14 @@
 ---
 title: Reibungsloser Wechsel zwischen E-Mail-Plattformen.
-description: 'Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch bestehende, etablierte IP-Adressen zu übersetzen. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln. '
+description: Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch bestehende, etablierte IP-Adressen zu übersetzen. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln.
 topics: Deliverability
-kt: 5259
+jira: KT-5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 11%

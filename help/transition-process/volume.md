@@ -2,16 +2,16 @@
 title: Lautstärke - Tipps für einen reibungslosen Übergang
 description: Das Volumen der gesendeten E-Mails ist entscheidend für einen positiven Ruf. Erfahren Sie, was Sie für einen reibungslosen Übergang tun können.
 topics: Deliverability
-kt: 7055
+jira: KT-7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,11 +46,11 @@ Unter vielen Umständen folgt die Transaktionsnachricht nicht dem herkömmlichen
 **Campaign**
 
 * Erfahren Sie mehr über die Verwaltung der Zustellbarkeit beim Start einer neuen Plattform mit Adobe Campaign in [diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
-* Erfahren Sie, wie Sie mit Adobe Campaign Classic in mehrere Schübe senden können. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Erfahren Sie, wie Sie mit Adobe Campaign Classic in mehrere Schübe senden können. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=de#sending-using-multiple-waves).
 * Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic oder Standard zuweisen. [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md).
 * [Control Panel: Vollständige Zuweisung von Subdomains (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Classic zuweisen.*
 * [Control Panel: Vollständige Zuweisung von Subdomains (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig Adobe Campaign Standard zuweisen.*
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * Erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

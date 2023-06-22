@@ -2,13 +2,13 @@
 title: ISP-spezifische Überlegungen beim IP-Warming
 description: ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist.
 topics: Deliverability
-kt: 7054
+jira: KT-7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
-source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 16%
@@ -25,6 +25,6 @@ Siehe [Spezifikationen des Internet Service Providers](/help/internet-service-pr
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
 * [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * Erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming in [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

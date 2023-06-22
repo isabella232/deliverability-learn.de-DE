@@ -1,13 +1,13 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, usw.)
-description: '"[!DNL Verizon Media Group] ist im Allgemeinen eine der drei wichtigsten Domänen für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen bei Reputationsproblemen eine Massenpostsendung drosseln oder blockieren."'
+description: "[!DNL Verizon Media Group] ist im Allgemeinen eine der drei wichtigsten Domänen für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen bei Reputationsproblemen eine Massenpostsendung drosseln oder blockieren."
 topics: Deliverability
-kt: 5320
+jira: KT-5320
 doc-type: article
 activity: understand
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: a5c86d5e6f310534787f07a04971722dbc9bb33b
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 3%

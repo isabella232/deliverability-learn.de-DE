@@ -1,14 +1,14 @@
 ---
 title: Adressensammlung und Listenwachstum
-description: 'Erfahren Sie, welche Quellen am besten für neue E-Mail-Adressen geeignet sind, wie Sie eine hohe Datenqualität sicherstellen und wie Sie sich an den rechtlichen Richtlinien ausrichten können. '
+description: Erfahren Sie, welche Quellen am besten für neue E-Mail-Adressen geeignet sind, wie Sie eine hohe Datenqualität sicherstellen und wie Sie sich an den rechtlichen Richtlinien ausrichten können.
 topics: Deliverability
-kt: 7063
+jira: KT-7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 5%
@@ -49,7 +49,7 @@ Zusätzlich zum Hinzufügen der Felder für die Daten, die Sie über Ihre neuen 
 
 ## Datenqualität und -hygiene
 
-Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl akkurat als auch nutzbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot;oder &quot;.&quot;enthält. Beispiel. Lassen Sie keine allgemeinen Alias-Adressen zu, die auch als Rollenkonten bezeichnet werden (z. B. &quot;info&quot;, &quot;admin&quot;, &quot;sales&quot;, &quot;support&quot;). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Personengruppe im Gegensatz zu einem einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, wodurch Beschwerden, unterschiedliche Interaktionen, Abmeldungen und allgemeine Verwirrung gefährdet sind.
+Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl akkurat als auch nutzbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot;oder &quot;.&quot;enthält. zum Beispiel. Lassen Sie keine allgemeinen Alias-Adressen zu, die auch als Rollenkonten bezeichnet werden (z. B. &quot;info&quot;, &quot;admin&quot;, &quot;sales&quot;, &quot;support&quot;). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Personengruppe im Gegensatz zu einem einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, wodurch Beschwerden, unterschiedliche Interaktionen, Abmeldungen und allgemeine Verwirrung gefährdet sind.
 
 Im Folgenden finden Sie einige Lösungen für häufige Probleme, mit denen Sie Ihre E-Mail-Adressdaten konfrontieren können:
 
@@ -81,7 +81,7 @@ Es gibt viele Arten von E-Mail-Adressen. Primäre E-Mails, Arbeits-E-Mails, E-Ma
 Wenn Sie Glück haben, erhalten Sie sekundäre Konten, bei denen Menschen nach Angeboten und Angeboten suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Interaktionsraten - wenn überhaupt. Wenn Sie kein Glück haben, ist die Liste voller inaktiver E-Mails, das könnten nun Spamfallen sein. Häufig erhalten Sie eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listen einem E-Mail-Programm mehr als. Diese Praxis ist durch die [Akzeptierbare Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html).
 
 **Listen anhängen**
-Dies sind Kunden, die sich entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie entschieden sich jedoch für eine andere Methode als die E-Mail-Interaktion (im Geschäft, in sozialen Medien usw.). Sie konnten nicht empfänglich sein, eine nicht angeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Diese Methode birgt das Risiko, einen Kunden oder potenziellen Kunden, der mit Ihrer Marke beschäftigt ist, in einen Kritiker zu verwandeln, der nicht mehr Ihrer Marke vertraut und stattdessen in Ihren Wettbewerb eintritt. Diese Praxis ist durch die [Akzeptierbare Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/legal/terms/aup.html).
+Dies sind Kunden, die sich entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie entschieden sich jedoch für eine andere Methode als die E-Mail-Interaktion (im Geschäft, in sozialen Medien usw.). Sie konnten nicht empfänglich sein, eine nicht angeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Diese Methode birgt das Risiko, einen Kunden oder potenziellen Kunden, der mit Ihrer Marke beschäftigt ist, in einen Kritiker zu verwandeln, der nicht mehr Ihrer Marke vertraut und stattdessen in Ihren Wettbewerb eintritt. Diese Praxis ist durch die [Akzeptierbare Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html).
 
 **Messen oder andere Veranstaltungen**
 Das Sammeln von Adressen an einem Messestand oder durch eine andere offizielle, eindeutig markierte Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen erfassen und über die Ereignisproduzenten oder den Host verteilen. Das bedeutet, dass die Inhaber dieser E-Mail-Adressen nie angefordert haben, E-Mails von Ihrer Marke zu erhalten. Diese Abonnenten beschweren sich wahrscheinlich und markieren Ihre E-Mail als Spam, und sie haben möglicherweise keine genauen Kontaktinformationen bereitgestellt.

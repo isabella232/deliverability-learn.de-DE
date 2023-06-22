@@ -2,13 +2,13 @@
 title: Interaktion
 description: Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsentscheidungen im Posteingang auswirkt.
 topics: Deliverability
-kt: 5257
+jira: KT-5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen könn
 
 **Biologische Listenwachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketer legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
 
-**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
+**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der die Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
 
 Die richtige Häufigkeit ist etwas, das jeder Marketing-Experte für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Frequenzen zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Die Interaktion und Aktivierung von Empfängern ist eine der wichtigsten Maßnahmen, die ein Marketingexperte treffen kann, um den Erfolg eines E-Mail-Marketingprogramms sicherzustellen.
 
@@ -65,6 +65,6 @@ Ein letzter wichtiger Teil der Antwort-Strategie besteht darin, dass, wenn Sie e
 * [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
 * [Ermüdungsregeln](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 * Erfahren Sie mehr über Rückgewinnungsstrategien in [diesem Abschnitt](/help/additional-resources/re-engagement.md).
