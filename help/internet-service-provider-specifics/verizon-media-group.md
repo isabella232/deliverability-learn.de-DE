@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5320
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 3%
@@ -22,7 +24,7 @@ Im Folgenden finden Sie einige Highlights:
 
 ## Welche Daten sind wichtig?
 
-[!DNL Verizon Media Group] (VMG) hat eigene proprietäre Spam-Filter erstellt und verwaltet, die eine Mischung aus Inhalt, URL-Filterung und Spam-Beschwerden enthalten. Zusammen mit Gmail gehören sie zu den frühen Anbietern von ISPs, die E-Mail nach Domain und IP-Adresse filtern.
+[!DNL Verizon Media Group] (VMG) hat eigene proprietäre Spam-Filter erstellt und verwaltet, die eine Mischung aus Inhalt, URL-Filterung und Spam-Beschwerden enthalten. Zusammen mit Gmail gehören sie zu den frühen Anbietern von ISPs, die E-Mails nach Domain und IP-Adresse filtern.
 
 ## Welche Daten werden bereitgestellt?
 

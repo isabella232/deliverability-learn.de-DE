@@ -6,9 +6,11 @@ jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader
+level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 2%
@@ -34,14 +36,14 @@ Zu den Onboarding-Prozessen für neue Absender auf Adobe-Plattformen gehören di
 
 Es ist wichtig, eine gut strukturierte IP-Strategie zu entwickeln, um zu einem positiven Ruf beizutragen. Die Anzahl der IPs und der Einrichtung variiert je nach Geschäftsmodell und Marketing-Zielen. Arbeiten Sie mit einem Experten zusammen, um eine klare Strategie zu entwickeln, die richtig funktioniert. Beachten Sie die folgenden Punkte, die wichtig sind:
 
-* **Zu viele IPs** kann Reputationsprobleme von Triggern verursachen, da dies eine häufige Taktik für Spammer ist **Schneeschuh**, eine Taktik, die von Spammern verwendet wird, bei der der Traffic über viele IPs verteilt ist, um den Versand von Spam-Mails zu maximieren. Auch wenn Sie kein Spammer sind, können Sie wie einer aussehen, wenn Sie zu viele IPs verwenden, insbesondere wenn diese IPs zuvor keinen Traffic hatten.
+* **Zu viele IPs** kann Reputationsprobleme von Triggern verursachen, da dies eine häufige Taktik für Spammer ist **Schneeschuh**, eine Taktik, die von Spammern verwendet wird, bei der der Traffic über viele IPs verteilt ist, um den Versand von Spam-Mails zu maximieren. Obwohl Sie kein Spammer sind, könnten Sie wie einer aussehen, wenn Sie zu viele IPs verwenden, insbesondere wenn diese IPs zuvor keinen Traffic hatten.
 * **Zu wenige IPs** kann Durchsatzprobleme und möglicherweise Probleme mit der Reputation von Triggern verursachen. Der Durchsatz variiert je nach ISP. Wie viel und wie schnell ein ISP akzeptieren will, hängt normalerweise von seiner Infrastruktur ab und sendet Reputationsschwellen.
 * Die Trennung von Traffic für Nachrichtentypen ist entscheidend. Es ist wichtig, Marketing- und Transaktionsnachrichten mindestens auf separate IP-Pools zu trennen.
-* Abhängig von Ihrer E-Mail-Strategie kann es auch ratsam sein, verschiedene Produkte oder Marketing-Streams von verschiedenen IP-Pools zu trennen, wenn sich Ihre Reputation stark unterscheidet. Einige Marketing-Experten segmentieren auch nach Region. Wenn Sie die IP-Adresse auf Traffic mit einer geringeren Reputation aufteilen, wird das Reputationsproblem nicht behoben, aber es werden Probleme mit Ihren E-Mail-Sendungen zur &quot;guten Reputation&quot;verhindert. Immerhin wollen Sie Ihr gutes Publikum nicht für eine riskantere opfern.
+* Abhängig von Ihrer E-Mail-Strategie kann es auch ratsam sein, verschiedene Produkte oder Marketing-Streams von verschiedenen IP-Pools zu trennen, wenn sich Ihre Reputation stark unterscheidet. Einige Marketing-Experten segmentieren auch nach Region. Wenn Sie die IP-Adresse auf Traffic mit einer geringeren Reputation aufteilen, wird das Reputationsproblem nicht behoben, aber es werden Probleme mit Ihren E-Mail-Sendungen zur &quot;guten Reputation&quot;verhindert. Schließlich wollen Sie Ihr gutes Publikum nicht für ein riskanteres opfern.
 
 ## Feedback-Schleifen {#feedback-loops}
 
-Hinter den Kulissen verarbeiten Adobe-Plattformen Daten zu Absprüngen, Beschwerden, Abmeldungen und mehr. Die Einrichtung dieser Feedback-Schleifen ist ein wichtiger Aspekt der Zustellbarkeit. Beschwerden können die Reputation schädigen. Daher sollten Sie E-Mail-Adressen verwenden, die Beschwerden von Ihrer Zielgruppe registrieren. Beachten Sie, dass Gmail diese Daten nicht zurückgibt. Header zum Abmelden von Listen und Interaktionsfilterung sind besonders für Gmail-Abonnenten wichtig, die jetzt die meisten Abonnenten-Datenbanken umfassen.
+Hinter den Kulissen verarbeiten Adobe-Plattformen Daten zu Absprüngen, Beschwerden, Abmeldungen und mehr. Die Einrichtung dieser Feedback-Schleifen ist ein wichtiger Aspekt der Zustellbarkeit. Beschwerden können die Reputation schädigen. Daher sollten Sie E-Mail-Adressen verwenden, die Beschwerden von Ihrer Zielgruppe registrieren. Es ist wichtig zu beachten, dass Gmail diese Daten nicht zurückgibt. Header zum Abmelden von Listen und Interaktionsfilterung sind besonders für Gmail-Abonnenten wichtig, die jetzt die meisten Abonnenten-Datenbanken umfassen.
 
 ## Authentifizierung {#authentication}
 
@@ -49,7 +51,7 @@ Authentifizierung ist der Prozess, den ISPs zur Validierung der Identität eines
 
 ### SPF
 
-[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Eigentümer einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
+[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Inhaber einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
 
 ### DKIM
 

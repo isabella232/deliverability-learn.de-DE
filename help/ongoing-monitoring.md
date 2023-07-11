@@ -6,9 +6,11 @@ jira: KT-5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 35%
@@ -20,8 +22,8 @@ ht-degree: 35%
 Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
 
 * Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder andere Zustellbarkeitsprobleme hindeuten.
-* Die Öffnungs- und Klickmetriken werden deutlich reduziert, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
-* Die Zahl der Beschwerden nimmt beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
+* Die Öffnungs- und Klickmetriken nehmen merklich ab, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
+* Die Beschwerden nehmen beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
 * Sie verfügen über strategische Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und des Kampagnentyps.
 
 ## Produktspezifische Ressourcen

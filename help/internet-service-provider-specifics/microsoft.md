@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 2%
@@ -26,11 +28,11 @@ Im Folgenden finden Sie einige Highlights:
 
 ## Welche Daten werden bereitgestellt?
 
-[!DNL Microsoft]das proprietäre Tool für die Absenderberichterstellung, [!DNL Smart Network Data Services] (SNDS) können Sie Metriken dazu anzeigen, wie viele E-Mails Sie senden und wie viele E-Mails akzeptiert werden, sowie Beschwerden und Spamfallen. Beachten Sie, dass es sich bei den freigegebenen Daten um ein Beispiel handelt, das keine exakten Zahlen widerspiegelt, jedoch am besten darstellt, wie [!DNL Microsoft] betrachtet Sie als Absender. [!DNL Microsoft] stellt keine Informationen zu ihrer vertrauenswürdigen Benutzergruppe öffentlich bereit, aber diese Daten sind über die [!DNL Return Path Certification] für eine zusätzliche Gebühr.
+[!DNL Microsoft]das proprietäre Tool für die Absenderberichterstellung, [!DNL Smart Network Data Services] (SNDS) können Sie Metriken dazu anzeigen, wie viele E-Mails Sie senden und wie viele E-Mails akzeptiert werden, sowie Beschwerden und Spamfallen. Beachten Sie, dass es sich bei den freigegebenen Daten um ein Beispiel handelt, das nicht exakte Zahlen widerspiegelt, aber am besten zeigt, wie [!DNL Microsoft] betrachtet Sie als Absender. [!DNL Microsoft] stellt keine Informationen zu ihrer vertrauenswürdigen Benutzergruppe öffentlich bereit, aber diese Daten sind über die [!DNL Return Path Certification] für eine zusätzliche Gebühr.
 
 ## Reputation des Absenders
 
-[!DNL Microsoft] hat sich traditionell auf das Senden von IP in Reputationsbewertungen und Filterentscheidungen konzentriert. Sie arbeiten aktiv an der Erweiterung ihrer Funktionen für die Versanddomäne. Beide werden größtenteils von den traditionellen Reputationseinflüssen wie Beschwerden und Spamfallen angetrieben. Die Zustellbarkeit kann auch durch das Zertifizierungsprogramm Return Path stark beeinflusst werden, das über spezifische quantitative und qualitative Programmanforderungen verfügt.
+[!DNL Microsoft] hat sich traditionell auf das Senden von IP in Reputationsbewertungen und Filterentscheidungen konzentriert. Sie arbeiten aktiv daran, auch ihre Funktionen für die Versanddomäne zu erweitern. Beide werden größtenteils von den traditionellen Reputationseinflüssen wie Beschwerden und Spamfallen angetrieben. Die Zustellbarkeit kann auch durch das Zertifizierungsprogramm Return Path stark beeinflusst werden, das über spezifische quantitative und qualitative Programmanforderungen verfügt.
 
 ## Insights
 

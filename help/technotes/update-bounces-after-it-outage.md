@@ -1,39 +1,41 @@
 ---
-title: Aktualisierung der Bounce-Qualifizierung nach Italia Online-Ausfall
-description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem Online-Ausfall von Italia aktualisieren
+title: Aktualisierung der Bounce-Qualifizierung nach Ausfall von Italia Online
+description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem Ausfall von Italia Online aktualisieren können
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
+role: Admin
+level: Beginner
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 20%
+ht-degree: 53%
 
 ---
 
-# Aktualisieren falscher Hardbounces nach Italia Online-Ausfall {#update-bounce-italia}
+# Aktualisieren falscher Hardbounces nach einem Ausfall von Italia Online {#update-bounce-italia}
 
 ## Kontext{#outage-context}
 
 Seit dem 22. Januar (Ortszeit) ist Italia Online durch einen Ausfall gekennzeichnet, der zu mehreren Verzögerungen und Zurückweisungen von E-Mails geführt hat. Der Service begann am 26. Januar mit begrenzter Kapazität wieder aufzunehmen.
 
-Betroffene Domänen sind: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it** und **blu.it**.
+Betroffene Domains sind: **libero.it**, **virgilio.it**, **inwind.it**, **iol.it** und **blu.it**.
 
-Dieses Problem trat vom 22.1.2023 bis zum 26.1.2023 auf, aber die meisten fälschlich unter Quarantäne gestellten Fälle wurden am 26. Januar durchgeführt.
+Dieses Problem trat vom 22.1.2023 bis zum 26.1.2023 auf, aber die meisten falschen Quarantänemaßnahmen erfolgten am 26. Januar.
 
-Weitere Informationen finden Sie in der offiziellen Mitteilung [here](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}.
+Weitere Informationen finden Sie in der offiziellen Mitteilung [hier](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}.
 
 
 ## Wirkung{#outage-impact}
 
-Wie in den meisten Fällen, in denen ein Internetdienstanbieter (ISP) ausfällt, wurden einige E-Mails, die über Campaign oder Journey Optimizer gesendet wurden, fälschlicherweise als Bounces markiert. Dies wirkte sich nicht nur auf die Adobe aus, sondern alle, die versuchen, während des Ausfalls E-Mails an Italia Online zukommen zu lassen.
+Wie in den meisten Fällen, in denen ein Internetdienstanbieter (ISP) ausfällt, wurden einige E-Mails, die über Campaign oder Journey Optimizer gesendet wurden, fälschlicherweise als Bounces markiert. Dies hatte nicht nur Auswirkungen auf Adobe, sondern auf alle, die während des Ausfalls versuchten, E-Mails an Italia Online zu senden.
 
 Die Symptome waren:
 
 * **Softbounces** mit der Nachricht `452 requested action aborted: try again later` - diese wurden automatisch wiederholt und es sind keine Aktionen erforderlich.
 
-* **Hardbounces** mit der Nachricht `550 <email address> recipient rejected` wurden vom ISP am 26. Januar zwischen 8:00 und 14:00 Uhr Ortszeit zurückgegeben, um zu verhindern, dass Absender ihre Server weiterhin überlasten. Wie vom Italia Online Postmaster bestätigt, handelt es sich hierbei nicht um echte Hardbounces. Daher empfehlen wir, die Quarantäne für alle E-Mail-Adressen aufzuheben, die am 26. Januar 2023 aufgrund dieser Nachricht ausgeschlossen wurden.
+* **Hardbounces** mit der Nachricht `550 <email address> recipient rejected` wurden von dem ISP am 26. Januar zwischen 8:00 und 14:00 Uhr Ortszeit zurückgeschickt, um zu verhindern, dass seine Server weiter überlastet werden. Wie vom Italia Online-Postmaster bestätigt, handelt es sich hierbei nicht um echte Hardbounces. Daher empfehlen wir, die Quarantäne für alle E-Mail-Adressen aufzuheben, die am 26. Januar 2023 aufgrund dieser Nachricht ausgeschlossen wurden.
 
 ## Aktualisierungsprozess{#outage-update}
 

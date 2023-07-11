@@ -2,8 +2,11 @@
 user-guide-title: Best-Practice-Leitfaden zur Zustellbarkeit
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Erfahren Sie mehr über die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit, damit Sie den Erfolg Ihres Marketing-Programms sicherstellen können.
-source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
-workflow-type: ht
+feature: Deliverability
+role: Leader, User
+level: Beginner
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 

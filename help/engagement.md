@@ -6,9 +6,11 @@ jira: KT-5257
 thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
+role: Leader, User
+level: Beginner
 team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 2%
@@ -21,7 +23,7 @@ Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsen
 
 Eine gute Öffnungs- und Klickrate hängt von vielen Faktoren für verschiedene Absender ab. Wenden Sie sich an Ihren Zustellbarkeitsberater, um spezifische Ziele und Grundlinien für Ihr E-Mail-Programm festzulegen.
 
-Die E-Mail-Interaktion ist auch ein Begriff, der zur Beschreibung eines Metriktyps verwendet wird, der bei der Ermittlung des IP-Ansehens hilft. ISPs, die eigene Portale besitzen (Hotmail, AOL, Yahoo, Gmail usw.) über eine enorme Menge an Daten verfügen, die die Interaktionen der Kunden mit ihrer E-Mail betreffen. Er kann Öffnungen, Klicks und viele andere Formen der Interaktion sehen, selbst wenn die E-Mail in den Spam-Ordner verschoben oder daraus entfernt wird. Sie können auch sehen, ob die E-Mail-Adresse, an die sie gesendet wurde, im Adressbuch der Kunden enthalten ist oder nicht.
+Die E-Mail-Interaktion ist auch ein Begriff, der zur Beschreibung eines Metriktyps verwendet wird, der bei der Ermittlung des IP-Ansehens hilft. ISPs, die eigene Portale besitzen (Hotmail, AOL, Yahoo, Gmail usw.) verfügen über eine enorme Menge an Daten zur Interaktion ihrer Kunden mit ihrer E-Mail. Er kann Öffnungen, Klicks und viele andere Formen der Interaktion sehen, selbst wenn die E-Mail in den Spam-Ordner verschoben oder daraus entfernt wird. Sie können auch sehen, ob die E-Mail-Adresse, an die sie gesendet wurde, im Adressbuch der Kunden enthalten ist oder nicht.
 
 Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen können, sind Öffnungen und Klicks ein guter Ausgangspunkt. Beachten Sie, dass ISPs nur die E-Mail-Interaktion sehen. Während andere Formen der Interaktion für das gesamte Unternehmen wichtig sind, haben ISPs nur Sichtbarkeit und erstellen Filterentscheidungen basierend auf E-Mail-Metriken.
 
@@ -29,7 +31,7 @@ Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen könn
 
 **Biologische Listenwachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketer legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
 
-**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der die Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
+**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
 
 Die richtige Häufigkeit ist etwas, das jeder Marketing-Experte für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Frequenzen zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Die Interaktion und Aktivierung von Empfängern ist eine der wichtigsten Maßnahmen, die ein Marketingexperte treffen kann, um den Erfolg eines E-Mail-Marketingprogramms sicherzustellen.
 
@@ -39,7 +41,7 @@ Die Interessen der Abonnenten entwickeln sich ständig weiter, und Marketing-Exp
 
 A **Win-back-Strategie** ist der Zeitpunkt, zu dem regelmäßig ein Sonderanreiz an einen bestimmten Teil einer Marketing-Datenbank gesendet wird, um zu versuchen, eine Liste mit geringer Öffnungs- und Klickaktivität erneut zu aktivieren. Positive Antworten werden beibehalten und der Teil der Liste, der nicht reagiert, wird in den inaktiven Status verschoben und wird nicht mehr an gesendet.
 
-A **Reaktivierungskampagne** ist ähnlich, wird jedoch verwendet, um eine Liste einmal zu bestätigen, was nützlich ist, wenn es um alte, veraltete Listen geht - solche, die seit über 12 Monaten oder sogar Jahren nicht an gesendet wurden. Diese Art von Kampagne wird in der Regel auch durch Blockierungslisten erzwungen, um einen Block zu lösen. Die Abonnenten, die sich nicht erfolgreich über diesen Prozess erneut engagieren, sollten von künftigen E-Mail-Promotions ausgeschlossen werden.
+A **Reaktivierungskampagne** ist ähnlich, wird aber verwendet, um eine Liste einmal zu bestätigen, was nützlich ist, wenn es um alte, veraltete Listen geht - solche, die seit über 12 Monaten nicht an gesendet wurden, oder sogar Jahre. Diese Art von Kampagne wird in der Regel auch durch Blockierungslisten erzwungen, um einen Block zu lösen. Die Abonnenten, die sich nicht erfolgreich über diesen Prozess erneut engagieren, sollten von künftigen E-Mail-Promotions ausgeschlossen werden.
 
 Die beste Möglichkeit, eine Win-back- oder Reaktivierungskampagne zu implementieren, ist Ihr E-Mail-Programm und sollte vollständig auf Ihre geschäftlichen Anforderungen und Situationen abgestimmt sein.
 

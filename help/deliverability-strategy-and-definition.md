@@ -6,18 +6,20 @@ jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: ht
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# Strategie und Definition der Zustellbarkeit
+# Zustellbarkeit Strategie und Definition
 
-Das Entwerfen erfolgreicher E-Mail-Marketing-Kampagnen hängt von einem klaren Verständnis der Marketing-Ziele ab, unabhängig davon, ob es sich um Initiativen für Interessenten oder CRM-Initiativen (Customer Relationship Management) handelt. Solche Kampagnen helfen zu bestimmen, wer angesprochen werden soll, was beworben werden soll und wann eine Zustellung ideal ist.
+Die Erstellung erfolgreicher E-Mail-Marketing-Kampagnen setzt ein klares Verständnis der Marketing-Ziele voraus, unabhängig davon, ob es sich um Prospektions- oder CRM-Initiativen (Customer Relationship Management) handelt. Solche Kampagnen helfen zu bestimmen, wer angesprochen werden soll, was beworben werden soll und wann eine Zustellung ideal ist.
 
 Im Folgenden finden Sie einige Beispiele für Ziele einer E-Mail-Marketing-Strategie:
 
@@ -30,17 +32,17 @@ Im Folgenden finden Sie einige Beispiele für Ziele einer E-Mail-Marketing-Strat
 
 ## Zustellbarkeit definiert
 
-Es gibt zwei Schlüsselmetriken, die bei der Definition der Zustellbarkeit eine Rolle spielen. Die *Zustellrate* ist der Prozentsatz der E-Mails, die nicht fehlschlagen und vom ISP akzeptiert werden. Als Nächstes folgt die *Posteingangsplatzierung*. Diese wird auf die vom ISP akzeptierten Nachrichten angewandt und bestimmt, ob die E-Mail im Posteingang oder im Spam-Ordner landet.
+Es gibt zwei Schlüsselmetriken, die bei der Definition der Zustellbarkeit eine Rolle spielen. Die *Lieferrate* ist der Prozentsatz der E-Mails, die nicht bounce und vom ISP akzeptiert werden. Als Nächstes folgt die *Posteingangsplatzierung*. Diese wird auf die vom ISP akzeptierten Nachrichten angewandt und bestimmt, ob die E-Mail im Posteingang oder im Spam-Ordner landet.
 
-Bei der Messung der E-Mail-Leistung ist es wichtig, die Zustellrate und die Posteingangsplatzierungsrate in Verbindung miteinander zu verstehen. Eine hohe Zustellrate ist nicht der einzige Aspekt der Zustellbarkeit. Nur weil eine Nachricht über den ersten Kontrollpunkt eines ISPs gesendet wird, bedeutet dies nicht unbedingt, dass ein Abonnent die Nachricht tatsächlich gesehen und mit ihr interagiert hat.
+Bei der Messung der E-Mail-Leistung ist es wichtig, die Zustellrate und die Posteingangsplatzierungsrate in Verbindung miteinander zu verstehen. Eine hohe Zustellrate ist nicht der einzige Aspekt der Zustellbarkeit. Nur weil eine Nachricht über den anfänglichen Checkpoint eines ISP empfangen wird, bedeutet dies nicht unbedingt, dass Ihr Abonnent Ihre Nachricht tatsächlich gesehen hat und damit interagiert hat.
 
 ## Warum Zustellbarkeit wichtig ist
 
-Sie sollten wissen, ob Ihre E-Mails zugestellt werden oder im Posteingang oder im Spam-Ordner landen. Der Grund dafür ist:
+Wenn Sie nicht wissen, ob Ihre E-Mails zugestellt werden oder ob sie im Posteingang oder im Spam-Ordner landen, sollten Sie dies tun. Das ist der Grund.
 
-Unzählige Stunden fließen in die Planung und Produktion Ihrer E-Mail-Kampagnen. Wenn diese E-Mails abgewiesen werden oder im Spam-Ordner Ihrer Abonnenten landen, werden Ihre Kunden sie wahrscheinlich nicht lesen, Ihr Aufruf zum Handeln (CTA) wird nicht beachtet, und Sie werden Ihre Umsatzziele aufgrund verlorener Konversionen verfehlen. Einfach ausgedrückt: Sie können es sich nicht leisten, die Zustellbarkeit zu ignorieren. Sie ist von entscheidender Bedeutung für den Erfolg Ihrer E-Mail-Marketing-Aktivitäten und Ihren Gewinn.
+Unzählige Stunden fließen in die Planung und Produktion Ihrer E-Mail-Kampagnen. Wenn die E-Mail-Bounce oder schließlich im Spam-Ordner Ihrer Abonnenten landet, werden Ihre Kunden diese wahrscheinlich nicht lesen, Ihr Aktionsaufruf (CTA) wird nicht bestätigt und Sie werden aufgrund verlorener Konversionen Ihre Umsatzziele nicht erreichen. Einfach gesagt, man kann es sich nicht leisten, die Zustellbarkeit zu ignorieren. Sie ist von entscheidender Bedeutung für den Erfolg Ihrer E-Mail-Marketing-Aktivitäten und Ihren Gewinn.
 
-Das Befolgen der Best Practices für die Zustellbarkeit stellt sicher, dass Ihre E-Mail die bestmögliche Chance auf Öffnungen, Klicks und das ultimative Ziel – die Konversion – hat. Sie können eine erstklassige Betreffzeile schreiben und schöne Bilder und ansprechende Inhalte haben. Wenn diese E-Mail jedoch nicht zugestellt wird, hat der Kunde keine Möglichkeit zum Kauf. Alles in allem ist für den Programmerfolg bei der E-Mail-Zustellbarkeit jeder Schritt im E-Mail-Annahmeprozess von dem jeweils vorherigen Schritt abhängig.
+Das Befolgen der Best Practices für die Zustellbarkeit stellt sicher, dass Ihre E-Mail die bestmögliche Chance auf Öffnungen, Klicks und das ultimative Ziel – die Konversion – hat. Sie können eine erstklassige Betreffzeile schreiben und schöne Bilder und ansprechende Inhalte haben. Wenn diese E-Mail jedoch nicht zugestellt wird, hat der Kunde keine Möglichkeit zur Konversion. Alles in allem ist für den Programmerfolg bei der E-Mail-Zustellbarkeit jeder Schritt im E-Mail-Annahmeprozess von dem jeweils vorherigen Schritt abhängig.
 
 ### Schritt 1: E-Mail zugestellt
 
@@ -83,7 +85,7 @@ Hier einige wichtige Faktoren für die Klickrate:
 
 * E-Mail zugestellt, im Posteingang gelandet und geöffnet
 * Starker CTA
-   * Dies ist die primäre Aktion, die Sie von Ihrer Audience erreichen möchten. Normalerweise ist dies ein Klick auf eine URL. Stellen Sie sicher, dass diese klar und für den Benutzer leicht zu finden ist.
+   * Dies ist die primäre Aktion, die Sie von Ihrer Audience erreichen möchten. Normalerweise handelt es sich um einen Klick auf eine URL. Stellen Sie sicher, dass es für den Benutzer klar und leicht zu finden ist.
 * Relevanz oder Wert des Inhalts
 
 ### Schritt 5: Konversion
@@ -97,7 +99,7 @@ Hier einige wichtige Faktoren für die Konversion:
 
 ### Mögliche Auswirkungen auf den Umsatz
 
-Konversion ist wichtig, aber was ist die Alternative? Ihre Zustellbarkeitsstrategie kann das E-Mail-Marketing-Programm stärken oder zerstören. Die folgende Tabelle zeigt den potenziellen Umsatzverlust, den eine schwache Zustellbarkeitsrichtlinie für Ihr Marketing-Programm bewirken kann. Wie gezeigt, entspricht für ein Unternehmen mit einer Konversionsrate von 2 Prozent und einem durchschnittlichen Kaufpreis von 100 US-Dollar jede Reduzierung der Posteingangsplatzierung um 10 Prozent einem Umsatzverlust von fast 20.000 US-Dollar. Denken Sie daran, dass diese Zahlen für jeden Absender spezifisch sind.
+Konversion ist der Schlüssel, aber was ist die Alternative? Ihre Zustellbarkeitsstrategie kann das E-Mail-Marketing-Programm stärken oder zerstören. Die folgende Tabelle zeigt den potenziellen Umsatzverlust, den eine schwache Zustellbarkeitsrichtlinie für Ihr Marketing-Programm bewirken kann. Wie gezeigt, entspricht für ein Unternehmen mit einer Konversionsrate von 2 Prozent und einem durchschnittlichen Kaufpreis von 100 US-Dollar jede Reduzierung der Posteingangsplatzierung um 10 Prozent einem Umsatzverlust von fast 20.000 US-Dollar. Denken Sie daran, dass diese Zahlen für jeden Absender spezifisch sind.
 
 | Gesendet | Prozent | zugestellt | Prozent | Posteingang | Anzahl nicht im Posteingang | Konversionsrate | Anzahl der verlorenen | Durchschnittlicher | Verlorener |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|

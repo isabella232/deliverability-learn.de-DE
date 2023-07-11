@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5262
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Im Folgenden finden Sie einige Highlights:
 
 ## Welche Daten sind wichtig?
 
-[!DNL Gmail] konzentriert sich auf das Feedback der Benutzer zu einem Großteil ihrer Filterentscheidungen. Obwohl wir nicht wissen, welche geheime Soße diese Entscheidungen haben, gibt es gemeinsame Standards, die die meisten Marketer überwachen können. Die Öffnungs- und Klickraten bieten Einblicke in die Interaktion Ihrer Zielgruppe und können zur Förderung einer positiven Reputation und einer hohen Posteingangsplatzierung verwendet werden.
+[!DNL Gmail] konzentriert sich auf das Feedback ihrer Benutzer zu einem Großteil ihrer Filterentscheidungen. Obwohl wir nicht wissen, wie geheim diese Entscheidungen sind, gibt es gemeinsame Standards, die die meisten Marketer überwachen können. Die Öffnungs- und Klickraten bieten Einblicke in die Interaktion Ihrer Zielgruppe und können zur Förderung einer positiven Reputation und einer hohen Posteingangsplatzierung verwendet werden.
 
 ## Welche Daten verfügbar sind
 
