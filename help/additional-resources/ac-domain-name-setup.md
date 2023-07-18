@@ -1,6 +1,6 @@
 ---
 title: Domain-Namen einrichten
-description: Erfahren Sie, wie Sie Adobe Campaign eine Subdomain zuweisen.
+description: Erfahren Sie, wie Sie eine Subdomain an Adobe Campaign delegieren.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -29,7 +29,7 @@ Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unte
 
 ### Zuweisung
 
-Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann einer anderen Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) zuzuweisen. Wenn also ein Kunde die Zone „example.com“ verwaltet, kann er Adobe Campaign die untergeordnete Zone „marketing.example.com“ zuweisen.
+Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann an eine andere Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) delegieren. Wenn also ein Kunde die Zone „example.com“ verwaltet, kann er an Adobe Campaign die untergeordnete Zone „marketing.example.com“ delegieren.
 
 In diesem Fall hätten die DNS-Server von Adobe Campaign die volle Berechtigung nur für diese Zone, nicht aber für die Domain auf der obersten Ebene. Die DNS-Server von Adobe Campaign liefern dann Antworten auf Anfragen zu Domain-Namen in dieser Zone, z. B. „t.marketing.example.com“, aber nicht zu „www.example.com“.
 
@@ -40,11 +40,11 @@ Adobe kann autonom alle technischen Best Practices implementieren, um die Zustel
 
 ## Optionen zum Einrichten der DNS
 
-Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe seinen Kunden dringend, Adobe Campaign eine Subdomain zuzuweisen.  Adobe bietet seinen Kunden jedoch auch eine alternative Option zur DNS-Konfiguration: CNAME-Setup.
+Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe seinen Kunden dringend, bei der Bereitstellung von Adobe Campaign eine Subdomain zuzuweisen.  Adobe bietet seinen Kunden jedoch auch eine alternative Option zur DNS-Konfiguration: CNAME-Setup.
 
 | Option | Beschreibung | Zuständigkeiten von Adobe | Zuständigkeiten des Kunden |
 |--- |------- |--- |--- |
-| Zuweisen einer Subdomain an Adobe Campaign | Der Kunde weist Adobe eine Subdomain (email.example.com) zu. In diesem Szenario kann Adobe eine Kampagne als Managed Service bereitstellen, indem alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden. | Vollständige Verwaltung der Subdomain und aller für Adobe Campaign erforderlichen DNS-Einträge. | Ordnungsgemäße Zuweisung der Subdomain an Adobe |
+| Zuweisen einer Subdomain an Adobe Campaign | Der Kunde delegiert eine Subdomain (email.example.com) an Adobe. In diesem Szenario kann Adobe eine Kampagne als Managed Service bereitstellen, indem alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden. | Vollständige Verwaltung der Subdomain und aller für Adobe Campaign erforderlichen DNS-Einträge. | Ordnungsgemäße Zuweisung der Subdomain an Adobe |
 | Verwenden von CNAMEs | Der Kunde erstellt eine Subdomain und verwendet CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich. | Verwalten der für Adobe Campaign erforderlichen DNS-Einträge. | Erstellen und Steuern der Subdomain und Erstellen/Verwalten der für Adobe Campaign erforderlichen CNAME-Einträge. |
 
 ## Erforderliche DNS-Einträge
@@ -61,7 +61,7 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 
 Um Mail-Absender zu authentifizieren und sicherzustellen, dass die Ziel-E-Mail-Systeme den von Ihrer Domain gesendeten Nachrichten vertrauen, wird die Verwendung von DMARC (Domain-based Message Authentication, Reporting, and Conformance) empfohlen.
 
-Beispiel für DMARC-TXT-Datensatz:
+Beispiel für DMARC-TXT-Eintrag:
 
 ```
 _dmarc.email.example.com
@@ -75,7 +75,7 @@ Sie können DMARC manuell implementieren oder sich mit Adobe in Verbindung setze
 
 ### Zuweisen von Subdomains
 
-Dazu muss der Kunde eine Subdomain in seinen DNS-Servern anlegen und die Nameserver für diese Subdomain als die von Adobe verwalteten definieren.  Ein Kunde, dessen Haupt-Domain-Name beispielsweise „example.com“ lautet und der die Verwaltung von „marketing.example.com“ für seine E-Mail-Sendungen an Adobe übertragen möchte, muss diese Zuweisung konkretisieren, indem er die folgenden Typ-Einträge zu seinem DNS hinzufügt:
+Dazu muss der Kunde eine Subdomain in seinen DNS-Servern anlegen und die Nameserver für diese Subdomain als die von Adobe verwalteten definieren.  Ein Kunde, dessen Haupt-Domain-Name beispielsweise „example.com“ lautet und der die Verwaltung von „marketing.example.com“ für seine E-Mail-Sendungen an Adobe delegieren möchte, muss diese Delegation konkretisieren, indem er die folgenden Typ-Einträge zu seinem DNS hinzufügt:
 
 ```
 marketing.example.com. NS a.ns.campaign.adobe.com.
@@ -90,9 +90,9 @@ Während des Einrichtungsvorgangs stellt Adobe sicher, dass die Domain an die Ad
 
 ### Verwenden von CNAMEs
 
-Wenn sich der Kunde für die Verwendung von CNAMEs entscheidet, anstatt Adobe eine Subdomain zuzuweisen, stellt Adobe während der Einrichtungsphase die Einträge bereit, die in den DNS-Servern des Kunden platziert werden sollen, und konfiguriert die entsprechenden Werte in den DNS-Servern von Adobe Campaign.
+Wenn sich der Kunde für die Verwendung von CNAMEs entscheidet, anstatt eine Subdomain an Adobe zu delegieren, stellt Adobe während der Einrichtungsphase die Einträge bereit, die in den DNS-Servern des Kunden platziert werden sollen, und konfiguriert die entsprechenden Werte in den DNS-Servern von Adobe Campaign.
 
-## Allgemeine Anforderungen für die Implementierung
+## Allgemeine Anforderungen für die Bereitstellung
 
 Bei der Implementierung einer neuen Enterprise-Marketing-Lösung gibt es Anforderungen an die nach außen gerichteten Komponenten.  Dazu gehören das Hosten von Landingpages und Web-Formularen, das Einrichten von Links und Websites, die getrackt werden sollen, das Anzeigen von Mirror-Seiten und das Konfigurieren einer Opt-out-Seite.
 
@@ -117,18 +117,17 @@ Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 >* Wenn E-Mails aus Adobe Campaign versendet werden, wird die Mailbox der Absenderadresse nicht überwacht und Marketing-Benutzer können nicht auf diese Mailbox zugreifen. Adobe Campaign bietet auch nicht die Möglichkeit, die in dieser Mailbox empfangenen E-Mails automatisch zu beantworten oder weiterzuleiten.
 >* In Campaign dürfen die Absenderadresse und die Fehleradresse nicht „abuse“ oder „postmaster“ lauten.
 
-
 ## Zuweisen von Subdomains
 
-Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen zugewiesen werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain Adobe ordnungsgemäß zugewiesen werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Zuweisung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie zuweisen möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen delegiert werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain ordnungsgemäß an Adobe delegiert werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Zuweisung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie delegieren möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
-| Zugewiesene Subdomain | DNS-Anweisungen |
+| Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
 | `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
 
 ## Tracking, Mirror-Seiten, Ressourcen
 
-Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß zugewiesen wurden, erstellt das Adobe TechOps-Team zwei oder mehr untergeordneter Domains, um Tracking und Mirror-Seiten unabhängig zu verwalten.
+Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß delegiert wurden, erstellt das Adobe TechOps-Team zwei oder mehr untergeordneter Domains, um Tracking und Mirror-Seiten unabhängig zu verwalten.
 
 | Typ | Domain |
 |--- |--- |
@@ -136,27 +135,27 @@ Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß zug
 | Tracking | t.`<subdomain>` |
 | Ressourcen | res.`<subdomain>` |
 
-## Cloud-Implementierung (optional)
+## Cloud-Bereitstellung (optional)
 
 Dies ist nur relevant, wenn Adobe Campaign Classic von Adobe vollständig in der Cloud gehostet wird.  Dies ist eine optionale Konfiguration.
 
-Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann Adobe eine zusätzliche Subdomain zugewiesen werden (z. B. web.customer.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann eine zusätzliche Subdomain an Adobe delegiert werden (z. B. web.customer.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
-| Zugewiesene Subdomain | DNS-Anweisungen |
+| Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
 | `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com.</br>`<subdomain>` NS b.ns.campaign.adobe.com.</br>`<subdomain>` NS c.ns.campaign.adobe.com.</br>`<subdomain>` NS d.ns.campaign.adobe.com. |
 
 >[!NOTE]
 >
->Standardmäßig verwenden alle Web-Komponenten im Tool die ursprüngliche Subdomain, die zum Zweck des E-Mail-Versands zugewiesen wurde.
+>Standardmäßig verwenden alle Web-Komponenten im Tool die ursprüngliche Subdomain, die zum Zweck des E-Mail-Versands delegiert wurde.
 
-## Implementierung von Cloud-Messaging (optional)
+## Bereitstellung von Cloud-Messaging (optional)
 
 Für den Fall, dass die Marketing-Instanz von Adobe Campaign Classic beim Kunden „On-Premise“ gehostet wird, müssen zusätzliche technische Konfigurationen vom Kunden vorgenommen werden.
 
 Alle späteren Umfragen, Web-Formulare und Landingpages werden über die Marketing-Instanz von Adobe Campaign verwaltet, in der die Empfänger-Einträge vorhanden sind.
 
-Eine zusätzliche CNAME-DNS-Konfiguration ist erforderlich, um nach außen gerichtete Web-Komponenten zu implementieren, die von der Marketing-Instanz von Adobe Campaign gehostet werden.  Dadurch können Web-Komponenten (z. B. web.customer.com) öffentlich im Internet zugänglich sein und mit der Domain des Kunden gebrandet werden.
+Eine zusätzliche CNAME-DNS-Konfiguration ist erforderlich, um nach außen gerichtete Web-Komponenten bereitzustellen, die von der Marketing-Instanz von Adobe Campaign gehostet werden.  Dadurch können Web-Komponenten (z. B. web.customer.com) öffentlich im Internet zugänglich sein und mit der Domain des Kunden gebrandet werden.
 
 Die Firewalls müssen außerdem so konfiguriert werden, dass sie den Zugriff auf die Marketing-Instanz von Adobe Campaign zulassen, die diese Web-Komponenten hostet (auf Port 80 oder 443).
 
@@ -165,16 +164,16 @@ Die Firewalls müssen außerdem so konfiguriert werden, dass sie den Zugriff auf
 Die Subdomain zum Hosten der Web-Komponenten wird für Kunden sichtbar sein. Achten Sie daher darauf, dass die Subdomain gut gebrandet und einfach zu merken ist, da sie möglicherweise manuell eingegeben werden muss, z. B.: https://web.customer.com.
 Wenn Formulare auf sicheren Seiten (HTTPS) gehostet werden sollen, ist eine zusätzliche technische Konfiguration erforderlich, die unten beschrieben wird.
 
-| Zugewiesene Subdomain | DNS-Anweisungen |
+| Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
 | `<subdomain>` | `<subdomain>` CNAME `<internal customer server>` |
 
 ## Gerenderte Services
 
-Im Anschluss an diese Zuweisungen stellt die von Adobe eingerichtete Infrastruktur sicher, dass die folgenden Services für jede zugewiesene Domain oder Versand-Domain mit CNAME-Alias ausgeführt werden:
+Im Anschluss an diese Delegationen stellt die von Adobe eingerichtete Infrastruktur sicher, dass die folgenden Services für jede delegierte Domain oder Versand-Domain mit CNAME-Alias ausgeführt werden:
 
 * Erstellen von postmaster@- und abuse@-Posteingängen
-* Einrichten von Feedback-Schleifen für die zugewiesene Domain
+* Einrichten von Feedback-Schleifen für die delegierte Domain
 * Auf Wunsch konfiguriert Adobe auch wie angegeben einen DMARC-Eintrag. Ihr Zustellbarkeitsberater kann Sie bei der Ausarbeitung einer langfristigen DMARC-Richtlinie und eines Plans für Ihre Versand-Domains unterstützen.
 Von Adobe festgelegte Parameter sind ab dem Zeitpunkt gültig, an dem die Zuweisung abgeschlossen und anschließend von Adobe überprüft wurde, und bleiben funktionsfähig, bis der Service gekündigt wird.  Alle Adobe Campaign Cloud-Angebote beinhalten standardmäßig die Zuweisung von Domain-Namen.
 
@@ -200,7 +199,7 @@ Die Beendigung des Marketing Cloud-Services führt automatisch zum Ende der Doma
 
 Sobald Subdomains für Ihre Instanz konfiguriert sind, können Sie sie über das Control Panel überwachen.
 
-Damit können Sie sich alle Subdomains anzeigen lassen, die Sie Adobe Campaign zugewiesen haben, und die Verlängerung ihrer SSL-Zertifikate anfordern.
+Damit können Sie sich alle Subdomains anzeigen lassen, die Sie an Adobe Campaign delegiert haben, und die Verlängerung ihrer SSL-Zertifikate anfordern.
 
 Weiterführende Informationen finden Sie im [entsprechenden Handbuch](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=de#subdomains-and-certificates).
 

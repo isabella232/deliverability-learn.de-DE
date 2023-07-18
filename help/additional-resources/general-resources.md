@@ -1,5 +1,5 @@
 ---
-title: Weitere Ressourcen
+title: Zusätzliche Ressourcen
 description: In diesem Abschnitt finden Sie eine Reihe zusätzlicher Ressourcen zur Zustellbarkeit.
 topics: Deliverability
 doc-type: article
@@ -8,8 +8,8 @@ team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
 source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 33%
 
 ---
 
@@ -33,7 +33,7 @@ In diesem Abschnitt finden Sie einige zusätzliche Ressourcen zur Zustellbarkeit
 * [Echtzeit-Blackhole-Listen](../../help/additional-resources/blocklist-databases.md)
 * [Fehlerbehebung](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 

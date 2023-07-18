@@ -9,7 +9,7 @@ exl-id: 6c9ade01-3052-4311-af80-888294820024
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 63%
+ht-degree: 67%
 
 ---
 
@@ -34,7 +34,7 @@ Nachfolgend sind die wichtigsten Grundsätze aufgeführt, die Sie beim Start ein
 * Wenn Sie über solche Daten verfügen, **importieren Sie ungültige Adressen in die Quarantänetabelle**.
 Oft werden Plattformen gestartet, wenn eine Adressliste zum ersten Mal verwendet wird; diese ist möglicherweise nicht vollständig qualifiziert. Wenn Sie an ungültige Adressen oder Honeypot-Adressen senden, verschlechtert sich die Reputation der Plattform.
 
-   * Wenn Sie über eine Liste ungültiger Adressen verfügen, ist es in Ihrem Interesse, diese in die Quarantänetabelle zu importieren, bevor Sie zum ersten Mal senden. Die Quarantänetabelle kann über das **[!UICONTROL Administration > Kampagnenverwaltung > Unzustellbarkeitsverwaltung > Adressen unzustellbarer Sendungen]** (Campaign Classic) und **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** (Campaign Standard).
+   * Wenn Sie über eine Liste ungültiger Adressen verfügen, ist es in Ihrem Interesse, diese in die Quarantänetabelle zu importieren, bevor Sie zum ersten Mal senden. Die Quarantänetabelle kann über das **[!UICONTROL Administration > Campaign Management > Unzustellbarkeitsverwaltung > Adressen unzustellbarer Sendungen]** (Campaign Classic) und **[!UICONTROL Administration > Kanäle > Quarantänen > Adressen]** (Campaign Standard).
 
    * Wenn Sie die ungültigen Adressen trotzdem erneut qualifizieren möchten, ist es viel besser, dies zu tun, sobald die Reputation der Plattform etabliert ist – und zwar nach und nach, um die Verwendung schlechter Adressen im Laufe der Zeit zu &quot;verwässern&quot;.
 
@@ -45,7 +45,7 @@ Oft werden Plattformen gestartet, wenn eine Adressliste zum ersten Mal verwendet
 * **Senden Sie regelmäßig**. In gewissem Maße ist es besser, regelmäßig kleine Sendungen vorzunehmen als selten große Kampagnen durchzuführen.
 * **Beachten Sie dabei die Versandberichte**. Hohe Fehlerindikatoren können darauf hindeuten, dass eine technische Einstellung nicht richtig konfiguriert ist.
 
-## Weitere Ressourcen
+## Zusätzliche Ressourcen
 
 Weitere Informationen zu den oben aufgeführten Grundsätzen und ihrer Implementierung mit Adobe Campaign finden Sie in den folgenden Abschnitten:
 
@@ -55,12 +55,12 @@ Weitere Informationen zu den oben aufgeführten Grundsätzen und ihrer Implement
 **Adobe Campaign Classic**
 
 * [Optimieren Ihres Versands durch Quarantänen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
-* [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
-* [In mehreren Schüben versenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
-* [Überwachen des Versands](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html#sending-messages)
+* [Identifizieren von für die gesamte Plattform in Quarantäne befindlichen Adressen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
+* [In mehreren Schüben versenden](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=de#sending-using-multiple-waves)
+* [Überwachen des Versands](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=de#sending-messages)
 
 **Adobe Campaign Standard**
 
 * [Optimieren Ihres Versands durch Quarantänen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
-* [Für die gesamte Plattform in Quarantäne befindliche Adressen identifizieren](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)
-* [Überwachen eines Versands](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Identifizieren von für die gesamte Plattform in Quarantäne befindlichen Adressen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=de)
+* [Überwachen eines Versands](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=de)

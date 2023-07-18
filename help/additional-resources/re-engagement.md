@@ -65,11 +65,11 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 * In der nächsten Phase werden Abonnenten identifiziert, die kontinuierlich keine Aktivität zeigen, und der Versand von E-Mails an sie wird schrittweise über einen bestimmten Zeitraum reduziert. Wenn im vergangenen Jahr keine Aktivität stattgefunden hat, ist es gut, die E-Mail-Anmeldung der Abonnenten auf Eis zu legen. Obwohl sie kein Interesse am E-Mail-Inhalt gezeigt haben, besteht immer die Möglichkeit, dass sie ihr Abonnement durch Versand einer einmaligen Bestätigungskampagne reaktivieren lassen.
 * Mit Bestätigungskampagnen können Sie lange inaktive Abonnenten fragen, ob sie auf der Abonnementliste bleiben möchten. Bei der Erstellung der Kampagne ist es vorzuziehen, einen Link &quot;Hier klicken&quot;hinzuzufügen, damit der Benutzer die Aktion bestätigen und seine Adresse überprüfen kann. Auf diese Weise kann die Aktion in der Datenbank aufgezeichnet werden. Nachfolgend finden Sie ein Beispiel für eine Bestätigungs-E-Mail:
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   Sobald der Abonnent eine Aktion durchgeführt hat, kann eine Landingpage mit einer Bestätigung seiner erneuten Anmeldung angeboten werden. Nachfolgend finden Sie ein Beispiel für die Landingpage:
+  Sobald der Abonnent eine Aktion durchgeführt hat, kann eine Landingpage mit einer Bestätigung seiner erneuten Anmeldung angeboten werden. Nachfolgend finden Sie ein Beispiel für die Landingpage:
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## Produktspezifische Ressourcen
 

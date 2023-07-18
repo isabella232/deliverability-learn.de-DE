@@ -9,7 +9,7 @@ exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
 source-wordcount: '2252'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -76,7 +76,7 @@ Sie müssen die Domänennamen und Funktionen (Tracking, Mirrorseiten, Webapps us
 
 Gehen Sie wie folgt vor, um eine CSR-Datei (Certificate Signing Request) zu erhalten.
 
-* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)folgen Sie den Anweisungen unter [diese Seite](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) , um eine CSR-Datei aus dem Control Panel zu generieren und herunterzuladen.
+* Wenn Sie Zugriff auf die [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de)folgen Sie den Anweisungen unter [diese Seite](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#subdomains-and-certificates) , um eine CSR-Datei aus dem Control Panel zu generieren und herunterzuladen.
 
 * Erstellen Sie andernfalls ein Support-Ticket über https://adminconsole.adobe.com/ , um eine CSR-Datei von der Adobe-Kundenunterstützung für die erforderlichen Subdomains zu erhalten.
 

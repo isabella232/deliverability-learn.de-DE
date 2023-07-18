@@ -27,31 +27,31 @@ Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umf
 
 * **Spamhaus**
 
-   Weiterführende Informationen finden Sie unter [https://www.spamhaus.org/](https://www.spamhaus.org/),
+  Weiterführende Informationen finden Sie unter [https://www.spamhaus.org/](https://www.spamhaus.org/),
 
-   Die Datenbank ist wichtiger. Die Nennung in dieser Liste stellt im Allgemeinen eine ernste Situation dar. In diesem Fall müssen Sie SOFORT handeln und kommerzielle Dienste, Zustellbarkeitsdienste und die [Adobe Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=de) warnen.
+  Die Datenbank ist wichtiger. Die Nennung in dieser Liste stellt im Allgemeinen eine ernste Situation dar. In diesem Fall müssen Sie SOFORT handeln und kommerzielle Dienste, Zustellbarkeitsdienste und die [Adobe Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) warnen.
 
 * **SpamCop**
 
-   Weiterführende Informationen finden Sie unter [https://www.spamcop.net/](https://www.spamcop.net/),
+  Weiterführende Informationen finden Sie unter [https://www.spamcop.net/](https://www.spamcop.net/),
 
-   wobei es sich um eine der bekanntesten Datenbanken handelt. Sollte eine Ihrer IP-Adressen auf diese Liste geraten, bedeutet das im Allgemeinen, dass SpamCop-Benutzer Ihre Nachrichten als Spam deklariert oder dass Sie Ihre Nachrichten an eine Spam-Falle (honeypot) von SpamCop gesendet haben.
+  wobei es sich um eine der bekanntesten Datenbanken handelt. Sollte eine Ihrer IP-Adressen auf diese Liste geraten, bedeutet das im Allgemeinen, dass SpamCop-Benutzer Ihre Nachrichten als Spam deklariert oder dass Sie Ihre Nachrichten an eine Spam-Falle (honeypot) von SpamCop gesendet haben.
 
 * **URIBL**
 
-   Weiterführende Informationen finden Sie unter [https://www.uribl.com/](https://www.uribl.com/),
+  Weiterführende Informationen finden Sie unter [https://www.uribl.com/](https://www.uribl.com/),
 
-   Diese Liste identifiziert die Domains, die regelmäßig in als Spam deklarierten Nachrichten erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
+  Diese Liste identifiziert die Domains, die regelmäßig in als Spam deklarierten Nachrichten erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
 
 * **SURBL**
 
-   Siehe [https://surbl.org/](https://surbl.org/)
+  Siehe [https://surbl.org/](https://surbl.org/)
 
-   SURBL identifiziert die Websites, die regelmäßig in Spam erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
+  SURBL identifiziert die Websites, die regelmäßig in Spam erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
 
 * **iX Manitu**
 
-   Diese IP-Liste findet v. a. in Deutschland Verwendung. Besuchen Sie die Seite [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/).
+  Diese IP-Liste findet v. a. in Deutschland Verwendung. Besuchen Sie die Seite [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/).
 
 <!--* SORBS
 
