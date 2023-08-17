@@ -21,7 +21,7 @@ Diese Art von Datenbanken, die über einen DNS-Mechanismus abgefragt werden, nen
 
 * Nach IP-Adresse: Auflistung von IP-Adressen, die Spam senden oder ihn wahrscheinlich weiterleiten.
 * Nach Absender-Domain: Auflistung von Absender-Domains (vollständige Domain der Bounce-Message-Adresse), die Spam senden oder eine falsche Konfiguration aufweisen.
-* Nach Webdomäne: listet die in den URLs der im Spam-Inhalt enthaltenen Links und Bilder enthaltenen Domains (Domänen auf hoher Ebene, wie bei den Registraren registriert) auf. In Adobe-Lösungen ist die zu berücksichtigende Domain im Allgemeinen die für das Tracking verwendete Adresse.
+* Nach Webdomäne: Auflistung der in den URLs der im Spam-Inhalt enthaltenen Links und Bilder enthaltenen Domains (High-Level-Domains, wie bei den Registrierstellen registriert). In Adobe-Lösungen ist die zu berücksichtigende Domain im Allgemeinen die für das Tracking verwendete Adresse.
 
 Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umfassendere Liste finden Sie unter [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
@@ -45,7 +45,7 @@ Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umf
 
 * **SURBL**
 
-  Siehe [https://surbl.org/](https://surbl.org/)
+  Siehe Abschnitt [https://surbl.org/](https://surbl.org/)
 
   SURBL identifiziert die Websites, die regelmäßig in Spam erscheinen. Wenn Ihre Domain auf dieser Liste erscheint, kann dies Ihre Zustellbarkeit erheblich beeinträchtigen. Sie sollten die Zustellbarkeitsdienste und die [Adobe-Kundenunterstützung](https://helpx.adobe.com/de/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) sofort informieren.
 

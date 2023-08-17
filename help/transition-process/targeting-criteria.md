@@ -23,7 +23,7 @@ Wenn Sie neuen Traffic senden, sollten Sie nur Ihre am meisten engagierten Benut
 
 ![Interaktionsformel](../assets/formula-for-enagement.png)
 
-In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Versandtypen oder Kampagnen angewendet wird, stark variieren. Die spezifischen Targeting-Kriterien müssen von Ihrem Adobe Delivery Consultant bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen benutzerdefinierten Plan erfordert.
+In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Versandtypen oder Kampagnen angewendet wird, stark variieren. Die spezifischen Targeting-Kriterien müssen von Ihrem Adobe-Zustellbarkeitsberater bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen benutzerdefinierten Plan erfordert.
 
 ## Produktspezifische Ressourcen
 

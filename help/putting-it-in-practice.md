@@ -23,7 +23,7 @@ Der Erfolg beruht auf vier Eckpfeilern:
 
 1. Legen Sie angemessene Erwartungen während der Anmeldung fest und führen Sie einen guten Anmeldeprozess durch, der fehlerhafte Adressen verhindert.
 2. Bereitstellung relevanter und zeitnaher Inhalte.
-3. Verwalten Sie Ihre Listen, indem Sie fehlerhafte Adressen entfernen.
+3. Behalten Sie Ihre Listen bei, indem Sie fehlerhafte Adressen entfernen.
 4. Überwachen, testen und passen Sie nach und nach an.
 
-Wenn Sie Fragen haben oder Hilfe bei einem Problem benötigen, wenden Sie sich an Ihren Adobe Deliverability Consultant oder einen Zustellbarkeitsexperten, um Hilfe zu erhalten.
+Sollten Sie sich bei einem Problem nicht sicher sein oder Hilfe benötigen, wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater oder Zustellbarkeitsexperten, um Hilfe zu erhalten.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Mit diesem Standard kann eine Marke ein Logo bestimmen, das in den Postfächern der Postfächer angezeigt werden soll. Nach der Veröffentlichung in einem so genannten BIMI DNS (Domain Name System)-Datensatz kann ein Postfachanbieter dieses Logo abrufen und im Posteingang anzeigen, wenn bestimmte Kriterien erfüllt sind.
 
-Verschiedene Anbieter führen unterschiedliche Implementierungen durch, doch die Vorteile sind klar: im Posteingang ausstehen, Vertrauen aufbauen und die Kontrolle darüber haben, was gezeigt wird.
+Verschiedene Anbieter führen unterschiedliche Implementierungen durch, aber die Vorteile sind klar: das Hervorheben im Posteingang, das Aufbauen von Vertrauen und die Kontrolle darüber, was gezeigt wird.
 
 BIMI verbessert nicht direkt die Zustellbarkeit oder Ihre Reputation. Dies kann dazu beitragen, mehr Vertrauen in Ihre Empfänger zu schaffen und so die Interaktion zu steigern.
 
@@ -30,7 +30,7 @@ Beispiele für Implementierungen von verschiedenen Anbietern und weitere Details
 
 Die BIMI-Gruppe ist eine Arbeitsgruppe, die BIMI entwickelt, da sie nicht nur das Logo, sondern auch die technischen, rechtlichen und Compliance-Anforderungen abdeckt.
 
-Die BIMI-Gruppe besteht aus mehreren Akteuren aus verschiedenen Branchen: Google, Yahoo, Fastmail, Proofpoint, Mailchimp, Sendgrid, Valimail und Gültigkeit.
+Die BIMI-Gruppe besteht aus mehreren Akteuren aus verschiedenen Branchen: Google, Yahoo, Fastmail, Proofpoint, Mailchimp, Sendgrid, Valimail und Validity.
 
 ## Wer unterstützt BIMI?
 
@@ -63,7 +63,7 @@ Die Implementierung von BIMI erfolgt in mehreren Schritten:
 
 DMARC ist ein Standard, der es der Marke ermöglicht zu entscheiden, was ein Postfachanbieter mit einer E-Mail tun soll, die fehlschlägt [Authentifizierung](../additional-resources/authentication.md). Die so genannten Richtlinien reichen von &quot;Keine&quot; über &quot;Quarantäne&quot;(Platzierung von Spam-Ordnern) bis &quot;Zurückweisen&quot;(Blockieren der E-Mail). Nur die beiden letztgenannten Richtlinien werden als &quot;Durchsetzung&quot;bezeichnet und sind für BIMI qualifiziert. Durch Adobe gesendete Nachrichten übergeben die Authentifizierung, da SPF (Sender Policy Framework) und DKIM (Domain Keys Identified Mail) standardmäßig eingerichtet sind. Adobe richtet DMARC auf Anfrage für Ihre Versanddomäne ein.
 
-Zusätzlich zu DMARC in der Versanddomäne muss DMARC auch auf der Durchsetzungsebene für die Organisationsdomäne verwendet werden (wenn die sendende Domäne news.example.com ist, ist example.com die Organisationsdomäne).
+Zusätzlich zu DMARC in der sendenden Domäne muss DMARC auch auf Durchsetzungsebene für die Organisationsdomäne verwendet werden (wenn die sendende Domäne news.example.com ist, ist example.com die Organisationsdomäne).
 
 ### Erstellung des Markenlogos {#create-brand-logo}
 
@@ -76,7 +76,7 @@ Beachten Sie bitte, dass die Nichteinhaltung dazu führen kann, dass das Logo ni
 
 Ein Verified Mark Certificate (VMC) ist nur für einige Postfachanbieter wie Gmail und Apple erforderlich und ist daher optional. Wir empfehlen, einen VMC zu erhalten, um BIMI wirklich zu nutzen.
 
-Ein Verified Mark Certificate ist eine gültige Bestätigung dafür, dass die Marke das Logo verwenden kann. Eine Zertifizierungsstelle prüft dies über die Markenbehörde, bei der das Markenlogo registriert ist. Dieser Prozess umfasst mehrere Validierungen und Prüfungen, die einige Zeit in Anspruch nehmen können. Derzeit stellen zwei Zertifizierungsstellen (Zertifizierungsstellen) VMC aus: Digicert und Entrust. Die ersten Markenbüros sind die USA, Kanada, die EU, Großbritannien, Deutschland, Japan, Australien und Spanien.
+Ein Verified Mark Certificate ist eine gültige Bestätigung dafür, dass die Marke das Logo verwenden kann. Eine Zertifizierungsstelle prüft dies über die Markenbehörde, bei der das Markenlogo registriert ist. Dieser Prozess umfasst mehrere Validierungen und Prüfungen, die einige Zeit in Anspruch nehmen können. Derzeit stellen zwei Zertifizierungsstellen (Zertifizierungsstellen) VMCs aus: Digicert und Entrust. Die ersten Markenbüros sind die USA, Kanada, die EU, Großbritannien, Deutschland, Japan, Australien und Spanien.
 
 In der Regel benötigen Sie einen VMC pro Logo. Eine VMC für Ihre Organisationsdomäne deckt Unterdomänen ab und verfügt über eine zusätzliche Funktion auch für verschiedene Domänen. Falls Sie unterschiedliche Logos haben, benötigen Sie mehr als einen VMC. Die Zertifizierungsstelle oder der Partner, mit dem Sie zusammenarbeiten, hilft Ihnen bei der Einrichtung.
 
@@ -84,7 +84,7 @@ In der Regel benötigen Sie einen VMC pro Logo. Eine VMC für Ihre Organisations
 >
 >Beachten Sie, dass VMCs eine jährliche Gebühr haben.
 
-### BIMI-Datensatz veröffentlichen {#publish-bimi-record}
+### Veröffentlichen des BIMI-Datensatzes {#publish-bimi-record}
 
 Sobald die anderen Schritte abgeschlossen sind, kann der BIMI DNS-Eintrag veröffentlicht werden. Der Datensatz sieht wie folgt aus:
 
@@ -94,7 +94,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 &quot;PEM-URL&quot;ist der Dateispeicherort des Verified Mark Certificate.
 
-Für Ihre Versanddomäne muss dies nach Adobe erfolgen.
+Für Ihre Versanddomäne muss dies über Adobe erfolgen.
 
 ### Gute Reputation {#good-reputation}
 

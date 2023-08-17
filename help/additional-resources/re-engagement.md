@@ -28,7 +28,7 @@ Einige der Best Practices bei der Implementierung der Zustellbarkeit bestehen da
 
 Seit Jahren verwenden ISPs Interaktions-Feedback-Metriken ihrer Benutzer, um zu entscheiden, wo Nachrichten platziert werden oder ob sie überhaupt gesendet werden sollen. Benutzer [Interaktion](/help/engagement.md) besteht sowohl aus positivem als auch negativem Feedback und einer kontinuierlichen Überwachung durch ISPs. Ohne Interaktion ist vielleicht einer der Hauptfaktoren für negative Interaktion. Aus der Sicht der Zustellbarkeit kann das konsequente Senden von Kampagnen an Benutzer, die keine Interaktion zeigen, auch die Reputation Ihrer IP-Adresse und Ihrer Domänen insgesamt beeinträchtigen.
 
-ISPs wie Gmail, Microsoft® und OATH sehen nicht interaktive Nachrichten als unerwünschte E-Mails an und beginnen mit der Umleitung von Nachrichten in den Spam-Ordner. Diese Abonnenten besitzen möglicherweise nicht mehr das E-Mail-Konto, was als Spam-Falle &quot;recycelt&quot;verwendet werden kann. Das bedeutet, dass die Adresse einige Zeit lang ungültig war und alle Nachrichten abgelehnt werden. Wenn Ihr Abonnentenverwaltungssystem keine &quot;Hard bounce&quot;-Adressen entfernt, führt dies wahrscheinlich zu Spam-Fallen, die zu erheblichen Versandproblemen führen können.
+ISPs wie Gmail, Microsoft® und OATH sehen nicht interaktive Nachrichten als unerwünschte E-Mails an und beginnen mit der Umleitung von Nachrichten in den Spam-Ordner. Diese Abonnenten besitzen möglicherweise nicht mehr das E-Mail-Konto, was als Spam-Falle &quot;recycelt&quot;verwendet werden kann. Das bedeutet, dass die Adresse einige Zeit lang ungültig war und alle Nachrichten abgelehnt werden. Wenn Ihr Abonnentenverwaltungssystem keine &quot;Hard-bounce&quot;-Adressen entfernt, führt dies wahrscheinlich zu Spam-Fallen, die zu erheblichen Versandproblemen führen können.
 
 ## Wie sollten Sie bei Inaktivität vorgehen? {#how-should-you-approach-inactivity-}
 
@@ -62,7 +62,7 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 
 ### Phase 4 {#phase-4}
 
-* In der nächsten Phase werden Abonnenten identifiziert, die kontinuierlich keine Aktivität zeigen, und der Versand von E-Mails an sie wird schrittweise über einen bestimmten Zeitraum reduziert. Wenn im vergangenen Jahr keine Aktivität stattgefunden hat, ist es gut, die E-Mail-Anmeldung der Abonnenten auf Eis zu legen. Obwohl sie kein Interesse am E-Mail-Inhalt gezeigt haben, besteht immer die Möglichkeit, dass sie ihr Abonnement durch Versand einer einmaligen Bestätigungskampagne reaktivieren lassen.
+* In der nächsten Phase werden Abonnenten identifiziert, die kontinuierlich keine Aktivität zeigen, und der Versand von E-Mails an sie wird schrittweise über einen bestimmten Zeitraum reduziert. Wenn im vergangenen Jahr keine Aktivität stattgefunden hat, ist es gut, die E-Mail-Anmeldung der Abonnenten auf Eis zu legen. Obwohl sie kein Interesse am E-Mail-Inhalt gezeigt haben, besteht immer die Möglichkeit, dass sie ihr Abonnement durch einmalige Bestätigungskampagne reaktivieren lassen.
 * Mit Bestätigungskampagnen können Sie lange inaktive Abonnenten fragen, ob sie auf der Abonnementliste bleiben möchten. Bei der Erstellung der Kampagne ist es vorzuziehen, einen Link &quot;Hier klicken&quot;hinzuzufügen, damit der Benutzer die Aktion bestätigen und seine Adresse überprüfen kann. Auf diese Weise kann die Aktion in der Datenbank aufgezeichnet werden. Nachfolgend finden Sie ein Beispiel für eine Bestätigungs-E-Mail:
 
   ![](../../help/assets/deliverability_implementation_3.png)

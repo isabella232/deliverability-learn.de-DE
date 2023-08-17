@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Ihre Willkommens-E-Mails sind der wichtigste grundlegende Faktor für ein erfolgreiches E-Mail-Programm. Abonnenten, die mit Ihren Willkommens-E-Mails interagieren, haben im Durchschnitt eine mehr als vierfache Wahrscheinlichkeit, mit anderen gesendeten E-Mails in Kontakt zu treten, wenn Sie eine einzelne Begrüßungs-E-Mail senden. Außerdem ist es 12-mal wahrscheinlicher, dass sie weiterhin aktiv sind, wenn Sie eine Reihe von drei Willkommens-E-Mails versenden.
 
-Unabhängig von Ihrer Strategie ist es unwahrscheinlich, dass Abonnenten, die überhaupt keine Begrüßungs-E-Mail erhalten oder die keine Verbindung zu Ihrer Willkommensnachricht herstellen, in zufriedene Abonnenten umgewandelt werden. Ein gut geplanter und sorgfältig gestalteter Begrüßungsplan, der das Denken darüber beinhaltet, was, wann und wer Ihrer Nachrichten zu einem positiven ersten Eindruck und zum besten Weg zur langfristigen Zufriedenheit der Abonnenten führt.
+Unabhängig von Ihrer Strategie ist es unwahrscheinlich, dass Abonnenten, die überhaupt keine Begrüßungs-E-Mail erhalten oder die keine Verbindung zu Ihrer Willkommensnachricht herstellen, in zufriedene Abonnenten umgewandelt werden. Ein gut geplanter und sorgfältig gestalteter Begrüßungsplan, der das Denken darüber einschließt, was, wann und wer Ihrer Nachrichten zu einem positiven ersten Eindruck und zum besten Weg zur langfristigen Zufriedenheit der Abonnenten führt.
 
 ## Schlüsselelemente
 
-Beachten Sie beim Erstellen Ihrer Willkommens-E-Mail oder -E-Mails Folgendes:
+Beachten Sie beim Erstellen Ihrer Willkommens-E-Mails oder -E-Mails Folgendes:
 
 **Senden der Nachricht ASAP**
 Wenn Sie eine Promotion anbieten, wartet Ihr neuer Abonnent wahrscheinlich auf der Website auf die E-Mail, bevor er seinen Kauf tätigt. Eine Verzögerung von 5-10 Minuten kann einen verlorenen Verkauf bedeuten. Auch wenn Sie keine Werbeaktion haben, zeigen sie derzeit Interesse an Ihrer Marke. Man muss also mit ihnen interagieren, während ihr Interesse an der Spitze steht, anstatt sich zu einem späteren Zeitpunkt eine Chance zu nehmen.

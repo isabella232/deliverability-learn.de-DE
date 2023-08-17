@@ -17,10 +17,10 @@ ht-degree: 5%
 
 # Regelmäßiger Versand
 
-Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren. Im Folgenden finden Sie einige Gründe, warum eine permanente Absender-Nutzung wichtig ist:
+Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren. Im Folgenden finden Sie einige Gründe, warum eine permanente Absenderspeicherung wichtig ist:
 
 * Spammer werden normalerweise &quot;IP-Adressenwechsel&quot;durchführen, d. h. sie verschieben den Traffic über viele IP-Adressen hinweg, um Reputationsprobleme zu vermeiden.
-* Konsistenz ist wichtig, um ISPs zu beweisen, dass der Absender seriös ist und nicht versucht, Reputationsprobleme zu umgehen, die auf schlechte Versandpraktiken zurückzuführen sind.
+* Konsistenz ist der Schlüssel, um ISPs zu beweisen, dass der Absender seriös ist, und nicht zu versuchen, Reputationsprobleme zu umgehen, die auf schlechte Versandpraktiken zurückzuführen sind.
 * Die Aufrechterhaltung dieser konsistenten Strategien über einen langen Zeitraum hinweg ist erforderlich, bevor einige ISPs die Reputation des Absenders überhaupt berücksichtigen.
 
 **Im Folgenden finden Sie einige Beispiele:**

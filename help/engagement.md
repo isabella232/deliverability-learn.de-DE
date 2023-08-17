@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Interaktion
 
-Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsentscheidungen im Posteingang auswirkt. Im Laufe der Jahre haben ISPs ihren Fokus von inhaltsbezogenen Filtern auf ein Verhaltensmodell verlagert, das stark auf positiven und negativen Interaktionsaktionen beruht. Positive Interaktion umfasst in erster Linie Öffnungen, Klicks, Weiterleitungen und Antworten. Zu den negativen Interaktionen gehören das Löschen ohne Öffnen, Ignorieren, Abmelden und Kennzeichnen als Spam. Das Erhalten ausdrücklicher Berechtigungen ist die Grundlage für eine positive E-Mail-Interaktion. Sobald eine Marke über die Erlaubnis verfügt, sollte diese Beziehung durch regelmäßige Messung und Erfüllung der Kundenerwartungen durch Häufigkeit und Inhalt gefördert werden.
+Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsentscheidungen im Posteingang auswirkt. Im Laufe der Jahre haben ISPs ihren Fokus von inhaltsbezogenen Filtern auf ein Verhaltensmodell verlagert und sich dabei in hohem Maße auf positive und negative Interaktionsaktionen verlassen. Positive Interaktion umfasst in erster Linie Öffnungen, Klicks, Weiterleitungen und Antworten. Zu den negativen Interaktionen gehören das Löschen ohne Öffnen, Ignorieren, Abmelden und Kennzeichnen als Spam. Das Erhalten ausdrücklicher Berechtigungen ist die Grundlage für eine positive E-Mail-Interaktion. Sobald eine Marke über die Erlaubnis verfügt, sollte diese Beziehung durch regelmäßige Messung und Erfüllung der Kundenerwartungen durch Häufigkeit und Inhalt gefördert werden.
 
 Eine gute Öffnungs- und Klickrate hängt von vielen Faktoren für verschiedene Absender ab. Wenden Sie sich an Ihren Zustellbarkeitsberater, um spezifische Ziele und Grundlinien für Ihr E-Mail-Programm festzulegen.
 
@@ -29,9 +29,9 @@ Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen könn
 
 ## Qualität über Menge
 
-**Biologische Listenwachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketer legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
+**Bio-Listen-Wachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketing-Experten legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
 
-**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Das Senden von E-Mails zu oft kann zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
+**Versandhäufigkeit** ist bei der Erstellung und Verwaltung eines E-Mail-Marketing-Programms zu beachten. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Der Versand von E-Mails kann zu oft zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
 
 Die richtige Häufigkeit ist etwas, das jeder Marketing-Experte für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Frequenzen zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Die Interaktion und Aktivierung von Empfängern ist eine der wichtigsten Maßnahmen, die ein Marketingexperte treffen kann, um den Erfolg eines E-Mail-Marketingprogramms sicherzustellen.
 
@@ -69,4 +69,4 @@ Ein letzter wichtiger Teil der Antwort-Strategie besteht darin, dass, wenn Sie e
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie mehr über Rückgewinnungsstrategien in [diesem Abschnitt](/help/additional-resources/re-engagement.md).
+* Weitere Informationen zu Rückgewinnungsstrategien in [diesem Abschnitt](/help/additional-resources/re-engagement.md).

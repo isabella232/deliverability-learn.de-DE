@@ -21,7 +21,7 @@ ht-degree: 35%
 
 Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
 
-* Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder andere Zustellbarkeitsprobleme hindeuten.
+* Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder auf andere Zustellbarkeitsprobleme hindeuten.
 * Die Öffnungs- und Klickmetriken nehmen merklich ab, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
 * Die Beschwerden nehmen beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
 * Sie verfügen über strategische Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und des Kampagnentyps.

@@ -22,7 +22,7 @@ ht-degree: 2%
 
 Im Folgenden finden Sie einige Highlights:
 
-## Welche Daten sind wichtig?
+## Wichtige Daten
 
 [!DNL Microsoft] konzentriert sich auf die Reputation des Absenders, Beschwerden, Benutzerinteraktionen und die eigene Gruppe vertrauenswürdiger Benutzer (auch als Sender Reputation Data oder SRD bezeichnet), die zum Feedback abgerufen werden.
 

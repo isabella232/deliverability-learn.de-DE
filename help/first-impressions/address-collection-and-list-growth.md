@@ -45,13 +45,13 @@ Zusätzlich zum Hinzufügen der Felder für die Daten, die Sie über Ihre neuen 
 
 >[!NOTE]
 >
-> Verwenden Sie während des Anmeldeprozesses keine vorab aktivierten Kontrollkästchen. Dies kann Sie zwar rechtlich in Schwierigkeiten bringen, ist aber auch ein negatives Kundenerlebnis.
+> Verwenden Sie während des Anmeldeprozesses keine vorab aktivierten Kästchen. Dies kann Sie zwar rechtlich in Schwierigkeiten bringen, ist aber auch ein negatives Kundenerlebnis.
 
 ## Datenqualität und -hygiene
 
 Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl akkurat als auch nutzbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot;oder &quot;.&quot;enthält. zum Beispiel. Lassen Sie keine allgemeinen Alias-Adressen zu, die auch als Rollenkonten bezeichnet werden (z. B. &quot;info&quot;, &quot;admin&quot;, &quot;sales&quot;, &quot;support&quot;). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Personengruppe im Gegensatz zu einem einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, wodurch Beschwerden, unterschiedliche Interaktionen, Abmeldungen und allgemeine Verwirrung gefährdet sind.
 
-Im Folgenden finden Sie einige Lösungen für häufige Probleme, mit denen Sie Ihre E-Mail-Adressdaten konfrontieren können:
+Im Folgenden finden Sie einige Lösungen für häufige Probleme, die Sie mit Ihren E-Mail-Adressdaten haben:
 
 **[!DNL Double opt-in (DOI)]**
 [!DNL Double opt-in (DOI)] wird von den meisten E-Mail-Experten als Best Practice für die Zustellbarkeit betrachtet. Wenn Sie Probleme mit Spamfallen oder Beschwerden in Ihren Begrüßungs-E-Mails haben, können Sie mit DOI sicherstellen, dass sich der Abonnent, der Ihre E-Mails erhält, für Ihr E-Mail-Programm angemeldet hat und Ihre E-Mails erhalten möchte.
@@ -73,7 +73,7 @@ Wenden Sie sich an Ihre Anwälte, um lokale und nationale Gesetze bezüglich E-M
 
 ## Andere nicht empfohlene Methoden zur Auflistung von Listen
 
-Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit eigenen Chancen, Herausforderungen und Nachteilen. Adobe empfiehlt diese im Allgemeinen nicht, da die Verwendung häufig durch vom Anbieter akzeptable Nutzungsrichtlinien eingeschränkt wird. Wir werden uns einige gebräuchliche Beispiele ansehen, damit Sie die Gefahren lernen können, die Ihnen dabei helfen, die Risiken einzuschränken oder zu vermeiden:
+Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit eigenen Chancen, Herausforderungen und Nachteilen. Adobe empfiehlt diese im Allgemeinen nicht, da die Verwendung häufig durch anbieterakzeptable Nutzungsrichtlinien eingeschränkt wird. Wir werden uns einige gebräuchliche Beispiele ansehen, damit Sie die Gefahren lernen können, die Ihnen dabei helfen, die Risiken einzuschränken oder zu vermeiden:
 
 **Liste kaufen oder mieten**
 Es gibt viele Arten von E-Mail-Adressen. Primäre E-Mails, Arbeits-E-Mails, E-Mails von Schulen, sekundäre E-Mails und inaktive E-Mails, um einige zu nennen. Bei den Arten von Adressen, die über gekaufte oder gemietete Listen erfasst und weitergegeben werden, handelt es sich selten um primäre E-Mail-Konten, bei denen fast alle Interaktionen und Kaufaktivitäten stattfinden.

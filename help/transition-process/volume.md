@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Das Volumen der gesendeten E-Mails ist entscheidend für einen positiven Ruf. Setzen Sie sich in die Schuhe eines ISPs - wenn Sie eine Menge Traffic von jemandem sehen, den Sie nicht kennen, wäre das alarmierend. Der sofortige Versand großer Mengen von E-Mails ist riskant und verursacht sicher Reputationsprobleme, die häufig schwer zu lösen sind. Es kann frustrierend, zeitaufwendig und kostspielig sein, sich aus der schlechten Reputation zu befreien und Probleme zu schüren und zu blockieren, die sich aus dem Versand zu viel zu früh ergeben.
 
-Die Volumenschwellen variieren je nach ISP und können abhängig von Ihren durchschnittlichen Interaktionsmetriken variieren. Einige Absender benötigen eine sehr geringe und langsame Rampe, während andere eine stärkere Rampe ermöglichen können. Es wird empfohlen, mit einem Experten wie einem Berater für die Zustellbarkeit von Adoben zusammenzuarbeiten, um einen benutzerdefinierten Volumenplan zu erstellen.
+Die Volumenschwellen variieren je nach ISP und können abhängig von Ihren durchschnittlichen Interaktionsmetriken variieren. Einige Absender benötigen eine sehr geringe und langsame Rampe, während andere eine stärkere Rampe ermöglichen können. Wir empfehlen, mit einem Experten wie einem Adobe-Zustellbarkeits-Berater zusammenzuarbeiten, um einen kundenspezifischen Volumenplan zu entwickeln.
 
 Im Folgenden finden Sie eine Liste mit Hinweisen und Tipps für einen reibungslosen Übergang:
 
@@ -33,7 +33,7 @@ Im Folgenden finden Sie eine Liste mit Hinweisen und Tipps für einen reibungslo
 * **E-Mail-Konto für Antworten überwachen**. Es ist ein schlechtes Erlebnis für Ihren Kunden, noreply@xyz.com zu verwenden oder nicht zu antworten.
 * Inaktive Adressen können sich negativ auf die Zustellbarkeit auswirken. **Reaktivieren und erneutes Zulassen der aktuellen Plattform**, nicht Ihre neuen IPs.
 * **Domänen** - eine Versanddomäne verwenden, die eine Subdomäne der eigentlichen Domäne Ihres Unternehmens ist
-   * Wenn Ihre Unternehmensdomäne beispielsweise xyz.com lautet, bietet email.xyz.com den ISPs mehr Glaubwürdigkeit als xyzemail.com
+   * Wenn Ihre Unternehmensdomäne beispielsweise xyz.com lautet, bietet email.xyz.com mehr Glaubwürdigkeit für die ISPs als xyzemail.com.
 * **Transparenz** - Registrierungsdetails für Ihre E-Mail-Domain sollten öffentlich verfügbar sein und nicht privat sein.
 
 Unter vielen Umständen folgen Transaktionsnachrichten nicht dem herkömmlichen Ansatz zur Förderung der Erwärmung. Die Lautstärke von Transaktionsnachrichten lässt sich aufgrund ihrer Beschaffenheit nur schwer kontrollieren, da im Allgemeinen eine Benutzerinteraktion erforderlich ist, um den E-Mail-Kontakt Trigger. In einigen Fällen kann die Transition von Transaktionsnachrichten einfach ohne formellen Plan erfolgen. In anderen Fällen kann es besser sein, jeden Nachrichtentyp im Laufe der Zeit zu übergehen, um das Volumen langsam zu erhöhen. Sie können beispielsweise eine Transition wie folgt durchführen:

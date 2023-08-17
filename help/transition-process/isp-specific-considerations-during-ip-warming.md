@@ -19,7 +19,7 @@ ht-degree: 16%
 
 # ISP-spezifische Überlegungen beim IP-Warming
 
-ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Gmail ist beispielsweise einer der komplexesten ISPs, da sie neben allen anderen Reputationsmaßnahmen die Interaktion sehr genau (Öffnungen und Klicks) betrachten. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist. Andere ISPs erfordern möglicherweise auch dasselbe. Wenden Sie sich an Ihren Adobe Delivery Consultant, um einen spezifischen Plan zu erstellen.
+ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Gmail ist beispielsweise einer der komplexesten ISPs, da sie neben allen anderen Reputationsmaßnahmen die Interaktion sehr genau (Öffnungen und Klicks) betrachten. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist. Andere ISPs erfordern möglicherweise auch dasselbe. Wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater, um einen spezifischen Plan zu erstellen.
 
 Siehe [Spezifikationen des Internet Service Providers](/help/internet-service-provider-specifics/overview.md) für weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausgewählten Gruppe von Anbietern:
 

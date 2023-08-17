@@ -22,7 +22,7 @@ ht-degree: 3%
 
 Im Folgenden finden Sie einige Highlights:
 
-## Welche Daten sind wichtig?
+## Wichtige Daten
 
 [!DNL Verizon Media Group] (VMG) hat eigene proprietäre Spam-Filter erstellt und verwaltet, die eine Mischung aus Inhalt, URL-Filterung und Spam-Beschwerden enthalten. Zusammen mit Gmail gehören sie zu den frühen Anbietern von ISPs, die E-Mails nach Domain und IP-Adresse filtern.
 

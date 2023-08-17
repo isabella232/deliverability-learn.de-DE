@@ -27,7 +27,7 @@ Mit Adobe erhalten Sie einen kontextuellen Service, mithilfe dessen Sie Ihre Dig
 
 Das Einrichten einer Subdomain für E-Mail-Kampagnen ermöglicht es Marken, unterschiedliche Arten von Traffic (z. B. Marketing-bezogenen vs. betrieblichen) in eigene IP-Pools mit eigenen Domains zu unterteilen, wodurch der [IP-Warming-Prozess](../../help/additional-resources/increase-reputation-with-ip-warming.md) beschleunigt und die Zustellbarkeit insgesamt verbessert werden kann. Wenn Sie eine einzige Domain für alle Aufgaben verwenden und diese gesperrt oder zur Blockierungsliste hinzugefügt wird, könnte dies Auswirkungen auf die Zustellung Ihrer betrieblichen E-Mails haben. Probleme mit der Reputation oder die Blockierung einer Domain, die nur für Ihre E-Mail-Marketing-Kommunikation verwendet sind, beeinträchtigen hingegen ausschließlich diesen E-Mail-Verkehr.  Wenn Sie Ihre Haupt-Domain als Absenderadresse für mehrere E-Mail-Arten verwenden, kann dies auch die E-Mail-Authentifizierung behindern und dazu führen, dass Ihre Nachrichten blockiert oder in den Spam-Ordner verschoben werden.
 
-### Zuweisung
+### Delegierung
 
 Der Eigentümer eines Domain-Namens (technisch: einer DNS-Zone) kann an eine andere Entität eine Untergliederung des Domain-Namens (technisch: eine untergeordnete DNS-Zone) delegieren. Wenn also ein Kunde die Zone „example.com“ verwaltet, kann er an Adobe Campaign die untergeordnete Zone „marketing.example.com“ delegieren.
 
@@ -84,7 +84,7 @@ marketing.example.com. NS c.ns.campaign.adobe.com.
 marketing.example.com. NS d.ns.campaign.adobe.com.
 ```
 
-Das Zuweisen eines Domain-Namens bedeutet, dass diese Domain für den Versand von E-Mails über die Adobe Campaign-Plattform bestimmt ist und daher nicht für andere Zwecke verwendet werden kann (z. B. für den Versand von E-Mails über eine andere E-Mail-Infrastruktur).
+Die Delegierung eines Domain-Namens bedeutet, dass diese Domain für den Versand von E-Mails über die Adobe Campaign-Plattform bestimmt ist und daher nicht für andere Zwecke verwendet werden kann (z. B. für den Versand von E-Mails über eine andere E-Mail-Infrastruktur).
 
 Während des Einrichtungsvorgangs stellt Adobe sicher, dass die Domain an die Adobe-Infrastruktur für eingehende E-Mails angeschlossen wird, um die an diese Domains zurückgesendeten Rebound-E-Mails zu verwalten und zu verarbeiten (Konfiguration des DNS-Eintrags vom Typ MX).
 

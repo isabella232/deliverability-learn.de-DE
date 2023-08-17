@@ -19,7 +19,7 @@ ht-degree: 2%
 
 # Infrastruktur
 
-Erfolgreiche Zustellbarkeit hängt von einer soliden Grundlage ab. E-Mail-Infrastruktur ist ein Kernelement. Eine ordnungsgemäß konstruierte E-Mail-Infrastruktur umfasst mehrere Komponenten, nämlich Domäne(n) und IP-Adresse(n). Diese Komponenten sind wie die Maschinen hinter den E-Mails, die Sie senden, und oft sind sie der Anker der Reputation. Berater für Zustellbarkeit sorgen dafür, dass diese Elemente während der Implementierung ordnungsgemäß eingerichtet werden. Aufgrund des Reputationselements ist es jedoch wichtig, dass Sie über diese grundlegenden Kenntnisse verfügen.
+Erfolgreiche Zustellbarkeit hängt von einer soliden Grundlage ab. E-Mail-Infrastruktur ist ein Kernelement. Eine ordnungsgemäß konstruierte E-Mail-Infrastruktur umfasst mehrere Komponenten, nämlich Domänen und IP-Adressen. Diese Komponenten sind wie die Maschinen hinter den E-Mails, die Sie senden, und oft sind sie der Anker der Reputation. Berater für Zustellbarkeit sorgen dafür, dass diese Elemente während der Implementierung ordnungsgemäß eingerichtet werden. Aufgrund des Reputationselements ist es jedoch wichtig, dass Sie über diese grundlegenden Kenntnisse verfügen.
 
 ## Domain-Einrichtung und -Strategie {#domain-setup-and-strategy}
 
@@ -39,7 +39,7 @@ Es ist wichtig, eine gut strukturierte IP-Strategie zu entwickeln, um zu einem p
 * **Zu viele IPs** kann Reputationsprobleme von Triggern verursachen, da dies eine häufige Taktik für Spammer ist **Schneeschuh**, eine Taktik, die von Spammern verwendet wird, bei der der Traffic über viele IPs verteilt ist, um den Versand von Spam-Mails zu maximieren. Obwohl Sie kein Spammer sind, könnten Sie wie einer aussehen, wenn Sie zu viele IPs verwenden, insbesondere wenn diese IPs zuvor keinen Traffic hatten.
 * **Zu wenige IPs** kann Durchsatzprobleme und möglicherweise Probleme mit der Reputation von Triggern verursachen. Der Durchsatz variiert je nach ISP. Wie viel und wie schnell ein ISP akzeptieren will, hängt normalerweise von seiner Infrastruktur ab und sendet Reputationsschwellen.
 * Die Trennung von Traffic für Nachrichtentypen ist entscheidend. Es ist wichtig, Marketing- und Transaktionsnachrichten mindestens auf separate IP-Pools zu trennen.
-* Abhängig von Ihrer E-Mail-Strategie kann es auch ratsam sein, verschiedene Produkte oder Marketing-Streams von verschiedenen IP-Pools zu trennen, wenn sich Ihre Reputation stark unterscheidet. Einige Marketing-Experten segmentieren auch nach Region. Wenn Sie die IP-Adresse auf Traffic mit einer geringeren Reputation aufteilen, wird das Reputationsproblem nicht behoben, aber es werden Probleme mit Ihren E-Mail-Sendungen zur &quot;guten Reputation&quot;verhindert. Schließlich wollen Sie Ihr gutes Publikum nicht für ein riskanteres opfern.
+* Abhängig von Ihrer E-Mail-Strategie kann es auch ratsam sein, verschiedene Produkte oder Marketing-Streams von verschiedenen IP-Pools zu trennen, wenn sich Ihre Reputation stark unterscheidet. Einige Marketingexperten segmentieren auch nach Region. Wenn Sie die IP-Adresse auf Traffic mit einer geringeren Reputation aufteilen, wird das Reputationsproblem nicht behoben, aber es werden Probleme mit Ihren E-Mail-Sendungen zur &quot;guten Reputation&quot;verhindert. Schließlich wollen Sie Ihr gutes Publikum nicht für ein riskanteres opfern.
 
 ## Feedback-Schleifen {#feedback-loops}
 
@@ -51,7 +51,7 @@ Authentifizierung ist der Prozess, den ISPs zur Validierung der Identität eines
 
 ### SPF
 
-[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Eigentümer einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
+[!DNL Sender Policy Framework] (SPF) ist eine Authentifizierungsmethode, mit der der Inhaber einer Domain angeben kann, welche E-Mail-Server zum Senden von E-Mails von dieser Domain verwendet werden.
 
 ### DKIM
 
@@ -59,7 +59,7 @@ Authentifizierung ist der Prozess, den ISPs zur Validierung der Identität eines
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) ist eine Authentifizierungsmethode, die es Domain-Eigentümern ermöglicht, ihre Domain vor unbefugter Verwendung zu schützen. DMARC verwendet SPF oder DKIM oder beides, um einem Domäneninhaber zu ermöglichen, zu steuern, was mit E-Mails mit fehlerhafter Authentifizierung passiert: zugestellt, unter Quarantäne gestellt oder abgelehnt.
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) ist eine Authentifizierungsmethode, die es Domain-Eigentümern ermöglicht, ihre Domain vor unbefugter Verwendung zu schützen. DMARC verwendet SPF oder DKIM oder beides, um einem Domäneninhaber zu ermöglichen, zu steuern, was mit E-Mails passiert, die die Authentifizierung nicht bestehen: zugestellt, unter Quarantäne gestellt oder abgelehnt.
 
 ## Produktspezifische Ressourcen
 

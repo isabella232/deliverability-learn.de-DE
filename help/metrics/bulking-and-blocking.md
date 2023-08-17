@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Bulking
 
-Beim Bulking landen E-Mails bei deren Versand im Spam- oder Junk-Ordner eines ISP. Sie erkennen Bulking daran, dass eine ungewöhnlich niedrige Öffnungsrate (und manchmal auch Klickrate) mit einer hohen Zustellrate einhergeht. Die Ursachen dafür, warum E-Mails in diese Ordner verschoben werden, variieren je nach ISP. Generell gilt jedoch: Wenn Nachrichten im Bulk-Ordner landen, muss ein Merkmal, das die Versandreputation beeinflusst (z. B. Listenhygiene), neu bewertet werden. Bulking ist ein Zeichen dafür, dass die Reputation abnimmt, was ein Problem ist, das sofort behoben werden muss, bevor es weitere Kampagnen beeinträchtigt. Wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater, um eventuelle Probleme mit dem Bulking zu beheben.
+Beim Bulking landen E-Mails bei deren Versand im Spam- oder Junk-Ordner eines ISP. Sie erkennen Bulking daran, dass eine ungewöhnlich niedrige Öffnungsrate (und manchmal auch Klickrate) mit einer hohen Zustellrate einhergeht. Die Ursachen dafür, warum E-Mails in diese Ordner verschoben werden, variieren je nach ISP. Generell gilt jedoch: Wenn Nachrichten im Bulk-Ordner landen, muss ein Merkmal, das die Versandreputation beeinflusst (z. B. Listenhygiene), neu ausgewertet werden. Bulking ist ein Zeichen dafür, dass die Reputation abnimmt, was ein Problem ist, das sofort behoben werden muss, bevor es weitere Kampagnen beeinträchtigt. Wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater, um eventuelle Probleme mit dem Bulking zu beheben.
 
 ## Blockieren
 

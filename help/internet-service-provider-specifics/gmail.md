@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Im Folgenden finden Sie einige Highlights:
 
-## Welche Daten sind wichtig?
+## Wichtige Daten
 
 [!DNL Gmail] konzentriert sich auf das Feedback ihrer Benutzer zu einem Großteil ihrer Filterentscheidungen. Obwohl wir nicht wissen, wie geheim diese Entscheidungen sind, gibt es gemeinsame Standards, die die meisten Marketer überwachen können. Die Öffnungs- und Klickraten bieten Einblicke in die Interaktion Ihrer Zielgruppe und können zur Förderung einer positiven Reputation und einer hohen Posteingangsplatzierung verwendet werden.
 
-## Welche Daten verfügbar sind
+## Welche Daten sind verfügbar?
 
 [!DNL Gmail] bietet eingeschränkte Einblicke in die Ansicht Ihrer Versandpraktiken durch ihre [!DNL Gmail Postmaster] Tools. Mit diesem Tool erhalten Sie einen allgemeinen Überblick über die Reputation Ihrer sendenden IP und Domain, die Authentifizierungsergebnisse und Beschwerdeprobleme.
 
@@ -44,4 +44,4 @@ Im Folgenden finden Sie einige Highlights:
 
 Wenn Sie beispielsweise innerhalb von 90 Tagen pro Woche drei E-Mails versenden, wären das etwa 39 E-Mails. Wenn der Abonnent eine dieser 39 E-Mails nach dem herkömmlichen Verfahren geöffnet hat, ist er damit beschäftigt. nach [!DNL Gmail]bedeutet, dass sie 38 E-Mails ignoriert und nicht interagiert haben. Sie können ein ungefähres Gefühl für die Interaktionsstufen Ihrer eigenen Benutzer erhalten auf [!DNL Gmail] , indem sie in den letzten 10 E-Mails bei geöffneter Zählung bewertet werden. Ein Abonnent, der mit 7 Öffnungen Ihrer letzten 10 E-Mails verbunden ist, ist also stärker engagiert als jemand, der 2 von 10 geöffnet hat. Wenn Sie weniger häufig E-Mails an Benutzer senden, die weniger interagiert sind, können Sie Ihre Reputation beim Versand verbessern. [!DNL Gmail].
 
-[!DNL Gmail] verwendet verschiedene Tabs für Benutzer, um verschiedene Arten von E-Mails zu unterscheiden. Diese *Posteingang*, *Social* und *Werbung*. Auch wenn E-Mails im Tab Werbung zugestellt werden, werden sie dennoch als Posteingangsversand betrachtet. Benutzer haben die Möglichkeit, ihre Ansicht und Registerkarten zu ändern.
+[!DNL Gmail] verwendet verschiedene Tabs für Benutzer, um verschiedene Arten von E-Mails zu unterscheiden. Diese *Posteingang*, *Social*, und *Werbung*. Auch wenn E-Mails im Tab Werbung zugestellt werden, werden sie dennoch als Posteingangsversand betrachtet. Benutzer haben die Möglichkeit, ihre Ansicht und Registerkarten zu ändern.

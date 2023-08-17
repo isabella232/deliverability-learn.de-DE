@@ -17,7 +17,7 @@ ht-degree: 57%
 
 Das Vorhandensein doppelter E-Mail-Adressen kann unterschiedliche Konsequenzen haben:
 
-* Dieselbe Nachricht wird mehrmals gesendet. Selbst wenn Adobe vor dem Versand standardmäßig eine Deduplizierung durchführt, kann die Nachricht durch unterschiedliche Aktionen mit demselben Inhalt gesendet werden, wenn eine Zielgruppe geteilt wird.
+* Dieselbe Nachricht wird mehrmals gesendet. Selbst wenn Adobe vor dem Versand standardmäßig eine Deduplizierung durchführt, können unterschiedliche Aktionen nicht verhindern, dass dieselbe Nachricht gesendet wird, wenn eine Zielgruppe geteilt wird.
 * Abmeldungen werden missachtet. Wenn sich ein Empfänger nach dem Erhalt einer Nachricht abmeldet, können an sein dupliziertes Profil weiterhin Nachrichten gesendet werden.
 
 Von der Umgehung des Anmeldeverfahrens abgesehen, führt dies wahrscheinlich dazu, dass Benutzer diese Nachrichten als Spam betrachten und der ISP die Adresse auf die Blockierungsliste setzt.
