@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie BIMI implementieren
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 1%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ DMARC ist optional. Obwohl es nicht erforderlich ist, ist es kostenlos und ermö
 
 ## Best Practices für die Implementierung von DMARC {#best-practice}
 
-Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p=none auf p=quarantine eskalieren und p=reject, sobald DMARC die potenziellen Auswirkungen von DMARC erkennt.
+Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p = Keine auf p = Quarantäne und p = Ablehnen anheben, sobald Sie die potenziellen Auswirkungen von DMARC verstehen.
 
 1. Analysieren Sie das Feedback, das Sie erhalten und verwenden (p=none), das den Empfänger anweist, keine Aktionen für Nachrichten durchzuführen, die die Authentifizierung nicht befolgen, aber trotzdem E-Mail-Berichte an den Absender senden. Überprüfen und beheben Sie außerdem Probleme mit SPF/DKIM, wenn die Authentifizierung für legitime Nachrichten fehlschlägt.
 1. Bestimmen Sie, ob SPF und DKIM abgestimmt sind und übergeben Sie die Authentifizierung für alle legitimen E-Mails und verschieben Sie dann die Richtlinie auf (p=quarantine), wodurch der E-Mail-Empfangs-Server angewiesen wird, E-Mails unter Quarantäne zu stellen, die die Authentifizierung fehlschlagen (im Allgemeinen bedeutet dies, dass diese Nachrichten im Spam-Ordner abgelegt werden).
-1. Richtlinie anpassen auf (p=reject). Die p=-Zurückweisungsrichtlinie weist den Empfänger an, jede E-Mail für die Domain, bei der die Authentifizierung fehlschlägt, vollständig zu verweigern (Bounce). Wenn diese Richtlinie aktiviert ist, haben nur E-Mails, die zu 100 % von Ihrer Domäne authentifiziert wurden, sogar die Möglichkeit, die Posteingangsplatzierung durchzuführen.
+1. Richtlinie anpassen auf (p=reject). Die Richtlinie p = Ablehnen weist den Empfangs-Server an, jede E-Mail für die Domain, bei der die Authentifizierung fehlschlägt, komplett zu verweigern (Bounce). Wenn diese Richtlinie aktiviert ist, haben nur E-Mails, die zu 100 % von Ihrer Domain authentifiziert wurden, überhaupt die Möglichkeit, im Posteingang platziert zu werden.
 
    >[!NOTE]
    >
@@ -90,6 +91,10 @@ DMARC-Datensätze verfügen über mehrere Komponenten, die DMARC-Tags genannt we
 | aspf | Optional | Kann entweder streng (s) oder entspannt (r) sein. Eine verzögerte Ausrichtung bedeutet, dass die Domäne &quot;ReturnPath&quot;eine Subdomäne der &quot;From Address&quot;sein kann. Eine strikte Ausrichtung bedeutet, dass die Domäne &quot;Return-Path&quot;exakt mit der Absenderadresse übereinstimmen muss. | aspf=r | r |
 
 ## DMARC und Adobe Campaign {#campaign}
+
+>[!NOTE]
+>
+>Wenn Ihre Campaign-Instanz auf AWS gehostet wird, können Sie mit dem Control Panel DMARC für Ihre Subdomains implementieren. [Erfahren Sie, wie Sie DMARC-Datensätze mithilfe des Control Panels implementieren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Ein häufiger Grund für DMARC-Fehler ist die Fehlausrichtung zwischen der Adresse &quot;Von&quot;und &quot;Fehler-To&quot;oder &quot;Rückkehrpfad&quot;. Um dies zu vermeiden, wird bei der Einrichtung von DMARC empfohlen, die Adresseinstellungen &quot;Von&quot;und &quot;Fehler-To&quot;in den Versandvorlagen zu überprüfen.
 
