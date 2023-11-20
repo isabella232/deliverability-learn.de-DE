@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 7d8c1229b421471f7908c1e13bb80af5b14e42ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 96%
    + [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)
    + [ISP-spezifische Überlegungen beim IP-Warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
    + [Volumen](/help/transition-process/volume.md)
-+ Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails {#first-impressions}
-   + [Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/introduction.md)
++ Erste Impressionen – Sammlung und Willkommens-E-Mails auflisten {#first-impressions}
+   + [Erste Impressionen – Sammlung und Willkommens-E-Mails auflisten](/help/first-impressions/introduction.md)
    + [Adressensammlung und Listenwachstum](/help/first-impressions/address-collection-and-list-growth.md)
    + [Willkommens-E-Mails](/help/first-impressions/welcome-emails.md)
 + [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
@@ -61,7 +61,7 @@ ht-degree: 96%
       + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
    + Technotes {#technotes}
-      + [DMARC implementieren](/help/technotes/implement-dmarc.md)
-      + [BIMI implementieren](/help/technotes/implement-bimi.md)
+      + [Implementieren von DMARC](/help/technotes/implement-dmarc.md)
+      + [Implementieren von BIMI](/help/technotes/implement-bimi.md)
       + [Aktualisierung von Bounces nach Ausfall von Italia Online](/help/technotes/update-bounces-after-it-outage.md)
 
