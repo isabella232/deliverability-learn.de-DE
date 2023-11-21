@@ -7,10 +7,10 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 0aeff034f6ca2a3dce065240384d1b0e7922fa31
+source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 95%
+source-wordcount: '1341'
+ht-degree: 96%
 
 ---
 
@@ -48,8 +48,18 @@ Keine Panik! [!DNL Google] und [!DNL Yahoo] sprechen nicht von den Abmelde-Links
 Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URL“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URL“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt von [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte RFC8058 verweisen, die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch sie eine Abmeldung mit nur einem Klick bieten.
 Für Marketo Engage hat Adobe bereits die Option „mailto“ aktiviert und unterstützt derzeit nicht die Option „http/URL“. Weitere Aktualisierungen hierzu werden folgen.
 Für Adobe Campaign und Adobe Journey Optimizer empfiehlt Adobe die Verwendung beider Optionen, „mailto“ und „1-Click“.
-Weitere Informationen zur Implementierung von list-unsubscribe finden Sie unter [here] (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for Adobe Campaign Classic, [here] (https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} for Adobe Campaign Standard, and [here] (https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} für Adobe Journey Optimizer oder wenden Sie sich jederzeit an das Adobe-Support-Team.
+
+
+Weitere Informationen zur Implementierung von list-unsubscribe finden Sie unter [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"}
+
+für Adobe Campaign Classic, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"}
+
+für Adobe Campaign Standard und [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"}
+
+für Adobe Journey Optimizer oder wenden Sie sich jederzeit an das Adobe-Support-Team.
+
 Die Notwendigkeit von Kopfzeilen „list-unsubscribe“ gilt nicht für Transaktions-E-Mails. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
+
 ![Bild](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## Verarbeiten von Abmeldungen innerhalb von 2 Tagen:
