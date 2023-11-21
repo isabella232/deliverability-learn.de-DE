@@ -7,7 +7,7 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: ce0ecaa7f62e8ba0bbf44dc180908b81475a225e
+source-git-commit: d237d0dd921d84461a4edd47d8da501c23576d58
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 76%
@@ -51,7 +51,7 @@ Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] beziehen sich 
 Für Marketo Engage hat Adobe bereits die Option &quot;mailto&quot; aktiviert und unterstützt derzeit nicht die Option &quot;http/URL&quot;. Weitere Aktualisierungen hierzu werden folgen.
 Für Adobe Campaign und Adobe Journey Optimizer Adobe empfiehlt die Verwendung von &quot;mailto&quot;- und &quot;1-Click&quot;-Optionen.
 
-Um weitere Informationen zur Implementierung von „list-unsubscribe“ zu erhalten, klicken Sie [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"}, or **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} für . Sie können sich auch jederzeit an das Adobe-Supportteam wenden.
+Um weitere Informationen zur Implementierung von „list-unsubscribe“ zu erhalten, klicken Sie [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"} for **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} für . Sie können sich auch jederzeit an das Adobe-Supportteam wenden.
 **[!DNL Adobe Journey Optimizer]**
 
 Die Notwendigkeit von Kopfzeilen „list-unsubscribe“ gilt nicht für Transaktions-E-Mails. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
