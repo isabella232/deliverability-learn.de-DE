@@ -7,13 +7,13 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 059e57ac5b40c8e7c8562d0dca5c51de01c6b041
+exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
+source-git-commit: be133b442284b39daa8e2dd276c2942402b4936d
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 74%
 
 ---
-
 
 # Leitlinien für die angekündigten Änderungen in [!DNL Google] und [!DNL Yahoo]
 
@@ -42,7 +42,7 @@ Wenn Sie Adobe-Kundin bzw. Kunde sind, ist der Großteil dessen, was verlangt wi
 [!DNL Google] und [!DNL Yahoo] verlangen beide, dass Sie einen DMARC-Eintrag für jede Domain haben, die Sie verwenden, um E-Mails an sie zu senden. Sie erfordern derzeit NICHT die Einstellung p=reject oder p=quarantine . Daher ist eine Einstellung von p=none, die häufig als &quot;Monitoring&quot;-Einstellung bezeichnet wird, vollkommen akzeptabel. Dies wirkt sich nicht darauf aus, wie Ihre E-Mails verarbeitet werden. Sie tun das, was sie normalerweise ohne DMARC tun würden. Dies einzurichten, ist der erste Schritt, um sich mit DMARC zu schützen. Und zusätzlich zu dem neuen Vorteil, dass Sie E-Mails an [!DNL Google] und [!DNL Yahoo] senden können, können Sie außerdem erkennen, ob es innerhalb Ihres E-Mail-Ökosystems Authentifizierungsprobleme gibt.
 DMARC wird in Adobe derzeit vollständig unterstützt, ist jedoch nicht erforderlich. Verwenden Sie einen kostenlosen DMARC-Checker, um zu sehen, ob Sie DMARC für Ihre Subdomains eingerichtet haben, und falls Sie dies nicht der Fall ist, wenden Sie sich an Ihr Adobe-Supportteam, um zu erfahren, wie Sie diese Einrichtung am besten vornehmen.
 
-Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie auch [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de){target="_blank"} for Adobe Campaign and Adobe Journey Optimizer Adobe or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html?lang=de){target="_blank"} für Marketo Engage.
+Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie auch [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html?lang=de){target="_blank"} für Marketo Engage.
 
 ## Abmelden mit einem Klick (Liste):
 
