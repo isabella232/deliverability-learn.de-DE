@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: ad0646da88f2b1474e74b6c741d0dd5701e88978
+source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Die Erstellung des Logos muss den Anforderungen von 100 % entsprechen. Beachten 
 
 Das Logo muss an einem sicheren Speicherort (HTTPS) gespeichert werden. Wenn ein Content Delivery Network (CDN) verwendet wird, muss jeder Schutz deaktiviert werden, der verhindert, dass Posteingangsanbieter das Logo abrufen (z. B. Bot Protection).
 
-Neben den technischen Anforderungen gibt es einige praktische Empfehlungen wie ein quadratisches Logo, eine solide Farbe als Hintergrund und andere. Diese Empfehlungen dienen der optimalen Visualisierung. Einige Provider haben ihre eigenen Anforderungen, die zusätzlich zu denen der BIMI-Arbeitsgruppe gestellt werden. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. Beispielsweise muss das Logo mindestens 96 x 96 Pixel groß sein.
+Neben den technischen Anforderungen gibt es einige praktische Empfehlungen wie ein quadratisches Logo, eine solide Farbe als Hintergrund und andere. Diese Empfehlungen dienen der optimalen Visualisierung. Einige Provider haben ihre eigenen Anforderungen, die zusätzlich zu denen der BIMI-Arbeitsgruppe gestellt werden. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} Beispielsweise muss das Logo mindestens 96 x 96 Pixel groß sein.
 Beachten Sie bitte, dass die Nichteinhaltung dazu führen kann, dass das Logo nicht angezeigt wird.
 
 ### Überprüftes Mark-Zertifikat (VMC) {#vmc}
