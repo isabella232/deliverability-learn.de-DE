@@ -9,15 +9,15 @@ jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
 source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
-workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 81%
+workflow-type: ht
+source-wordcount: '1561'
+ht-degree: 100%
 
 ---
 
 # Leitlinien für die angekündigten Änderungen in [!DNL Google] und [!DNL Yahoo]
 
-Am 3. Oktober haben [!DNL Google] und [!DNL Yahoo] gemeinsam geplante Änderungen über ihre Blogs angekündigt. Diese Änderungen sollen die Sicherheit der Benutzer erhöhen und ein besseres E-Mail-Erlebnis bieten, indem einige gängige Best Practices der Branche als neue Anforderungen ab dem 1. Februar 2024 durchgesetzt werden.
+Am 3. Oktober haben [!DNL Google] und [!DNL Yahoo] gemeinsam geplante Änderungen über ihre Blogs angekündigt. Diese Änderungen sollen die Sicherheit der Benutzenden erhöhen und ein besseres E-Mail-Erlebnis bieten, indem einige gängige Best Practices der Branche ab 1. Februar 2024 als neue Anforderungen durchgesetzt werden.
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
@@ -41,8 +41,7 @@ Wenn Sie Adobe-Kundin bzw. Kunde sind, ist der Großteil dessen, was verlangt wi
 
 [!DNL Google] und [!DNL Yahoo] verlangen beide, dass Sie einen DMARC-Eintrag für jede Domain haben, die Sie verwenden, um E-Mails an sie zu senden. Sie erfordern derzeit NICHT die Einstellung p=reject oder p=quarantine. Daher ist eine Einstellung von p=none, die häufig als „Überwachungseinstellung“ bezeichnet wird, vollkommen akzeptabel. Dies wirkt sich nicht darauf aus, wie Ihre E-Mails verarbeitet werden. Sie tun das, was sie normalerweise ohne DMARC tun würden. Dies einzurichten, ist der erste Schritt, um sich mit DMARC zu schützen. Und zusätzlich zu dem neuen Vorteil, dass Sie E-Mails an [!DNL Google] und [!DNL Yahoo] senden können, können Sie außerdem erkennen, ob es innerhalb Ihres E-Mail-Ökosystems Authentifizierungsprobleme gibt.
 
-
-Die Regeln für DMARC ändern sich nicht. Das bedeutet, dass, sofern es nicht so konfiguriert wurde, dass dies verhindert wird, ein DMARC-Eintrag in der übergeordneten Domäne (z. B. adobe.com) vererbt wird und alle Subdomänen (z. B. email.adobe.com) abdeckt. Sie benötigen keine unterschiedlichen DMARC-Einträge für Ihre Subdomains, es sei denn, Sie möchten oder müssen sie aus verschiedenen geschäftlichen Gründen hinzufügen.
+Die Regeln für DMARC ändern sich nicht. Das bedeutet, dass ein DMARC-Eintrag (sofern er nicht so konfiguriert wurde, dass er dies verhindert) in der übergeordneten Domain (z. B. adobe.com) vererbt wird und alle Subdomains (z. B. email.adobe.com) abdeckt. Sie benötigen keine unterschiedlichen DMARC-Einträge für Ihre Subdomains, es sei denn, Sie möchten oder müssen sie aus verschiedenen geschäftlichen Gründen hinzufügen.
 
 DMARC wird in Adobe derzeit vollständig unterstützt, ist jedoch nicht erforderlich. Verwenden Sie einen kostenlosen DMARC-Checker, um zu sehen, ob Sie DMARC für Ihre Subdomains eingerichtet haben, und falls Sie dies nicht der Fall ist, wenden Sie sich an Ihr Adobe-Supportteam, um zu erfahren, wie Sie diese Einrichtung am besten vornehmen.
 
@@ -51,21 +50,20 @@ Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie a
 ## Abmelden mit einem Klick (Liste):
 
 Keine Panik! [!DNL Google] und [!DNL Yahoo] sprechen nicht von den Abmelde-Links in Ihrem E-Mail-Text oder Ihrer E-Mail-Fußzeile, die von einem Sicherheits-Bot, der einfach nur seine Arbeit macht, oder aus Versehen angeklickt werden könnten. Gemeint ist vielmehr die Kopfzeilenfunktion List-Unsubscribe für entweder die Version „mailto“ oder „http/URL“.  Dies ist die Funktion innerhalb der Benutzeroberflächen von [!DNL Yahoo] und Gmail, wo Benutzende auf „Abmelden“ klicken können. Gmail fragt Benutzende, die auf „Spam melden“ klicken, sogar danach, ob sie sich in Wirklichkeit abmelden wollten. Dies kann die Anzahl der Beschwerden verringern, die Sie erhalten (Beschwerden verletzen Ihre Reputation), indem sie stattdessen in Abmeldungen umgewandelt werden (was Ihrer Reputation nicht schadet).
-Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URL“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URL“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt von [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte RFC8058 verweisen, die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch sie eine Abmeldung mit nur einem Klick bieten.
+Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URL“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URL“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt von [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte RFC8058 verweisen, die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch eine Abmeldung mit nur einem Klick möglich ist.
 
+Heute akzeptiert [!DNL Gmail] die „mailto“-Option „list-unsubscribe“ (Abmelden von einer Liste). [!DNL Gmail] verkündete, dass „mailto“ nicht ihre Erwartungen für die Zukunft erfüllt. Stattdessen müssen ab Februar Absenderinnen oder Absender das Abmelden von einer Liste als „post“-Option aktiviert haben.
 
-Heute [!DNL Gmail] akzeptiert die Option &quot;mailto&quot; list-unsubscribe . [!DNL Gmail] hat gesagt, dass &quot;mailto&quot; nicht ihre Erwartungen in Zukunft erfüllt, und ab Februar müssen die Absender die Option &quot;post&quot; list-unsubscribe aktiviert haben.
+[!DNL Yahoo] verkündete, es werde vorerst weiterhin die Verwendung der „mailto“-Option ermöglichen, aber Benutzerinnen und Benutzer werden dort in Zukunft ebenfalls die „post“-Option benötigen.
 
-[!DNL Yahoo] hat gesagt, sie werden weiterhin die &quot;Mailto&quot;-Option, aber auch sie werden in Zukunft &quot;Post&quot; benötigen.
-
-Adobe empfiehlt die Verwendung der Optionen &quot;mailto&quot; und &quot;post/1-click&quot; list-unsubscribe . Adobe arbeitet daran, &quot;Post&quot;-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen, weitere Updates, um dies zu umgehen.
+Adobe empfiehlt sowohl die Verwendung der Option „mailto“ als auch der Option „post/Abmeldung mit nur einem Klick“ zum Abmelden von einer Liste. Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzerinnen und Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen. Weitere Updates werden erwartet.
 
 Für Marketo Engage hat Adobe bereits die Option „mailto“ aktiviert und unterstützt derzeit nicht die Option „http/URL“. Weitere Aktualisierungen hierzu werden folgen.
 Für Adobe Campaign und Adobe Journey Optimizer empfiehlt Adobe die Verwendung beider Optionen, „mailto“ und „1-Click“.
 
 Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforderlich. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
 
-[!DNL Google] und [!DNL Yahoo] beide wissen, dass sich ein Empfänger in einigen Fällen abmeldet und sich dann zu einem späteren Zeitpunkt erneut anmeldet. Sie sind zwar nicht bereit, die geheime Soße darüber zu teilen, wie sie diese Situationen identifizieren, arbeiten jedoch an Methoden, um in diesen Fällen zu verhindern, dass Absender fälschlicherweise bestraft werden.
+[!DNL Google] und [!DNL Yahoo] sind sich beide bewusst, dass sich eine Empfängerin oder ein Empfänger in einigen Fällen abmeldet und sich dann zu einem späteren Zeitpunkt erneut anmeldet. Sie sind zwar nicht bereit zu verraten, wie sie eine solche Situation identifizieren können, arbeiten jedoch an Methoden, um zu verhindern, dass in diesen Fällen Absenderinnen oder Absender fälschlicherweise bestraft werden.
 
 >[!INFO]
 > Weitere Informationen zur Implementierung von list-unsubscribe für Ihre Lösung finden Sie unter:
@@ -91,7 +89,7 @@ Die Beschwerderate unter 0,2 % zu halten, ist seit langem eine bewährte Praxis.
 * Gleichermaßen führt die Beibehaltung einer hohen Spam-Rate zu einer erhöhten Spam-Klassifizierung. Es kann einige Zeit dauern, bis sich eine verbesserte Spam-Rate auch positiv in der Spam-Klassifizierung niederschlägt.
   [!DNL Yahoo] hat erklärt, dass ihre Beschwerdegrenze ebenfalls bei 0,30 % liegen wird.
 
-[!DNL Google] und [!DNL Yahoo]Es ist nicht das Ziel, die Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der eine vorübergehende Spitze bei Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
+Das Ziel von [!DNL Google] und [!DNL Yahoo] ist es nicht, eine Absenderin oder einen Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der einen vorübergehenden Anstieg bei Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absenderinnen oder Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
 
 Wenn Sie Hilfe bei der Überwachung oder Senkung Ihrer Beschwerderaten benötigen, wenden Sie sich an Ihre Zustellbarkeitsberaterin bzw. Ihren -berater bei Adobe oder sprechen Sie mit Ihrem Accountteam über das Hinzufügen einer solchen Person, falls Sie noch keine haben.
 
@@ -107,5 +105,5 @@ Auch wenn dies eine häufige Frage ist, ergeben diese Änderungen für Endbenutz
 
 ## Letzte Anmerkung:
 
-Beachten Sie, dass dies derzeit nicht für E-Mails gilt, die an gesendet werden. [!DNL Yahoo].JP oder [!DNL Gmail] Workspace-Konten, gilt dies jedoch für E-Mails, die von diesen Orten kommen.
+Beachten Sie, dass dies derzeit nicht für E-Mails gilt, die an [!DNL Yahoo].JP oder [!DNL Gmail] Workspace-Konten gesendet werden. Dies gilt jedoch für E-Mails, die von diesen Zielen kommen.
 
