@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
+source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1565'
+ht-degree: 82%
 
 ---
 
@@ -61,9 +61,6 @@ Heute akzeptiert Gmail die Option &quot;mailto&quot; list-unsubscribe . Gmail ha
 
 Adobe empfiehlt sowohl die Verwendung der Option „mailto“ als auch der Option „post/Abmeldung mit nur einem Klick“ zum Abmelden von einer Liste. Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzerinnen und Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen. Weitere Updates werden erwartet.
 
-Für Marketo Engage hat Adobe bereits die Option „mailto“ aktiviert und unterstützt derzeit nicht die Option „http/URL“. Weitere Aktualisierungen hierzu werden folgen.
-Für Adobe Campaign und Adobe Journey Optimizer empfiehlt Adobe die Verwendung beider Optionen, „mailto“ und „1-Click“.
-
 Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforderlich. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
 
 [!DNL Google] und [!DNL Yahoo] sind sich beide bewusst, dass sich eine Empfängerin oder ein Empfänger in einigen Fällen abmeldet und sich dann zu einem späteren Zeitpunkt erneut anmeldet. Sie sind zwar nicht bereit zu verraten, wie sie eine solche Situation identifizieren können, arbeiten jedoch an Methoden, um zu verhindern, dass in diesen Fällen Absenderinnen oder Absender fälschlicherweise bestraft werden.
@@ -79,7 +76,8 @@ Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforde
 
 ## Bearbeiten Sie Abmeldungen innerhalb von 2 Tagen:
 
-Dies ist seit einiger Zeit eine empfohlene Best Practice, da jede E-Mail, die Sie an eine abgemeldete Person senden, in der Regel zu einer Spam-Beschwerde führt. Je früher Sie aufhören, ihr E-Mails zu senden, desto besser. Auch hier können die rechtlichen Anforderungen in einigen Fällen viel länger sein, aber [!DNL Google] und [!DNL Yahoo] werden wissen, dass die Person sich über „List-Unsubscribe“ abgemeldet hat und dass Sie ihr an Tag 3 immer noch E-Mails senden. Außerdem haben sie erklärt, dass sie Absenderinnen und Absendern, die dies tun, nicht erlauben werden, weiterhin E-Mails überhaupt an IRGENDWELCHE ihrer Benutzenden zu senden.
+Dies ist seit einiger Zeit eine empfohlene Best Practice, da jede E-Mail, die Sie an eine abgemeldete Person senden, in der Regel zu einer Spam-Beschwerde führt. Je früher Sie aufhören, ihr E-Mails zu senden, desto besser. Auch hier können die rechtlichen Anforderungen in einigen Fällen viel länger sein, aber [!DNL Google] und [!DNL Yahoo] wird wissen, dass ihr Benutzer sich über List-Unsubscribe abgemeldet hat und dass Sie ihm noch eine E-Mail an Tag 3 senden, und er hat erklärt, dass er Absendern, die dies tun, nicht erlauben wird, E-Mails an EINIGE seiner Benutzer zu senden.
+
 Diese 2-Tage-Frist gilt für alle Abmeldungen über die verschiedenen Methoden von „List-Unsubscribe“. In einigen Fällen (wie „mailto“) werden sie von Adobe bearbeitet. Adobe bearbeitet alle Abmeldeanfragen sofort nach Erhalt der Anfrage, innerhalb der 2-Tage-Frist. In anderen Fällen können Sie sie bearbeiten. Bei Bearbeitung dieser Anfragen müssen Sie möglicherweise auf Ihrer Seite Änderungen vornehmen, um diese zweitägige Frist einzuhalten.
 
 ## Beschwerderaten:
@@ -90,7 +88,8 @@ Die Beschwerderate unter 0,2 % zu halten, ist seit langem eine bewährte Praxis.
 * Vermeiden Sie eine Spam-Rate von 0,30 % oder höher, insbesondere über längere Zeiträume.
 * Eine niedrige Spam-Rate macht Absenderinnen und Absender weniger anfällig für gelegentliche Spitzen im Benutzer-Feedback.
 * Gleichermaßen führt die Beibehaltung einer hohen Spam-Rate zu einer erhöhten Spam-Klassifizierung. Es kann einige Zeit dauern, bis sich eine verbesserte Spam-Rate auch positiv in der Spam-Klassifizierung niederschlägt.
-  [!DNL Yahoo] hat erklärt, dass ihre Beschwerdegrenze ebenfalls bei 0,30 % liegen wird.
+
+[!DNL Yahoo] hat erklärt, dass ihre Beschwerdegrenze ebenfalls bei 0,30 % liegen wird.
 
 Das Ziel von [!DNL Google] und [!DNL Yahoo] ist es nicht, eine Absenderin oder einen Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der einen vorübergehenden Anstieg bei Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absenderinnen oder Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
 
