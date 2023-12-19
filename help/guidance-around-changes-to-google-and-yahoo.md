@@ -9,9 +9,9 @@ jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
 source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1564'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Die Fachleute für E-Mail-Zustellbarkeit von Adobe haben sich diese Blog-Posts u
 
 ## Was genau machen [!DNL Google] und [!DNL Yahoo]?
 
-In der E-Mail-Welt gibt es rechtliche Anforderungen, praktische Anforderungen und allgemeine Best Practices. Die rechtlichen Anforderungen sind von Ort zu Ort sehr unterschiedlich und nicht Teil dieses Themas. stattdessen [!DNL Google] und [!DNL Yahoo] bewährte Verfahren übernehmen und in praktische Anforderungen umsetzen.
+In der E-Mail-Welt gibt es rechtliche Anforderungen, praktische Anforderungen und allgemeine Best Practices. Die rechtlichen Anforderungen sind von Ort zu Ort sehr unterschiedlich und nicht Teil dieses Themas. Stattdessen nehmen [!DNL Google] und [!DNL Yahoo] die Best Practices und verwandeln sie in praktische Anforderungen. 
 
-Keine der Elemente, die von [!DNL Google] und [!DNL Yahoo] ab Februar verlangt werden, sind neu, und sie sind seit Jahren empfohlene Best Practices, doch die Branche hat sie nur langsam und uneinheitlich übernommen. [!DNL Google] und [!DNL Yahoo] tragen auf diese Weise dazu bei, den Übernahmeprozess voranzutreiben, indem sie sagen: „Wenn Sie E-Mails für unsere Benutzenden bereitstellen möchten (dies kann einen erheblichen Anteil Ihrer E-Mail-Liste ausmachen, in einigen Fällen sogar bis zu 70 %, je nach Region und Branche), müssen Sie diese Schritte durchführen.“
+Keines der Elemente, die von [!DNL Google] und [!DNL Yahoo] ab Februar verlangt werden, ist neu, und sie sind seit Jahren empfohlene Best Practices, doch die Branche hat sie nur langsam und uneinheitlich übernommen. [!DNL Google] und [!DNL Yahoo] tragen auf diese Weise dazu bei, den Übernahmeprozess voranzutreiben, indem sie sagen: „Wenn Sie E-Mails für unsere Benutzenden bereitstellen möchten (dies kann einen erheblichen Anteil Ihrer E-Mail-Liste ausmachen, in einigen Fällen sogar bis zu 70 %, je nach Region und Branche), müssen Sie diese Schritte durchführen.“
 
 ## Wie sehen die Details aus?
 
@@ -51,11 +51,11 @@ Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie a
 
 ## Abmelden mit einem Klick (Liste):
 
-Keine Panik! [!DNL Google] und [!DNL Yahoo] sprechen nicht von den Abmelde-Links in Ihrem E-Mail-Text oder Ihrer E-Mail-Fußzeile, die von einem Sicherheits-Bot, der einfach nur seine Arbeit macht, oder aus Versehen angeklickt werden könnten. Gemeint ist vielmehr die Kopfzeilenfunktion List-Unsubscribe für entweder die Version „mailto“ oder „http/URL“.  Dies ist die Funktion innerhalb der Benutzeroberflächen von [!DNL Yahoo] und Gmail, wo Benutzende auf „Abmelden“ klicken können. Gmail fordert Benutzer, die auf &quot;Spam melden&quot;klicken, sogar dazu auf zu sehen, ob sie sich stattdessen abmelden möchten. Dies kann die Anzahl der Beschwerden verringern, die Sie erhalten (Beschwerden verletzen Ihre Reputation), indem sie stattdessen in Abmeldungen umgewandelt werden (was Ihrer Reputation nicht schadet).
+Keine Panik! [!DNL Google] und [!DNL Yahoo] sprechen nicht von den Abmelde-Links in Ihrem E-Mail-Text oder Ihrer E-Mail-Fußzeile, die von einem Sicherheits-Bot, der einfach nur seine Arbeit macht, oder aus Versehen angeklickt werden könnten. Gemeint ist vielmehr die Kopfzeilenfunktion List-Unsubscribe für entweder die Version „mailto“ oder „http/URL“.  Dies ist die Funktion innerhalb der Benutzeroberflächen von [!DNL Yahoo] und Gmail, wo Benutzende auf „Abmelden“ klicken können. Gmail fragt Benutzende, die auf „Spam melden“ klicken, sogar danach, ob sie sich stattdessen in Wirklichkeit abmelden wollten. Dies kann die Anzahl der Beschwerden verringern, die Sie erhalten (Beschwerden schaden Ihrer Reputation), indem sie stattdessen in Abmeldungen umgewandelt werden (was Ihrer Reputation nicht schadet).
 
-Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URL“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URL“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte [RFC 8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} , die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch sie &quot;1-Klick&quot;ergibt.
+Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URL“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URL“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt von [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} verweisen, die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch eine Abmeldung mit nur einem Klick möglich ist.
 
-Heute akzeptiert Gmail die Option &quot;mailto&quot; list-unsubscribe . Gmail hat gesagt, dass &quot;mailto&quot; nicht mehr ihre Erwartungen erfüllt, und Absender müssen die Option &quot;post&quot; list-unsubscribe aktivieren lassen. Diejenigen Absender, die bereits Listen-Abmeldungen irgendeiner Art haben, haben bis zum 1. Juni 2024 die Möglichkeit, sich mit &quot;1-Klick&quot;-List-Unsubscribe zu registrieren.
+Heute akzeptiert Gmail die „mailto“-Option „list-unsubscribe“ (Abmelden von einer Liste). Gmail verkündete, dass „mailto“ nicht dessen Erwartungen für die Zukunft erfüllt. Stattdessen müssen Absenderinnen oder Absender das Abmelden von einer Liste als „post“-Option aktiviert haben. Diejenigen Absenderinnen oder Absender, die bereits über „list-unsubscribe“ irgendeiner Form verfügen, haben bis zum 1. Juni 2024 Zeit, list-unsubscribe „mit einem Klick“ eingerichtet zu haben.
 
 [!DNL Yahoo] verkündete, es werde vorerst weiterhin die Verwendung der „mailto“-Option ermöglichen, aber Benutzerinnen und Benutzer werden dort in Zukunft ebenfalls die „post“-Option benötigen.
 
@@ -76,7 +76,7 @@ Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforde
 
 ## Bearbeiten Sie Abmeldungen innerhalb von 2 Tagen:
 
-Dies ist seit einiger Zeit eine empfohlene Best Practice, da jede E-Mail, die Sie an eine abgemeldete Person senden, in der Regel zu einer Spam-Beschwerde führt. Je früher Sie aufhören, ihr E-Mails zu senden, desto besser. Auch hier können die rechtlichen Anforderungen in einigen Fällen viel länger sein, aber [!DNL Google] und [!DNL Yahoo] wird wissen, dass ihr Benutzer sich über List-Unsubscribe abgemeldet hat und dass Sie ihm noch eine E-Mail an Tag 3 senden, und er hat erklärt, dass er Absendern, die dies tun, nicht erlauben wird, E-Mails an EINIGE seiner Benutzer zu senden.
+Dies ist seit einiger Zeit eine empfohlene Best Practice, da jede E-Mail, die Sie an eine abgemeldete Person senden, in der Regel zu einer Spam-Beschwerde führt. Je früher Sie aufhören, ihr E-Mails zu senden, desto besser. Auch hier können die rechtlichen Anforderungen in einigen Fällen viel länger sein, aber [!DNL Google] und [!DNL Yahoo] werden wissen, dass die Person sich über „list-unsubscribe“ abgemeldet hat und dass Sie ihr an Tag 3 immer noch E-Mails senden. Außerdem haben sie erklärt, dass sie Absenderinnen und Absendern, die dies tun, nicht erlauben werden, weiterhin E-Mails überhaupt an IRGENDWELCHE ihrer Benutzenden zu senden.
 
 Diese 2-Tage-Frist gilt für alle Abmeldungen über die verschiedenen Methoden von „List-Unsubscribe“. In einigen Fällen (wie „mailto“) werden sie von Adobe bearbeitet. Adobe bearbeitet alle Abmeldeanfragen sofort nach Erhalt der Anfrage, innerhalb der 2-Tage-Frist. In anderen Fällen können Sie sie bearbeiten. Bei Bearbeitung dieser Anfragen müssen Sie möglicherweise auf Ihrer Seite Änderungen vornehmen, um diese zweitägige Frist einzuhalten.
 
@@ -89,7 +89,7 @@ Die Beschwerderate unter 0,2 % zu halten, ist seit langem eine bewährte Praxis.
 * Eine niedrige Spam-Rate macht Absenderinnen und Absender weniger anfällig für gelegentliche Spitzen im Benutzer-Feedback.
 * Gleichermaßen führt die Beibehaltung einer hohen Spam-Rate zu einer erhöhten Spam-Klassifizierung. Es kann einige Zeit dauern, bis sich eine verbesserte Spam-Rate auch positiv in der Spam-Klassifizierung niederschlägt.
 
-[!DNL Yahoo] hat erklärt, dass ihre Beschwerdefrist auch 0,30 % betragen wird.
+[!DNL Yahoo] hat erklärt, dass seine Beschwerdegrenze ebenfalls bei 0,30 % liegen wird.
 
 Das Ziel von [!DNL Google] und [!DNL Yahoo] ist es nicht, eine Absenderin oder einen Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der einen vorübergehenden Anstieg bei Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absenderinnen oder Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
 
@@ -97,9 +97,9 @@ Wenn Sie Hilfe bei der Überwachung oder Senkung Ihrer Beschwerderaten benötige
 
 ## Wie wirkt sich dies auf mich als Marketing-Fachkraft aus?
 
-Nichteinhaltung dieser neuen Anforderungen von Gmail und [!DNL Yahoo] wird voraussichtlich dazu führen, dass E-Mails in den Spam-Ordner landen oder blockiert werden (d. h., dass ein Bounce vom MBP ausgegeben wird, der angibt, dass die E-Mail nicht zugestellt wurde).
+Eine Nichteinhaltung dieser neuen Anforderungen von Gmail und [!DNL Yahoo] wird voraussichtlich dazu führen, dass E-Mails im Spam-Ordner landen oder blockiert werden (d. h., dass vom MBP ein Bounce ausgegeben wird, was angibt, dass die E-Mail nicht zugestellt wurde).
 
-Daher empfiehlt Adobe dringend, die oben beschriebenen Änderungen zu überprüfen und sicherzustellen, dass sie so bald wie möglich eingehalten werden. Jetzt ist auch ein guter Zeitpunkt, um mit dem Benchmarking Ihrer Leistung zu beginnen. [!DNL Yahoo] und [!DNL Google] , damit Sie sehen können, ob wesentliche Änderungen an Ihren Metriken im Februar eintreten.
+Daher empfiehlt Adobe dringend, die oben beschriebenen Änderungen zu überprüfen und sicherzustellen, dass sie so bald wie möglich eingehalten werden. Jetzt ist auch ein guter Zeitpunkt, um mit dem Benchmarking Ihrer Leistung bei [!DNL Yahoo] und [!DNL Google] zu beginnen, um zu sehen, ob es bis Februar wesentliche Änderungen an Ihren Metriken gibt.
 
 Wenn Sie Fragen haben oder Hilfe benötigen, wenden Sie sich an Ihre Zustellbarkeitsberaterin bzw. Ihren -berater bei Adobe oder sprechen Sie mit Ihrem Accountteam über das Hinzufügen einer solchen Person, falls Sie noch keine haben.
 
@@ -113,10 +113,10 @@ Beachten Sie, dass dies derzeit nicht für E-Mails gilt, die an [!DNL Yahoo].JP 
 
 ## Zusätzliche Ressourcen (nicht spezifisch für diese Änderungen):
 
-[Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+[Absenderrichtlinien für Google](https://support.google.com/mail/answer/81126){target="_blank"}
 
 [Häufig gestellte Fragen zu Google](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
 
-[Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+[Absenderrichtlinien für Yahoo](https://senders.yahooinc.com/best-practices/){target="_blank"}
 
-[Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"}
+[Häufig gestellte Fragen zu Yahoo](https://senders.yahooinc.com/faqs/){target="_blank"}
