@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 85%
+source-wordcount: '1755'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,7 @@ Heute akzeptiert Gmail die „mailto“-Option „list-unsubscribe“ (Abmelden 
 
 [!DNL Yahoo] verkündete, es werde vorerst weiterhin die Verwendung der „mailto“-Option ermöglichen, aber Benutzerinnen und Benutzer werden dort in Zukunft ebenfalls die „post“-Option benötigen.
 
-Adobe empfiehlt sowohl die Verwendung der Option „mailto“ als auch der Option „post/Abmeldung mit nur einem Klick“ zum Abmelden von einer Liste. Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzerinnen und Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen. Weitere Updates werden erwartet.
+Adobe empfiehlt sowohl die Verwendung der Option „mailto“ als auch der Option „post/Abmeldung mit nur einem Klick“ zum Abmelden von einer Liste. Adobe arbeitet daran, &quot;Post&quot;-Support auf allen E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen, siehe unten.
 
 Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforderlich. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
 
