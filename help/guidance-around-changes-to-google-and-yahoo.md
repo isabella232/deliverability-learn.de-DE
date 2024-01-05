@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
+source-git-commit: 69c95855786408f32de2f72e7f1deb122fb369ea
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1758'
 ht-degree: 85%
 
 ---
@@ -67,11 +67,11 @@ Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforde
 
 >[!INFO]
 > Adobe arbeitet daran, &quot;Post&quot;-Unterstützung auf allen E-Mail-Versandplattformen zu aktivieren, um unsere Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen:
+> 
 > * [!DNL Adobe Campaign Classic V7/V8]: Vollständig unterstützt POST 1-Click heute. Aktualisierungen der schrittweisen Einrichtung werden veröffentlicht [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"} bis Mitte Januar
 >* [!DNL Adobe Campaign Standard]: Wird aktualisiert, um POST 1-Klick zu unterstützen. Suchen Sie in Kürze nach Updates. Anweisungen zur Einrichtung werden bereitgestellt [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: Vollständig unterstützt POST 1-Click heute. Aktualisierungen der schrittweisen Einrichtung werden veröffentlicht [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} bis Mitte Januar
->
-> Marketo: Wird aktualisiert, um POST 1-Klick zu unterstützen. Sobald sie fertig ist, wird sie bei Bedarf automatisch angewendet.
+> * [!DNL Marketo]: Wird aktualisiert, um POST 1-Klick zu unterstützen. Sobald sie fertig ist, wird sie bei Bedarf automatisch angewendet.
 
 
 ## Bearbeiten Sie Abmeldungen innerhalb von 2 Tagen:
@@ -99,7 +99,7 @@ Wenn Sie Hilfe bei der Überwachung oder Senkung Ihrer Beschwerderaten benötige
 
 Seit der ursprünglichen Ankündigung im Oktober wurden Aktualisierungen an den Zeitplänen vorgenommen. Die neuesten Zeitpläne sehen wie folgt aus:
 
-[!DNL Gmail]
+## [!DNL Gmail]
 
 Februar 2024 - Vorübergehende Bounces, die eine Warnung vor Nichteinhaltung enthalten sollen, werden beginnen. E-Mails werden nach kurzer Verzögerung wie gewohnt zugestellt, wenn Sie noch nicht die Anforderungen erfüllen. Wenn Sie die Anforderungen vollständig erfüllen, gibt es keine temporären Bounces und Sie werden nichts bemerken.
 
@@ -107,7 +107,7 @@ April 2024 - Die Blöcke werden für Absender beginnen, die nicht alle Bedingung
 
 1. Juni 2024 - Bei Absendern, die nicht den Anforderungen in vollem Umfang entsprechen, einschließlich List-Unsubscribe 1-Click, tritt eine Blockierung auf.
 
-[!DNL Yahoo]
+## [!DNL Yahoo]
 
 Hat keine genauen Daten angegeben, aber hat gesagt, &quot;die Einführung der Durchsetzung wird im Februar 2024 beginnen. Die Durchsetzung wird schrittweise eingeführt.&quot;
 
