@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 81f7f1b98a1393e265d6881b889fe2aa2ea35e02
+source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 50%
+source-wordcount: '1753'
+ht-degree: 51%
 
 ---
 
@@ -175,12 +175,12 @@ Die Befehlszeile muss im Zusatzabschnitt des SMTP-Headers der E-Mail hinzugefüg
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-1; List-Unsubscribe: <mailto:unsubscribe@domain.com>
+* List-Unsubscribe: <mailto:unsubscribe@domain.com>
 Wenn Sie auf den Abmelde-Link klicken, wird der Standard-E-Mail-Client des Benutzers geöffnet. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
 
-2; List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+* List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Wenn Sie auf den Abmelde-Link klicken, wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
-![Bild](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![Bild](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
 
 
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
@@ -199,12 +199,18 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Einhaltung der 1-Klick-List-Unsubscribe-Anforderung müssen Absender:
 
-1; Hinzufügen in einer &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot; 2; Einfügen eines URI-Abmelde-Links 3; Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
+* Fügen Sie &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;hinzu.
+* Link zum Abmelden von URIs einschließen
+* Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
 
 So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
-・ Fügen Sie in der folgenden Webanwendung &quot;Empfänger abmelden kein Klick&quot; hinzu: 1; Gehen Sie zu Ressourcen > Online -> Webanwendungen 2; laden Sie die XML-Datei &quot;Empfänger abmelden kein Klick&quot;; Konfigurieren Sie List-Unsubscribe und List-Unsubscribe-Post 1; gehen Sie zum SMTP-Abschnitt der Versandeigenschaften.
-2. Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
+* Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
+* Gehen Sie zu Ressourcen > Online > Webanwendungen .
+* Laden Sie die XML &quot;Empfänger ohne Klick abmelden&quot; hoch
+* Konfigurieren von List-Unsubscribe und List-Unsubscribe-Post
+* Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
+* Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
 
 List-Unsubscribe-Post: List-Unsubscribe=One-Click List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
 
