@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1757'
 ht-degree: 51%
 
 ---
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die URL-list-unsubscribe nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
 
-Klicken Sie hier , um zu sehen, wie Sie One-Click List-Unsubscribe über Typologieregel konfigurieren.
+
+### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
+
+1 * Erstellen Sie die neue Typologieregel aus dem Navigationsbaum Klicken Sie auf Neu , um eine neue Typologie zu erstellen.
+![image](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## E-Mail-Optimierung {#email-optimization}
 
