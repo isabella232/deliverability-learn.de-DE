@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: 81f7f1b98a1393e265d6881b889fe2aa2ea35e02
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 63%
+source-wordcount: '1762'
+ht-degree: 50%
 
 ---
 
@@ -98,7 +98,7 @@ Verwenden [DKIM](/help/additional-resources/authentication.md#dkim) Für Adobe C
 * Es ist nicht notwendig, sowohl DomainKeys als auch DKIM für dieselbe Domain zu aktivieren, da es sich bei DKIM um eine verbesserte Version von DomainKeys handelt.
 * Folgende Domains validieren aktuell DKIM: AOL, Gmail.
 
-## Feedback Loops {#feedback-loop-acc}
+## Feedback Loop {#feedback-loop-acc}
 
 Eine Feedback-Schleife funktioniert, indem auf der ISP-Ebene eine bestimmte E-Mail-Adresse für einen Bereich von IP-Adressen angegeben wird, der zum Senden von Nachrichten verwendet wird. Der ISP wird die Nachrichten, die von Empfängern als Spam gemeldet werden, auf ähnliche Weise an diesen Posteingang senden wie bei Bounce-Nachrichten. Die Plattform sollte so konfiguriert sein, dass zukünftige Sendungen für Benutzer, die sich beschwert haben, blockiert werden. Es ist wichtig, dass sie nicht mehr kontaktiert werden, auch wenn sie nicht den richtigen Ausschluss-Link verwendet haben. Auf der Grundlage dieser Beschwerden fügt ein ISP seiner Blockierungsliste eine IP-Adresse hinzu. Je nach ISP wird eine Beschwerderate von etwa 1 % dazu führen, dass eine IP-Adresse blockiert wird.
 
@@ -139,16 +139,17 @@ Der Zustellbarkeitsdienst in Adobe Campaign sorgt für die Verwaltung Ihrer Anme
 
 ### Über List-Unsubscribe {#about-list-unsubscribe}
 
-Zur optimalen Verwaltung der Zustellbarkeit ist das Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** zwingend erforderlich.
+Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** ist erforderlich, um eine optimale Verwaltung der Zustellbarkeit zu gewährleisten. Ab dem 1. Juni 2024 müssen Yahoo und Gmail die Absender von One-Click List-Unsubscribe verpflichten. Informationen zur Konfiguration von One-Click List-Unsubscribe finden Sie unten.
 
-Dieser Header kann alternativ zum Symbol &quot;Als Spam melden&quot; verwendet werden. Er wird innerhalb der E-Mail in Form eines Abmelde-Links angezeigt.
 
-Die Verwendung dieser Funktion hilft dabei, Ihren Ruf zu schützen, und das Feedback wird wie eine Abmeldung ausgeführt.
+Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwendet werden. Er wird in der E-Mail-Oberfläche als Abmelde-Link angezeigt.
+
+Durch die Verwendung dieser Funktion können Sie Ihre Reputation schützen und das Feedback wird als Abmeldung ausgeführt.
 
 Zur Verwendung von List-Unsubscribe ist die Eingabe einer Befehlszeile notwendig, die in etwa so aussieht:
 
 ```
-List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
+List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -158,7 +159,7 @@ List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body
 Die folgende Befehlszeile kann zum Zweck der Erstellung eines dynamischen **List-Unsubscribe** verwendet werden:
 
 ```
-List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
+List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Abmelde-Schaltfläche ist direkt in ihrer Benutzeroberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
@@ -174,6 +175,14 @@ Die Befehlszeile muss im Zusatzabschnitt des SMTP-Headers der E-Mail hinzugefüg
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
+1; List-Unsubscribe: <mailto:unsubscribe@domain.com>
+Wenn Sie auf den Abmelde-Link klicken, wird der Standard-E-Mail-Client des Benutzers geöffnet. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
+
+2; List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+Wenn Sie auf den Abmelde-Link klicken, wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
+![Bild](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+
+
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
 
 Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mail-Header enthalten sein.
@@ -182,21 +191,26 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 >
 >Es wird empfohlen, eine Typologieregel zu erstellen: Die List-Unsubscribe-Funktion wird automatisch zu jeder E-Mail hinzugefügt.
 
-1. List-Unsubscribe: &lt;mailto:unsubscribe@domain.com>
-
-   Durch die Verwendung des **unsubscribe**-Links wird das Standard-E-Mail-Programm des Benutzers geöffnet. Diese Typologieregel muss in einer zur E-Mail-Erstellung verwendeten Typologie hinzugefügt werden.
-
-1. List-Unsubscribe: `<https://domain.com/unsubscribe.jsp>`
-
-   Durch die Verwendung des **unsubscribe**-Links wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
-
-   Beispiel:
-
-   ![](../assets/s_tn_del_unsubscribe_param.png)
-
 >[!NOTE]
 >
 >Erfahren Sie, wie Sie in Adobe Campaign Classic Typologieregeln erstellen. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+
+### 1-Klick-Liste Abmeldung
+
+Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Einhaltung der 1-Klick-List-Unsubscribe-Anforderung müssen Absender:
+
+1; Hinzufügen in einer &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot; 2; Einfügen eines URI-Abmelde-Links 3; Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
+
+So konfigurieren Sie One-Click List-Unsubscribe direkt:
+
+・ Fügen Sie in der folgenden Webanwendung &quot;Empfänger abmelden kein Klick&quot; hinzu: 1; Gehen Sie zu Ressourcen > Online -> Webanwendungen 2; laden Sie die XML-Datei &quot;Empfänger abmelden kein Klick&quot;; Konfigurieren Sie List-Unsubscribe und List-Unsubscribe-Post 1; gehen Sie zum SMTP-Abschnitt der Versandeigenschaften.
+2. Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
+
+List-Unsubscribe-Post: List-Unsubscribe=One-Click List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>, &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+
+Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die URL-list-unsubscribe nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
+
+Klicken Sie hier , um zu sehen, wie Sie One-Click List-Unsubscribe über Typologieregel konfigurieren.
 
 ## E-Mail-Optimierung {#email-optimization}
 
@@ -208,6 +222,6 @@ Die SMTP-Fehler, die nicht von einer Regel überprüft werden, werden im Abschni
 
 Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel hinzugefügt werden in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Verwaltung von Fehlern]** > **[!UICONTROL Mail-Regelsätze]** , wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
 
-### Dedizierte IP-Adressen {#dedicated-ips}
+### Dedizierte IPs {#dedicated-ips}
 
 Adobe bietet jedem Kunden für die Anlaufphase eine dedizierte IP-Strategie zum Aufbau der Reputation und zur Optimierung der Zustellbarkeit.
