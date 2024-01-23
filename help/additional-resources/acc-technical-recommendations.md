@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
+source-git-commit: bce61a5643877fed2bc88717b0beb7dd123c7430
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1885'
+ht-degree: 47%
 
 ---
 
@@ -223,8 +223,134 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
 
-1 * Erstellen Sie die neue Typologieregel aus dem Navigationsbaum Klicken Sie auf Neu , um eine neue Typologie zu erstellen.
-![image](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+* Neue Typologieregel erstellen
+* Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
+
+* Fahren Sie mit der Konfiguration der Typologieregel fort
+* Regeltyp : Kontrolle
+* Kanal: E-Mail
+* Phase : Zu Beginn der Personalisierung
+* Ebene : Ihre Wahl
+* Aktiv
+
+* Code des JavaScripts der Typologieregel.
+
+>[!NOTE]
+>
+>Der unten beschriebene Code ist nur als Beispiel zu verwenden.
+>
+
+In diesem Beispiel wird beschrieben, wie:
+* Konfigurieren Sie eine URL List-Unsubscribe und fügen Sie die Header hinzu oder hängen Sie die vorhandenen mailto: -Parameter an und ersetzen Sie sie durch: &lt;mailto..>, <http:…>
+* Hinzufügen in der Kopfzeile List-Unsubscribe-Post
+
+Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;. Sie können weitere Parameter hinzufügen ( wie &amp;service = ... )
+
+```
+// Function to add or replace a header in the provided headers 
+function addHeader(headers, header, value)  { 
+    
+  // Create the new header line 
+  var headerLine = header + ": " + value; 
+    
+  // Create a regular expression to find the specified header 
+  var regExp = new RegExp(header + ":(.*)$", "i") 
+    
+  // Split the headers into individual lines 
+  var headerLines = headers.split("\n"); 
+    
+  // Loop through each line 
+  for (var i=0; i < headerLines.length; i++) { 
+      
+    // Check if the specified header exists 
+    var match = headerLines[i].match(regExp) 
+      
+    // If it exists 
+    if ( match != null ) { 
+        
+      // Replace the existing header line 
+      headerLines[i] = headerLine; 
+        
+      // Return the modified headers 
+      return headerLines.join("\n"); 
+    } 
+  } 
+    
+  // If the header does not exist, add the new header line 
+  headerLines.push(headerLine); 
+    
+  // Return the modified headers 
+  return headerLines.join("\n"); 
+} 
+  
+// Function to get the value of a specified header from the provided headers 
+function getHeader(headers, header) { 
+    
+  // Create a regular expression to find the specified header 
+  var regExp = new RegExp(header + ":(.*)$", "i") 
+    
+  // Split the headers into individual lines 
+  var headerLines = headers.split("\n"); 
+    
+  // Loop each line 
+  for each (line in headerLines) { 
+      
+    // Check if the specified header exists 
+    var match = line.match(regExp); 
+      
+    // If it exists 
+    if ( match != null ) { 
+        
+      // Return the header value, removing leading whitespace 
+      return match[1].replace(/^\s*/, ""); 
+    } 
+  } 
+    
+  // If the header does not exist, return an empty string 
+  return ""; 
+} 
+  
+  
+// Define the unsubscribe URL 
+var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+  
+// Get the value of the List-Unsubscribe header 
+var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
+  
+// If the List-Unsubscribe header does not exist 
+if ( headerUnsub === "" ) { 
+  // Add the List-Unsubscribe header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+} 
+// If the List-Unsubscribe header exists and contains 'mailto' 
+else if(headerUnsub.search('mailto')){ 
+  // Replace the existing List-Unsubscribe header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+} 
+  
+// Get the value of the List-Unsubscribe-Post header 
+var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
+  
+// If the List-Unsubscribe-Post header does not exist 
+if ( headerUnsubPost === "" ) { 
+  // Add the List-Unsubscribe-Post header 
+  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
+} 
+  
+// Return true to indicate success 
+return true; 
+![image](https://git.corp.adobe.com/storage/user/38257/files/19aa6e14-0a23-4332-b21b-546da77995d6)
+```
+
+* Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung).
+
+* Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
+
+* Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.
+
+* Überprüfen, ob List-Unsubscribe vorhanden ist
+
+
 
 
 ## E-Mail-Optimierung {#email-optimization}
