@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0f61e0c36f979372f05772ad5a37114dcb05e8e5
+source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1895'
 ht-degree: 47%
 
 ---
@@ -225,7 +225,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 Neue Typologieregel erstellen
 
-Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
+Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
 
 ![Bild](/help/assets/CreatingTypologyRules1.png)
 
@@ -237,7 +237,7 @@ Fahren Sie mit der Konfiguration der Typologieregel fort
 * Ebene : Ihre Wahl
 * Aktiv
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
+![Bild](/help/assets/CreatingTypologyRules2.png)
 
 Code des JavaScripts der Typologieregel.
 
@@ -349,23 +349,23 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
+![Bild](/help/assets/CreatingTypologyRules3.png)
 
 Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung).
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
+![Bild](/help/assets/CreatingTypologyRules4.png)
 
 Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
+![Bild](/help/assets/CreatingTypologyRules5.png)
 
 Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![Bild](/help/assets/CreatingTypologyRules6.png)
 
 Überprüfen Sie, ob List-Unsubscribe vorhanden ist.
 
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![Bild](/help/assets/CreatingTypologyRules7.png)
 
 ## E-Mail-Optimierung {#email-optimization}
 
