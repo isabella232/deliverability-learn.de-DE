@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: acb2f0c5c983445b538381833f3596251938480a
+source-git-commit: f7c2dcbf1bb86d7018c31b1ae2ef29903fb758aa
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1902'
 ht-degree: 47%
 
 ---
@@ -225,13 +225,14 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 * Neue Typologieregel erstellen
 * Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
-
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 * Fahren Sie mit der Konfiguration der Typologieregel fort
 * Regeltyp : Kontrolle
 * Kanal: E-Mail
 * Phase : Zu Beginn der Personalisierung
 * Ebene : Ihre Wahl
 * Aktiv
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
 * Code des JavaScripts der Typologieregel.
 
@@ -342,14 +343,19 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 * Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung).
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 * Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 * Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 * Überprüfen, ob List-Unsubscribe vorhanden ist
+  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
