@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 47%
@@ -207,7 +207,7 @@ So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
 * Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
 * Gehen Sie zu Ressourcen > Online > Webanwendungen .
-* Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * Konfigurieren von List-Unsubscribe und List-Unsubscribe-Post
 * Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
@@ -224,13 +224,13 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
 
-Neue Typologieregel erstellen
+Erstellen Sie die neue Typologieregel:
 
-Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
+* Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
 
 ![Bild](/help/assets/CreatingTypologyRules1.png)
 
-Fahren Sie mit der Konfiguration der Typologieregel fort
+Fahren Sie mit der Konfiguration der Typologieregel fort:
 
 * Regeltyp : Kontrolle
 * Kanal: E-Mail
@@ -240,7 +240,7 @@ Fahren Sie mit der Konfiguration der Typologieregel fort
 
 ![Bild](/help/assets/CreatingTypologyRules2.png)
 
-Code des JavaScripts der Typologieregel.
+Code des JavaScripts der Typologieregel:
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardty
 
 ![Bild](/help/assets/CreatingTypologyRules4.png)
 
-Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
+Vorbereitung eines neuen Versands (Überprüfung, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)
 
 ![Bild](/help/assets/CreatingTypologyRules5.png)
 
