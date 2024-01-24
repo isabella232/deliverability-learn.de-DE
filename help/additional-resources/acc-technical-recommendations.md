@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 4389ac3135223c0d363e67fe7403656a17ee3f6a
+source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 47%
@@ -223,11 +223,11 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
 
-# Neue Typologieregel erstellen
+Neue Typologieregel erstellen
 * Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
   ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
-# Fahren Sie mit der Konfiguration der Typologieregel fort
+Fahren Sie mit der Konfiguration der Typologieregel fort
 * Regeltyp : Kontrolle
 * Kanal: E-Mail
 * Phase : Zu Beginn der Personalisierung
@@ -236,7 +236,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
-# Code des JavaScripts der Typologieregel.
+Code des JavaScripts der Typologieregel.
 
 >[!NOTE]
 >
@@ -345,19 +345,20 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+
 ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-# Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung).
+Fügen Sie Ihre neue Regel einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung).
 ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-# Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
+Bereiten Sie einen neuen Versand vor (überprüfen Sie, ob in der Versandeigenschaft zusätzliche SMTP-Header leer sind).
 ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-# Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.
+Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.
 ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-# Überprüfen, ob List-Unsubscribe vorhanden ist
-![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+Überprüfen, ob List-Unsubscribe vorhanden ist
+![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
