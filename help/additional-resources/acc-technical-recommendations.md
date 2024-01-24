@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 47%
@@ -207,7 +207,8 @@ So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
 * Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
 * Gehen Sie zu Ressourcen > Online > Webanwendungen .
-* Laden Sie die XML &quot;Empfänger ohne Klick abmelden&quot; hoch
+* Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * Konfigurieren von List-Unsubscribe und List-Unsubscribe-Post
 * Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
 * Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
