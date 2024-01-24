@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5315c15149deb007460dc848426e1f727937041c
+source-git-commit: d8cc8e3ee8b1a0fc6beaec1a7bc357f3a9f52e0f
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1888'
 ht-degree: 47%
 
 ---
@@ -244,7 +244,9 @@ In diesem Beispiel wird beschrieben, wie:
 * Konfigurieren Sie eine URL List-Unsubscribe und fügen Sie die Header hinzu oder hängen Sie die vorhandenen mailto: -Parameter an und ersetzen Sie sie durch: &lt;mailto..>, <http:…>
 * Hinzufügen in der Kopfzeile List-Unsubscribe-Post
 
-Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;. Sie können weitere Parameter hinzufügen ( wie &amp;service = ...)
+Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
+
+Sie können weitere Parameter hinzufügen (z. B. &amp;service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
