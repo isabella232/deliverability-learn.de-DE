@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b192fc5a3287f4e20269f668ff71f328edf94482
+source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1901'
 ht-degree: 47%
 
 ---
@@ -226,7 +226,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 Neue Typologieregel erstellen
 
 * Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
-  ![Bild](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
+  ![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Fahren Sie mit der Konfiguration der Typologieregel fort
 
