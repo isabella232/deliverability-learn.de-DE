@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 69655998dfaadd59daf0f65fe04f16f67ff955ee
+source-git-commit: 6800c3236a4ffb5005cff12de86cce0295402b00
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1902'
 ht-degree: 47%
 
 ---
@@ -227,7 +227,7 @@ Neue Typologieregel erstellen
 
 Klicken Sie in der Navigationsstruktur auf Neu , um eine neue Typologie zu erstellen.
 
-![typologyrues1](help/assets/CreatingTypologyRules1.png)
+![typologyrues1](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/commit/ae78f381d0501bbc71f5a33bd2e8dd52563b193f#diff-99b6d79de1599be3ab6a20bd059e70a4a39b09feae147af09a91009f90fd1ced)
 
 Fahren Sie mit der Konfiguration der Typologieregel fort
 
