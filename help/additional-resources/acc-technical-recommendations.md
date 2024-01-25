@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 097f41c29e189c2a8abf79e65ec322d39a2213db
+source-git-commit: 2b8a058e271843750a025e1aa3f61151c285e0d0
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 47%
@@ -228,7 +228,7 @@ Erstellen Sie die neue Typologieregel:
 
 * Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
 
-![Bild](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
+![Bild](/help/assets/CreatingTypologyRules1.png){width="150%"}{hight="150%"}
 
 Fahren Sie mit der Konfiguration der Typologieregel fort:
 
