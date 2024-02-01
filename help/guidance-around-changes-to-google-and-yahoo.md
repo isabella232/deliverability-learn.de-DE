@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
-workflow-type: ht
-source-wordcount: '1755'
-ht-degree: 100%
+source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
+workflow-type: tm+mt
+source-wordcount: '1762'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ Die Regeln für DMARC ändern sich nicht. Das bedeutet, dass ein DMARC-Eintrag (
 
 DMARC wird in Adobe derzeit vollständig unterstützt, ist jedoch nicht erforderlich. Verwenden Sie einen kostenlosen DMARC-Checker, um zu sehen, ob Sie DMARC für Ihre Subdomains eingerichtet haben, und falls Sie dies nicht der Fall ist, wenden Sie sich an Ihr Adobe-Supportteam, um zu erfahren, wie Sie diese Einrichtung am besten vornehmen.
 
-Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie auch [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html?lang=de){target="_blank"} für Marketo Engage.
+Weitere Informationen zu DMARC und dazu, wie es implementiert wird, finden Sie auch [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=de){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html?lang=de){target="_blank"} für Marketo Engage.
 
 ## Abmelden mit einem Klick (Liste):
 
@@ -69,9 +69,9 @@ Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforde
 > Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzenden bei der Erfüllung dieser Anforderungen zu unterstützen:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: Unterstützt ab heute vollständig „POST“ mit einem Klick Aktualisierungen der Schritt-für-Schritt-Einrichtung werden bis Mitte Januar [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"} veröffentlicht.
->* [!DNL Adobe Campaign Standard]: Wird aktualisiert, um „POST“ mit einem Klick zu unterstützen. Achten Sie in Kürze auf aktuelle Informationen. Anweisungen zur Einrichtung werden [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de) bereitgestellt{target="_blank"}.
->* [!DNL Adobe Journey Optimizer]: Unterstützt ab heute vollständig „POST“ mit einem Klick. Aktualisierungen der Schritt-für-Schritt-Einrichtung werden bis Mitte Januar [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} veröffentlicht.
+> * [!DNL Adobe Campaign Classic V7/V8]: Vollständig unterstützt POST 1-Click heute. Anweisungen finden Sie [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"} bis Mitte Januar.
+>* [!DNL Adobe Campaign Standard]: Wird aktualisiert, um POST 1-Click bis Ende Februar zu unterstützen. Anweisungen zur Einrichtung werden bereitgestellt [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"} einmal bereit.
+>* [!DNL Adobe Journey Optimizer]: Unterstützt POST 1-Click heute, aber einige wichtige Verbesserungen sind im Gange. Aktualisierungen der schrittweisen Einrichtung werden veröffentlicht [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} einmal bereit.
 > * [!DNL Marketo]: Wird aktualisiert und unterstützt zukünftig „POST“ mit einem Klick. Sobald es bereit ist, wird es bei Bedarf automatisch angewendet.
 
 
@@ -110,13 +110,15 @@ April 2024 – Beginn der Blockierung von Absendern und Absenderinnen, die nicht
 
 [!DNL Yahoo]
 
-Hat keine genauen Daten angegeben, aber hat gesagt, dass die Einführung der Durchsetzung im Februar 2024 beginnen werde. Die Durchsetzung werde schrittweise eingeführt.
+Februar 2024 - Die schrittweise Einführung der Durchsetzung für alle Anforderungen außer 1-Click List-Unsubscribe beginnt im Februar 2024.
+
+Juni 2024 - Die Durchsetzung von 1-Click List-Unsubscribe beginnt im Juni 2024.
 
 ## Wie wirkt sich dies auf mich als Marketing-Fachkraft aus?
 
 Eine Nichteinhaltung dieser neuen Anforderungen von Gmail und [!DNL Yahoo] wird voraussichtlich dazu führen, dass E-Mails im Spam-Ordner landen oder blockiert werden (d. h., dass vom MBP ein Bounce ausgegeben wird, was angibt, dass die E-Mail nicht zugestellt wurde).
 
-Daher empfiehlt Adobe dringend, die oben beschriebenen Änderungen zu überprüfen und sicherzustellen, dass sie so bald wie möglich eingehalten werden. Jetzt ist auch ein guter Zeitpunkt, um mit dem Benchmarking Ihrer Leistung bei [!DNL Yahoo] und [!DNL Google] zu beginnen, um zu sehen, ob es bis Februar wesentliche Änderungen an Ihren Metriken gibt.
+Daher empfiehlt Adobe dringend, die oben beschriebenen Änderungen zu überprüfen und sicherzustellen, dass sie so bald wie möglich eingehalten werden. Jetzt ist auch ein guter Zeitpunkt, um mit dem Benchmarking Ihrer Performance bei [!DNL Yahoo] und [!DNL Google] zu beginnen, um zu sehen, ob es bis Februar wesentliche Änderungen an Ihren Metriken gibt.
 
 Wenn Sie Fragen haben oder Hilfe benötigen, wenden Sie sich an Ihre Zustellbarkeitsberaterin bzw. Ihren -berater bei Adobe oder sprechen Sie mit Ihrem Accountteam über das Hinzufügen einer solchen Person, falls Sie noch keine haben.
 
