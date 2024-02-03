@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 66526ebad0914ef9afa995f7d826e644c0350182
+source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1889'
 ht-degree: 47%
 
 ---
@@ -146,7 +146,7 @@ Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwe
 
 Durch die Verwendung dieser Funktion können Sie Ihre Reputation schützen und das Feedback wird als Abmeldung ausgeführt.
 
-Zur Verwendung von List-Unsubscribe ist die Eingabe einer Befehlszeile notwendig, die in etwa so aussieht:
+Um List-Unsubscribe zu verwenden, müssen Sie eine Befehlszeile eingeben, die in etwa wie folgt aussieht:
 
 ```
 List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -180,7 +180,7 @@ Wenn Sie auf den Abmelde-Link klicken, wird der Standard-E-Mail-Client des Benut
 
 * List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Wenn Sie auf den Abmelde-Link klicken, wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
-  ![Bild](/help/assets/ListUnsubscribe1.png)
+  ![Bild](/help/assets/UTF-8-1.png)
 
 
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
@@ -206,12 +206,11 @@ Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click 
 So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
 * Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
-* Gehen Sie zu Ressourcen > Online > Webanwendungen .
-* Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-
+   1. Gehen Sie zu Ressourcen > Online > Webanwendungen .
+   2. Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Konfigurieren von List-Unsubscribe und List-Unsubscribe-Post
-* Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
-* Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
+   1. Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
+   2. Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
