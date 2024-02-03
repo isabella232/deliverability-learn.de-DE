@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5afc345e1cc8e47153db6b5f98e06d8ad0fb4d48
+source-git-commit: d9b3505de11cc7c50db2a318274b73a758348578
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 47%
@@ -175,9 +175,11 @@ Die Befehlszeile muss im Zusatzabschnitt des SMTP-Headers der E-Mail hinzugefüg
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-* List-Unsubscribe: mailto:unsubscribe@domain.com Wenn Sie auf den Abmelde-Link klicken, wird der Standard-E-Mail-Client des Benutzers geöffnet. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
+List-Unsubscribe: mailto:unsubscribe@domain.com
+* Klicken Sie auf **unsubscribe** -Link öffnet den Standard-E-Mail-Client des Benutzers. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
 
-* List-Unsubscribe: https://domain.com/unsubscribe.jsp Wenn Sie auf den Abmelde-Link klicken, wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
+List-Unsubscribe: https://domain.com/unsubscribe.jsp
+* Klicken Sie auf **unsubscribe** -Link leitet den Benutzer zu Ihrem Abmeldeformular weiter.
 
 ![Bild](/help/assets/UTF-8-1.png)
 
