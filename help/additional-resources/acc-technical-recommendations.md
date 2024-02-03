@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
+source-git-commit: 98ec94935810c060ec0ad7c70336276104072ee3
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 47%
@@ -224,7 +224,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
 
-* **Erstellen Sie die neue Typologieregel:**
+1. **Erstellen Sie die neue Typologieregel:**
 
    * Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
 
