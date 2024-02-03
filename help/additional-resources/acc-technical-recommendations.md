@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5f00c22382aff61c9aa218f60ecfeabc743a2742
+source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 47%
@@ -224,20 +224,20 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 ### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
 
-1. **Erstellen Sie die neue Typologieregel:**
+* **Erstellen Sie die neue Typologieregel:**
 
-* Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
+   * Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
 
 ![Bild](/help/assets/CreatingTypologyRules1.png)
 
 
-2. **Fahren Sie mit der Konfiguration der Typologieregel fort:**
+* **Fahren Sie mit der Konfiguration der Typologieregel fort:**
 
-* Regeltyp: Kontrolle
-* Kanal: E-Mail
-* Phase: Zu Beginn der Personalisierung
-* Ebene: Ihre Wahl
-* Aktiv
+   * Regeltyp: Kontrolle
+   * Kanal: E-Mail
+   * Phase: Zu Beginn der Personalisierung
+   * Ebene: Ihre Wahl
+   * Aktiv
 
 ![Bild](/help/assets/CreatingTypologyRules2.png)
 
@@ -353,22 +353,22 @@ return true;
 ![Bild](/help/assets/CreatingTypologyRules3.png)
 
 
-3. **Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (Standardtypologie ist in Ordnung):**
+* **Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (Standardtypologie ist in Ordnung):**
 
 ![Bild](/help/assets/CreatingTypologyRules4.png)
 
 
-4. **Vorbereitung eines neuen Versands (Überprüfung, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
+* **Vorbereitung eines neuen Versands (Überprüfung, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
 
 ![Bild](/help/assets/CreatingTypologyRules5.png)
 
 
-5. **Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.**
+* **Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.**
 
 ![Bild](/help/assets/CreatingTypologyRules6.png)
 
 
-6. **Überprüfen Sie, ob List-Unsubscribe vorhanden ist.**
+* **Überprüfen Sie, ob List-Unsubscribe vorhanden ist.**
 
 ![Bild](/help/assets/CreatingTypologyRules7.png)
 
