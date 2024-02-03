@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
+source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 47%
@@ -149,7 +149,7 @@ Durch die Verwendung dieser Funktion können Sie Ihre Reputation schützen und d
 Um List-Unsubscribe zu verwenden, müssen Sie eine Befehlszeile eingeben, die in etwa wie folgt aussieht:
 
 ```
-List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
+List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?bod
 Die folgende Befehlszeile kann zum Zweck der Erstellung eines dynamischen **List-Unsubscribe** verwendet werden:
 
 ```
-List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Abmelde-Schaltfläche ist direkt in ihrer Benutzeroberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
@@ -175,12 +175,13 @@ Die Befehlszeile muss im Zusatzabschnitt des SMTP-Headers der E-Mail hinzugefüg
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-* List-Unsubscribe: <mailto:unsubscribe@domain.com>
+1. List-Unsubscribe: <mailto:unsubscribe@domain.com>
 Wenn Sie auf den Abmelde-Link klicken, wird der Standard-E-Mail-Client des Benutzers geöffnet. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
 
-* List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
+2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp>
 Wenn Sie auf den Abmelde-Link klicken, wird der Benutzer zu Ihrem Abmeldeformular weitergeleitet.
-  ![Bild](/help/assets/UTF-8-1.png)
+
+![Bild](/help/assets/UTF-8-1.png)
 
 
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
@@ -199,9 +200,9 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 
 Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Einhaltung der 1-Klick-List-Unsubscribe-Anforderung müssen Absender:
 
-* Fügen Sie &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;hinzu.
-* Link zum Abmelden von URIs einschließen
-* Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
+1. Fügen Sie &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;hinzu.
+2. Link zum Abmelden von URIs einschließen
+3. Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
 
 So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
