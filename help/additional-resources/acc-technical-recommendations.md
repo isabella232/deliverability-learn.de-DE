@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -236,8 +236,8 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 **2. Fahren Sie mit der Konfiguration der Typologieregel fort:**
 
 * Regeltyp: Kontrolle
+* Phase: Zu Beginn der Zielgruppenbestimmung
 * Kanal: E-Mail
-* Phase: Zu Beginn der Personalisierung
 * Ebene: Ihre Wahl
 * Aktiv
 
