@@ -1,14 +1,14 @@
 ---
 source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
-# Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
+# Erstellen einer Typologieregel zur Unterstützung von „List-Unsubscribe“ durch einen Klick:
 
-**1. Erstellen Sie die neue Typologieregel:**
-* Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
+**1. Erstellen einer neuen Typologieregel:**
+* Klicken Sie im Navigationsbaum auf „neu“, um eine neue Typologie zu erstellen
 
 ![Bild](/help/assets/CreatingTypologyRules1.png)
 
@@ -29,11 +29,11 @@ ht-degree: 8%
 >[!NOTE]
 >
 >Der unten beschriebene Code ist nur als Beispiel zu verwenden.
->In diesem Beispiel wird beschrieben, wie:
->* Konfigurieren Sie eine URL List-Unsubscribe und fügen Sie die Header hinzu oder hängen Sie die vorhandenen mailto: -Parameter an und ersetzen Sie sie durch: &lt;mailto..>>, https://..
->* Hinzufügen in der Kopfzeile List-Unsubscribe-Post
->Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;
->* Sie können weitere Parameter hinzufügen (z. B. &amp;service = ...)
+>In diesem Beispiel wird Folgendes beschrieben:
+>* Konfigurieren Sie eine List-Unsubscribe-URL und fügen Sie die Header hinzu oder hängen Sie die vorhandenen „mailto:“-Parameter an und ersetzen Sie sie durch: „&lt;mailto..>, https://…“
+>* Hinzufügen des Post-Headers „List-Unsubscribe“
+>Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
+>* Sie können weitere Parameter hinzufügen (z. B. &amp;service = ...)
 >
 
 
@@ -135,11 +135,11 @@ return true;
 
 ![Bild](/help/assets/CreatingTypologyRules3.png)
 
-**3. Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (Standardtypologie ist in Ordnung):**
+**3. Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung):**
 
 ![Bild](/help/assets/CreatingTypologyRules4.png)
 
-**4. Vorbereitung eines neuen Versands (Überprüfung, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
+**4. Vorbereitung eines neuen Versands (Überprüfen Sie, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
 
 ![Bild](/help/assets/CreatingTypologyRules5.png)
 
@@ -149,6 +149,6 @@ return true;
 
 
 
-**6. Überprüfen Sie, ob List-Unsubscribe vorhanden ist.**
+**6. Überprüfen Sie, ob „List-Unsubscribe“ vorhanden ist.**
 
 ![Bild](/help/assets/CreatingTypologyRules7.png)
