@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 47%
+source-wordcount: '1899'
+ht-degree: 55%
 
 ---
 
@@ -139,7 +139,7 @@ Der Zustellbarkeitsdienst in Adobe Campaign sorgt für die Verwaltung Ihrer Anme
 
 ### Über List-Unsubscribe {#about-list-unsubscribe}
 
-Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** ist erforderlich, um eine optimale Verwaltung der Zustellbarkeit zu gewährleisten. Ab dem 1. Juni 2024 müssen Yahoo und Gmail die Absender von One-Click List-Unsubscribe verpflichten. Informationen zur Konfiguration von One-Click List-Unsubscribe finden Sie unten.
+Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** ist zwingend erforderlich, um eine optimale Verwaltung der Zustellbarkeit zu gewährleisten. Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Informationen zum Konfigurieren von One-Click List-Unsubscribe finden Sie unter [diesem Abschnitt](#one-click-list-unsubscribe).
 
 
 Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwendet werden. Er wird in der E-Mail-Oberfläche als Abmelde-Link angezeigt.
@@ -181,7 +181,7 @@ List-Unsubscribe: mailto:unsubscribe@domain.com
 List-Unsubscribe: https://domain.com/unsubscribe.jsp
 * Klicken Sie auf **unsubscribe** -Link leitet den Benutzer zu Ihrem Abmeldeformular weiter.
 
-![Bild](/help/assets/UTF-8-1.png)
+![Bild](../assets/UTF-8-1.png)
 
 
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 >
 >Erfahren Sie, wie Sie in Adobe Campaign Classic Typologieregeln erstellen. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### 1-Klick-Liste Abmeldung
+### 1-Klick-Liste Abmeldung {#one-click-list-unsubscribe}
 
 Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Einhaltung der 1-Klick-List-Unsubscribe-Anforderung müssen Absender:
 
@@ -215,21 +215,19 @@ So konfigurieren Sie One-Click List-Unsubscribe direkt:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die URL-list-unsubscribe nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
 
 
-### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe:
+### Erstellen einer Typologieregel zur Unterstützung von „List-Unsubscribe“ durch einen Klick:
 
-**1. Erstellen Sie die neue Typologieregel:**
+**1. Erstellen einer neuen Typologieregel:**
 
-* Klicken Sie im Navigationsbaum auf &quot;neu&quot;, um eine neue Typologie zu erstellen.
+* Klicken Sie im Navigationsbaum auf „neu“, um eine neue Typologie zu erstellen
 
-
-![Bild](/help/assets/CreatingTypologyRules1.png)
-
+![Bild](../assets/CreatingTypologyRules1.png)
 
 
 **2. Fahren Sie mit der Konfiguration der Typologieregel fort:**
@@ -241,7 +239,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 * Aktiv
 
 
-![Bild](/help/assets/CreatingTypologyRules2.png)
+![Bild](../assets/CreatingTypologyRules2.png)
 
 
 **Code des JavaScripts der Typologieregel:**
@@ -250,11 +248,11 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 >[!NOTE]
 >
 >Der unten beschriebene Code ist nur als Beispiel zu verwenden.
->In diesem Beispiel wird beschrieben, wie:
->* Konfigurieren Sie eine URL List-Unsubscribe und fügen Sie die Header hinzu oder hängen Sie die vorhandenen mailto: -Parameter an und ersetzen Sie sie durch: &lt;mailto..>>, https://..
->* Hinzufügen in der Kopfzeile List-Unsubscribe-Post
->Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;
->* Sie können weitere Parameter hinzufügen (z. B. &amp;service = ...)
+>In diesem Beispiel wird Folgendes beschrieben:
+>* Konfigurieren Sie eine List-Unsubscribe-URL und fügen Sie die Header hinzu oder hängen Sie die vorhandenen „mailto:“-Parameter an und ersetzen Sie sie durch: „&lt;mailto..>, https://…“
+>* Hinzufügen des Post-Headers „List-Unsubscribe“
+>Das Beispiel für die Post-URL verwendet var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
+>* Sie können weitere Parameter hinzufügen (z. B. &amp;service = ...)
 >
 
 
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![Bild](/help/assets/CreatingTypologyRules3.png)
+![Bild](../assets/CreatingTypologyRules3.png)
 
 
 
-**3. Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (Standardtypologie ist in Ordnung):**
+**3. Fügen Sie Ihre neue Regel zu einer Typologie zu einer E-Mail hinzu (die Standardtypologie ist in Ordnung):**
 
-![Bild](/help/assets/CreatingTypologyRules4.png)
+![Bild](../assets/CreatingTypologyRules4.png)
 
 
 
-**4. Vorbereitung eines neuen Versands (Überprüfung, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
+**4. Vorbereitung eines neuen Versands (Überprüfen Sie, ob zusätzliche SMTP-Header in der Versandeigenschaft leer sind)**
 
-![Bild](/help/assets/CreatingTypologyRules5.png)
+![Bild](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Prüfen Sie während der Versandvorbereitung, ob Ihre neue Typologieregel angewendet wird.**
 
-![Bild](/help/assets/CreatingTypologyRules6.png)
+![Bild](../assets/CreatingTypologyRules6.png)
 
 
 
-**6. Überprüfen Sie, ob List-Unsubscribe vorhanden ist.**
+**6. Überprüfen Sie, ob „List-Unsubscribe“ vorhanden ist.**
 
-![Bild](/help/assets/CreatingTypologyRules7.png)
+![Bild](../assets/CreatingTypologyRules7.png)
 
 
 ## E-Mail-Optimierung {#email-optimization}
