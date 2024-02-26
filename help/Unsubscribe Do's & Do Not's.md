@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DO: Erlauben Sie Ihren Abonnenten, die Beziehung zu diktieren.
 
 DO: Verwenden Sie einen List Unsubscribe -Header in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
 
-+ Klicken Sie hier (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html), um mehr über Brancheninitiativen zur einmaligen Abmeldung zu erfahren.
++ Klicks [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de) um mehr über Brancheninitiativen zu erfahren, die sich mit einem Klick abmelden.
 
 Das Do Not’s
 
