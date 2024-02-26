@@ -1,17 +1,16 @@
 ---
-source-git-commit: 73776a83c10a1c871ffaae38371fa2c48b5bf308
+source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
-### Abmelden von Do’s und Do Not&#39;s
-###
-
+# Abmelden von Do’s und Do Not&#39;s
 
 In diesem Dokument werden die empfohlenen Best Practices für die Verwaltung von E-Mail-Abmeldungen erläutert.
 
 Abmeldungen sind ein natürlicher Bestandteil des E-Mail-Lebenszyklus. Doch ist es für Marketingexperten schwierig, sich manchmal zu verabschieden. Sie arbeiten so hart, um die ansprechendsten E-Mails zu erstellen und die besten Angebote für Produkte und Dienstleistungen Ihrer Marke zu präsentieren. Es ist jedoch völlig normal und sollte erwartet werden, dass einige Abonnenten beschließen, weiterzumachen. Dies kann aus verschiedenen Gründen geschehen, aber im Endeffekt ist es nicht mehr daran interessiert, von Ihnen zu hören.
+
 Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werden sollten, wenn Sie Abmeldungen von Ihren E-Mail-Listen verwalten - lesen Sie weiter, um mehr zu erfahren.
 
 Die
@@ -51,8 +50,7 @@ DO: Verwenden Sie einen List Unsubscribe -Header in Ihren E-Mail-Vorlagen, damit
 
 + Klicken Sie hier (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html), um mehr über Brancheninitiativen zur einmaligen Abmeldung zu erfahren.
 
-# Das Do Not’s
-#
+Das Do Not’s
 
 
 NICHT: Bringen Sie den Abmelde-Link in Ihrem Inhalt in der Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
@@ -86,4 +84,3 @@ NICHT: Zwingen Sie sie, Ihnen vor der Bearbeitung der Anfrage einen Grund für d
 + Ein besserer Ansatz wäre es, sie darüber zu informieren, dass sie sich erfolgreich abgemeldet haben, und ihnen dann einen Platz zu geben, um optional die Gründe anzugeben.
 
 Denken Sie daran, dass Abmeldungen besser sind als Beschwerden. Personen, die sich nicht positiv mit Ihrem E-Mail-Programm beschäftigen, können sich negativ auf Ihre Reputation als Zustellbarkeit sowie auf Ihre Metriken auswirken. Jetzt ist es an der Zeit, dass Sie sich darauf konzentrieren, tiefere Beziehungen zu Ihren aktuellen Abonnenten zu pflegen, indem Sie sie mit interaktiven, relevanten Nachrichten behandeln, die sie nicht erwarten können, sie zu öffnen, durchklicken und einen Kauf tätigen!
-
