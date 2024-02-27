@@ -1,13 +1,11 @@
 ---
-source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
+source-git-commit: 214036c89a3c0b3ebcdfc66bc8a4e4bd2ede5766
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 # Abmelden von Do’s und Do Not&#39;s
-
-In diesem Dokument werden die empfohlenen Best Practices für die Verwaltung von E-Mail-Abmeldungen erläutert.
 
 Abmeldungen sind ein natürlicher Bestandteil des E-Mail-Lebenszyklus. Doch ist es für Marketingexperten schwierig, sich manchmal zu verabschieden. Sie arbeiten so hart, um die ansprechendsten E-Mails zu erstellen und die besten Angebote für Produkte und Dienstleistungen Ihrer Marke zu präsentieren. Es ist jedoch völlig normal und sollte erwartet werden, dass einige Abonnenten beschließen, weiterzumachen. Dies kann aus verschiedenen Gründen geschehen, aber im Endeffekt ist es nicht mehr daran interessiert, von Ihnen zu hören.
 
