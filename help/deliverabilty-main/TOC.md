@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: acf2686d59bc27063a255a02de52cbaa3734d5ed
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: 05997b0a7aa30e98fa425b814f649e3edebf120c
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 95%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 100%
    + [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)
    + [ISP-spezifische Überlegungen beim IP-Warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
    + [Volumen](/help/transition-process/volume.md)
-+ Erste Impressionen – Sammlung und Willkommens-E-Mails auflisten {#first-impressions}
-   + [Erste Impressionen – Sammlung und Willkommens-E-Mails auflisten](/help/first-impressions/introduction.md)
++ Erste Impressions – Sammlung und Willkommens-E-Mails auflisten {#first-impressions}
+   + [Erste Impressions – Sammlung und Willkommens-E-Mails auflisten](/help/first-impressions/introduction.md)
    + [Adressensammlung und Listenwachstum](/help/first-impressions/address-collection-and-list-growth.md)
    + [Willkommens-E-Mails](/help/first-impressions/welcome-emails.md)
 + [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
@@ -47,6 +47,7 @@ ht-degree: 100%
 + Anhang: Zusätzliche Ressourcen {#additional-resources}
    + [Übersicht](/help/additional-resources/general-resources.md)
    + [Yahoo- und Gmail-Updates](/help/guidance-around-changes-to-google-and-yahoo.md)
+   + [Do&#39;s und Dont&#39;s abmelden](/help/unsubscribe Do&#39;s &amp; Do Not&#39;s.md)
    + Allgemeine Ressourcen {#generic-resources}
       + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
       + [E-Mail-Reputation mit IP-Warming verbessern](/help/additional-resources/increase-reputation-with-ip-warming.md)
