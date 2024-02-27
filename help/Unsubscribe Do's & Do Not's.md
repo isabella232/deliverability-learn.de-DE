@@ -1,5 +1,5 @@
 ---
-source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
+source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -13,7 +13,7 @@ Abmeldungen sind ein natürlicher Bestandteil des E-Mail-Lebenszyklus. Doch ist 
 
 Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werden sollten, wenn Sie Abmeldungen von Ihren E-Mail-Listen verwalten - lesen Sie weiter, um mehr zu erfahren.
 
-Die
+## Die
 
 DO: Verwenden Sie einen auffällig platzierten Abmelde-Link. Dies kann Benutzer daran hindern, auf die Beschwerde &quot;Dies ist Spam&quot;(auch als Feedback Loop bezeichnet) zu klicken
 
@@ -34,51 +34,51 @@ DO: Fügen Sie die E-Mail-Adresse auf der Landingpage zum Abmelden ein.
 
 + Wichtig: Abhängig vom Standort/der Gerichtsbarkeit Ihrer Benutzer können Datenschutzbedenken bezüglich der Einbeziehung der vollständigen E-Mail-Adresse bestehen. Möglicherweise müssen Sie eine Hash-Version der E-Mail-Adresse im Voraus ausfüllen. Dies liegt daran, dass die E-Mail möglicherweise von der ursprünglich abonnierten Adresse weitergeleitet wurde. Wenden Sie sich an Ihre Rechtsgruppe, um Ihre spezifischen Anforderungen zu verstehen.
 
-DO: Vergewissern Sie sich, dass die Abmeldung erfolgreich gesendet wurde, und bestätigen Sie, wann mit dem Erhalt von E-Mails gerechnet werden kann.
+**DO:** Vergewissern Sie sich, dass die Abmeldung erfolgreich gesendet wurde, und bestätigen Sie, wann mit dem Erhalt von E-Mails gerechnet werden kann.
 
 + Wenn sie sich bereits abgemeldet haben und es erneut versuchen, teilen Sie ihnen mit, dass sie sich bereits abgemeldet haben und wann (Datum/Uhrzeit)
 
-DO: Nehmen Sie die Abmeldung zur Kenntnis und entfernen Sie die Adresse rechtzeitig.
+**DO:** Befolgen Sie die Abmeldung und entfernen Sie die Adresse rechtzeitig.
 
 + Die Rechtzeitigkeit hängt von den örtlichen Gesetzen und der Gerichtsbarkeit ab. Wenden Sie sich daher an einen Rechtsbeistand, um zu erfahren, was für Ihr Unternehmen gilt.
 
-DO: Erlauben Sie Ihren Abonnenten, die Beziehung zu diktieren.
+**DO:** Erlauben Sie Ihren Abonnenten, die Beziehung zu diktieren.
 
 + Es ist in Ordnung, Ihren Abonnenten Optionen zu geben - dies kann über ein Präferenzzentrum/eine Opt-out-Initiative verwaltet werden.
 
-DO: Verwenden Sie einen List Unsubscribe -Header in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
+**DO:** Verwenden Sie einen Header &quot;List Unsubscribe&quot;in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
 
 + Klicks [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de) um mehr über Brancheninitiativen zu erfahren, die sich mit einem Klick abmelden.
 
-Das Do Not’s
+## Das Do Not’s
 
 
-NICHT: Bringen Sie den Abmelde-Link in Ihrem Inhalt in der Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
+**NICHT:** Bringen Sie den Abmelde-Link in Ihren Inhalt in die Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
 
 + Dies ist ein schlechtes Benutzererlebnis und kann zu vermehrten Beschwerden führen, was sich negativ auf Ihre Zustellbarkeit und Reputation auswirken kann.
 
-NICHT: Die Abmeldung wird schwierig, sobald der Kunde in das Formular gelangt ist. Trickserei ist ärgerlich - und in einigen Fällen sogar rechtswidrig.
+**NICHT:** Die Abmeldung wird schwierig, sobald der Kunde in das Formular gelangt ist. Trickserei ist ärgerlich - und in einigen Fällen sogar rechtswidrig.
 
 + Seien Sie direkt und vermeiden Sie Verwirrung beim Endbenutzer.
 
-NICHT: Stellen Sie sicher, dass der Benutzer im Abmeldeformular manuell eine E-Mail-Adresse hinzufügt.
+**NICHT:** Der Benutzer muss im Abmeldeformular manuell eine E-Mail-Adresse hinzufügen.
 
 + Die abonnierte Adresse kann sich von der Adresse unterscheiden, an die sich der Benutzer für die E-Mail angemeldet hat (z. B. weitergeleitet).  Möglicherweise kennen sie nicht die E-Mail-Adresse, die für das ursprüngliche Abonnement verwendet wurde.
 
-NICHT: Melden Sie sich für die Abmeldung des Benutzers bei seinem Konto an.
+**NICHT:** Melden Sie sich bei Ihrem Konto an, um sich abzumelden.
 
 + Möglicherweise senden Sie die E-Mail an die falsche Adresse und der Eigentümer der Adresse hat möglicherweise keinen Zugriff auf das Konto.  Wenn der Empfänger die E-Mail erhält, sollte er die Möglichkeit haben, sich allein vom Link in der E-Mail abzumelden. Es sollten keine weiteren Maßnahmen oder Informationen erforderlich sein.
 + Je weniger Schritte ein Kunde unternehmen muss, desto besser.
 
-NICHT: Senden Sie eine E-Mail, in der bestätigt wird, dass sich die Person abgemeldet hat.
+**NICHT:** Senden Sie eine E-Mail, in der bestätigt wird, dass sich die Person abgemeldet hat.
 
 + Wenn Sie dies tun, haben Sie bereits Ihr Versprechen gebrochen, ihnen keine E-Mails mehr zu schicken.
 
-NICHT: Seien Sie in Ihrer Sprache dunkel. &quot;Ich höre nicht gerne von tollen Angeboten - melden Sie mich bitte ab!&quot;
+**NICHT:** Seien Sie finster in Ihrer Sprache. &quot;Ich höre nicht gerne von tollen Angeboten - melden Sie mich bitte ab!&quot;
 
 + Das kann als unhöflich auffallen. Vermeiden Sie einen negativen Ton.
 
-NICHT: Zwingen Sie sie, Ihnen vor der Bearbeitung der Anfrage einen Grund für die Abmeldung anzugeben.
+**NICHT:** Erzwingen Sie sie, Ihnen einen Grund anzugeben, warum sie sich abgemeldet haben, bevor Sie die Anfrage bearbeiten.
 
 + Wenn Sie dem Kunden die Möglichkeit geben, diese Informationen hinzuzufügen, können Sie sich für künftige Einblicke als hilfreich erweisen. Sie können diese Informationen jedoch als optionales Feld auf der Landingpage zum Abmelden festlegen.
 + Ein besserer Ansatz wäre es, sie darüber zu informieren, dass sie sich erfolgreich abgemeldet haben, und ihnen dann einen Platz zu geben, um optional die Gründe anzugeben.
