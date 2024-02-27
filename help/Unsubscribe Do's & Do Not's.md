@@ -1,5 +1,5 @@
 ---
-source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
+source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,22 +15,22 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 
 ## Die
 
-DO: Verwenden Sie einen auffällig platzierten Abmelde-Link. Dies kann Benutzer daran hindern, auf die Beschwerde &quot;Dies ist Spam&quot;(auch als Feedback Loop bezeichnet) zu klicken
+**DO:** Verwenden Sie einen auffällig platzierten Abmelde-Link. Dies kann Benutzer daran hindern, auf die Beschwerde &quot;Dies ist Spam&quot;(auch als Feedback Loop bezeichnet) zu klicken
 
 + Einige Ideen, wie der Abmelde-Link hervorgehoben werden kann: Zentrieren Sie ihn, unterstreichen Sie ihn und legen Sie ihn kühl an der ganz oberen oder ganz unteren Ecke der E-Mail ab, machen Sie ihn zu einer anderen Schriftfarbe Verwenden Sie das Wort &quot;UNSUBSCRIBE&quot;, in der Spracheinstellung des Benutzers. Verwenden Sie keine Blüten oder übermäßiges Biage.
 
-DO: Lassen Sie das Laufwerk zum Abmelden von Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte.
+**DO:** Lassen Sie das Laufwerk zum Abmelden von Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte
 
 + Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmeldung bestätigen&quot;verweist, und vielleicht einen weiteren Link, der besagt: &quot;Lass mich mich abwählen und die Häufigkeit der E-Mails, die ich von dir erhalte, verringern&quot;. Dies ist zwar keine Abmeldemethode mit einem Klick, trägt aber dazu bei, Bot-Klicks zu vermeiden, die zu einer fehlerhaften Abmeldung führen.
 + Wenn ein Benutzer durch seine Abmeldung zu einer Landingpage gelangt, stellen Sie sicher, dass die Landingpage eine Abmeldung mit einem Klick anbietet, sobald der Benutzer auf die Seite gelangt ist.
 
-DO: Machen Sie den Prozess einfach und transparent. Beispiel:
+**DO:** Erleichtern und transparent machen. Beispiel:
 
 + &quot;Klicken Sie auf diesen Link, um sich von allen Marketing-E-Mails abzumelden&quot;. Dies sollte die erste dem Benutzer übergebene Option sein.
 
 + &quot;Klicken Sie auf diesen Link, um Ihre Voreinstellungen zu ändern.&quot;
 
-DO: Fügen Sie die E-Mail-Adresse auf der Landingpage zum Abmelden ein.
+**DO:** Fügen Sie die E-Mail-Adresse auf der Landingpage zum Abmelden ein.
 
 + Wichtig: Abhängig vom Standort/der Gerichtsbarkeit Ihrer Benutzer können Datenschutzbedenken bezüglich der Einbeziehung der vollständigen E-Mail-Adresse bestehen. Möglicherweise müssen Sie eine Hash-Version der E-Mail-Adresse im Voraus ausfüllen. Dies liegt daran, dass die E-Mail möglicherweise von der ursprünglich abonnierten Adresse weitergeleitet wurde. Wenden Sie sich an Ihre Rechtsgruppe, um Ihre spezifischen Anforderungen zu verstehen.
 
