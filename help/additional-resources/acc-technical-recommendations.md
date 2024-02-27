@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
+source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1902'
 ht-degree: 55%
 
 ---
@@ -139,8 +139,11 @@ Der Zustellbarkeitsdienst in Adobe Campaign sorgt für die Verwaltung Ihrer Anme
 
 ### Über List-Unsubscribe {#about-list-unsubscribe}
 
-Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** ist zwingend erforderlich, um eine optimale Verwaltung der Zustellbarkeit zu gewährleisten. Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Informationen zum Konfigurieren von One-Click List-Unsubscribe finden Sie unter [diesem Abschnitt](#one-click-list-unsubscribe).
+Zur optimalen Verwaltung der Zustellbarkeit ist das Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** zwingend erforderlich.
 
+>[!CAUTION]
+>
+>Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. Informationen zum Konfigurieren von One-Click List-Unsubscribe finden Sie unter [diesem Abschnitt](#one-click-list-unsubscribe).
 
 Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwendet werden. Er wird in der E-Mail-Oberfläche als Abmelde-Link angezeigt.
 
@@ -191,20 +194,18 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 >[!NOTE]
 >
 >Es wird empfohlen, eine Typologieregel zu erstellen: Die List-Unsubscribe-Funktion wird automatisch zu jeder E-Mail hinzugefügt.
-
->[!NOTE]
 >
->Erfahren Sie, wie Sie in Adobe Campaign Classic Typologieregeln erstellen. [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### 1-Klick-Liste Abmeldung {#one-click-list-unsubscribe}
 
-Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Einhaltung der 1-Klick-List-Unsubscribe-Anforderung müssen Absender:
+Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Erfüllung dieser Anforderung müssen die Absender
 
-1. Fügen Sie &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;hinzu.
-2. Link zum Abmelden von URIs einschließen
-3. Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
+1. Fügen Sie die folgende Befehlszeile hinzu:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. Schließen Sie einen Link zur URI-Abmeldung ein.
+1. Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
 
-So konfigurieren Sie One-Click List-Unsubscribe direkt:
+So konfigurieren Sie One-Click List-Unsubscribe direkt in Adobe Campaign v7/v8:
 
 * Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
    1. Gehen Sie zu Ressourcen > Online > Webanwendungen .

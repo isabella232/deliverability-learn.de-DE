@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
-workflow-type: ht
-source-wordcount: '1775'
-ht-degree: 100%
+source-git-commit: e2c2fbfee5e404e1eef25dd0068a6bdd560ed977
+workflow-type: tm+mt
+source-wordcount: '1770'
+ht-degree: 88%
 
 ---
 
@@ -55,25 +55,23 @@ Keine Panik! [!DNL Google] und [!DNL Yahoo] sprechen nicht von den Abmelde-Links
 
 Es ist wichtig festzustellen, dass [!DNL Google] und [!DNL Yahoo] sich beide auf die Option „http/URI“ unter dem Namen „1-Click“ beziehen und dies beabsichtigt ist. Technisch gesehen hatten Sie mit der ursprünglichen Option „http/URI“ die Möglichkeit, Empfängerinnen und Empfänger auf eine Website umzuleiten. Das ist nicht der Schwerpunkt von [!DNL Yahoo] und [!DNL Google], die beide auf die aktualisierte [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} verweisen, die sich auf die Verarbeitung der Abmeldung über eine HTTPS-POST-Anfrage anstelle einer Website konzentriert, wodurch eine Abmeldung mit nur einem Klick möglich ist.
 
-Heute akzeptiert Gmail die „mailto“-Option „list-unsubscribe“ (Abmelden von einer Liste). Gmail verkündete, dass „mailto“ nicht dessen Erwartungen für die Zukunft erfüllt. Stattdessen müssen Absenderinnen oder Absender das Abmelden von einer Liste als „post“-Option aktiviert haben. Diejenigen Absenderinnen oder Absender, die bereits über „list-unsubscribe“ irgendeiner Form verfügen, haben bis zum 1. Juni 2024 Zeit, list-unsubscribe „mit einem Klick“ eingerichtet zu haben.
+Heute akzeptiert Gmail die Option &quot;mailto&quot; list-unsubscribe . Gmail hat gesagt, dass &quot;mailto&quot; nicht mehr ihre Erwartungen erfüllt, und Absender müssen die Option &quot;post&quot; list-unsubscribe aktivieren lassen. Diejenigen Absender, die bereits Listen-Abmeldungen irgendeiner Art haben, haben bis zum 1. Juni 2024 die Möglichkeit, sich mit &quot;1-Klick&quot;-List-Unsubscribe zu registrieren.
 
-[!DNL Yahoo] verkündete, es werde vorerst weiterhin die Verwendung der „mailto“-Option ermöglichen, aber Benutzerinnen und Benutzer werden dort in Zukunft ebenfalls die „post“-Option benötigen.
+[!DNL Yahoo] hat gesagt, sie werden weiterhin die &quot;Mailto&quot;-Option, aber auch sie werden in Zukunft &quot;Post&quot; benötigen.
 
-Adobe empfiehlt sowohl die Verwendung der Option „mailto“ als auch der Option „post/Abmeldung mit nur einem Klick“ zum Abmelden von einer Liste. Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzenden bei der Erfüllung dieser Anforderungen zu unterstützen. Im Folgenden finden Sie Details dazu.
+Adobe empfiehlt die Verwendung der Optionen &quot;mailto&quot; und &quot;post/1-click&quot; list-unsubscribe . Adobe arbeitet daran, &quot;Post&quot;-Support auf allen E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen, siehe unten.
 
 Für Transaktions-E-Mails ist die Kopfzeile „list-unsubscribe“ nicht erforderlich. Bitte beachten Sie, dass ausgelöste Nachrichten wie „Warenkorb verlassen“ und ähnliche Kommunikationen, die nicht von der Abonnentin bzw. dem Abonnenten generiert wurden, von Postfachanbietern wie [!DNL Google] und [!DNL Yahoo] als Marketing-Nachrichten erachtet werden. Für diese Nachrichten wäre die Option „Abmelden von einer Liste“ erforderlich.
 
 [!DNL Google] und [!DNL Yahoo] sind sich beide bewusst, dass sich eine Empfängerin oder ein Empfänger in einigen Fällen abmeldet und sich dann zu einem späteren Zeitpunkt erneut anmeldet. Sie sind zwar nicht bereit zu verraten, wie sie eine solche Situation identifizieren können, arbeiten jedoch an Methoden, um zu verhindern, dass in diesen Fällen Absenderinnen oder Absender fälschlicherweise bestraft werden.
 
 >[!INFO]
-> Adobe arbeitet daran, den „post“-Support für alle unsere E-Mail-Versandplattformen zu ermöglichen, um unsere Benutzenden bei der Erfüllung dieser Anforderungen zu unterstützen:
-> 
-> 
-> * [!DNL Adobe Campaign Classic V7/V8]: Unterstützt ab heute vollständig „POST“ mit einem Klick. Anweisungen finden Sie [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"}.
->* [!DNL Adobe Campaign Standard]: Wird bis Ende Februar aktualisiert, um „POST“ mit einem Klick zu unterstützen. Eine Anleitung zur Einrichtung wird [hier](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=de){target="_blank"} bereitgestellt, sobald sie fertig ist.
+> Adobe arbeitet daran, &quot;Post&quot;-Unterstützung auf allen E-Mail-Versandplattformen zu aktivieren, um unsere Benutzer bei der Erfüllung dieser Anforderungen zu unterstützen:
+>
+> * [!DNL Adobe Campaign v7/v8]: Unterstützt ab heute vollständig „POST“ mit einem Klick. Anweisungen finden Sie [hier](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=de#list-unsubscribe){target="_blank"}.
+>* [!DNL Adobe Campaign Standard]: Ab dem 19. Februar unterstützt POST 1-Click vollständig. Weitere Informationen finden Sie unter [here](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel.html#email-channel-parameters){target="_blank"}.
 >* [!DNL Adobe Journey Optimizer]: Unterstützt ab heute vollständig „POST“ mit einem Klick, aber einige wichtige Verbesserungen sind noch in Arbeit und werden voraussichtlich im März 2024 eingeführt. Aktualisierungen der Dokumentation werden [hier](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=de){target="_blank"} veröffentlicht, sobald sie fertig sind.
-> * [!DNL Marketo]: Seit dem 31. Januar 2024 wird POST 1-Click-List-Unsubscribe vollständig unterstützt. Die Benutzenden benötigen keine Aktion.
-
+> * [!DNL Marketo]: Ab dem 31. Januar 2024 unterstützt POST 1-Click List-Unsubscribe. Die Benutzenden benötigen keine Aktion.
 
 ## Bearbeiten Sie Abmeldungen innerhalb von 2 Tagen:
 
@@ -92,7 +90,7 @@ Die Beschwerderate unter 0,2 % zu halten, ist seit langem eine bewährte Praxis.
 
 [!DNL Yahoo] hat erklärt, dass seine Beschwerdegrenze ebenfalls bei 0,30 % liegen wird.
 
-Das Ziel von [!DNL Google] und [!DNL Yahoo] ist es nicht, eine Absenderin oder einen Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der einen vorübergehenden Anstieg bei Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absenderinnen oder Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
+[!DNL Google] und [!DNL Yahoo]Ziel ist es nicht, die Absender für einen einzigen schlechten Tag oder einen Fehler zu bestrafen, der eine vorübergehende Spitze der Beschwerden verursacht. Stattdessen konzentrieren sie sich auf Absenderinnen oder Absender, die über einen längeren Zeitraum hohe Beschwerderaten oder ein schlechtes Sendeverhalten haben.
 
 Wenn Sie Hilfe bei der Überwachung oder Senkung Ihrer Beschwerderaten benötigen, wenden Sie sich an Ihre Zustellbarkeitsberaterin bzw. Ihren -berater bei Adobe oder sprechen Sie mit Ihrem Accountteam über das Hinzufügen einer solchen Person, falls Sie noch keine haben.
 
