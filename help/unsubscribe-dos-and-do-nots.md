@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
+source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -30,7 +30,8 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 
 **DO:** Lassen Sie das Laufwerk zum Abmelden von Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte
 
-+ Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmeldung bestätigen&quot;verweist, und vielleicht einen weiteren Link, der besagt: &quot;Lass mich mich abwählen und die Häufigkeit der E-Mails, die ich von dir erhalte, verringern&quot;. Dies ist zwar keine Abmeldemethode mit einem Klick, trägt aber dazu bei, Bot-Klicks zu vermeiden, die zu einer fehlerhaften Abmeldung führen.
+Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmeldung bestätigen&quot;verweist, und vielleicht einen weiteren Link, der besagt: &quot;Lass mich mich abwählen und die Häufigkeit der E-Mails, die ich von dir erhalte, verringern&quot;. Dies ist zwar keine Abmeldemethode mit einem Klick, trägt aber dazu bei, Bot-Klicks zu vermeiden, die zu einer fehlerhaften Abmeldung führen.
+
 + Wenn ein Benutzer durch seine Abmeldung zu einer Landingpage gelangt, stellen Sie sicher, dass die Landingpage eine Abmeldung mit einem Klick anbietet, sobald der Benutzer auf die Seite gelangt ist.
 
 **DO:** Erleichtern und transparent machen. Beispiel:
@@ -57,7 +58,7 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 
 **DO:** Verwenden Sie einen Header &quot;List Unsubscribe&quot;in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
 
-+ Klicks [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de) um mehr über Brancheninitiativen zu erfahren, die sich mit einem Klick abmelden.
+Klicks [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de) um mehr über Brancheninitiativen zu erfahren, die sich mit einem Klick abmelden.
 
 ## Das Do Not’s
 
@@ -90,6 +91,7 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 **NICHT:** Erzwingen Sie sie, Ihnen einen Grund anzugeben, warum sie sich abgemeldet haben, bevor Sie die Anfrage bearbeiten.
 
 + Wenn Sie dem Kunden die Möglichkeit geben, diese Informationen hinzuzufügen, können Sie sich für künftige Einblicke als hilfreich erweisen. Sie können diese Informationen jedoch als optionales Feld auf der Landingpage zum Abmelden festlegen.
+
 + Ein besserer Ansatz wäre es, sie darüber zu informieren, dass sie sich erfolgreich abgemeldet haben, und ihnen dann einen Platz zu geben, um optional die Gründe anzugeben.
 
 Denken Sie daran, dass Abmeldungen besser sind als Beschwerden. Personen, die sich nicht positiv mit Ihrem E-Mail-Programm beschäftigen, können sich negativ auf Ihre Reputation als Zustellbarkeit sowie auf Ihre Metriken auswirken. Jetzt ist es an der Zeit, dass Sie sich darauf konzentrieren, tiefere Beziehungen zu Ihren aktuellen Abonnenten zu pflegen, indem Sie sie mit interaktiven, relevanten Nachrichten behandeln, die sie nicht erwarten können, sie zu öffnen, durchklicken und einen Kauf tätigen!
