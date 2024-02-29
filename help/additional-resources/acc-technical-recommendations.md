@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
+source-git-commit: 570f64fee87db7df8be8dfdd0ae1c6e6101058f7
 workflow-type: tm+mt
-source-wordcount: '1902'
-ht-degree: 55%
+source-wordcount: '1962'
+ht-degree: 53%
 
 ---
 
@@ -137,13 +137,13 @@ Der Zustellbarkeitsdienst in Adobe Campaign sorgt für die Verwaltung Ihrer Anme
 
 ## List-Unsubscribe {#list-unsubscribe}
 
-### Über List-Unsubscribe {#about-list-unsubscribe}
-
 Zur optimalen Verwaltung der Zustellbarkeit ist das Hinzufügen eines SMTP-Headers namens **List-Unsubscribe** zwingend erforderlich.
 
 >[!CAUTION]
 >
 >Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. Informationen zum Konfigurieren von One-Click List-Unsubscribe finden Sie unter [diesem Abschnitt](#one-click-list-unsubscribe).
+
+### Über List-Unsubscribe {#about-list-unsubscribe}
 
 Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwendet werden. Er wird in der E-Mail-Oberfläche als Abmelde-Link angezeigt.
 
@@ -165,7 +165,17 @@ Die folgende Befehlszeile kann zum Zweck der Erstellung eines dynamischen **List
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
+<!--This example uses the error address.-->
+
 Gmail, Outlook.com und Microsoft Outlook unterstützen diese Methode und eine Abmelde-Schaltfläche ist direkt in ihrer Benutzeroberfläche verfügbar. Diese Technik senkt die Beschwerderaten.
+
+>[!NOTE]
+>
+>Die Schaltfläche Abmelden von den ISPs wird nicht immer angezeigt. Er kann von den spezifischen Kriterien und Richtlinien jedes ISP abhängen. Stellen Sie daher sicher, dass Ihre Nachrichten von einer IP/einem Sender gesendet werden:
+>
+>* Mit guter Reputation
+>* Schwelle für Spam-Beschwerden von ISPs
+>* Vollständig authentifiziert
 
 Sie können die **List-Unsubscribe** entweder:
 
@@ -174,18 +184,26 @@ Sie können die **List-Unsubscribe** entweder:
 
 ### Hinzufügen einer Befehlszeile in einer Versandvorlage {#adding-a-command-line-in-a-delivery-template}
 
-Die Befehlszeile muss im Zusatzabschnitt des SMTP-Headers der E-Mail hinzugefügt werden.
+Die Befehlszeile muss im **[!UICONTROL Zusätzliche SMTP-Header]** im SMTP-Header der E-Mail.
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-List-Unsubscribe: mailto:unsubscribe@domain.com
-* Klicken Sie auf **unsubscribe** -Link öffnet den Standard-E-Mail-Client des Benutzers. Diese Typologieregel muss in einer Typologie zur Erstellung von E-Mails hinzugefügt werden.
+Geben Sie beispielsweise das folgende Skript in das **[!UICONTROL Zusätzliche SMTP-Header]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
-List-Unsubscribe: https://domain.com/unsubscribe.jsp
-* Klicken Sie auf **unsubscribe** -Link leitet den Benutzer zu Ihrem Abmeldeformular weiter.
+![Bild](../assets/List-Unsubscribe-template-SMTP.png)
 
-![Bild](../assets/UTF-8-1.png)
+Klicken Sie auf **unsubscribe** -Link sendet eine E-Mail an die Adresse unsubscribe@domain.com .
 
+<!--
+List-Unsubscribe: mailto:unsubscribe@domain.com 
+* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
+
+List-Unsubscribe: https://domain.com/unsubscribe.jsp 
+
+* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
+
+  ![image](../assets/UTF-8-1.png)
+-->
 
 ### Erstellung einer Typologieregel {#creating-a-typology-rule}
 
@@ -197,34 +215,44 @@ Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mai
 >
 >Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
+<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+
 ### 1-Klick-Liste Abmeldung {#one-click-list-unsubscribe}
 
 Ab dem 1. Juni 2024 verlangen Yahoo und Gmail von Absendern, dass sie One-Click List-Unsubscribe einhalten. Zur Erfüllung dieser Anforderung müssen die Absender
 
 1. Fügen Sie die folgende Befehlszeile hinzu:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 1. Schließen Sie einen Link zur URI-Abmeldung ein.
-1. Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird.
+1. Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird. Sie können auch einen externen Dienst verwenden.
 
 So konfigurieren Sie One-Click List-Unsubscribe direkt in Adobe Campaign v7/v8:
 
 * Fügen Sie in der folgenden Webanwendung zum Abmelden von Empfängern ohne Klick hinzu: 
    1. Gehen Sie zu Ressourcen > Online > Webanwendungen .
    2. Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-* Konfigurieren von List-Unsubscribe und List-Unsubscribe-Post
-   1. Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
-   2. Geben Sie unter Zusätzliche SMTP-Header in die Befehlszeilen ein (jeder Header sollte sich in einer separaten Zeile befinden):
 
-```
-List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-```
+Zur Konfiguration von One-Click List-Unsubscribe haben Sie folgende Möglichkeiten:
 
-Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die URL-list-unsubscribe nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
+* [Hinzufügen einer Befehlszeile in der Versandvorlage](#one-click-delivery-template)
+* [Erstellung einer Typologieregel](#one-click-typology-rule)
 
+### Konfigurieren von One-Click List-Unsubscribe in der Versandvorlage {#one-click-delivery-template}
 
-### Erstellen einer Typologieregel zur Unterstützung von „List-Unsubscribe“ durch einen Klick:
+1. Gehen Sie zum Abschnitt SMTP in den Versandeigenschaften.
+2. Geben Sie unter Zusätzliche SMTP-Header die folgenden Befehlszeilen ein. Jede Kopfzeile sollte sich in einer separaten Zeile befinden.
+
+   ```
+   List-Unsubscribe-Post: List-Unsubscribe=One-Click
+   List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+   ```
+
+Im obigen Beispiel wird One-Click List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die URL List-Unsubscribe nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
+
+### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe {#one-click-typology-rule}
 
 **1. Erstellen einer neuen Typologieregel:**
+
+<!--Need to check screenshots?-->
 
 * Klicken Sie im Navigationsbaum auf „neu“, um eine neue Typologie zu erstellen
 
