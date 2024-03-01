@@ -1,6 +1,6 @@
 ---
-source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
-workflow-type: ht
+source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
@@ -8,11 +8,13 @@ ht-degree: 100%
 # Erstellen einer Typologieregel zur Unterstützung von „List-Unsubscribe“ durch einen Klick:
 
 **1. Erstellen einer neuen Typologieregel:**
+
 * Klicken Sie im Navigationsbaum auf „neu“, um eine neue Typologie zu erstellen
 
 ![Bild](/help/assets/CreatingTypologyRules1.png)
 
 **2. Fahren Sie mit der Konfiguration der Typologieregel fort:**
+
 * Regeltyp: Kontrolle
 * Phase: Zu Beginn der Zielgruppenbestimmung
 * Kanal: E-Mail
