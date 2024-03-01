@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 56a8bb69be854ede21385ef35179b90f95cb1f6e
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 42%
@@ -166,7 +166,7 @@ und
 
 >[!CAUTION]
 >
->Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. [Weitere Informationen zu dieser Änderung](guidance-around-changes-to-google-and-yahoo.md)
+>Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. [Weitere Informationen zu dieser Änderung](../guidance-around-changes-to-google-and-yahoo.md)
 >
 >Erfahren Sie, wie Sie One-Click List-Unsubscribe in konfigurieren [diesem Abschnitt](#one-click-list-unsubscribe).
 
@@ -231,7 +231,7 @@ Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [dies
 
 ### 1-Klick-Liste Abmeldung {#one-click-list-unsubscribe}
 
-Ab dem 1. Juni 2024 Yahoo! und Gmail verlangen von Absendern, dass sie One-Click List-Unsubscribe befolgen. [Weitere Informationen zu dieser Änderung](guidance-around-changes-to-google-and-yahoo.md)
+Ab dem 1. Juni 2024 Yahoo! und Gmail verlangen von Absendern, dass sie One-Click List-Unsubscribe befolgen. [Weitere Informationen zu dieser Änderung](../guidance-around-changes-to-google-and-yahoo.md)
 
 Zur Erfüllung dieser Anforderung müssen die Absender
 
@@ -262,6 +262,7 @@ Beispiel:
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+
 ![Bild](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
 Im obigen Beispiel wird One-Click List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die &quot;mailto&quot; List-Unsubscribe nicht unterstützen, die Abmeldung weiterhin per E-Mail anfordern können.
