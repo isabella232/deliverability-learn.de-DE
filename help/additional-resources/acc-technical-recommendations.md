@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ea91b7285814eca254590f2aff128fb6e5f77520
+source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
 workflow-type: tm+mt
-source-wordcount: '2124'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---
@@ -141,6 +141,8 @@ Zur optimalen Verwaltung der Zustellbarkeit ist das Hinzufügen eines SMTP-Heade
 
 Diese Kopfzeile kann als Alternative zum Symbol &quot;Als SPAM melden&quot;verwendet werden. Er wird als &quot;Abmelde&quot;-Link in den E-Mail-Schnittstellen der ISPs angezeigt.
 
+Die Verwendung dieser Funktion senkt die Beschwerderaten und trägt zum Schutz Ihrer Reputation bei. Das Feedback wird als Abmeldung ausgeführt.
+
 Gmail, Outlook.com, Yahoo! und Microsoft Outlook unterstützen diese Methode. Ein &quot;Abmelden&quot;-Link ist direkt in der Benutzeroberfläche verfügbar. Beispiel:
 
 ![Bild](../assets/List-Unsubscribe-example-Gmail.png)
@@ -153,8 +155,6 @@ Gmail, Outlook.com, Yahoo! und Microsoft Outlook unterstützen diese Methode. Ei
 >* Schwelle für Spam-Beschwerden von ISPs
 >* Vollständig authentifiziert
 
-Die Verwendung dieser Funktion senkt die Beschwerderaten und trägt zum Schutz Ihrer Reputation bei. Das Feedback wird als Abmeldung ausgeführt.
-
 Es gibt zwei Versionen der Header-Funktion List-Unsubscribe :
 
 * **&quot;mailto&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link sendet eine vorausgefüllte E-Mail an die im E-Mail-Header angegebene Abmelde-Adresse. [Weitere Informationen](#mailto-list-unsubscribe)
@@ -163,7 +163,7 @@ Es gibt zwei Versionen der Header-Funktion List-Unsubscribe :
 
 * **&quot;One-Click&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link abmeldet den Benutzer direkt. [Weitere Informationen](#one-click-list-unsubscribe)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. [Weitere Informationen zu dieser Änderung](../guidance-around-changes-to-google-and-yahoo.md)
 >
@@ -193,9 +193,7 @@ Die Befehlszeile muss der **[!UICONTROL Zusätzliche SMTP-Header]** im SMTP-Head
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-Geben Sie beispielsweise das folgende Skript in das **[!UICONTROL Zusätzliche SMTP-Header]** -Feld: `List-Unsubscribe: mailto:unsubscribe@domain.com`
-
-Klicken Sie auf **unsubscribe** -Link sendet eine E-Mail an die Adresse unsubscribe@domain.com .
+Geben Sie beispielsweise das folgende Skript in das **[!UICONTROL Zusätzliche SMTP-Header]** -Feld: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Klicken Sie auf **unsubscribe** -Link sendet eine E-Mail an die Adresse unsubscribe@domain.com .
 
 Sie können auch eine dynamische Adresse verwenden. Um beispielsweise eine E-Mail an die für die Plattform definierte Fehleradresse zu senden, können Sie das folgende Skript verwenden: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -247,6 +245,8 @@ So konfigurieren Sie **One-Click List-Unsubscribe** In Campaign haben Sie folgen
 
 #### Konfigurieren von One-Click List-Unsubscribe im Versand oder in der Vorlage {#one-click-delivery-template}
 
+Gehen Sie wie folgt vor, um die einmalige Listenabmeldung im Versand oder in der Versandvorlage zu konfigurieren.
+
 1. Navigieren Sie zu **[!UICONTROL SMTP]** in den Versandeigenschaften.
 
 1. under **[!UICONTROL Zusätzliche SMTP-Header]** Geben Sie die Befehlszeilen wie im folgenden Beispiel ein. Jede Kopfzeile sollte sich in einer separaten Zeile befinden.
@@ -263,6 +263,8 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die One-Click unterstützen. Gleichzeitig wird sichergestellt, dass Empfänger, die &quot;mailto&quot;nicht unterstützen, weiterhin eine Abmeldung per E-Mail anfordern können.
 
 #### Erstellen einer Typologieregel zur Unterstützung von One-Click List-Unsubscribe {#one-click-typology-rule}
+
+Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typologieregel zu konfigurieren.
 
 1. Navigieren Sie in der Navigationsstruktur zu **[!UICONTROL Typologieregeln]** und klicken **[!UICONTROL Neu]**.
 
