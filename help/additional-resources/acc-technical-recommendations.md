@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 41%
+source-wordcount: '2109'
+ht-degree: 42%
 
 ---
 
@@ -165,9 +165,7 @@ Es gibt zwei Versionen der Header-Funktion List-Unsubscribe :
 
 >[!IMPORTANT]
 >
->Ab dem 1. Juni 2024 Yahoo! und Gmail werden beide die Absender verpflichten, **One-Click List-Unsubscribe**. [Weitere Informationen zu dieser Änderung](../guidance-around-changes-to-google-and-yahoo.md)
->
->Erfahren Sie, wie Sie One-Click List-Unsubscribe in konfigurieren [diesem Abschnitt](#one-click-list-unsubscribe).
+>>Erfahren Sie, wie Sie One-Click List-Unsubscribe in konfigurieren [diesem Abschnitt](#one-click-list-unsubscribe).
 
 ### &quot;mailto&quot; List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -223,8 +221,6 @@ Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [dies
 ### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
 
 Mit dieser Methode können Sie auf die **Abmelden** -Link abmeldet den Benutzer direkt, sodass nur eine einzige Aktion zum Abmelden erforderlich ist.
-
-Ab dem 1. Juni 2024 Yahoo! und Gmail verlangen von Absendern, dass sie One-Click List-Unsubscribe befolgen. [Weitere Informationen zu dieser Änderung](../guidance-around-changes-to-google-and-yahoo.md)
 
 Zur Erfüllung dieser Anforderung müssen die Absender
 
