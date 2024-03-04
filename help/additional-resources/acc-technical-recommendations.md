@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
+source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
 workflow-type: tm+mt
 source-wordcount: '2150'
 ht-degree: 41%
@@ -232,7 +232,7 @@ Zur Erfüllung dieser Anforderung müssen die Absender
 * Schließen Sie einen Link zur URI-Abmeldung ein.
 * Unterstützung des Erhalts der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird. Sie können auch einen externen Dienst verwenden.
 
-Um die PSOT-Antwort &quot;One-Click List-Unsubscribe&quot;direkt in Adobe Campaign v7/v8 zu unterstützen, müssen Sie die Webanwendung &quot;Empfänger abmelden ohne Klick&quot;hinzufügen. Gehen Sie dazu wie folgt vor:
+Um die One-Click List-Unsubscribe-POST direkt in Adobe Campaign v7/v8 zu unterstützen, müssen Sie die Webanwendung &quot;Abmeldeempfänger ohne Klick&quot;hinzufügen. Gehen Sie dazu wie folgt vor:
 
 1. Navigieren Sie zu **[!UICONTROL Ressourcen]** > **[!UICONTROL Online]** > **[!UICONTROL Webanwendungen]**.
 
