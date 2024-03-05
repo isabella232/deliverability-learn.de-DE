@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
 workflow-type: tm+mt
-source-wordcount: '2109'
-ht-degree: 42%
+source-wordcount: '2128'
+ht-degree: 41%
 
 ---
 
@@ -159,13 +159,11 @@ Es gibt zwei Versionen der Header-Funktion List-Unsubscribe :
 
 * **&quot;mailto&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link sendet eine vorausgefüllte E-Mail an die im E-Mail-Header angegebene Abmelde-Adresse. [Weitere Informationen](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **&quot;One-Click&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link abmeldet den Benutzer direkt. [Weitere Informationen](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->>Erfahren Sie, wie Sie One-Click List-Unsubscribe in konfigurieren [diesem Abschnitt](#one-click-list-unsubscribe).
+>Ab dem 1. Juni 2024 werden wichtige ISPs von den Absendern verlangen, **One-Click List-Unsubscribe**.
 
 ### &quot;mailto&quot; List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -197,17 +195,6 @@ Sie können auch eine dynamische Adresse verwenden. Um beispielsweise eine E-Mai
 
 ![Bild](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Erstellung einer Typologieregel {#creating-a-typology-rule}
 
 Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mail-Header enthalten sein.
@@ -221,6 +208,8 @@ Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [dies
 ### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
 
 Mit dieser Methode können Sie auf die **Abmelden** -Link abmeldet den Benutzer direkt, sodass nur eine einzige Aktion zum Abmelden erforderlich ist.
+
+Ab dem 1. Juni 2024 werden wichtige ISPs von den Absendern verlangen, **One-Click List-Unsubscribe**.
 
 Zur Erfüllung dieser Anforderung müssen die Absender
 
