@@ -1,21 +1,21 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-# Abmelden von Do’s und Do Not&#39;s
+# Abmelden von Do&#39;s und Do Not&#39;s
 
 Abmeldungen sind ein natürlicher Bestandteil des E-Mail-Lebenszyklus. Doch ist es für Marketingexperten schwierig, sich manchmal zu verabschieden. Sie arbeiten so hart, um die ansprechendsten E-Mails zu erstellen und die besten Angebote für Produkte und Dienstleistungen Ihrer Marke zu präsentieren. Es ist jedoch völlig normal und sollte erwartet werden, dass einige Abonnenten beschließen, weiterzumachen. Dies kann aus verschiedenen Gründen geschehen, aber im Endeffekt ist es nicht mehr daran interessiert, von Ihnen zu hören.
 
 Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werden sollten, wenn Sie Abmeldungen von Ihren E-Mail-Listen verwalten - lesen Sie weiter, um mehr zu erfahren.
 
-## Die
+## Das Wohl
 
 **DO:** Verwenden Sie einen auffällig platzierten Abmelde-Link. Dies kann Benutzer daran hindern, auf die Beschwerde &quot;Dies ist Spam&quot;(auch als Feedback Loop bezeichnet) zu klicken
 
-+ Einige Ideen, wie der Abmelde-Link hervorgehoben werden kann: Zentrieren Sie ihn, unterstreichen Sie ihn und legen Sie ihn kühl an der ganz oberen oder ganz unteren Ecke der E-Mail ab, machen Sie ihn zu einer anderen Schriftfarbe Verwenden Sie das Wort &quot;UNSUBSCRIBE&quot;, in der Spracheinstellung des Benutzers. Verwenden Sie keine Blüten oder übermäßiges Biage.
++ Einige Ideen, wie der Abmelde-Link hervorgehoben werden kann: Zentrieren Sie ihn, unterstreichen Sie ihn und legen Sie ihn kühl an der ganz oberen oder ganz unteren Ecke der E-Mail ab, machen Sie ihn zu einer anderen Schriftfarbe Verwenden Sie das Wort &quot;UNSUBSCRIBE&quot; in der Spracheinstellung des Benutzers. Verwenden Sie keine Blüte oder übermäßiges Biage.
 
 **DO:** Lassen Sie das Laufwerk zum Abmelden von Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte
 
@@ -46,12 +46,10 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 
 **DO:** Verwenden Sie einen Header &quot;List Unsubscribe&quot;in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
 
-+ Klicks [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=de) um mehr über Brancheninitiativen zu erfahren, die sich mit einem Klick abmelden.
-
-## Das Do Not’s
+## Das Do Not&#39;s
 
 
-**NICHT:** Bringen Sie den Abmelde-Link in Ihren Inhalt in die Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
+**NICHT:** Bringen Sie den Abmelde-Link in Ihrem Inhalt in die Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
 
 + Dies ist ein schlechtes Benutzererlebnis und kann zu vermehrten Beschwerden führen, was sich negativ auf Ihre Zustellbarkeit und Reputation auswirken kann.
 
